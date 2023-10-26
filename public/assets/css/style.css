@@ -1,7 +1,7 @@
 /* !!!!!!!!!!!! index !!!!!!!!!!!! */
 
 /* ! global settings ! */
-h1, li a{
+h1, li a, a{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     color: #FFF !important;
@@ -50,4 +50,24 @@ img{
 }
 #carousel-h2, a{
     font-size: 20px;
+}
+/* ? modify font-size with media queries */
+@media (min-width: 768px) and (max-width: 1200){
+    #carousel-h1{
+        font-size: 74px !important;
+    }
+    #carousel-h2, a{
+        font-size: 22px;
+    }
+}
+@media (min-width: 1201px){
+    #carousel-h1{
+        font-size: 90px !important;
+    }
+    #carousel-h2{
+        font-size: 26px;
+    }
+    a{
+        font-size: 20px;
+    }
 }
