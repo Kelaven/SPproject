@@ -28,6 +28,9 @@ img{
     height: 100vh;
     object-fit: cover;
 }
+#meli-pic{
+    object-position: top;
+}
 .carousel-img__filigram{
     background-color: rgba(30, 30, 30, 0.7);
     height: 100%;
