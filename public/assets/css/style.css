@@ -34,10 +34,10 @@ a{
 
 /* ! text elements ! */
 #carousel-h1{
-    font-size: 67px;
+    font-size: 60px;
 }
 #carousel-h2{
-    font-size: 24px;
+    font-size: 20px;
 }
 #carousel-menu__container{
     top: 60%;
@@ -47,4 +47,24 @@ a{
 }
 .carousel-menu__links{
     font-size: 20px;
+}
+.place-row-576{
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100vw;
+}
+/* #size-row-menu__links--576{
+    width: 100vw;
+} */
+.size-col-576{
+    width: 220px;
+}
+.size-carousel-h1-576{
+    font-size: 100px !important;
+}
+.size-carousel-h2-576{
+    font-size: 30px !important;
+}
+.size-carousel-menu-links-576{
+    font-size: 24px;
 }

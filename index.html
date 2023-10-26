@@ -30,29 +30,55 @@
                             <img src="./public/assets/img/pic1.jpg" class="d-block carousel-img position-absolute z-0" alt="...">
                             <div class="carousel-img__filigram position-absolute z-1"></div>
                                 <!-- ! text elements -->
-                                <div class="row position-absolute z-2 h-50 align-items-end">
-                                    <div class="col">
-                                        <h1 id="carousel-h1" class="text-center">Kévin Lavenant</h1>
-                                        <h2 id="carousel-h2" class="text-center">Photographe de portraits et paysages</h2>
+                                <!-- ? affichage en mobile portrait -->
+                                <div class="d-block d-sm-none">
+                                    <div class="row position-absolute z-2 h-50 align-items-end">
+                                        <div class="col">
+                                            <h1 id="carousel-h1" class="text-center">Kévin Lavenant</h1>
+                                            <h2 id="carousel-h2" class="text-center">Photographe de portraits et paysages</h2>
+                                        </div>
+                                    </div>
+                                    <div class="h-100 position-absolute z-2" id="carousel-menu__container">
+                                            <div class="row position-absolute z-2">
+                                                <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
+                                                    <a href="#" class="carousel-menu__links text-center">Portfolio</a>
+                                                </div>
+                                                <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
+                                                    <a href="#" class="carousel-menu__links text-center">Tirages</a>
+                                                </div>
+                                                <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
+                                                    <a href="#" class="carousel-menu__links text-center">Contact</a>
+                                                </div>
+                                                <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
+                                                    <a href="#" class="carousel-menu__links text-center">Accès client</a>
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
-                                <div class="h-100 position-absolute z-2" id="carousel-menu__container">
-                                    <!-- <div class="position-absolute z-2"> -->
-                                        <div class="row position-absolute z-2">
-                                            <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
-                                                <a href="#" class="carousel-menu__links text-center">Portfolio</a>
-                                            </div>
-                                            <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
-                                                <a href="#" class="carousel-menu__links text-center">Tirages</a>
-                                            </div>
-                                            <div class="col-12 h-25 d-flex justify-content-center py-2 pb-3">
-                                                <a href="#" class="carousel-menu__links text-center">Contact</a>
-                                            </div>
-                                            <div class="col-12 h-25 d-flex justify-content-center py-2">
-                                                <a href="#" class="carousel-menu__links text-center">Accès client</a>
-                                            </div>
+                                <!-- ? affichage à partir de 576px de largeur -->
+                                <div class="d-none d-sm-block">
+                                    <div class="row position-absolute z-2 h-50 align-items-end place-row-576">
+                                        <div class="col">
+                                            <h1 id="carousel-h1" class="text-center size-carousel-h1-576">Kévin Lavenant</h1>
+                                            <h2 id="carousel-h2" class="text-center size-carousel-h2-576">Photographe de portraits et paysages</h2>
                                         </div>
-                                    <!-- </div> -->
+                                    </div>
+                                    <div class="h-100 position-absolute z-2" id="carousel-menu__container">
+                                            <div class="row position-absolute z-2 place-row-576 d-flex justify-content-evenly" id="size-row-menu__links--576">
+                                                <div class="col-3 h-25 d-flex justify-content-center py-2 pb-3 px-0 size-col-576">
+                                                    <a href="#" class="carousel-menu__links size-carousel-menu-links-576 text-center pe-3">Portfolio</a>
+                                                </div>
+                                                <div class="col-3 h-25 d-flex justify-content-center py-2 pb-3 px-0 size-col-576">
+                                                    <a href="#" class="carousel-menu__links size-carousel-menu-links-576 text-center pe-3">Tirages</a>
+                                                </div>
+                                                <div class="col-3 h-25 d-flex justify-content-center py-2 pb-3 px-0 size-col-576">
+                                                    <a href="#" class="carousel-menu__links size-carousel-menu-links-576 text-center pe-3">Contact</a>
+                                                </div>
+                                                <div class="col-3 h-25 d-flex justify-content-center py-2 pb-3 px-0 size-col-576">
+                                                    <a href="#" class="carousel-menu__links size-carousel-menu-links-576 text-center px-3">Accès client</a>
+                                                </div>
+                                            </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
