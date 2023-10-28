@@ -1,5 +1,28 @@
 /* !!!!!!!!!!!! index !!!!!!!!!!!! */
 
+/* ! modify cursor ! */
+.cursor{
+    width: 80px;
+    height: 80px;
+    cursor: none; /* to hide cursor into the div */
+    border: 2px solid #FFF;
+    border-radius: 50%; /* to have a circle */
+}
+/* design cursors's point in middle */
+.cursor::before{
+    content: ""; /* to initiaze pseudo-element */
+    /* place the point */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* design the point */
+    height: 5px;
+    width: 5px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
 /* ! global settings ! */
 h1, li a, a{
     font-family: 'Poppins', sans-serif;
