@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France</title>
-    <meta name="description" content="Photographies de Kévin LAVENANT, amateur passionné. Réalisation de shootings portraits et paysages. Site web pour proposer mes services." >
+    <meta name="description" content="Photographies de Kévin LAVENANT, amateur passionné. Réalisation de shootings portraits et paysages. Site web pour exposer mes clichés." >
     <meta name="keywords" content="photographe amateur, portraits, photos paysages, Hauts-de-France, France, passionné de photographie, photographie artistique, images de qualité, photographie en plein air, photographie de portrait, photographie de paysage, Hauts-de-France photographe, passion pour la photographie, talent photographique, photographe passionné, shooting photo, artiste de la photographie, clichés uniques, beauté naturelle, instantanés captivants, scènes françaises, photographe amateur France, passionnément photographie, Hauts-de-France paysages, photographe créatif, paysages français, photographie d'extérieur, séances photos, artiste visuel, photos saisissantes, photographe passionné de la nature, portraits artistiques, beauté française, photographe talentueux, photographie authentique, photographie en plein air France.">
-    <!-- bootswatch -->
-    <link rel="stylesheet" href="./public/assets/framework/bootstrap.min.css">
+    <!-- bootswatch CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/lux/bootstrap.min.css">
     <!-- my style -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <!-- google fonts -->
@@ -24,12 +24,12 @@
             <div id="carousel-index" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <!-- ! First slide, sunset on Normandy ! -->
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="carousel-item active" data-bs-interval="1000000">
                         <!-- * srcset to perform on all screens * -->
                         <picture class="d-block w-100 position-absolute z-0">
                             <source media="(max-width: 768px)" srcset="./public/assets/img/normandie-france-sunset-on-beach-picture-1400-30.jpg">
                             <source media="(max-width: 1400px)" srcset="./public/assets/img/normandie-france-sunset-on-beach-picture-1400-70.jpg">
-                            <img class="testest" src="./public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="test">
+                            <img class="carousel-img__size" src="./public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="test">
                         </picture>
                         <!-- overlay -->
                         <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -77,7 +77,7 @@
                             <source media="(max-width: 768px)" srcset="./public/assets/img/portrait-women-laon-france-picture-1200-30.jpg">
                             <source media="(max-width: 1200px)" srcset="./public/assets/img/portrait-women-laon-france-picture-1200.jpg">
                             <source media="(max-width: 1400px)" srcset="./public/assets/img/portrait-women-laon-france-picture-1400-70.jpg">
-                            <img class="testest" id="meli-pic" src="./public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="test">
+                            <img class="carousel-img__size" id="meli-pic" src="./public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="test">
                         </picture>
                         <!-- overlay -->
                         <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -124,7 +124,7 @@
                         <picture class="d-block w-100 position-absolute z-0">
                             <source media="(max-width: 768px)" srcset="./public/assets/img/vercors-france-moutains-winter-snow-picture-1600-30.jpg">
                             <source media="(max-width: 1600px)" srcset="./public/assets/img/vercors-france-moutains-winter-snow-picture-1600-60.jpg">
-                            <img class="testest" src="./public/assets/img/vercors-france-moutains-winter-snow-picture-1920-50.jpg" alt="test">
+                            <img class="carousel-img__size" src="./public/assets/img/vercors-france-moutains-winter-snow-picture-1920-50.jpg" alt="test">
                         </picture>
                         <!-- overlay -->
                         <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -173,7 +173,7 @@
                             <source media="(max-width: 992px)" srcset="./public/assets/img/portrait-women-normandie-france-picture-992.jpg">
                             <source media="(max-width: 1200px)" srcset="./public/assets/img/portrait-women-normandie-france-picture-1200.jpg">
                             <source media="(max-width: 1400px)" srcset="./public/assets/img/portrait-women-normandie-france-picture-1400-70.jpg">
-                            <img class="testest" id="pau-pic" src="./public/assets/img/portrait-women-normandie-france-picture-1920-50.jpg" alt="test">
+                            <img class="carousel-img__size" id="pau-pic" src="./public/assets/img/portrait-women-normandie-france-picture-1920-50.jpg" alt="test">
                         </picture>
                         <!-- overlay -->
                         <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -221,8 +221,8 @@
 </div>
 
 
-    <!-- bootstrap script -->
-    <script src="./public/assets/framework/bootstrap.min.js"></script>
+    <!-- bootstrap script CDN -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
     <!-- my script -->
     <script src="./public/assets/js/script.js"></script>
 

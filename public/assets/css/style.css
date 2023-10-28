@@ -24,18 +24,11 @@ a{
     height: 100vh;
     width: 100vw;
 }
-img{
-    height: 100vh;
-    object-fit: cover;
-}
-/* ? test sur le poid des images en responsivité */
-.testest{
+.carousel-img__size{
     height: 100vh;
     width: 100vw;
     object-fit: cover;
 }
-
-
 #meli-pic{
     object-position: top;
 }
