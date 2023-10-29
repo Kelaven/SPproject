@@ -4,11 +4,22 @@
 .cursor{
     width: 80px;
     height: 80px;
-    cursor: none; /* to hide cursor into the div */
     border: 2px solid #FFF;
     border-radius: 50%; /* to have a circle */
+    /* ? to hide cursor into the div : */
+    /* cursor: none;  */
+    /* mix-blend-mode: difference;
+    background-color: rgba(15, 15, 15, 0); */
+    /* opacity: 0.5; */
+    /* ? to continue using */
+    pointer-events: none;
 }
-/* design cursors's point in middle */
+/* ? to hide cursor into all the page, even if the mouse moves a lot : */
+body{
+    cursor: none;
+    height: 100vh;
+}
+/* ? design cursors's point in middle ///// SUPPRIMER ??? */
 .cursor::before{
     content: ""; /* to initiaze pseudo-element */
     /* place the point */
@@ -21,6 +32,23 @@
     width: 5px;
     background-color: #FFF;
     border-radius: 50%;
+}
+/* ! animate cursor on click ! */
+.expand{ /* to get the class on JS */
+    animation: anim 0.5s;
+    background: #FFF;
+}
+@keyframes anim {
+    0%{ /* when animation begins */
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0; /* to disappear at the end */
+    }
 }
 
 /* ! global settings ! */
@@ -59,7 +87,7 @@ a{
     object-position: 50% 39%;
 }
 .carousel-img__filigram{
-    background-color: rgba(30, 30, 30, 0.7);
+    background-color: rgba(30, 30, 30, 0.9);
     height: 100%;
     width: 100%;
 }
