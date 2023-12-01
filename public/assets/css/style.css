@@ -2,22 +2,28 @@
 
 /* ! modify cursor ! */
 .cursor{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border: 2px solid #FFF;
     border-radius: 50%; /* to have a circle */
     /* ? to hide cursor into the div : */
     /* cursor: none;  */
-    /* mix-blend-mode: difference;
-    background-color: rgba(15, 15, 15, 0); */
+    /* mix-blend-mode: luminosity; */
+    /* background-color: rgba(15, 15, 15, 1); */
+    /* background-color: rgba(30, 30, 30, 0.5); */
     /* opacity: 0.5; */
     /* ? to continue using */
     pointer-events: none;
+    /* * overlay */
+    -webkit-box-shadow:0px 0px 0px 100vw rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.8);
 }
+
 /* ? to hide cursor into all the page, even if the mouse moves a lot : */
 body{
     cursor: none;
-    height: 100vh;
+    /* height: 100vh; */
 }
 /* ? design cursors's point in middle ///// SUPPRIMER ??? */
 .cursor::before{
