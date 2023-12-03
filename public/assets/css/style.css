@@ -148,9 +148,85 @@ a{
 
 /* ! form */
 #form__container--left{
-    background-color: red;
-    height: 88.2vh;
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    /* height: 200px !important; */
 }
 #form__container--right{
-    background-color: blue;
+    /* background-color: blue; */
+    /* height: 90vh; */
+}
+#form__overlay{
+    /* height: 100%; */
+    background: rgba(255, 255, 255, 0.4);
+}
+#form__overlay p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+#form__overlay p span{
+    font-weight: 700;
+}
+#form__pic{
+    background-image: url(/public/assets/img/photo-profil-CV-numerique.jpg);
+    background-size: cover;
+    /* height: 300px;
+    width: 300px; */
+    height: 80vmin;
+    width: 80vmin;
+    border-radius: 50%;
+}
+#container__name{
+    display: flex;
+    background-color: red;
+    width: 100vw !important;
+}
+@media (min-width: 768px) {
+    #container__name{
+        width: 50vw;
+    }
+    #form__container--left{
+        min-height: 95vh;
+    }
+    #form__overlay p{
+        font-size: 16px;
+    }
+    legend{
+        font-size: 24px !important;
+    }
+    #form__pic{
+        max-height: 60vmin;
+        max-width: 60vmin;
+    }
+}
+/* #container__name--firstname{
+    width: 50%;
+}
+#container__name--lastname{
+    width: 50%;
+} */
+#span__captcha{
+    padding: 12px 22px;
+}
+#span__lastname{
+    padding: 12px 21px;
+}
+legend{
+    font-family: Poppins;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#text{
+    height: 200px;
+}
+button:last-child{
+    height: 100px;
+    width: 120px;
+    background-color: #CACCCD !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+input::placeholder, textarea::placeholder{
+    font-family: 'Montserrat', sans-serif !important;
 }
