@@ -1,10 +1,9 @@
-/* !!!!!!!!!!!! index !!!!!!!!!!!! */
+/* !!!!!!!!!!!! HOMEPAGE !!!!!!!!!!!! */
 
 /* ! modify cursor ! */
 .cursor{
     width: 120px;
     height: 120px;
-    /* border: 2px solid #FFF; */
     border-radius: 50%; /* to have a circle */
     /* ? to continue using */
     pointer-events: none;
@@ -14,9 +13,8 @@
     box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.9);
 }
 /* ! to hide cursor into all the page : */
-body{
+#homepage{
     cursor: none;
-    /* height: 100vh; */
 }
 /* ? design cursors's point in middle */
 .cursor::before{
@@ -81,12 +79,13 @@ a{
         display: none;
     }
 }
+@media (max-width: 1199px) { /* to be sure to haven't bug with the cursor on mobile or tablet screens */
+    .cursor{
+        display: none;
+    }
+}
 
 /* ! text elements ! */
-.test{
-    /* background-color: rgba(0,0,0,0.5);
-    padding-right: 39px; */
-}
 .text-elements__row{
     height: 100vh;
 }
@@ -121,4 +120,37 @@ a{
     a{
         font-size: 20px;
     }
+}
+
+
+
+
+
+/* !!!!!!!!!!!! HEADER !!!!!!!!!!!! */
+
+/* ! navbar */
+.navbar img{
+    height: 80px;
+}
+.fa-instagram{
+    color: #FFF;
+    height: 30px;
+}
+@media (min-width: 992px) {
+    #navbarNavDropdown{
+        display: flex;
+        justify-content: center;
+    }
+    #navbarNavDropdown i{ /* logo insta */
+        padding: 0px 150px 0px 30px;
+    }
+}
+
+/* ! form */
+#form__container--left{
+    background-color: red;
+    height: 88.2vh;
+}
+#form__container--right{
+    background-color: blue;
 }
