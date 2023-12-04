@@ -11,8 +11,8 @@
         content="Photographies de Kévin LAVENANT, amateur passionné. Réalisation de shootings portraits et paysages. Site web pour exposer mes clichés.">
     <meta name="keywords"
         content="photographe amateur, portraits, photos paysages, Hauts-de-France, France, passionné de photographie, photographie artistique, images de qualité, photographie en plein air, photographie de portrait, photographie de paysage, Hauts-de-France photographe, passion pour la photographie, talent photographique, photographe passionné, shooting photo, artiste de la photographie, clichés uniques, beauté naturelle, instantanés captivants, scènes françaises, photographe amateur France, passionnément photographie, Hauts-de-France paysages, photographe créatif, paysages français, photographie d'extérieur, séances photos, artiste visuel, photos saisissantes, photographe passionné de la nature, portraits artistiques, beauté française, photographe talentueux, photographie authentique, photographie en plein air France.">
-    <!-- bootswatch CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/lux/bootstrap.min.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- my style -->
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <!-- google fonts -->
@@ -68,7 +68,7 @@
     <main>
         <section class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 px-0" id="form__container--left">
+                <div class="col-xl-6 px-0 form__container--left">
                     <div id="form__overlay">
                         <div class="d-flex justify-content-center flex-wrap">
                             <p class="text-center py-4">
@@ -77,18 +77,18 @@
                                 Vous avez des questions ? <br> <br>
                                 <span>N’hésitez pas, contactez-moi !</span>
                             </p>
-                            <div id="form__pic" class="mb-4 rounded-circle">
+                            <div id="form__pic" class="mb-4 mb-md-5 rounded-circle">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 px-0" id="form__container--right">
+                <div class="col-xl-6 px-0" id="form__container--right">
                     <form>
                         <legend class="py-4 px-3 text-center">Formulaire de contact</legend>
                         <!-- ! firstname -->
                         <div class="input-group mb-3 px-1">
                             <label for="firstname"></label>
-                            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                            <span class="input-group-text" id="span__firstname"><i class="fa-solid fa-user"></i></span>
                             <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Prénom" aria-label="firstname" aria-describedby="firstname">
                         </div>
                         <!-- ! lastname -->
@@ -97,7 +97,6 @@
                             <span class="input-group-text" id="span__lastname"><i class="fa-solid fa-user-plus"></i></span>
                             <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Nom" aria-label="lastname" aria-describedby="lastname">
                         </div>
-                        <!-- </div> -->
                         <!-- ! email -->
                         <div class="input-group mb-3 px-1">
                             <label for="email"></label>
