@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-xl-6 px-0" id="form__container--right">
-            <form method="post" novalidate >
+            <form method="post">
                 <legend class="py-3 px-3 text-center">Formulaire de contact</legend>
                 <div class="text-success text-center">
                 <?= $result??'' ?>

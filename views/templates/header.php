@@ -51,10 +51,10 @@
                                 <a class="nav-link active" aria-current="page" href="#">Tirages</a>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link active" href="#">Contact</a>
+                                <a class="nav-link active" href="/controllers/contact-ctrl.php">Contact</a>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link" href="#">Accès client</a>
+                                <a class="nav-link" href="/controllers/accesclient-ctrl.php">Accès client</a>
                             </li>
                             <li class="pt-2 pt-md-3">
                                 <i class="fa-brands fa-instagram fa-2xl"></i>

@@ -1,4 +1,4 @@
-/* !!!!!!!!!!!! HOMEPAGE !!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HOMEPAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! modify cursor ! */
 .cursor{
@@ -126,7 +126,7 @@ a{
 
 
 
-/* !!!!!!!!!!!! HEADER !!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! navbar */
 .navbar img{
@@ -145,6 +145,12 @@ a{
         padding: 0px 150px 0px 30px;
     }
 }
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CONTACT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! form */
 .form__container--left{
@@ -237,4 +243,55 @@ small, .text-success{
     button:last-child{
         font-size: 20px;
     }
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.accesclient__img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.accesclient__a{
+    color: #212529 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    /* text-transform: none; */
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#accesclientform__bg--anais{
+    height: 100vh;
+    background-image: url("/public/assets/img/screensadelete/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.accesclientform__overlay{
+    height: 100%;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accesclientform__h1{
+    font-family: Poppins;
+    font-size: 36px;
+    color: #212529 !important;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+#test{
+    /* background-color: red; */
+    height: 50vh;
 }
