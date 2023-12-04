@@ -8,8 +8,8 @@
     /* ? to continue using */
     pointer-events: none;
     /* * overlay */
-    /* -webkit-box-shadow:0px 0px 0px 100vw rgba(0,0,0,0.8);
-    -moz-box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.8); */
+    -webkit-box-shadow:0px 0px 0px 100vw rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.8);
     box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.9);
 }
 /* ! to hide cursor into all the page : */
@@ -149,11 +149,6 @@ a{
 /* ! form */
 .form__container--left{
     background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
-    /* height: 200px !important; */
-}
-#form__container--right{
-    /* background-color: blue; */
-    /* height: 90vh; */
 }
 #form__overlay{
     height: 100%;
@@ -170,8 +165,6 @@ a{
 #form__pic{
     background-image: url(/public/assets/img/photo-profil-CV-numerique.jpg);
     background-size: cover;
-    /* height: 300px;
-    width: 300px; */
     height: 80vmin;
     width: 80vmin;
     border-radius: 50%;
@@ -180,6 +173,41 @@ a{
     display: flex;
     background-color: red;
     width: 100vw !important;
+}
+#span__captcha, #span__lastname{
+    padding: 12px 10px;
+}
+#span__firstname{
+    padding: 12px 13px;
+}
+legend{
+    font-family: Poppins;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#text{
+    height: 180px;
+}
+#captcha, #text, #email, #lastname, #firstname{
+    border-radius: 0%;
+}
+button:last-child{
+    height: 100px;
+    width: 120px;
+    background-color: #CACCCD !important;
+    font-family: 'Montserrat', sans-serif !important;
+    border: none;
+    border-radius: 0%;
+}
+input::placeholder, textarea::placeholder{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #777777 !important;
+    font-size: 0.9em;
+}
+small, .text-success{
+    font-family: 'Montserrat', sans-serif !important;
 }
 @media (min-width: 768px) {
     #container__name{
@@ -199,33 +227,14 @@ a{
         max-width: 60vmin;
     }
 }
-#span__captcha, #span__lastname{
-    padding: 12px 10px;
-}
-#span__firstname{
-    padding: 12px 13px;
-}
-legend{
-    font-family: Poppins;
-    font-size: 20px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-#text{
-    height: 180px;
-}
-#captcha, #text{
-    border-radius: 0%;
-}
-button:last-child{
-    height: 100px;
-    width: 120px;
-    background-color: #CACCCD !important;
-    font-family: 'Montserrat', sans-serif !important;
-    border: none;
-    border-radius: 0%;
-}
-input::placeholder, textarea::placeholder{
-    font-family: 'Montserrat', sans-serif !important;
+@media (min-width: 768px) and (max-width: 1024px) {
+    #form__overlay p{
+        font-size: 18px;
+    }
+    input::placeholder, textarea::placeholder, small{
+        font-size: 18px;
+    }
+    button:last-child{
+        font-size: 20px;
+    }
 }
