@@ -21,36 +21,69 @@
                 <div class="input-group mb-3 pe-xl-3 ps-xl-3 px-1">
                     <label for="firstname"></label>
                     <span class="input-group-text" id="span__firstname"><i class="fa-solid fa-user"></i></span>
-                    <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Prénom"
-                        aria-label="firstname" aria-describedby="firstname">
+                    <input 
+                    required
+                    type="text" 
+                    name="firstname" 
+                    id="firstname"
+                    placeholder="Prénom"
+                    autocomplete="given-name"
+                    minlength="2"
+                    maxlength="30"
+                    class="form-control">
                 </div>
                 <!-- ! lastname -->
                 <div class="input-group mb-3 pe-xl-3 ps-xl-3 px-1">
                     <label for="lastname"></label>
                     <span class="input-group-text" id="span__lastname"><i class="fa-solid fa-user-plus"></i></span>
-                    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Nom"
-                        aria-label="lastname" aria-describedby="lastname">
+                    <input 
+                    required
+                    type="text" 
+                    name="lastname" 
+                    id="lastname" 
+                    placeholder="Nom" 
+                    autocomplete="family-name"
+                    minlength="2"
+                    maxlength="40"
+                    class="form-control">
                 </div>
                 <!-- ! email -->
                 <div class="input-group mb-3 pe-xl-3 ps-xl-3 px-1">
                     <label for="email"></label>
                     <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Adresse mail"
-                        aria-label="email" aria-describedby="email">
+                    <input 
+                    required
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Adresse mail" 
+                    class="form-control">
                 </div>
                 <!-- ! text -->
                 <div class="input-group mb-3 pe-xl-3 ps-xl-3 px-1">
                     <label for="text"></label>
                     <span class="input-group-text"><i class="fa-solid fa-comment"></i></span>
-                    <textarea name="text" id="text" placeholder="Message" class="form-control"
-                        aria-label="textarea"></textarea>
+                    <textarea 
+                    required 
+                    name="text" 
+                    id="text" 
+                    placeholder="Message"
+                    class="form-control">
+                    </textarea>
                 </div>
                 <!-- ! captcha -->
                 <div class="input-group mb-3 pe-xl-3 ps-xl-3 px-1">
                     <label for="captcha"></label>
                     <span class="input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
-                    <input type="number" name="captcha" id="captcha" class="form-control" placeholder="1 + 1 = ?"
-                        aria-label="Username" aria-describedby="basic-addon1">
+                    <input 
+                    required 
+                    type="number" 
+                    name="captcha" 
+                    id="captcha"
+                    placeholder="1 + 1 = ?"
+                    minlength="1"
+                    maxlength="1"
+                    class="form-control">
                 </div>
                 <!-- ! validation btn -->
                 <div class="text-center py-3">
