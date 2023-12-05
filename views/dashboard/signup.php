@@ -40,7 +40,7 @@
                         maxlength="30"
                         class="form-control password__inputs"
                         value="<?= $password??'' ?>" >
-                        <span class="input-group-text" id="span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
+                        <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
                     </div>
                     <small class="text-danger ps-3"><?= $error['password']??'' ?></small>
                     <!-- ! password check -->
@@ -59,7 +59,7 @@
                         maxlength="30"
                         class="form-control password__inputs"
                         value="<?= $password??'' ?>" >
-                        <span class="input-group-text" id="span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
+                        <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                     </div>
                     <small class="text-danger ps-3"><?= $error['password']??'' ?></small>
                     <!-- ! validation btn -->

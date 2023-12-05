@@ -317,9 +317,16 @@ small, .text-success{
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-#span__signup__pwd--eye{
+.span__signup__pwd--eye{
     background-color: #FFF;
+    cursor: pointer;
 }
 .span__password{
     padding: 12px 13px;
+}
+.fa-eye{
+    color: #4F8465;
+}
+.fa-eye-slash{
+    color: #E84555;
 }
