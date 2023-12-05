@@ -277,7 +277,7 @@ small, .text-success{
 #accesclientform__bg--anais{
     background-image: url("/public/assets/img/anais-picture-portrait-women-maroc-beach-1920-45.jpg");
 }
-#accesclientform__bg--pauline{
+/* #accesclientform__bg--pauline{
     background-image: url("/public/assets/img/pauline-picture-portrait-women-france-montains-snow-1920-30.jpg");
 }
 #accesclientform__bg--jad{
@@ -291,7 +291,7 @@ small, .text-success{
 }
 #accesclientform__bg--antoine{
     background-image: url("/public/assets/img/antoine-picture-portrait-men-france-architecture-streetstyle-1920-30.jpg");
-}
+} */
 .accesclientform__overlay{
     height: 100%;
     width: 100vw;

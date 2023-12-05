@@ -1,4 +1,9 @@
-<form action="" method="post" novalidate>
+<section class="container-fluid">
+    <div class="row accesclientform__bg" id="accesclientform__bg--anais"> <!-- ! il faudra charger dynamiquement l'image pour qu'elle corresponde -->
+        <div class="accesclientform__overlay">
+            <div class="col col-md-8 col-xl-5 p-0">
+                <h1 class="accesclientform__h1 pb-5">"Prénom" - séance portraits</h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
+                <form action="" method="post" novalidate>
                     <!-- ! Login -->
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="login"></label>
