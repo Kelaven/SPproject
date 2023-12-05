@@ -1,6 +1,3 @@
-<!-- !!!!!!!!!!!!!!!! Mettre les photos en bonne qualité, simples screens pour le moment -->
-
-
 <section class="container">
     <div class="row justify-content-center">
         <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">

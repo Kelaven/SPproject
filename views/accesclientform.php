@@ -1,4 +1,4 @@
-<form action="" method="post">
+<form action="" method="post" novalidate>
                     <!-- ! Login -->
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="login"></label>
