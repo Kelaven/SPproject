@@ -52,6 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
             $error['captcha'] = 'Votre réponse n\'est pas valide';
         }
     }
+    // ! validation msg
     if ($error == []) {
         $result = 'Votre demande a bien été envoyée !';
     }
