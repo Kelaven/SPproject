@@ -314,3 +314,12 @@ small, .text-success{
         font-size: 30px !important;
     }
 }
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#span__signup__pwd--eye{
+    background-color: #FFF;
+}
+.span__password{
+    padding: 12px 13px;
+}

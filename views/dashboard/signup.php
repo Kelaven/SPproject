@@ -27,8 +27,8 @@
                     <small class="text-danger ps-3"><?= $error['signup']??'' ?></small>
                     <!-- ! password -->
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
-                        <label for="password"></label>
-                        <span class="input-group-text" id="span__password"><i class="fa-solid fa-key"></i></span>
+                        </label>
+                        <span class="input-group-text span__password"><i class="fa-solid fa-key"></i></span>
                         <input 
                         required
                         type="password" 
@@ -38,14 +38,16 @@
                         autocomplete="given-name"
                         minlength="10"
                         maxlength="30"
-                        class="form-control"
+                        class="form-control password__inputs"
                         value="<?= $password??'' ?>" >
+                        <span class="input-group-text" id="span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
                     </div>
                     <small class="text-danger ps-3"><?= $error['password']??'' ?></small>
                     <!-- ! password check -->
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
-                        <label for="passwordCheck"></label>
-                        <span class="input-group-text" id="span__passwordCheck"><i class="fa-solid fa-key"></i></span>
+                        <label for="passwordCheck">
+                        </label>
+                        <span class="input-group-text span__password"><i class="fa-solid fa-key"></i></span>
                         <input 
                         required
                         type="password" 
@@ -55,8 +57,9 @@
                         autocomplete="given-name"
                         minlength="2"
                         maxlength="30"
-                        class="form-control"
+                        class="form-control password__inputs"
                         value="<?= $password??'' ?>" >
+                        <span class="input-group-text" id="span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                     </div>
                     <small class="text-danger ps-3"><?= $error['password']??'' ?></small>
                     <!-- ! validation btn -->
