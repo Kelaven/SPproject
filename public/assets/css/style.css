@@ -1,123 +1,157 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HOMEPAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! modify cursor ! */
-.cursor{
+.cursor {
     width: 120px;
     height: 120px;
-    border-radius: 50%; /* to have a circle */
+    border-radius: 50%;
+    /* to have a circle */
     /* ? to continue using */
     pointer-events: none;
     /* * overlay */
-    -webkit-box-shadow:0px 0px 0px 100vw rgba(0,0,0,0.8);
-    -moz-box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.8);
-    box-shadow: 0px 0px 0px 100vw rgba(0,0,0,0.9);
+    -webkit-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.9);
 }
+
 /* ! to hide cursor into all the page : */
-#homepage{
+#homepage {
     cursor: none;
 }
+
 /* ? design cursors's point in middle */
-.cursor::before{
-    content: ""; /* to initiaze pseudo-element */
-    position: absolute; /* place the point */
+.cursor::before {
+    content: "";
+    /* to initiaze pseudo-element */
+    position: absolute;
+    /* place the point */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 4px; /* design the point */
+    height: 4px;
+    /* design the point */
     width: 4px;
-    /* background-color: #FFF; */ /* * delete this comment to reappear the point * */
+    /* background-color: #FFF; */
+    /* * delete this comment to reappear the point * */
     border-radius: 50%;
 }
+
 /* ! overlay until xl breakpoint */
-.overlay{
+.overlay {
     height: 100px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* ! global settings ! */
-h1, li a, a{
+h1,
+li a,
+a {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     color: #FFF !important;
     text-transform: uppercase;
 }
-h2{
+
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #FFF;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 /* ! carousel ! */
-.carousel-item{
+.carousel-item {
     height: 100vh;
     width: 100vw;
 }
-.carousel-img__size{
+
+.carousel-img__size {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
 }
-#meli-pic{
+
+#meli-pic {
     object-position: top;
 }
-#pau-pic{
+
+#pau-pic {
     object-position: 50% 39%;
 }
-.carousel-img__filigram{
+
+.carousel-img__filigram {
     background-color: rgba(30, 30, 30, 0.5);
     height: 100%;
     width: 100%;
 }
-@media (min-width: 1200px) { /* to hide overlay on desktop and make the animation functional */
-    .carousel-img__filigram{
+
+@media (min-width: 1200px) {
+
+    /* to hide overlay on desktop and make the animation functional */
+    .carousel-img__filigram {
         display: none;
     }
 }
-@media (max-width: 1199px) { /* to be sure to haven't bug with the cursor on mobile or tablet screens */
-    .cursor{
+
+@media (max-width: 1199px) {
+
+    /* to be sure to haven't bug with the cursor on mobile or tablet screens */
+    .cursor {
         display: none;
     }
 }
 
 /* ! text elements ! */
-.text-elements__row{
+.text-elements__row {
     height: 100vh;
 }
-#text-elements__col{
+
+#text-elements__col {
     width: 90vw;
 }
-#text-elements__div{
+
+#text-elements__div {
     width: 100vw;
 }
-#carousel-h1{
+
+#carousel-h1 {
     font-size: 58px !important;
 }
-#carousel-h2, a{
+
+#carousel-h2,
+a {
     font-size: 20px;
 }
+
 /* ! modify font-size with media queries ! */
-@media (min-width: 768px) and (max-width: 1200px){
-    #carousel-h1{
+@media (min-width: 768px) and (max-width: 1200px) {
+    #carousel-h1 {
         font-size: 74px !important;
     }
-    #carousel-h2, a{
+
+    #carousel-h2,
+    a {
         font-size: 22px;
     }
 }
-@media (min-width: 1201px){
-    #carousel-h1{
+
+@media (min-width: 1201px) {
+    #carousel-h1 {
         font-size: 90px !important;
     }
-    #carousel-h2{
+
+    #carousel-h2 {
         font-size: 26px;
     }
-    a{
+
+    a {
         font-size: 20px;
     }
 }
@@ -129,19 +163,23 @@ a{
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! navbar */
-.navbar img{
+.navbar img {
     height: 80px;
 }
-.fa-instagram{
+
+.fa-instagram {
     color: #FFF;
     height: 30px;
 }
+
 @media (min-width: 992px) {
-    #navbarNavDropdown{
+    #navbarNavDropdown {
         display: flex;
         justify-content: center;
     }
-    #navbarNavDropdown i{ /* logo insta */
+
+    #navbarNavDropdown i {
+        /* logo insta */
         padding: 0px 150px 0px 30px;
     }
 }
@@ -153,40 +191,49 @@ a{
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CONTACT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! form */
-.form__container--left{
-    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+.form__container--left {
+    background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
-#form__overlay{
+
+#form__overlay {
     height: 100%;
     background: rgba(255, 255, 255, 0.4);
 }
-#form__overlay p{
+
+#form__overlay p {
     color: #FFF;
     font-family: Montserrat;
     font-size: 14px;
 }
-#form__overlay p span{
+
+#form__overlay p span {
     font-weight: 700;
 }
-#form__pic{
+
+#form__pic {
     background-image: url(/public/assets/img/photo-profil-CV-numerique.jpg);
     background-size: cover;
     height: 80vmin;
     width: 80vmin;
     border-radius: 50%;
 }
-#container__name{
+
+#container__name {
     display: flex;
     background-color: red;
     width: 100vw !important;
 }
-#span__captcha, #span__lastname{
+
+#span__captcha,
+#span__lastname {
     padding: 12px 10px;
 }
-#span__firstname{
+
+#span__firstname {
     padding: 12px 13px;
 }
-legend{
+
+legend {
     font-family: Poppins;
     font-size: 20px;
     letter-spacing: 4px;
@@ -194,13 +241,20 @@ legend{
     font-weight: 600;
     color: #2B3035;
 }
-#text{
+
+#text {
     height: 180px;
 }
-#captcha, #text, #email, #lastname, #firstname{
+
+#captcha,
+#text,
+#email,
+#lastname,
+#firstname {
     border-radius: 0%;
 }
-button:last-child{
+
+button:last-child {
     height: 100px;
     width: 120px;
     background-color: #2B3035 !important;
@@ -208,40 +262,54 @@ button:last-child{
     border: none;
     border-radius: 0%;
 }
-input::placeholder, textarea::placeholder{
+
+input::placeholder,
+textarea::placeholder {
     font-family: 'Montserrat', sans-serif !important;
     color: #777777 !important;
     font-size: 0.9em;
 }
-small, .text-success{
+
+small,
+.text-success {
     font-family: 'Montserrat', sans-serif !important;
 }
+
 @media (min-width: 768px) {
-    #container__name{
+    #container__name {
         width: 50vw;
     }
-    #form__container--left{
+
+    #form__container--left {
         min-height: 95vh;
     }
-    #form__overlay p{
+
+    #form__overlay p {
         font-size: 16px;
     }
-    legend{
+
+    legend {
         font-size: 24px !important;
     }
-    #form__pic{
+
+    #form__pic {
         max-height: 60vmin;
         max-width: 60vmin;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
-    #form__overlay p{
+    #form__overlay p {
         font-size: 18px;
     }
-    input::placeholder, textarea::placeholder, small{
+
+    input::placeholder,
+    textarea::placeholder,
+    small {
         font-size: 18px;
     }
-    button:last-child{
+
+    button:last-child {
         font-size: 20px;
     }
 }
@@ -252,12 +320,13 @@ small, .text-success{
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.accesclient__img{
+.accesclient__img {
     height: 400px;
     width: 100%;
     object-fit: cover;
 }
-.accesclient__a{
+
+.accesclient__a {
     color: #212529 !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -268,15 +337,17 @@ small, .text-success{
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.accesclientform__bg{
+.accesclientform__bg {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-#accesclientform__bg--anais{
+
+#accesclientform__bg--anais {
     background-image: url("/public/assets/img/anais-picture-portrait-women-maroc-beach-1920-45.jpg");
 }
+
 /* #accesclientform__bg--pauline{
     background-image: url("/public/assets/img/pauline-picture-portrait-women-france-montains-snow-1920-30.jpg");
 }
@@ -292,7 +363,7 @@ small, .text-success{
 #accesclientform__bg--antoine{
     background-image: url("/public/assets/img/antoine-picture-portrait-men-france-architecture-streetstyle-1920-30.jpg");
 } */
-.accesclientform__overlay{
+.accesclientform__overlay {
     height: 100%;
     width: 100vw;
     background: rgba(255, 255, 255, 0.5);
@@ -300,7 +371,8 @@ small, .text-success{
     justify-content: center;
     align-items: center;
 }
-.accesclientform__h1{
+
+.accesclientform__h1 {
     font-family: Poppins;
     font-size: 36px;
     color: #2B3035 !important;
@@ -309,24 +381,98 @@ small, .text-success{
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+
 @media (max-width: 429px) {
-    #accesclientform__h1--antoine{
+    #accesclientform__h1--antoine {
         font-size: 30px !important;
     }
 }
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.span__signup__pwd--eye{
+.span__signup__pwd--eye {
     background-color: #FFF;
     cursor: pointer;
 }
-.span__password{
+
+.span__password {
     padding: 12px 13px;
 }
-.fa-eye{
+
+.fa-eye {
     color: #4F8465;
 }
-.fa-eye-slash{
+
+.fa-eye-slash {
     color: #E84555;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! PORTFOLIO PAYSAGES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 4fr;
+    grid-template-rows: 4fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-height: 90vh;
+}
+.div1 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: #5D491E;
+    /* ! for div1 children : */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    padding: 5px;
+}
+    .divchild1{
+        grid-area: 1 / 1 / 3 / 5;
+        background-color: red;
+    }
+    .divchild2{
+        /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
+        grid-area: 1 / 5 / 2 / 7;
+        background-color: blue;
+    }
+    .divchild3{
+        grid-area: 3 / 1 / 5 / 3;
+        background-color: green;
+    }
+    .divchild4{
+        grid-area: 3 / 3 / 5 / 5;
+        background-color: yellow;
+    }
+    .divchild5{
+        grid-area: 2 / 5 / 5 / 7;
+        background-color: pink;
+    }
+    .divchild6{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        background-color: orange;
+    }
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: #606D1C;
+}
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #406C1D;
+}
+.div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #2A5D2E;
+}
+.div5 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: #295E46;
+}
+.div6 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: #2A5D2E;
 }
