@@ -53,12 +53,20 @@ function disablePwdCheckVisibility() {
 
 const leftBtns = document.querySelectorAll('.carousel__btn--left');
 const rightBtns = document.querySelectorAll('.carousel__btn--right');
-const articles = document.querySelectorAll('article');
+const parents = document.querySelectorAll('.parent');
 console.log(leftBtns);
 console.log(rightBtns);
-console.log(articles);
+console.log(parents);
 
-let activePaysagesIndex = 0;
+let activeIndex = 0;
+
+leftBtns.forEach(leftBtn => {
+    leftBtn.addEventListener('click', () => {
+
+        activeIndex++;
+
+    })
+});
 
 
 
