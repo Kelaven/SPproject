@@ -1,7 +1,7 @@
 <section id="section__paysages">
     <!-- ! carousel 1 -->
     <article>
-        <div class="parent" data-index-paysages="0" data-status-paysages="active">
+        <div class="parent" data-index="0" data-status="active">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild1"></div>
                 <div class="divchild2"></div>
@@ -32,7 +32,7 @@
 
     <!-- ! carousel 2 -->
     <article>
-        <div class="parent" data-index-paysages="1" data-status-paysages="inactive">
+        <div class="parent" data-index="1" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild1-1"></div>
                 <div class="divchild2-1"></div>
@@ -63,7 +63,7 @@
 
     <!-- ! carousel 3 -->
     <article>
-        <div class="parent" data-index-paysages="2" data-status-paysages="inactive">
+        <div class="parent" data-index="2" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild1-2"></div>
                 <div class="divchild2-2"></div>
@@ -94,7 +94,7 @@
 
     <!-- ! carousel 4 -->
     <article>
-        <div class="parent" data-index-paysages="3" data-status-paysages="inactive">
+        <div class="parent" data-index="3" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild1-3"></div>
                 <div class="divchild2-3"></div>
