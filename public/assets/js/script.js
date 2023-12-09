@@ -59,13 +59,18 @@ console.log(rightBtns);
 console.log(parents);
 
 let activeIndex = 0;
-let nextIndex;
+let currentParent;
+let nextParent;
+
+clickRightBtns()
 
 
-function clickRightBtns(params) {
+
+function clickRightBtns() {
     rightBtns.forEach(rightBtn => {
         rightBtn.addEventListener('click', () => {
-    
+            console.log("hello");
+
             if (activeIndex +1 <= parents.length - 1) {
                 nextIndex = activeIndex +1
             } else {
@@ -75,26 +80,15 @@ function clickRightBtns(params) {
             let currentParent = document.querySelector(`[data-index="${activeIndex}"]`)
             let nextParent = document.querySelector(`[data-index="${nextIndex}"]`)
 
-            currentParent.dataset.status
+            currentParent.dataset.status = "after" // currentParent become after
+            nextParent.dataset.status = "active" // nextParent become active
+
+            activeIndex = nextIndex
+
     
         })
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

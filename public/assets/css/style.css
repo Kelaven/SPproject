@@ -420,17 +420,18 @@ small,
     min-height: 90vh;
 }
 article{
-
-    position: relative;    /* to have parents under other parents */
+    /* to have parents under other parents */
+    position: relative;
 
     /* width: 100%; */
 }
-.parent[data-status-paysages="inactive"]{
-    transform: translateX(-100%);     /* to place under parents in the left of the page */
+.parent[data-status="inactive"]{
+    /* to place under parents in the left of the page */
+    transform: translateX(-100%); 
 }
-/* .parent[data-status-paysages="after"]{
+.parent[data-status="active"]{
     transform: translateX(0%);
-} */
+}
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr) 4fr;
@@ -441,9 +442,10 @@ article{
 
     position: absolute;
     width: 100%;
-    left: 0px;     /* to place parents exactly at the same position */
+    /* to place parents exactly at the same position */
+    left: 0px; 
     top: 0px;
-    /* transition: transform 400ms ease; */
+    transition: transform 400ms ease;
 }
 .div1 {
     grid-area: 1 / 3 / 2 / 4;
@@ -601,6 +603,10 @@ article{
         background-size: cover;
         background-position: center;
     }
+    .divchild1-3{
+        grid-area: 1 / 1 / 3 / 5;
+        background-color: seashell
+    }
     .divchild2-3{
         /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
         grid-area: 1 / 5 / 2 / 7;
@@ -616,14 +622,14 @@ article{
     }
     .divchild5-3{
         grid-area: 2 / 5 / 5 / 7;
-        background-color: blueviolet;
+        background-color: lightpink;
     }
     .divchild6-3{
         grid-column-start: 1;
         grid-column-end: 7;
         grid-row-start: 5;
         grid-row-end: 5;
-        background-color: brown;
+        background-color: lightslategray;
     }
 .div2 {
     grid-area: 2 / 1 / 3 / 2;
