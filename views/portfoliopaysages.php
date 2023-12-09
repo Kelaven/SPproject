@@ -11,7 +11,7 @@
                                     close
                                 </p> 
                             </div>
-                            <img class="img-fluid" src="/public/assets/img/jpeggrossequalitepourpaysages/vf-st-val lightroom.png" alt="">
+                            <img class="img-fluid" src="/public/assets/img/jpeggrossequalitepourpaysages/vf-st-val-lightroom.jpg" alt="">
                         </div>
                     </div>
                 </div>
