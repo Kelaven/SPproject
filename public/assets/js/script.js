@@ -60,35 +60,95 @@ console.log(parents);
 
 let activeIndex = 0;
 let currentParent;
-let nextParent;
 
 clickRightBtns()
-
-
+clickLeftBtns()
 
 function clickRightBtns() {
     rightBtns.forEach(rightBtn => {
         rightBtn.addEventListener('click', () => {
-            console.log("hello");
 
-            if (activeIndex +1 <= parents.length - 1) {
-                nextIndex = activeIndex +1
-            } else {
-                nextIndex = 0
-            }
+                activeIndex++;
 
-            let currentParent = document.querySelector(`[data-index="${activeIndex}"]`)
-            let nextParent = document.querySelector(`[data-index="${nextIndex}"]`)
+                if (activeIndex >= parents.length) { // to reset carousel if we are at the end
+                    activeIndex = 0
+                }
 
-            currentParent.dataset.status = "after" // currentParent become after
-            nextParent.dataset.status = "active" // nextParent become active
+                currentParent = document.querySelector(`[data-index="${activeIndex}"]`) // to select the activeIndex
+                // console.log(currentParent);
 
-            activeIndex = nextIndex
+                parents.forEach(parent => { // to place others parents in the left (with CSS)
+                    parent.dataset.status = "inactive";
+                });
 
-    
+                currentParent.dataset.status = "active" // to display the activeIndex (with CSS)
+                // console.log(activeIndex);
         })
     });
 }
+
+function clickLeftBtns() {
+    leftBtns.forEach(leftBtn => {
+        leftBtn.addEventListener('click', () => {
+
+            activeIndex--;
+
+            if (activeIndex < 0) { // if activeIndex became lower than 0
+                activeIndex = parents.length - 1; // we get the index 3 which is the last of my parents
+                // console.log(activeIndex);
+            }
+
+            currentParent = document.querySelector(`[data-index="${activeIndex}"]`);
+            // console.log(currentParent);
+
+            parents.forEach(parent => {
+                parent.dataset.status = "inactive";
+            });
+
+            currentParent.dataset.status = "active";
+            // console.log(activeIndex);
+
+        })
+    });
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function clickRightBtns() {
+//     rightBtns.forEach(rightBtn => {
+//         rightBtn.addEventListener('click', () => {
+//             console.log("hello");
+
+//             if (activeIndex +1 <= parents.length - 1) {
+//                 nextIndex = activeIndex +1
+//             } else {
+//                 nextIndex = 0
+//             }
+
+//             let currentParent = document.querySelector(`[data-index="${activeIndex}"]`)
+//             let nextParent = document.querySelector(`[data-index="${nextIndex}"]`)
+
+//             currentParent.dataset.status = "after" // currentParent become after
+//             nextParent.dataset.status = "active" // nextParent become active
+
+//             activeIndex = nextIndex
+
+    
+//         })
+//     });
+// }
 
 
 
