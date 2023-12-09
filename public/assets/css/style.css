@@ -422,6 +422,17 @@ small,
 article{
     position: relative; /* to have parents under other parents */
 }
+.pop-up{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    /* top: 5%; */
+    width: 60%;
+} .pop-up img{
+    /* max-height: 60vh !important; */
+
+}
 .parent[data-status="inactive"]{
     transform: translateX(-100%); /* to place under parents in the left of the page */
 }
@@ -457,7 +468,10 @@ article{
     .divchild1{
         grid-area: 1 / 1 / 3 / 5; /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
         background-color: red;
-    }
+        background-image: url('/public/assets/img/jpeggrossequalitepourpaysages/vf-st-val\ lightroom.png');
+        background-size: cover;
+        background-position: center;
+    } 
     .divchild2{
         grid-area: 1 / 5 / 2 / 7;
         background-color: blue;
@@ -581,6 +595,60 @@ article{
         grid-row-end: 5;
         background-color: lightslategray;
     }
+    .divchild1-4{
+        grid-area: 1 / 1 / 3 / 5;
+        background-color: #ce8200;
+    }
+    .divchild2-4{
+        grid-area: 1 / 5 / 2 / 7;
+        background-color: #ad6d00;
+    }
+    .divchild3-4{
+        grid-area: 3 / 1 / 5 / 3;
+        background-color: #875500;
+    }
+    .divchild4-4{
+        grid-area: 3 / 3 / 5 / 5;
+        background-color: #6d4500;
+    }
+    .divchild5-4{
+        grid-area: 2 / 5 / 5 / 7;
+        background-color: #a8803c;
+    }
+    .divchild6-4{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        background-color: #ccaa70;
+    }
+    .divchild1-5{
+        grid-area: 1 / 1 / 3 / 5;
+        background-color: #d38591;
+    }
+    .divchild2-5{
+        grid-area: 1 / 5 / 2 / 7;
+        background-color: #ce7381;
+    }
+    .divchild3-5{
+        grid-area: 3 / 1 / 5 / 3;
+        background-color: #b26b75;
+    }
+    .divchild4-5{
+        grid-area: 3 / 3 / 5 / 5;
+        background-color: #aa525f;
+    }
+    .divchild5-5{
+        grid-area: 2 / 5 / 5 / 7;
+        background-color: #b23749;
+    }
+    .divchild6-5{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        background-color: #7f1928;
+    }
 .div2 {
     grid-area: 2 / 1 / 3 / 2;
     background-color: #606D1C;
@@ -602,6 +670,10 @@ article{
     background-color: #2A5D2E;
 }
 @media (max-width: 768px) { /* until ipad mini */
+    .pop-up{
+        top: 20%;
+        width: 99vw;
+    }
     .carousel__btn--left, .carousel__btn--right{
         height: 100% !important;
         width: 90% !important;

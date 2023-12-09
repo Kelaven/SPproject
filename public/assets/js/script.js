@@ -12,6 +12,13 @@ const pwdEyeCheck = document.getElementById('pwd-eye-check')
 const pwdEyeSlashCheck = document.getElementById('pwd-eye-slash-check')
 const pwdInputCheck = document.getElementById('passwordCheck')
 
+// * to make carousel on paysages
+const leftBtns = document.querySelectorAll('.carousel__btn--left');
+const rightBtns = document.querySelectorAll('.carousel__btn--right');
+const parents = document.querySelectorAll('.parent');
+let activeIndex = 0;
+let currentParent;
+
 
 
 // ! Functions
@@ -47,23 +54,9 @@ function disablePwdCheckVisibility() {
         pwdEyeCheck.classList.remove('d-none')
 }
 
-
-
-// ! carousel paysages
-
-const leftBtns = document.querySelectorAll('.carousel__btn--left');
-const rightBtns = document.querySelectorAll('.carousel__btn--right');
-const parents = document.querySelectorAll('.parent');
-console.log(leftBtns);
-console.log(rightBtns);
-console.log(parents);
-
-let activeIndex = 0;
-let currentParent;
-
+// * to activate carousel on paysages
 clickRightBtns()
 clickLeftBtns()
-
 function clickRightBtns() {
     rightBtns.forEach(rightBtn => {
         rightBtn.addEventListener('click', () => {
@@ -86,7 +79,6 @@ function clickRightBtns() {
         })
     });
 }
-
 function clickLeftBtns() {
     leftBtns.forEach(leftBtn => {
         leftBtn.addEventListener('click', () => {
@@ -115,40 +107,37 @@ function clickLeftBtns() {
 
 
 
+// ! modals 
+
+const popUps = document.querySelectorAll('.pop-up');
+const divchild1 = document.querySelector('.divchild1');
+const popUpsCloses = document.querySelectorAll('.pop-up__close');
+console.log(popUps);
+console.log(divchild1);
+console.log(popUpsCloses);
+
+divchild1.addEventListener('click', () => {
+    popUps.forEach(popUp => {
+        popUp.classList.remove('d-none')
+        console.log(popUp);
+
+        popUpsCloses.forEach(popUpClose => {
+            popUpClose.addEventListener('click', closePopUp)
+        });
+    });
+
+})
+
+function closePopUp() {
+
+    popUps.forEach(popUp => {
+        console.log(popUp);
+        popUp.classList.add('d-none')
+        console.log("hello");
+    });
 
 
-
-
-
-
-
-
-
-
-
-// function clickRightBtns() {
-//     rightBtns.forEach(rightBtn => {
-//         rightBtn.addEventListener('click', () => {
-//             console.log("hello");
-
-//             if (activeIndex +1 <= parents.length - 1) {
-//                 nextIndex = activeIndex +1
-//             } else {
-//                 nextIndex = 0
-//             }
-
-//             let currentParent = document.querySelector(`[data-index="${activeIndex}"]`)
-//             let nextParent = document.querySelector(`[data-index="${nextIndex}"]`)
-
-//             currentParent.dataset.status = "after" // currentParent become after
-//             nextParent.dataset.status = "active" // nextParent become active
-
-//             activeIndex = nextIndex
-
-    
-//         })
-//     });
-// }
+}
 
 
 
