@@ -422,22 +422,52 @@ small,
 article{
     position: relative; /* to have parents under other parents */
 }
-.pop-up{
+.modal__btn{
+    height: 100% !important;
+    width: 100% !important;
+    opacity: 0;
+}
+.btn-close{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.modal-content {
+    min-width: 93vw;
+    background-color: red;
+    border: none;
+}
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 85vh !important;
+}
+.modal-body img {
+    /* max-height: 85vh; */
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: cover;
+}
+.modal__close--text{
+    color: #FFF;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0px;
-    /* top: 5%; */
-    width: 60%;
-} .pop-up img{
-    /* max-height: 60vh !important; */
-
+    top: -40px;
+    right: 260px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #FFF;
+}
+.modal-body i {
+    font-size: 2.6rem;
+}
+.modal__close--text:hover {
+    color: #A3897B;
 }
 .parent[data-status="inactive"]{
     transform: translateX(-100%); /* to place under parents in the left of the page */
 }
 .parent[data-status="active"]{
-    transform: translateX(0%);
+    /* transform: translateX(0%); */
 }
 .parent {
     display: grid;
@@ -468,7 +498,7 @@ article{
     .divchild1{
         grid-area: 1 / 1 / 3 / 5; /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
         background-color: red;
-        background-image: url('/public/assets/img/jpeggrossequalitepourpaysages/vf-st-val\ lightroom.png');
+        background-image: url('');
         background-size: cover;
         background-position: center;
     } 

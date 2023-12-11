@@ -21,6 +21,17 @@ let currentParent;
 
 
 
+// const modalContent = document.querySelector('.modal-content')
+// const modal = document.querySelector('.modal')
+// const modalContainer = document.querySelector('.modal-backdrop')
+// modalContent.addEventListener('click', () => {
+//     modal.classList.add('d-none')
+//     modalContainer.classList.remove('show')
+// })
+
+
+
+
 // ! Functions
 
 // * to move the div's cursor with the mouse 
@@ -104,41 +115,6 @@ function clickLeftBtns() {
     });
     
 }
-
-
-
-// ! modals 
-
-const popUps = document.querySelectorAll('.pop-up');
-const divchild1 = document.querySelector('.divchild1');
-const popUpsCloses = document.querySelectorAll('.pop-up__close');
-console.log(popUps);
-console.log(divchild1);
-console.log(popUpsCloses);
-
-divchild1.addEventListener('click', () => {
-    popUps.forEach(popUp => {
-        popUp.classList.remove('d-none')
-        console.log(popUp);
-
-        popUpsCloses.forEach(popUpClose => {
-            popUpClose.addEventListener('click', closePopUp)
-        });
-    });
-
-})
-
-function closePopUp() {
-
-    popUps.forEach(popUp => {
-        console.log(popUp);
-        popUp.classList.add('d-none')
-        console.log("hello");
-    });
-
-
-}
-
 
 
 

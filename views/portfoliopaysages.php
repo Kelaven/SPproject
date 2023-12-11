@@ -3,15 +3,18 @@
     <article>
         <div class="parent" data-index="0" data-status="active">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1"> 
-                    <div class="pop-up d-none">
-                        <div class="pop-up__content">
-                            <div class="pop-up__close" style="background-color: red;">
-                                <p>
-                                    close
-                                </p> 
+                <div class="divchild1">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal"></button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="divchild1Modal">
+                        <div class="modal-dialog m-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="">
+                                </div>
                             </div>
-                            <img class="img-fluid" src="/public/assets/img/jpeggrossequalitepourpaysages/vf-st-val-lightroom.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -28,7 +31,7 @@
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right">
-                    <i class="fa-solid fa-arrow-right" ></i>
+                    <i class="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
