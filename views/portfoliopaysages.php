@@ -12,7 +12,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="">
+                                    <img src="/public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="photo">
                                 </div>
                             </div>
                         </div>
