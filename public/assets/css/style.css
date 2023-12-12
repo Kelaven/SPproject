@@ -432,7 +432,8 @@ article{
 }
 .modal-content {
     min-width: 93vw;
-    background-color: red;
+    /* background-color: red; */
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
     border: none;
     height: 85vh; /* capricieux, surement à changer en responsive */
 }
@@ -455,7 +456,9 @@ article{
     justify-content: center;
     position: relative;
     height: 100% !important;
-    background-color: #295E46;
+    /* background-color: rgba(0, 0, 0, 0.6) */
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+
 }
 .modal-body img {
     /* max-height: 85vh; */
@@ -490,7 +493,7 @@ article{
     grid-template-rows: 4fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /* min-height: 90vh; */
+    min-height: 90vh;
 
     position: absolute;
     width: 100%;
@@ -715,10 +718,10 @@ article{
     background-color: #2A5D2E;
 }
 @media (max-width: 768px) { /* until ipad mini */
-    .pop-up{
+    /* .pop-up{
         top: 20%;
         width: 99vw;
-    }
+    } */
     .carousel__btn--left, .carousel__btn--right{
         height: 100% !important;
         width: 90% !important;

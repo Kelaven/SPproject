@@ -159,7 +159,7 @@
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
                 <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
-                    Paysages
+                    Paysagesa
                 </h3>
             </div>
             <div class="div5"> </div>
