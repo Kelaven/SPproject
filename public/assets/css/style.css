@@ -851,4 +851,52 @@ article{
             grid-area: auto / auto / auto / auto;
             background-color: lightslategray;
         }
+        .divchild1-4{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: seashell */
+        }
+        .divchild2-4{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: lightblue; */
+        }
+        .divchild3-4{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: black; */
+        }
+        .divchild4-4{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: blanchedalmond; */
+        }
+        .divchild5-4{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: lightpink; */
+        }
+        .divchild6-4{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: lightslategray; */
+        }
+        .divchild1-5{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: seashell */
+        }
+        .divchild2-5{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: lightblue; */
+        }
+        .divchild3-5{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: black; */
+        }
+        .divchild4-5{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: blanchedalmond; */
+        }
+        .divchild5-5{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: lightpink; */
+        }
+        .divchild6-5{
+            grid-area: auto / auto / auto / auto;
+            /* background-color: lightslategray; */
+        }
 }
