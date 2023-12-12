@@ -434,19 +434,34 @@ article{
     min-width: 93vw;
     background-color: red;
     border: none;
+    height: 85vh; /* capricieux, surement à changer en responsive */
+}
+@media (max-width: 768px) {
+    .modal {
+        padding-top: 60px;
+    }
+    .modal-body img {
+        object-fit: contain !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .modal {
+        padding-top: 100px;
+    }
 }
 .modal-body {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 85vh !important;
+    height: 100% !important;
+    background-color: #295E46;
 }
 .modal-body img {
     /* max-height: 85vh; */
-    max-width: 100% !important;
-    max-height: 100% !important;
-    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
 }
 .modal__close--text{
     color: #FFF;

@@ -8,11 +8,11 @@
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal"></button>
                     <!-- Modal -->
                     <div class="modal fade" id="divchild1Modal">
-                        <div class="modal-dialog m-5">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
-                                <div class="modal-body text-end">
+                                <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="photo">
+                                    <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photo">
                                 </div>
                             </div>
                         </div>
