@@ -444,6 +444,12 @@ article{
     .modal-body img {
         object-fit: contain !important;
     }
+    .modal__close--text{
+        right: 70px !important;
+    }
+    .modal-body i {
+        right: -50px !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .modal {
@@ -456,27 +462,31 @@ article{
     justify-content: center;
     position: relative;
     height: 100% !important;
-    /* background-color: rgba(0, 0, 0, 0.6) */
+    background-color: rgba(255, 255, 255, 0.1);
     background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
-
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 22px 70px 4px;
 }
 .modal-body img {
     /* max-height: 85vh; */
-    width: 100% !important;
-    height: 100% !important;
+    max-width: 90% !important;
+    max-height: 90% !important;
     object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 70px 4px;
 }
 .modal__close--text{
     color: #FFF;
     position: absolute;
-    top: -40px;
-    right: 260px;
-    font-size: 1.5rem;
+    top: 20px;
+    right: 140px;
+    font-size: 1.2rem;
     cursor: pointer;
     color: #FFF;
 }
 .modal-body i {
-    font-size: 2.6rem;
+    font-size: 2rem;
+    position: absolute;
+    top: -6px;
+    right: -50px;
 }
 .modal__close--text:hover {
     color: #A3897B;
@@ -513,12 +523,14 @@ article{
     grid-row-gap: 8px;
     padding: 5px;
 }
-    .divchild1{
-        grid-area: 1 / 1 / 3 / 5; /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
-        background-color: red;
-        background-image: url('');
+    .divchild{
         background-size: cover;
         background-position: center;
+    }
+    .divchild1{
+        grid-area: 1 / 1 / 3 / 5; /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
+        background-image: url('');
+        background-color: red;
     } 
     .divchild2{
         grid-area: 1 / 5 / 2 / 7;
@@ -530,17 +542,14 @@ article{
     }
     .divchild4{
         grid-area: 3 / 3 / 5 / 5;
-        background-color: yellow;
+        background-image: url('/public/assets/img/normandie-france-sunset-on-beach-picture-1400-30.jpg');
     }
     .divchild5{
         grid-area: 2 / 5 / 5 / 7;
         background-color: pink;
     }
     .divchild6{
-        grid-column-start: 1;
-        grid-column-end: 7;
-        grid-row-start: 5;
-        grid-row-end: 5;
+        grid-area: 5 / 1 / 5 / 7;
         background-color: orange;
     }
     .divchild1-1{
@@ -753,7 +762,7 @@ article{
         }
         .divchild4{
             grid-area: auto / auto / auto / auto;
-            background-color: yellow;
+            background-image: url('/public/assets/img/normandie-france-sunset-on-beach-picture-300-30.jpg') !important;
         }
         .divchild5{
             grid-area: auto / auto / auto / auto;
@@ -789,44 +798,44 @@ article{
         }
         .divchild1-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }
         .divchild2-2{
             grid-area: auto / auto / auto / auto;
             background-color: lightblue;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }
         .divchild3-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }
         .divchild4-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }
         .divchild5-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }
         .divchild6-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }
         .divchild1-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('https://source.unsplash.com/random');
+            background-image: url('');
             background-size: cover;
             background-position: center;
         }

@@ -20,34 +20,6 @@ let activeIndex = 0;
 let currentParent;
 
 
-
-// const modalContent = document.querySelector('.modal-content')
-// const modal = document.querySelector('.modal')
-// const modalContainer = document.querySelector('.modal-backdrop')
-// modalContent.addEventListener('click', () => {
-//     modal.classList.add('d-none')
-//     modalContainer.classList.remove('show')
-// })
-// const modalDiv1 = document.querySelector('.modal-dialog')
-// const modalDiv2 = document.querySelector('.modal-content')
-// const modalDiv3 = document.querySelector('.modal-body')
-// const modalDiv4 = document.querySelector('.modal-backdrop')
-// console.log('hello');
-// const modal = document.querySelector('.modal')
-
-// modalDiv1.addEventListener('click', () => {
-//     modal.classList.add('d-none')
-//         modalDiv4.classList.add('d-none')
-// })
-// modalDiv2.addEventListener('click', () => {
-//     modal.classList.add('d-none')
-//         modalDiv4.classList.add('d-none')
-// })
-// modalDiv3.addEventListener('click', () => {
-//     modal.classList.add('d-none')
-//         modalDiv4.classList.add('d-none')
-// })
-
 // ! Functions
 
 // * to move the div's cursor with the mouse 
