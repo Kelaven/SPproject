@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col pt-3">
             <div class="card">
-                <form method="POST" class="px-2" novalidate>
+                <form method="POST" class="px-2">
                     <legend class="py-3 px-3 text-center">Inscrire un nouveau client</legend>
                     <div class="text-success text-center">
                         <?= $result??'' ?>
