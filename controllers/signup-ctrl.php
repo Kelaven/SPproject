@@ -40,6 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     // ! mobileSignup
     $mobileSignup = filter_input(INPUT_POST, 'mobileSignup', FILTER_SANITIZE_NUMBER_INT); // cleaning
     if (empty($mobileSignup)) { // to be sure it's not empty
+        $error['mobileSignup'] = 'Le numéro de téléphone n\'est pas renseigné';
     } else { // validation
         $isMobileSignupOk = filter_var($mobileSignup, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_MOBILE.'/')));
         if (!$isMobileSignupOk) { // if it's not validate with the regex

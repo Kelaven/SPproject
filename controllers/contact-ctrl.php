@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     // ! mobile
     $mobile = filter_input(INPUT_POST, 'mobile', FILTER_SANITIZE_NUMBER_INT); // cleaning
     if (empty($mobile)) { // to be sure it's not empty
-        // $error['mobile'] = 'Le mail n\'est pas renseigné';
+        // $error['mobile'] = 'Le téléphone n\'est pas renseigné';
     } else { // validation
         $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_MOBILE.'/')));
         if (!$isMobileOk) { // if it's not validate with the regex

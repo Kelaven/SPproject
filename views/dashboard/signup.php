@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col pt-3">
             <div class="card">
-                <form method="POST" class="px-2">
+                <form method="POST" class="px-2" novalidate>
                     <legend class="py-3 px-3 text-center">Inscrire un nouveau client</legend>
                     <div class="text-success text-center">
                         <?= $result??'' ?>
@@ -58,7 +58,8 @@
                 <div class="input-group pe-xl-3 ps-xl-3 px-1">
                     <label for="mobileSignup"></label>
                     <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
-                    <input 
+                    <input
+                    required
                     type="text" 
                     name="mobileSignup" 
                     id="mobileSignup" 
