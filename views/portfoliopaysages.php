@@ -4,43 +4,83 @@
         <div class="parent" data-index="0" data-status="active">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal"></button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="divchild1Modal">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal"></button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photo">
-                                    <!-- <picture>
-                                        <source media="(max-width: 1400px)" srcset="/public/assets/img/normandie-france-sunset-on-beach-picture-1400-70.jpg">
-                                        <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="Photo de paysage d'un coucher de soleil normand en France sur la plage">
-                                    </picture> -->
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="divchild divchild2"> </div>
-                <div class="divchild divchild3"> </div>
+                <div class="divchild divchild2">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2Modal"></button>
+                    <div class="modal fade" id="divchild2Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-60.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild3">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3Modal"></button>
+                    <div class="modal fade" id="divchild3Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-900-60.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="divchild divchild4">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal"></button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="divchild1Modal">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4Modal"></button>
+                    <div class="modal fade" id="divchild4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photo">
+                                    <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="divchild divchild5"> </div>
-                <div class="divchild divchild6"> </div>
+                <div class="divchild divchild5">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5Modal"></button>
+                    <div class="modal fade" id="divchild5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-900-60.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild6">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6Modal"></button>
+                    <div class="modal fade" id="divchild6Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1920-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left">
