@@ -344,6 +344,10 @@ small,
     background-position: center;
 }
 
+.accesclientform__bg input{
+    border-radius: 0% !important;
+}
+
 #accesclientform__bg--anais {
     background-image: url("/public/assets/img/anais-picture-portrait-women-maroc-beach-1920-45.jpg");
 }
