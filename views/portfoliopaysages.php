@@ -10,7 +10,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-60.jpg" alt="photo">
                                 </div>
                             </div>
                         </div>
