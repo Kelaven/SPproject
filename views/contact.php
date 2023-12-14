@@ -68,6 +68,19 @@
                     value="<?= $email??'' ?>" >
                 </div>
                 <small class="text-danger ps-3"><?= $error['email']??'' ?></small>
+                <!-- ! mobile -->
+                <div class="input-group pe-xl-3 ps-xl-3 px-1">
+                    <label for="mobile"></label>
+                    <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                    <input 
+                    type="text" 
+                    name="mobile" 
+                    id="mobile" 
+                    placeholder="Numéro de téléphone" 
+                    class="form-control"
+                    value="<?= $mobile??'' ?>" >
+                </div>
+                <small class="text-danger ps-3"><?= $error['mobile']??'' ?></small>
                 <!-- ! text -->
                 <div class="input-group pe-xl-3 ps-xl-3 px-1">
                     <label for="text"></label>

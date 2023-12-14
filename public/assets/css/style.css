@@ -243,7 +243,7 @@ legend {
 }
 
 #text {
-    height: 180px;
+    height: 100px;
 }
 
 #captcha,
@@ -390,13 +390,23 @@ small,
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#signup__container{
+    max-width: 61vw;
+}
+@media (max-width: 1024px) {
+    #signup__container{
+        max-width: 100vw;
+    }
+}
+
 .span__signup__pwd--eye {
     background-color: #FFF;
     cursor: pointer;
 }
 
-.span__password {
+.span__password{
     padding: 12px 13px;
+    border-radius: 0% !important;
 }
 
 .fa-eye {
@@ -405,6 +415,10 @@ small,
 
 .fa-eye-slash {
     color: #E84555;
+}
+
+#signup__container input{
+    border-radius: 0% !important;
 }
 
 
@@ -719,13 +733,14 @@ article{
     background-color: #2A5D2E;
 }
 .div5 {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: 1 / 1 / 2 / 3;
     background-color: #295E46;
 }
-.div6 {
+/* .div6 {
     grid-area: 1 / 2 / 2 / 3;
     background-color: #2A5D2E;
-}
+} */
+/* ! adapt divchildren to mobile */
 @media (max-width: 768px) { /* until ipad mini */
     /* .pop-up{
         top: 20%;

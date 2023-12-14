@@ -13,6 +13,10 @@
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
                                     <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photo">
+                                    <!-- <picture>
+                                        <source media="(max-width: 1400px)" srcset="/public/assets/img/normandie-france-sunset-on-beach-picture-1400-70.jpg">
+                                        <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="Photo de paysage d'un coucher de soleil normand en France sur la plage">
+                                    </picture> -->
                                 </div>
                             </div>
                         </div>
@@ -20,7 +24,7 @@
                 </div>
                 <div class="divchild divchild2"> </div>
                 <div class="divchild divchild3"> </div>
-                <div class="divchild divchild4"> 
+                <div class="divchild divchild4">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal"></button>
                     <!-- Modal -->
@@ -54,7 +58,7 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <div class="div6"> </div>
+            <!-- <div class="div6"> </div> -->
         </div>
     </article>
 
@@ -85,7 +89,7 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <div class="div6"> </div>
+            <!-- <div class="div6"> </div> -->
         </div>
     </article>
 
@@ -116,7 +120,7 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <div class="div6"> </div>
+            <!-- <div class="div6"> </div> -->
         </div>
     </article>
 
@@ -147,7 +151,7 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <div class="div6"> </div>
+            <!-- <div class="div6"> </div> -->
         </div>
     </article>
     <!-- ! carousel 5 -->
@@ -177,7 +181,7 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <div class="div6"> </div>
+            <!-- <div class="div6"> </div> -->
         </div>
     </article>
     <!-- ! carousel 6 -->
@@ -207,8 +211,7 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <div class="div6"> </div>
+            <!-- <div class="div6"> </div> -->
         </div>
     </article>
 </section>
-

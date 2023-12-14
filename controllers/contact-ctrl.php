@@ -37,6 +37,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
             $error['email'] = 'Le format de votre adresse mail n\'est pas valide';
         }
     }
+    // ! mobile
+    $mobile = filter_input(INPUT_POST, 'mobile', FILTER_SANITIZE_NUMBER_INT); // cleaning
+    if (empty($mobile)) { // to be sure it's not empty
+        // $error['mobile'] = 'Le mail n\'est pas renseigné';
+    } else { // validation
+        $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_MOBILE.'/')));
+        if (!$isMobileOk) { // if it's not validate with the regex
+            $error['mobile'] = 'Le numéro de téléphone doit suivre ce format : 0X XX XX XX XX';
+        }
+    }
     // ! text
     $text = trim(filter_input(INPUT_POST, 'text', FILTER_SANITIZE_SPECIAL_CHARS)); // trim() to delete spaces before and after the message
     if (empty($text)) { // to be sure it's not empty
