@@ -107,7 +107,7 @@
     <article>
         <div class="parent" data-index="1" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1-1">
+                <div class="divchild divchild1-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild1-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild2-1">
+                <div class="divchild divchild2-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild2-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild3-1">
+                <div class="divchild divchild3-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild3-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild4-1">
+                <div class="divchild divchild4-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild4-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild5-1">
+                <div class="divchild divchild5-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild5-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild6-1">
+                <div class="divchild divchild6-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild6-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -210,7 +210,7 @@
     <article>
         <div class="parent" data-index="2" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1-2">
+                <div class="divchild divchild1-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild1-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild2-2">
+                <div class="divchild divchild2-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild2-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -236,7 +236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild3-2">
+                <div class="divchild divchild3-2">
                 <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild3-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -249,7 +249,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild4-2">
+                <div class="divchild divchild4-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild4-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -262,7 +262,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild5-2">
+                <div class="divchild divchild5-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild5-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild6-2">
+                <div class="divchild divchild6-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild6-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -313,12 +313,84 @@
     <article>
         <div class="parent" data-index="3" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1-3"></div>
-                <div class="divchild2-3"></div>
-                <div class="divchild3-3"></div>
-                <div class="divchild4-3"></div>
-                <div class="divchild5-3"></div>
-                <div class="divchild6-3"></div>
+                <div class="divchild divchild1-3">
+                <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild1-3Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-960-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild2-3">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild2-3Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-road-960-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild3-3">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild3-3Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-960-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild4-3">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild4-3Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild5-3">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild5-3Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-900-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild6-3">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild6-3Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left">
