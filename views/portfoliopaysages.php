@@ -518,10 +518,46 @@
         <div class="parent" data-index="5" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-5"></div>
-                <div class="divchild divchild2-5"></div>
+                <div class="divchild divchild2-5">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild2-5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="divchild divchild3-5"></div>
-                <div class="divchild divchild4-5"></div>
-                <div class="divchild divchild5-5"></div>
+                <div class="divchild divchild4-5">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild4-5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild5-5">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild5-5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="divchild divchild6-5"></div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">

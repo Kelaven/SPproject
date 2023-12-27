@@ -687,7 +687,7 @@ article{
     }
     .divchild2-5{
         grid-area: 1 / 5 / 5 / 7;
-        background-color: red;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/maroc-coquillage-bokeh-450-60.jpg');
     }
     .divchild3-5{
         grid-area: 4 / 1 / 6 / 3;
@@ -695,11 +695,12 @@ article{
     }
     .divchild4-5{
         grid-area: 1 / 2 / 4 / 5;
-        background-color: blue;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-bois-wood-beach-plage-650-60.jpg');
     }
     .divchild5-5{
         grid-area: 5 / 5 / 5 / 7;
-        background-color: purple;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/espagne-cascade-450-60.jpg');
+        background-position: 50% 80% !important;
     }
     .divchild6-5{
         grid-area: 4 / 3 / 6 / 5;
@@ -900,7 +901,7 @@ article{
         }
         .divchild2-5{
             grid-area: auto / auto / auto / auto;
-            /* background-color: lightblue; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/maroc-coquillage-sunset-300-40.jpg') !important;
         }
         .divchild3-5{
             grid-area: auto / auto / auto / auto;
@@ -908,11 +909,11 @@ article{
         }
         .divchild4-5{
             grid-area: auto / auto / auto / auto;
-            /* background-color: blanchedalmond; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-bois-wood-beach-plage-300-40.jpg') !important;
         }
         .divchild5-5{
             grid-area: auto / auto / auto / auto;
-            /* background-color: lightpink; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/espagne-cascade-300-40.jpg') !important;
         }
         .divchild6-5{
             grid-area: auto / auto / auto / auto;
