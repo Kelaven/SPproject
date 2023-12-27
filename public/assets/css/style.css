@@ -682,31 +682,28 @@ article{
         background-image: url('/public/assets/img/jpegpaysages/desktopsize/rouen-france-city-450-60.jpg');
     }
     .divchild1-5{
-        grid-area: 1 / 1 / 3 / 5;
+        grid-area: 1 / 1 / 4 / 2;
         background-color: yellowgreen;
     }
     .divchild2-5{
-        grid-area: 1 / 5 / 2 / 7;
-        background-color: #ce7381;
+        grid-area: 1 / 5 / 5 / 7;
+        background-color: red;
     }
     .divchild3-5{
-        grid-area: 3 / 1 / 5 / 3;
-        background-color: #b26b75;
+        grid-area: 4 / 1 / 6 / 3;
+        background-color: black;
     }
     .divchild4-5{
-        grid-area: 3 / 3 / 5 / 5;
-        background-color: #aa525f;
+        grid-area: 1 / 2 / 4 / 5;
+        background-color: blue;
     }
     .divchild5-5{
-        grid-area: 2 / 5 / 5 / 7;
-        background-color: #b23749;
+        grid-area: 5 / 5 / 5 / 7;
+        background-color: purple;
     }
     .divchild6-5{
-        grid-column-start: 1;
-        grid-column-end: 7;
-        grid-row-start: 5;
-        grid-row-end: 5;
-        background-color: #7f1928;
+        grid-area: 4 / 3 / 6 / 5;
+        background-color: pink;
     }
 .div2 {
     grid-area: 2 / 1 / 3 / 2;
