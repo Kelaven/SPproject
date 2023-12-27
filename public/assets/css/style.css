@@ -547,101 +547,89 @@ article{
     }
     .divchild1{
         grid-area: 1 / 1 / 3 / 5; /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
-        background-image: url('/public/assets/img/jpegpaysages/desktopsize/st-valery-sur-somme-infrared-1400-80.jpg');
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/st-valery-sur-somme-infrared-900-60.jpg');
     } 
     .divchild2{
         grid-area: 1 / 5 / 2 / 7;
-        background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-snow-tree-700-60.jpg');
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-snow-tree-450-60.jpg');
     }
     .divchild3{
         grid-area: 3 / 1 / 5 / 3;
-        background-image: url('/public/assets/img/jpegpaysages/desktopsize/italie-sea-storm-rain-700-60.jpg');
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/italie-sea-storm-rain-420-60.jpg');
         background-position: 50% 65% !important;
     }
     .divchild4{
         grid-area: 3 / 3 / 5 / 5;
-        background-image: url('/public/assets/img/normandie-france-sunset-on-beach-picture-1400-30.jpg');
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/normandie-france-sunset-on-beach-picture-420-60.jpg');
     }
     .divchild5{
         grid-area: 2 / 5 / 5 / 7;
-        background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-lac-sunset-700-60.jpg');
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-lac-sunset-420-60.jpg');
     }
     .divchild6{
         grid-area: 5 / 1 / 5 / 7;
-        background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1920-60.jpg');
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg');
     }
-    .divchild1-1{
-        grid-area: 1 / 1 / 3 / 5;
-        background-color: lightcoral
+    .divchild1-1 {
+        grid-area: 1 / 1 / 3 / 3;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-france-tree-450-60.jpg');
+        background-position: 50% 45% !important;
     }
-    .divchild2-1{
-        grid-area: 1 / 5 / 2 / 7;
-        background-color: lightblue;
+    
+    .divchild2-1 {
+        grid-area: 1 / 3 / 3 / 7;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-panorama-bigmountain-850-60.jpg');
+        background-position: 50% 40% !important;
     }
-    .divchild3-1{
-        grid-area: 3 / 1 / 5 / 3;
-        background-color: lightgreen;
+    
+    .divchild3-1 {
+        grid-area: 3 / 1 / 5 / 4;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-village-mountains-650-60.jpg');
     }
-    .divchild4-1{
-        grid-area: 3 / 3 / 5 / 5;
-        background-color: lightsalmon;
+    
+    .divchild4-1 {
+        grid-area: 3 / 4 / 5 / 5;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-sunset-hut-250-100.jpg');
     }
-    .divchild5-1{
-        grid-area: 2 / 5 / 5 / 7;
-        background-color: lightpink;
+    
+    .divchild5-1 {
+        grid-area: 3 / 5 / 8 / 7;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/italie-cadenas-love-450-60.jpg');
+        background-position: 50% 30% !important;
     }
-    .divchild6-1{
-        grid-column-start: 1;
-        grid-column-end: 7;
-        grid-row-start: 5;
-        grid-row-end: 5;
-        background-color: lightslategray;
+    
+    .divchild6-1 {
+        grid-area: 5 / 1 / 8 / 5;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/boves-france-night-900-60.jpg');
+        background-position: 50% 100% !important;
     }
     .divchild1-2{
         grid-area: 1 / 1 / 3 / 5;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
+        background-color: seashell;
     }
     .divchild2-2{
         grid-area: 1 / 5 / 2 / 7;
         background-color: lightblue;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
+
     }
     .divchild3-2{
         grid-area: 3 / 1 / 5 / 3;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
+        background-color: red;
     }
     .divchild4-2{
         grid-area: 3 / 3 / 5 / 5;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
+        background-color: blue;
     }
     .divchild5-2{
         grid-area: 2 / 5 / 5 / 7;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
+        background-color: pink;
     }
     .divchild6-2{
         grid-column-start: 1;
         grid-column-end: 7;
         grid-row-start: 5;
         grid-row-end: 5;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
-    }
-    .divchild1-2{
-        grid-area: 1 / 1 / 3 / 5;
-        background-image: url('https://source.unsplash.com/random');
-        background-size: cover;
-        background-position: center;
+        background-color: yellow;
     }
     .divchild1-3{
         grid-area: 1 / 1 / 3 / 5;
@@ -794,27 +782,29 @@ article{
         }
         .divchild1-1{
             grid-area: auto / auto / auto / auto;
-            background-color: lightcoral
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-france-tree-300-40.jpg') !important;
         }
         .divchild2-1{
             grid-area: auto / auto / auto / auto;
-            background-color: lightblue;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-france-panorama-bigmountain-300-40.jpg') !important;
         }
         .divchild3-1{
             grid-area: auto / auto / auto / auto;
-            background-color: lightgreen;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-france-village-mountains-300-40.jpg') !important;
         }
         .divchild4-1{
             grid-area: auto / auto / auto / auto;
-            background-color: lightsalmon;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/vercors-france-sunset-hut-300-40.jpg') !important;
+            background-position: 50% 35% !important;
         }
         .divchild5-1{
             grid-area: auto / auto / auto / auto;
-            background-color: lightpink;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/italie-cadenas-love-300-40.jpg') !important;
+            background-position: 50% 40% !important;
         }
         .divchild6-1{
             grid-area: auto / auto / auto / auto;
-            background-color: lightslategray;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/boves-france-night-300-40.jpg') !important;
         }
         .divchild1-2{
             grid-area: auto / auto / auto / auto;
