@@ -104,7 +104,7 @@
     </article>
 
     <!-- ! carousel 2 -->
-    <article loading="lazy">
+    <article>
         <div class="parent" data-index="1" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-1">
@@ -202,12 +202,11 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <!-- <div class="div6"> </div> -->
         </div>
     </article>
 
     <!-- ! carousel 3 -->
-    <article loading="lazy">
+    <article>
         <div class="parent" data-index="2" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-2">
@@ -310,7 +309,7 @@
     </article>
 
     <!-- ! carousel 4 -->
-    <article loading="lazy">
+    <article>
         <div class="parent" data-index="3" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-3">
@@ -412,7 +411,7 @@
         </div>
     </article>
     <!-- ! carousel 5 -->
-    <article loading="lazy">
+    <article>
         <div class="parent" data-index="4" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-4">
@@ -514,10 +513,22 @@
         </div>
     </article>
     <!-- ! carousel 6 -->
-    <article loading="lazy">
+    <article>
         <div class="parent" data-index="5" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild divchild1-5"></div>
+                <div class="divchild divchild1-5">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild1-5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="divchild divchild2-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <div class="modal fade" id="divchild2-5Modal">
@@ -531,7 +542,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild divchild3-5"></div>
+                <div class="divchild divchild3-5">
+                <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild3-5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="divchild divchild4-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <div class="modal fade" id="divchild4-5Modal">
@@ -558,7 +581,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild divchild6-5"></div>
+                <div class="divchild divchild6-5">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild6-5Modal">
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left">
