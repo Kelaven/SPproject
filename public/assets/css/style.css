@@ -604,36 +604,35 @@ article{
         background-position: 50% 100% !important;
     }
     .divchild1-2{
-        grid-area: 1 / 1 / 3 / 5;
-        background-color: seashell;
+        grid-area: 1 / 1 / 2 / 3;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/france-beach-sunset-450-60.jpg');
+        background-position: 50% 65% !important;
     }
     .divchild2-2{
-        grid-area: 1 / 5 / 2 / 7;
-        background-color: lightblue;
-
+        grid-area: 1 / 5 / 3 / 7;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/annecy-france-city-450-60.jpg');
     }
     .divchild3-2{
-        grid-area: 3 / 1 / 5 / 3;
-        background-color: red;
+        grid-area: 2 / 1 / 4 / 3;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/normandie-velo-vintage-450-60.jpg');
     }
     .divchild4-2{
-        grid-area: 3 / 3 / 5 / 5;
-        background-color: blue;
+        grid-area: 1 / 3 / 4 / 5;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/sicile-city-colors-450-60.jpg');
     }
     .divchild5-2{
-        grid-area: 2 / 5 / 5 / 7;
-        background-color: pink;
+        grid-area: 3 / 5 / 6 / 7;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/sicile-sea-parc-450-60.jpg');
+        background-position: 50% 90% !important;
     }
     .divchild6-2{
-        grid-column-start: 1;
-        grid-column-end: 7;
-        grid-row-start: 5;
-        grid-row-end: 5;
-        background-color: yellow;
+        grid-area: 4 / 1 / 6 / 5;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/bruges-belgium-city-850-60.jpg');
+        background-position: 50% 90% !important;
     }
     .divchild1-3{
         grid-area: 1 / 1 / 3 / 5;
-        background-color: seashell
+        background-color: purple;
     }
     .divchild2-3{
         grid-area: 1 / 5 / 2 / 7;
@@ -732,6 +731,23 @@ article{
     grid-area: 1 / 2 / 2 / 3;
     background-color: #2A5D2E;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ! adapt divchildren to mobile */
 @media (max-width: 768px) { /* until ipad mini */
     /* .pop-up{
@@ -808,40 +824,29 @@ article{
         }
         .divchild1-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/france-beach-sunset-300-40.jpg') !important;
         }
         .divchild2-2{
             grid-area: auto / auto / auto / auto;
-            background-color: lightblue;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/annecy-france-city-300-40.jpg') !important;
+            background-position: 50% 30% !important;
         }
         .divchild3-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/normandie-velo-vintage-300-40.jpg') !important;
         }
         .divchild4-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/sicile-city-colors-300-40.jpg') !important;
+            background-position: 50% 70% !important;
         }
         .divchild5-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/sicile-sea-parc-300-40.jpg') !important;
         }
         .divchild6-2{
             grid-area: auto / auto / auto / auto;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/bruges-belgium-city-300-40.jpg') !important;
         }
         .divchild1-2{
             grid-area: auto / auto / auto / auto;

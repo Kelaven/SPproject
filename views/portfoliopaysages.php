@@ -36,7 +36,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-900-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-960-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-900-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-960-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-900-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-960-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -166,7 +166,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-900-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-960-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -210,12 +210,84 @@
     <article>
         <div class="parent" data-index="2" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1-2"></div>
-                <div class="divchild2-2"></div>
-                <div class="divchild3-2"></div>
-                <div class="divchild4-2"></div>
-                <div class="divchild5-2"></div>
-                <div class="divchild6-2"></div>
+                <div class="divchild1-2">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild1-2Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild2-2">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild2-2Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1059-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild3-2">
+                <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild3-2Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-960-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild4-2">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild4-2Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-960-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild5-2">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild5-2Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-960-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild6-2">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild6-2Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left">
