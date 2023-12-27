@@ -36,7 +36,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-960-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-960-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
     </article>
 
     <!-- ! carousel 2 -->
-    <article>
+    <article loading="lazy">
         <div class="parent" data-index="1" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-1">
@@ -114,7 +114,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-900-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-960-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -166,7 +166,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-960-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -207,7 +207,7 @@
     </article>
 
     <!-- ! carousel 3 -->
-    <article>
+    <article loading="lazy">
         <div class="parent" data-index="2" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-2">
@@ -230,7 +230,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1059-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-960-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -256,7 +256,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-960-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-960-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -310,7 +310,7 @@
     </article>
 
     <!-- ! carousel 4 -->
-    <article>
+    <article loading="lazy">
         <div class="parent" data-index="3" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-3">
@@ -320,7 +320,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-960-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -333,7 +333,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-road-960-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -346,7 +346,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-960-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -372,7 +372,7 @@
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
                                     <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-900-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -412,15 +412,87 @@
         </div>
     </article>
     <!-- ! carousel 5 -->
-    <article>
+    <article loading="lazy">
         <div class="parent" data-index="4" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1-4"></div>
-                <div class="divchild2-4"></div>
-                <div class="divchild3-4"></div>
-                <div class="divchild4-4"></div>
-                <div class="divchild5-4"></div>
-                <div class="divchild6-4"></div>
+                <div class="divchild divchild1-4">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild1-4Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild2-4">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild2-4Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild3-4">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild3-4Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild4-4">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild4-4Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild5-4">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild5-4Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divchild divchild6-4">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <div class="modal fade" id="divchild6-4Modal"> <!-- Modal -->
+                        <div class="modal-dialog m-0 ms-md-4 m-lg-5">
+                            <div class="modal-content">
+                                <div class="modal-body text-end p-0">
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <img src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left">
@@ -434,7 +506,7 @@
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
                 <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
-                    Paysagesa
+                    Paysages
                 </h3>
             </div>
             <div class="div5"> </div>
@@ -442,15 +514,15 @@
         </div>
     </article>
     <!-- ! carousel 6 -->
-    <article>
+    <article loading="lazy">
         <div class="parent" data-index="5" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild1-5"></div>
-                <div class="divchild2-5"></div>
-                <div class="divchild3-5"></div>
-                <div class="divchild4-5"></div>
-                <div class="divchild5-5"></div>
-                <div class="divchild6-5"></div>
+                <div class="divchild divchild1-5"></div>
+                <div class="divchild divchild2-5"></div>
+                <div class="divchild divchild3-5"></div>
+                <div class="divchild divchild4-5"></div>
+                <div class="divchild divchild5-5"></div>
+                <div class="divchild divchild6-5"></div>
             </div>
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left">

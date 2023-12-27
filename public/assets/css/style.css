@@ -658,35 +658,32 @@ article{
         background-position: 90% 50% !important;
     }
     .divchild1-4{
-        grid-area: 1 / 1 / 3 / 5;
-        background-color: #ce8200;
+        grid-area: 1 / 1 / 3 / 4;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-plage-beach-650-60.jpg');
     }
     .divchild2-4{
-        grid-area: 1 / 5 / 2 / 7;
-        background-color: #ad6d00;
+        grid-area: 1 / 4 / 3 / 5;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/maroc-beach-sunset-250-60.jpg');
     }
     .divchild3-4{
-        grid-area: 3 / 1 / 5 / 3;
-        background-color: #875500;
+        grid-area: 3 / 1 / 6 / 3;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-sunflowers-450-60.jpg');
     }
     .divchild4-4{
-        grid-area: 3 / 3 / 5 / 5;
-        background-color: #6d4500;
+        grid-area: 3 / 3 / 6 / 5;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-france-beach-tree-450-60.jpg');
     }
     .divchild5-4{
-        grid-area: 2 / 5 / 5 / 7;
-        background-color: #a8803c;
+        grid-area: 1 / 5 / 3 / 7;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/espagne-city-zaragoza-450-60.jpg');
     }
     .divchild6-4{
-        grid-column-start: 1;
-        grid-column-end: 7;
-        grid-row-start: 5;
-        grid-row-end: 5;
-        background-color: #ccaa70;
+        grid-area: 3 / 5 / 6 / 7;
+        background-image: url('/public/assets/img/jpegpaysages/desktopsize/rouen-france-city-450-60.jpg');
     }
     .divchild1-5{
         grid-area: 1 / 1 / 3 / 5;
-        background-color: #d38591;
+        background-color: yellowgreen;
     }
     .divchild2-5{
         grid-area: 1 / 5 / 2 / 7;
@@ -875,27 +872,30 @@ article{
         }
         .divchild1-4{
             grid-area: auto / auto / auto / auto;
-            /* background-color: seashell */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-plage-beach-300-40.jpg') !important;
         }
         .divchild2-4{
             grid-area: auto / auto / auto / auto;
-            /* background-color: lightblue; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/maroc-beach-sunset-300-40.jpg') !important;
         }
         .divchild3-4{
             grid-area: auto / auto / auto / auto;
-            /* background-color: black; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-sunset-300-40.jpg') !important;
+            background-position: 50% 60% !important;
         }
         .divchild4-4{
             grid-area: auto / auto / auto / auto;
-            /* background-color: blanchedalmond; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-france-beach-tree-300-40.jpg') !important;
+            background-position: 50% 60% !important;
         }
         .divchild5-4{
             grid-area: auto / auto / auto / auto;
-            /* background-color: lightpink; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/espagne-city-zaragoza-300-40.jpg') !important;
         }
         .divchild6-4{
             grid-area: auto / auto / auto / auto;
-            /* background-color: lightslategray; */
+            background-image: url('/public/assets/img/jpegpaysages/mobilesize/rouen-france-city-300-40.jpg') !important;
+            background-position: 50% 80% !important;
         }
         .divchild1-5{
             grid-area: auto / auto / auto / auto;
