@@ -10,6 +10,19 @@ let currentParent;
 
 
 
+// ?? refaire les modals moi-même
+// const divchilds = document.querySelectorAll('.divchild');
+
+// divchilds.forEach(divchild => {
+
+//         divchild.addEventListener('click', () => {
+//             let imgs = document.querySelectorAll('.test')
+
+//             imgs.forEach(img => {
+//                 img.classList.remove('d-none')
+//             });
+//         })
+// });
 
 
 

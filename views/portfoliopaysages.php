@@ -4,8 +4,8 @@
         <div class="parent" data-index="0" data-status="active">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <div class="slide0modal modal fade" id="divchild1Modal" data-modal-index="0"> <!-- Modal -->
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="slide0modal modal fade" id="divchild1Modal" data-modal-index="0">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -18,6 +18,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
+                                    <!-- <img class="test position-absolute z-9 d-none" data-pic="0" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy"> -->
                                     <img data-pic="0" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                 </div>
                             </div>
