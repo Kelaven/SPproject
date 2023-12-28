@@ -18,7 +18,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                    <img data-pic="0" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                    <img data-pic="1" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                    <img data-pic="2" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
-                                    <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                    <img data-pic="3" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                    <img data-pic="4" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                     <div aria-label="Previous">
                                         <i class="fa-solid fa-circle-left"></i>
                                     </div>
-                                    <img src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                    <img data-pic="5" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                 </div>
                             </div>
                         </div>

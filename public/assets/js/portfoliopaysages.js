@@ -16,26 +16,53 @@ let currentParent;
 const nextCarousel = document.querySelectorAll('.fa-circle-right');
 const previousCarousel = document.querySelectorAll('.fa-circle-left');
 const modals = document.querySelectorAll('.slide0modal');
+const imgPaths = [
+    '/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg',
+    '/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg',
+    '/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg',
+    '/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg',
+    '/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg',
+    '/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg',
+];
+console.log(imgPaths[0]);
 console.log(modals);
 let activeModalIndex = 0;
 
 nextCarousel.forEach(next => {
     next.addEventListener('click', () => {
+        console.log('Next button clicked');
 
         activeModalIndex++;
 
         if (activeModalIndex >= modals.length) {
             activeModalIndex = 0;
         }
+        console.log(typeof(activeModalIndex));
 
-        currentModal = document.querySelector(`[data-modal-index="${activeModalIndex}"`);
+
+
+        const currentModal = document.querySelector(`[data-modal-index="${activeModalIndex}"]`);
+        const currentModalImg = currentModal.querySelector('img');
         console.log(currentModal);
-
+        console.log(currentModalImg);
         
+        const currentModalImgData = currentModalImg.getAttribute('data-pic');
+        console.log(typeof(currentModalImgData), currentModalImgData);
+
+        if (currentModalImgData === '1') {
+            console.log('coucou');
+            currentModalImg.src = imgPaths[0];
+            console.log('Image changed');
+            console.log('New image source:', currentModalImg.src);
+        } else {
+            console.log('Condition not met. currentModalImgData:', currentModalImgData);
+        }
+
 
 
     })
 });
+
 
 
 // ! Functions
