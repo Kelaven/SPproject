@@ -5,11 +5,19 @@
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <div class="modal fade" id="divchild1Modal"> <!-- Modal -->
+                    <div class="slide0modal modal fade" id="divchild1Modal" data-modal-index="0"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
+                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
+                                    </p>
+                                    <div aria-label="Next">
+                                        <i class="fa-solid fa-circle-right"></i>
+                                    </div>
+                                    <div aria-label="Previous">
+                                        <i class="fa-solid fa-circle-left"></i>
+                                    </div>
                                     <img src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                 </div>
                             </div>
@@ -18,11 +26,19 @@
                 </div>
                 <div class="divchild divchild2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <div class="modal fade" id="divchild2Modal">
+                    <div class="slide0modal modal fade" id="divchild2Modal" data-modal-index="1">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
+                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
+                                    </p>
+                                    <div aria-label="Next">
+                                        <i class="fa-solid fa-circle-right"></i>
+                                    </div>
+                                    <div aria-label="Previous">
+                                        <i class="fa-solid fa-circle-left"></i>
+                                    </div>
                                     <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
                                 </div>
                             </div>
@@ -31,11 +47,19 @@
                 </div>
                 <div class="divchild divchild3">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <div class="modal fade" id="divchild3Modal">
+                    <div class="slide0modal modal fade" id="divchild3Modal" data-modal-index="2">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
+                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
+                                    </p>
+                                    <div aria-label="Next">
+                                        <i class="fa-solid fa-circle-right"></i>
+                                    </div>
+                                    <div aria-label="Previous">
+                                        <i class="fa-solid fa-circle-left"></i>
+                                    </div>
                                     <img src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
                                 </div>
                             </div>
@@ -44,11 +68,19 @@
                 </div>
                 <div class="divchild divchild4">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <div class="modal fade" id="divchild4Modal">
+                    <div class="slide0modal modal fade" id="divchild4Modal" data-modal-index="3">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
+                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
+                                    </p>
+                                    <div aria-label="Next">
+                                        <i class="fa-solid fa-circle-right"></i>
+                                    </div>
+                                    <div aria-label="Previous">
+                                        <i class="fa-solid fa-circle-left"></i>
+                                    </div>
                                     <img src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                 </div>
                             </div>
@@ -57,11 +89,19 @@
                 </div>
                 <div class="divchild divchild5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <div class="modal fade" id="divchild5Modal">
+                    <div class="slide0modal modal fade" id="divchild5Modal" data-modal-index="4">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
+                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
+                                    </p>
+                                    <div aria-label="Next">
+                                        <i class="fa-solid fa-circle-right"></i>
+                                    </div>
+                                    <div aria-label="Previous">
+                                        <i class="fa-solid fa-circle-left"></i>
+                                    </div>
                                     <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                 </div>
                             </div>
@@ -70,11 +110,19 @@
                 </div>
                 <div class="divchild divchild6">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <div class="modal fade" id="divchild6Modal">
+                    <div class="slide0modal modal fade" id="divchild6Modal" data-modal-index="5">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
+                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
+                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
+                                    </p>
+                                    <div aria-label="Next">
+                                        <i class="fa-solid fa-circle-right"></i>
+                                    </div>
+                                    <div aria-label="Previous">
+                                        <i class="fa-solid fa-circle-left"></i>
+                                    </div>
                                     <img src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                 </div>
                             </div>
@@ -615,3 +663,9 @@
         </div>
     </article>
 </section>
+
+
+
+
+
+<script src="/public/assets/js/portfoliopaysages.js"></script>

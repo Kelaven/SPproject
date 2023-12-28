@@ -13,7 +13,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <!-- my script -->
-    <script src="/public/assets/js/script.js"></script>
+    <!-- <script src="/public/assets/js/script.js"></script> -->
 
 
 </body>

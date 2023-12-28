@@ -146,3 +146,8 @@
         </div>
     </div>
 </section>
+
+
+
+
+<script src="/public/assets/js/signup.js"></script>
