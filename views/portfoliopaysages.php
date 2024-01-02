@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/public/assets/css/portfoliopaysages.css">
+
 <section id="section__paysages">
     <!-- ! carousel 1 -->
     <article>
@@ -9,17 +11,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
-                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
-                                    </p>
-                                    <div aria-label="Next">
-                                        <i class="fa-solid fa-circle-right"></i>
+                                    <div id="carousel0" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel0" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div aria-label="Previous">
-                                        <i class="fa-solid fa-circle-left"></i>
-                                    </div>
-                                    <!-- <img class="test position-absolute z-9 d-none" data-pic="0" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy"> -->
-                                    <img data-pic="0" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -31,16 +53,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
-                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
-                                    </p>
-                                    <div aria-label="Next">
-                                        <i class="fa-solid fa-circle-right"></i>
+                                    <div id="carousel0-2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel0-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div aria-label="Previous">
-                                        <i class="fa-solid fa-circle-left"></i>
-                                    </div>
-                                    <img data-pic="1" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -52,16 +95,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
-                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
-                                    </p>
-                                    <div aria-label="Next">
-                                        <i class="fa-solid fa-circle-right"></i>
+                                    <div id="carousel0-3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel0-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div aria-label="Previous">
-                                        <i class="fa-solid fa-circle-left"></i>
-                                    </div>
-                                    <img data-pic="2" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -73,16 +137,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
-                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
-                                    </p>
-                                    <div aria-label="Next">
-                                        <i class="fa-solid fa-circle-right"></i>
+                                    <div id="carousel0-4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel0-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div aria-label="Previous">
-                                        <i class="fa-solid fa-circle-left"></i>
-                                    </div>
-                                    <img data-pic="3" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -94,16 +179,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
-                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
-                                    </p>
-                                    <div aria-label="Next">
-                                        <i class="fa-solid fa-circle-right"></i>
+                                    <div id="carousel0-5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel0-5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div aria-label="Previous">
-                                        <i class="fa-solid fa-circle-left"></i>
-                                    </div>
-                                    <img data-pic="4" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -115,16 +221,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">
-                                        Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i>
-                                    </p>
-                                    <div aria-label="Next">
-                                        <i class="fa-solid fa-circle-right"></i>
+                                    <div id="carousel0-6" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en plein nature dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en plein tempête" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel0-6" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-6" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
                                     </div>
-                                    <div aria-label="Previous">
-                                        <i class="fa-solid fa-circle-left"></i>
-                                    </div>
-                                    <img data-pic="5" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -157,13 +284,42 @@
         <div class="parent" data-index="1" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-1">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <div class="modal fade" id="divchild1-1Modal"> <!-- Modal -->
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <div class="modal fade" id="divchild1-1Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                    <div id="carousel1" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -175,8 +331,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                    <div id="carousel1-2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel1-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -188,8 +373,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                    <div id="carousel1-3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel1-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -201,8 +415,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                    <div id="carousel1-4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel1-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +457,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                    <div id="carousel1-5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel1-5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -227,8 +499,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                    <div id="carousel1-6" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel1-6" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-6" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -264,8 +565,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                    <div id="carousel2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -277,21 +607,79 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                    <div id="carousel2-1" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel2-1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="divchild divchild3-2">
-                <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild3-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                    <div id="carousel2-2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel2-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -303,8 +691,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                    <div id="carousel2-3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel2-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -316,8 +733,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                    <div id="carousel2-4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel2-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -329,8 +775,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                    <div id="carousel2-5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel2-5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -353,7 +828,6 @@
                 </h3>
             </div>
             <div class="div5"> </div>
-            <!-- <div class="div6"> </div> -->
         </div>
     </article>
 
@@ -362,13 +836,42 @@
         <div class="parent" data-index="3" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-3">
-                <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <div class="modal fade" id="divchild1-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                    <div id="carousel3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -380,8 +883,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                    <div id="carousel3-1" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel3-1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -393,8 +925,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                    <div id="carousel3-2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel3-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -406,8 +967,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                    <div id="carousel3-3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel3-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -419,8 +1009,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                    <div id="carousel3-4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel3-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -432,8 +1051,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                    <div id="carousel3-5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel3-5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -469,8 +1117,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                    <div id="carousel4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -482,8 +1159,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                    <div id="carousel4-1" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel4-1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel4-1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -495,8 +1201,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                    <div id="carousel4-2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel4-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel4-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -508,8 +1243,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                    <div id="carousel4-3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel4-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel4-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -521,8 +1285,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                    <div id="carousel4-4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel4-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel4-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -534,8 +1327,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                    <div id="carousel4-5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel4-5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel4-5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -571,8 +1393,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                    <div id="carousel5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -584,21 +1435,79 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                    <div id="carousel5-1" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel5-1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel5-1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="divchild divchild3-5">
-                <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <div class="modal fade" id="divchild3-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                    <div id="carousel5-2" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel5-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel5-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -610,8 +1519,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                    <div id="carousel5-3" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel5-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel5-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -623,8 +1561,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                    <div id="carousel5-4" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel5-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel5-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -636,8 +1603,37 @@
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
-                                    <p class="modal__close--text" data-bs-dismiss="modal" aria-label="Close">Fermer <i class="fa-solid fa-circle-xmark ps-2 pt-1"></i></p>
-                                    <img src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                <div id="carousel5-5" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                            </div>
+                                            <div class="carousel-item active text-center">
+                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
+                                        <button class="carousel-control-prev pe-5 me-5" type="button" data-bs-target="#carousel5-5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel5-5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
