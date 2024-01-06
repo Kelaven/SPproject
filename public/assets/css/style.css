@@ -9,9 +9,9 @@
     /* ? to continue using */
     pointer-events: none;
     /* * overlay */
-    /* -webkit-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.9); */
+    box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.9);
 }
 
 /* ! to hide cursor into all the page : */
@@ -129,14 +129,14 @@ a {
 a {
     font-size: 20px;
 }
-.dropdown-menu{
+.dropdown-menu--home{
     background-color: rgba(0, 0, 0, 0);
     border: none !important;
 }
-.dropdown-item{
+.dropdown-item--home{
     padding: 0px 10px 0px 0px !important;
 }
-.dropdown-item:hover{
+.dropdown-item--home:hover{
     background-color: rgba(0, 0, 0, 0);
 }
 
