@@ -41,8 +41,8 @@
                                     Portfolio
                                 </a>
                                 <ul class="dropdown-menu text-center">
+                                    <li><a class="dropdown-item" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
                                     <li><a class="dropdown-item" href="#">Portraits</a></li>
-                                    <li><a class="dropdown-item" href="#">Paysages</a></li>
                                     <li><a class="dropdown-item" href="#">Photo du mois</a></li>
                                 </ul>
                             </li>
