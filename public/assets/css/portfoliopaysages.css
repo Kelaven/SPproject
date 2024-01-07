@@ -1,0 +1,551 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! PORTFOLIO PAYSAGES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.fa-arrow-left, .fa-arrow-right{
+    font-size: 5vw;
+}
+.paysages__h3{
+    font-family: 'Allura', sans-serif;
+    font-size: 7vw;
+}
+#section__paysages{
+    min-height: 90vh;
+}
+article{
+    position: relative; /* to have parents under other parents */
+}
+.modal__btn{
+    height: 100% !important;
+    width: 100% !important;
+    opacity: 0;
+    position: absolute; /* par rapport à divchil qui est relative */
+    z-index: 999;
+}
+.btn-close{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.modal-content {
+    min-width: 93vw;
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    border: none;
+    height: 85vh;
+}
+@media (max-width: 768px) {
+    .modal {
+        padding-top: 60px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        position: absolute;
+        top: 95% !important;
+        transform: translateY(-50%);
+    }
+    .carousel-control-prev{
+        width: 120px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .modal {
+        padding-top: 100px;
+    }
+    .carousel-control-prev{
+        width: 120px !important;
+        padding: 0px 80px 0px 0px !important;
+    }
+    .carousel-control-next{
+        padding: 0px 0px 0px 80px !important;
+    }
+}
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100% !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 22px 70px 4px;
+}
+.carousel, .carousel-inner, .carousel-item{
+    height: 100%;
+    max-width: 100%;
+}
+.carousel-control-next, .carousel-control-prev{
+    height: 0% !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-control-prev{
+    padding: 0px 145px 0px 0px !important;
+}
+.carousel__img{
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: cover !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 70px 4px;
+}
+/* 
+.modal-body img {
+    max-width: 90% !important;
+    max-height: 90% !important;
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 70px 4px;
+}
+.modal__close--text{
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #FFF;
+}
+.fa-circle-right{
+    color: #FFF;
+    position: absolute;
+    font-size: 2.5rem !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    right: 60px !important;
+}
+.fa-circle-left{
+    color: #FFF;
+    position: absolute;
+    font-size: 2.5rem !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    right: 1307px !important;
+} */
+.modal__close{
+    font-size: 2rem;
+    position: absolute;
+    top: -6px;
+    right: -50px;
+    color: #e6e9ea;
+    opacity: 0.5;
+    cursor: pointer;
+    padding: 25px 77px 0px 0px !important;
+}
+.modal__close:hover{
+    color: #fff;
+    opacity: 1;
+}
+/* .modal__close--text:hover {
+    color: #A3897B;
+} */
+.parent[data-status="inactive"]{
+    transform: translateX(-100%); /* to place under parents in the left of the page */
+}
+.parent[data-status="active"]{
+    /* transform: translateX(0%); */
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 4fr;
+    grid-template-rows: 4fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-height: 90vh;
+
+    position: absolute;
+    width: 100%;
+    /* ? delete this ? : */
+    /* left: 0px; 
+    top: 0px; */
+    /* transition: transform 400ms ease; */
+}
+.div1 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: #5D491E;
+    /* ! for div1 children : */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    padding: 5px;
+}
+.carousel__img--desktop{
+    object-fit: cover;
+    /* max-height: 100%;
+    max-width: 100%; */
+    height: 100%;
+    width: 100%;
+    position: absolute; /* par rapport à divchil qui est relative */
+}
+.carousel__img--desktop--adapt{
+    /* max-height: 100%; */
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#carousel__img--desktop--adapt--storm{
+    object-position: 50% 65%;
+}
+#carousel__img--desktop--adapt--tree{
+    object-position: 50% 45%;
+}
+#carousel__img--desktop--adapt--big{
+    object-position: 50% 40%;
+}
+#carousel__img--desktop--adapt--hut, #carousel__img--desktop--adapt--cadenas{
+    object-position: 50% 35%;
+}
+#carousel__img--desktop--adapt--beach{
+    object-position: 50% 65%;
+}
+#carousel__img--desktop--adapt--annecy, #carousel__img--desktop--adapt-sunflowers{
+    object-position: 50% 30%;
+}
+#carousel__img--desktop--adapt--colors{
+    object-position: 50% 70%;
+}
+#carousel__img--desktop--adapt--park, #carousel__img--desktop--adapt--belgium{
+    object-position: 50% 90%;
+}
+#carousel__img--desktop--adapt--blockhaus{
+    object-position: 50% 20%;
+}
+#carousel__img--desktop--adapt-hortiset, #carousel__img--desktop--adapt--moto{
+    object-position: 50% 80%;
+}
+#carousel__img--desktop--adapt-lacannecy{
+    object-position: 90% 50%;
+}
+#carousel__img--desktop--adapt-gresol, #carousel__img--desktop--adapt--corsetree, #carousel__img--desktop--adapt-cascade{
+    object-position: 50% 60%;
+}
+    .divchild{
+        background-size: cover;
+        background-position: center;
+        object-position: center;
+        position: relative;
+        display: flex;
+    }
+    .divchild1{
+        grid-area: 1 / 1 / 3 / 5; /* définit simultanément grid-row-start, grid-column-start, grid-row-end, et grid-column-end */
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/st-valery-sur-somme-infrared-900-60.jpg'); */
+    } 
+    .divchild2{
+        grid-area: 1 / 5 / 2 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-snow-tree-450-60.jpg'); */
+    }
+    .divchild3{
+        grid-area: 3 / 1 / 5 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/italie-sea-storm-rain-420-60.jpg'); */
+        /* background-position: 50% 65% !important; */
+    }
+    .divchild4{
+        grid-area: 3 / 3 / 5 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/normandie-france-sunset-on-beach-picture-420-60.jpg'); */
+    }
+    .divchild5{
+        grid-area: 2 / 5 / 5 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-lac-sunset-420-60.jpg'); */
+    }
+    .divchild6{
+        grid-area: 5 / 1 / 5 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg'); */
+    }
+    .divchild1-1 {
+        grid-area: 1 / 1 / 3 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-france-tree-450-60.jpg'); */
+        /* background-position: 50% 45% !important; */
+    }
+    
+    .divchild2-1 {
+        grid-area: 1 / 3 / 3 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-panorama-bigmountain-850-60.jpg'); */
+        /* background-position: 50% 40% !important; */
+    }
+    
+    .divchild3-1 {
+        grid-area: 3 / 1 / 5 / 4;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-village-mountains-650-60.jpg'); */
+    }
+    
+    .divchild4-1 {
+        grid-area: 3 / 4 / 5 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/vercors-france-sunset-hut-250-100.jpg'); */
+    }
+    
+    .divchild5-1 {
+        grid-area: 3 / 5 / 8 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/italie-cadenas-love-450-60.jpg'); */
+        /* background-position: 50% 30% !important; */
+    }
+    
+    .divchild6-1 {
+        grid-area: 5 / 1 / 8 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/boves-france-night-900-60.jpg'); */
+        /* background-position: 50% 100% !important; */
+    }
+    .divchild1-2{
+        grid-area: 1 / 1 / 2 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/france-beach-sunset-450-60.jpg'); */
+        /* background-position: 50% 65% !important; */
+    }
+    .divchild2-2{
+        grid-area: 1 / 5 / 3 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/annecy-france-city-450-60.jpg'); */
+    }
+    .divchild3-2{
+        grid-area: 2 / 1 / 4 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/normandie-velo-vintage-450-60.jpg'); */
+    }
+    .divchild4-2{
+        grid-area: 1 / 3 / 4 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/sicile-city-colors-450-60.jpg'); */
+    }
+    .divchild5-2{
+        grid-area: 3 / 5 / 6 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/sicile-sea-parc-450-60.jpg'); */
+        /* background-position: 50% 90% !important; */
+    }
+    .divchild6-2{
+        grid-area: 4 / 1 / 6 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/bruges-belgium-city-850-60.jpg'); */
+        /* background-position: 50% 90% !important; */
+    }
+    .divchild1-3{
+        grid-area: 1 / 3 / 1 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/hourdel-france-blockhaus-450-60.jpg'); */
+        /* background-position: 50% 20% !important; */
+    }
+    .divchild2-3{
+        grid-area: 1 / 5 / 4 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-road-450-60.jpg'); */
+    }
+    .divchild3-3{
+        grid-area: 2 / 3 / 6 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-sunflower-sunset-450-60.jpg'); */
+    }
+    .divchild4-3{
+        grid-area: 1 / 1 / 3 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-bnw-lac-450-60.jpg'); */
+    }
+    .divchild5-3{
+        grid-area: 3 / 1 / 6 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/amiens-hortillonages-sunset-450-60.jpg');
+        background-position: 50% 80% !important; */
+    }
+    .divchild6-3{
+        grid-area: 4 / 5 / 6 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/annecy-bnw-lac-450-60.jpg'); */
+        /* background-position: 90% 50% !important; */
+    }
+    .divchild1-4{
+        grid-area: 1 / 1 / 3 / 4;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-plage-beach-650-60.jpg'); */
+    }
+    .divchild2-4{
+        grid-area: 1 / 4 / 3 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/maroc-beach-sunset-250-60.jpg'); */
+    }
+    .divchild3-4{
+        grid-area: 3 / 1 / 6 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/grenoble-france-sunflowers-450-60.jpg'); */
+    }
+    .divchild4-4{
+        grid-area: 3 / 3 / 6 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-france-beach-tree-450-60.jpg'); */
+    }
+    .divchild5-4{
+        grid-area: 1 / 5 / 3 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/espagne-city-zaragoza-450-60.jpg'); */
+    }
+    .divchild6-4{
+        grid-area: 3 / 5 / 6 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/rouen-france-city-450-60.jpg'); */
+    }
+    .divchild1-5{
+        grid-area: 1 / 1 / 4 / 2;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/sea-corse-splash-338-60.jpg'); */
+    }
+    .divchild2-5{
+        grid-area: 1 / 5 / 5 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/maroc-coquillage-bokeh-450-60.jpg'); */
+    }
+    .divchild3-5{
+        grid-area: 4 / 1 / 6 / 3;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/hourdel-miroir-blockhaus-450-60.jpg'); */
+    }
+    .divchild4-5{
+        grid-area: 1 / 2 / 4 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-bois-wood-beach-plage-650-60.jpg'); */
+    }
+    .divchild5-5{
+        grid-area: 5 / 5 / 5 / 7;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/espagne-cascade-450-60.jpg'); */
+        /* background-position: 50% 80% !important; */
+    }
+    .divchild6-5{
+        grid-area: 4 / 3 / 6 / 5;
+        /* background-image: url('/public/assets/img/jpegpaysages/desktopsize/corse-river-riviere-450-60.jpg'); */
+    }
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: #606D1C;
+}
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #406C1D;
+}
+.div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #2A5D2E;
+}
+.div5 {
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: #295E46;
+}
+
+
+
+/* ! adapt divchildren to mobile */
+@media (max-width: 768px) { /* until ipad mini */
+    /* .pop-up{
+        top: 20%;
+        width: 99vw;
+    } */
+    .carousel__btn--left, .carousel__btn--right{
+        height: 100% !important;
+        width: 90% !important;
+    }
+    .parent { /* modify rows */ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 4fr !important;
+        grid-template-rows: 8fr 1fr !important;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        min-height: 90vh;
+    }
+    .div1 {
+        /* to stack photos one below others (without specific positions) */
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto; /* to reset automatic lines */
+    }
+        .divchild{
+            grid-area: auto / auto / auto / auto;
+        }
+        .divchild1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/st-valery-sur-somme-infrared-300-80.jpg') !important; */
+        }
+        .divchild2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/vercors-france-snow-tree-300-60.jpg') !important; */
+        }
+        .divchild3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/italie-sea-storm-rain-300-60.jpg') !important; */
+            /* background-position: 50% 65% !important; */
+        }
+        .divchild4{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/normandie-france-sunset-on-beach-picture-300-30.jpg') !important; */
+        }
+        .divchild5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-france-lac-sunset-300-60.jpg') !important; */
+        }
+        .divchild6{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/vercors-france-panorama-mountains-300-60.jpg') !important; */
+        }
+        .divchild1-1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-france-tree-300-40.jpg') !important; */
+        }
+        .divchild2-1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-france-panorama-bigmountain-300-40.jpg') !important; */
+        }
+        .divchild3-1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-france-village-mountains-300-40.jpg') !important; */
+        }
+        .divchild4-1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/vercors-france-sunset-hut-300-40.jpg') !important; */
+            /* background-position: 50% 35% !important; */
+        }
+        .divchild5-1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/italie-cadenas-love-300-40.jpg') !important; */
+            /* background-position: 50% 40% !important; */
+        }
+        .divchild6-1{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/boves-france-night-300-40.jpg') !important; */
+        }
+        .divchild1-2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/france-beach-sunset-300-40.jpg') !important; */
+        }
+        .divchild2-2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/annecy-france-city-300-40.jpg') !important;
+            background-position: 50% 30% !important; */
+        }
+        .divchild3-2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/normandie-velo-vintage-300-40.jpg') !important; */
+        }
+        .divchild4-2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/sicile-city-colors-300-40.jpg') !important; */
+            /* background-position: 50% 70% !important; */
+        }
+        .divchild5-2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/sicile-sea-parc-300-40.jpg') !important; */
+        }
+        .divchild6-2{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/bruges-belgium-city-300-40.jpg') !important; */
+        }
+        .divchild1-3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/hourdel-france-blockhaus-300-40.jpg') !important; */
+        }
+        .divchild2-3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-road-300-40.jpg') !important; */
+        }
+        .divchild3-3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-sunflower-sunset-300-40.jpg') !important;
+            background-position: 50% 30% !important; */
+        }
+        .divchild4-3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-france-bnw-lac-300-40.jpg') !important; */
+        }
+        .divchild5-3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/amiens-hortillonages-sunset-300-40.jpg') !important; */
+        }
+        .divchild6-3{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/annecy-bnw-lac-300-40.jpg') !important; */
+        }
+        .divchild1-4{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-plage-beach-300-40.jpg') !important; */
+        }
+        .divchild2-4{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/maroc-beach-sunset-300-40.jpg') !important; */
+        }
+        .divchild3-4{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/grenoble-sunset-300-40.jpg') !important; */
+            /* background-position: 50% 60% !important; */
+        }
+        .divchild4-4{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-france-beach-tree-300-40.jpg') !important; */
+            /* background-position: 50% 60% !important; */
+        }
+        .divchild5-4{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/espagne-city-zaragoza-300-40.jpg') !important; */
+        }
+        .divchild6-4{
+            /* grid-area: auto / auto / auto / auto; */
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/rouen-france-city-300-40.jpg') !important; */
+            /* background-position: 50% 80% !important; */
+        }
+        .divchild1-5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/sea-corse-splash-300-40.jpg') !important; */
+        }
+        .divchild2-5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/maroc-coquillage-sunset-300-40.jpg') !important; */
+        }
+        .divchild3-5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/hourdel-miroir-blockhaus-300-40.jpg') !important; */
+        }
+        .divchild4-5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-bois-wood-beach-plage-300-40.jpg') !important; */
+        }
+        .divchild5-5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/espagne-cascade-300-40.jpg') !important; */
+        }
+        .divchild6-5{
+            /* background-image: url('/public/assets/img/jpegpaysages/mobilesize/corse-river-riviere-300-40.jpg') !important; */
+        }
+}
