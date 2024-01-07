@@ -152,7 +152,18 @@ article{
 #carousel__img--desktop--adapt--melibnw, #carousel__img--desktop--adapt--road{
     object-position: 50% 23%;
 }
-
+#carousel__img--desktop--adapt--tag{
+    object-position: 50% 40%;
+}
+#carousel__img--desktop--adapt--ballon{
+    object-position: 50% 63%;
+}
+#carousel__img--desktop--adapt--ombre{
+    object-position: 50% 35%;
+}
+#carousel__img--desktop--adapt--gare{
+    object-position: 50% 47%;
+}
     .divchild{
         background-size: cover;
         background-position: center;

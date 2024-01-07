@@ -33,7 +33,7 @@
                                             <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -79,7 +79,7 @@
                                             <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -125,7 +125,7 @@
                                             <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -171,7 +171,7 @@
                                             <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -217,7 +217,7 @@
                                                 <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -309,10 +309,10 @@
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/corse-france-tree-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--tree" src="/public/assets/img/jpegpaysages/desktopsize/corse-france-tree-450-60.jpg" alt="photo de Corse avec un arbre et le soleil carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-assis-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-assis-picture-portrait-men-france-650-60.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild1-1Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -320,22 +320,22 @@
                                     <div id="carousel1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -355,10 +355,10 @@
                 </div>
                 <div class="divchild divchild2-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/grenoble-france-panorama-bigmountain-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--big" src="/public/assets/img/jpegpaysages/desktopsize/grenoble-france-panorama-bigmountain-850-60.jpg" alt="photo de montagne enneigée carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-profil-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-profil-picture-portrait-men-france-650-60.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild2-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -366,22 +366,22 @@
                                     <div id="carousel1-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -401,10 +401,10 @@
                 </div>
                 <div class="divchild divchild3-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/grenoble-france-village-mountains-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/grenoble-france-village-mountains-650-60.jpg" alt="photo de village en montagne pose longue carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-ballon-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--ballon" src="/public/assets/img/jpegportraits/desktopsize/jad-ballon-picture-portrait-men-france-450-60.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild3-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -412,22 +412,22 @@
                                     <div id="carousel1-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -447,10 +447,10 @@
                 </div>
                 <div class="divchild divchild4-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/vercors-france-sunset-hut-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--hut" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-sunset-hut-250-100.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-ombre-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--ombre" src="/public/assets/img/jpegportraits/desktopsize/jad-ombre-picture-portrait-men-france-450-60.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild4-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -458,22 +458,22 @@
                                     <div id="carousel1-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -493,10 +493,10 @@
                 </div>
                 <div class="divchild divchild5-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/italie-cadenas-love-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--cadenas" src="/public/assets/img/jpegpaysages/desktopsize/italie-cadenas-love-450-60.jpg" alt="photo de cadenas avec amour carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-gare-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--gare" src="/public/assets/img/jpegportraits/desktopsize/jad-gare-picture-portrait-men-france-338-60.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild5-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -504,22 +504,22 @@
                                     <div id="carousel1-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -539,10 +539,10 @@
                 </div>
                 <div class="divchild divchild6-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/boves-france-night-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/boves-france-night-900-60.jpg" alt="photo de Boves, étang de nuit carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-tag-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--tag" src="/public/assets/img/jpegportraits/desktopsize/jad-tag-picture-portrait-men-france-338-60.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild6-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -550,22 +550,22 @@
                                     <div id="carousel1-6" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
