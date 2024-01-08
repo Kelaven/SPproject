@@ -611,10 +611,10 @@
             <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/france-beach-sunset-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--beach" src="/public/assets/img/jpegpaysages/desktopsize/france-beach-sunset-450-60.jpg" alt="photo de plage au coucher de soleil avec une famille au loin carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-marguerite-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/pauline-marguerite-picture-portrait-men-france-450-60.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild1-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -622,13 +622,13 @@
                                     <div id="carousel2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
                                                 <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
@@ -657,10 +657,10 @@
                 </div>
                 <div class="divchild divchild2-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/annecy-france-city-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--annecy" src="/public/assets/img/jpegpaysages/desktopsize/annecy-france-city-450-60.jpg" alt="photo vintage d'un café à Annecy en France carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-corse-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--corse" src="/public/assets/img/jpegportraits/desktopsize/pauline-corse-picture-portrait-men-france-450-60.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild2-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -668,13 +668,13 @@
                                     <div id="carousel2-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
                                                 <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
@@ -703,10 +703,10 @@
                 </div>
                 <div class="divchild divchild3-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/normandie-velo-vintage-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/normandie-velo-vintage-450-60.jpg" alt="photo vintage d'un vélo en Normandie en France carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-flowers-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--flowers" src="/public/assets/img/jpegportraits/desktopsize/pauline-flowers-picture-portrait-men-france-450-60.jpg" alt="photo d'une femme dans les fleurs en Normandie en France carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild3-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -714,13 +714,13 @@
                                     <div id="carousel2-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
                                                 <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
@@ -760,13 +760,13 @@
                                     <div id="carousel2-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
                                                 <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
@@ -806,13 +806,13 @@
                                     <div id="carousel2-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
                                                 <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
@@ -852,13 +852,13 @@
                                     <div id="carousel2-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
                                                 <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
