@@ -8,8 +8,8 @@
                 <div class="divchild divchild1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-picture-portrait-women-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--escaliers" src="/public/assets/img/jpegportraits/desktopsize/melissa-picture-portrait-women-france-450-60.jpg" alt="photo de femme à Laon en France ville médiévale format carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-picture-portrait-women-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--escaliers" src="/public/assets/img/jpegportraits/desktopsize/melissa-picture-portrait-women-france-550-60.jpg" alt="photo de femme à Laon en France ville médiévale format carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild1Modal" data-modal-index="0">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -54,7 +54,7 @@
                 <div class="divchild divchild2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-remparts-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-remparts-picture-portrait-women-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/melissa-remparts-picture-portrait-women-france-600-60.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild2Modal" data-modal-index="1">
@@ -100,8 +100,8 @@
                 <div class="divchild divchild3">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source id="carousel__img--desktop--adapt--storm" media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-bnw-picture-portrait-women-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--melibnw" src="/public/assets/img/jpegportraits/desktopsize/melissa-bnw-picture-portrait-women-france-450-60.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                        <source id="carousel__img--desktop--adapt--storm" media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-bnw-picture-portrait-women-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--melibnw" src="/public/assets/img/jpegportraits/desktopsize/melissa-bnw-picture-portrait-women-france-550-60.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild3Modal" data-modal-index="2">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -146,7 +146,7 @@
                 <div class="divchild divchild4">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-door-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-door-picture-portrait-women-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--door" src="/public/assets/img/jpegportraits/desktopsize/melissa-door-picture-portrait-women-france-600-60.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild4Modal" data-modal-index="3">
@@ -192,7 +192,7 @@
                 <div class="divchild divchild5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-road-portrait-women-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-road-portrait-women-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--road" src="/public/assets/img/jpegportraits/desktopsize/melissa-road-portrait-women-france-600-60.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild5Modal" data-modal-index="4">
@@ -238,7 +238,7 @@
                 <div class="divchild divchild6">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-paysage-portrait-women-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/melissa-paysage-portrait-women-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/melissa-paysage-portrait-women-france-800-60.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild6Modal" data-modal-index="5">
@@ -310,8 +310,8 @@
                 <div class="divchild divchild1-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-assis-picture-portrait-men-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-assis-picture-portrait-men-france-650-60.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-assis-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-assis-picture-portrait-men-france-800-60.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild1-1Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -356,8 +356,8 @@
                 <div class="divchild divchild2-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-profil-picture-portrait-men-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-profil-picture-portrait-men-france-650-60.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-profil-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-profil-picture-portrait-men-france-800-60.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild2-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -402,8 +402,8 @@
                 <div class="divchild divchild3-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-ballon-picture-portrait-men-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--ballon" src="/public/assets/img/jpegportraits/desktopsize/jad-ballon-picture-portrait-men-france-450-60.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-ballon-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--ballon" src="/public/assets/img/jpegportraits/desktopsize/jad-ballon-picture-portrait-men-france-550-60.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild3-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -448,8 +448,8 @@
                 <div class="divchild divchild4-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-ombre-picture-portrait-men-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--ombre" src="/public/assets/img/jpegportraits/desktopsize/jad-ombre-picture-portrait-men-france-450-60.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-ombre-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--ombre" src="/public/assets/img/jpegportraits/desktopsize/jad-ombre-picture-portrait-men-france-550-60.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild4-1Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -494,7 +494,7 @@
                 <div class="divchild divchild5-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-gare-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-gare-picture-portrait-men-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--gare" src="/public/assets/img/jpegportraits/desktopsize/jad-gare-picture-portrait-men-france-338-60.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild5-1Modal"> <!-- Modal -->
@@ -540,7 +540,7 @@
                 <div class="divchild divchild6-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-tag-picture-portrait-men-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-tag-picture-portrait-men-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--tag" src="/public/assets/img/jpegportraits/desktopsize/jad-tag-picture-portrait-men-france-338-60.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild6-1Modal"> <!-- Modal -->
@@ -612,8 +612,8 @@
                 <div class="divchild divchild1-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-marguerite-picture-portrait-men-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/pauline-marguerite-picture-portrait-men-france-450-60.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-marguerite-picture-portrait-women-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/pauline-marguerite-picture-portrait-women-france-550-60.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild1-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -622,22 +622,22 @@
                                     <div id="carousel2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -658,8 +658,8 @@
                 <div class="divchild divchild2-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-corse-picture-portrait-women-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--corse" src="/public/assets/img/jpegportraits/desktopsize/pauline-corse-picture-portrait-men-france-450-60.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-corse-picture-portrait-women-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--corse" src="/public/assets/img/jpegportraits/desktopsize/pauline-corse-picture-portrait-women-france-550-60.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild2-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -668,22 +668,22 @@
                                     <div id="carousel2-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -704,8 +704,8 @@
                 <div class="divchild divchild3-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-flowers-picture-portrait-men-france-300-60.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--flowers" src="/public/assets/img/jpegportraits/desktopsize/pauline-flowers-picture-portrait-men-france-450-60.jpg" alt="photo d'une femme dans les fleurs en Normandie en France carousel desktop" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-flowers-picture-portrait-women-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--flowers" src="/public/assets/img/jpegportraits/desktopsize/pauline-flowers-picture-portrait-women-france-550-60.jpg" alt="photo d'une femme dans les fleurs en Normandie en France carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild3-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
@@ -714,22 +714,22 @@
                                     <div id="carousel2-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -749,10 +749,10 @@
                 </div>
                 <div class="divchild divchild4-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/sicile-city-colors-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--colors" src="/public/assets/img/jpegpaysages/desktopsize/sicile-city-colors-450-60.jpg" alt="photo de Sicile dans la ville avec des couleurs vives carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-bnw-picture-portrait-women-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--trulli" src="/public/assets/img/jpegportraits/desktopsize/pauline-bnw-picture-portrait-women-france-550-60.jpg" alt="photo de femme en portrait rapproché noir et blanc carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild4-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -760,22 +760,22 @@
                                     <div id="carousel2-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -795,10 +795,10 @@
                 </div>
                 <div class="divchild divchild5-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/sicile-sea-parc-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--park" src="/public/assets/img/jpegpaysages/desktopsize/sicile-sea-parc-450-60.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-maroc-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--orange" src="/public/assets/img/jpegportraits/desktopsize/pauline-maroc-picture-portrait-women-france-550-60.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild5-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -806,22 +806,22 @@
                                     <div id="carousel2-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -841,10 +841,10 @@
                 </div>
                 <div class="divchild divchild6-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/bruges-belgium-city-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--belgium" src="/public/assets/img/jpegpaysages/desktopsize/bruges-belgium-city-850-60.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-lavande-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--lavande" src="/public/assets/img/jpegportraits/desktopsize/pauline-lavande-picture-portrait-women-france-550-60.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild6-2Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -852,22 +852,22 @@
                                     <div id="carousel2-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-men-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-men-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -911,12 +911,12 @@
     <article>
         <div class="parent" data-index="3" data-status="inactive">
             <div class="div1"> <!-- parent of the second grid -->
-                <div class="divchild divchild1-3">
+                <div class="divchild divchild1-3 order-1">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/hourdel-france-blockhaus-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--blockhaus" src="/public/assets/img/jpegpaysages/desktopsize/hourdel-france-blockhaus-450-60.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-dog-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--dog" src="/public/assets/img/jpegportraits/desktopsize/jad-dog-picture-portrait-men-france-800-60.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild1-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -924,22 +924,22 @@
                                     <div id="carousel3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -959,10 +959,10 @@
                 </div>
                 <div class="divchild divchild2-3">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/corse-road-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/corse-road-450-60.jpg" alt="photo de route en Corse dans la montagne carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/cass-naud-boule-picture-portrait-couple-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--boule" src="/public/assets/img/jpegportraits/desktopsize/cass-naud-boule-picture-portrait-couple-france-550-60.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild2-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -970,22 +970,22 @@
                                     <div id="carousel3-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1005,10 +1005,10 @@
                 </div>
                 <div class="divchild divchild3-3">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/grenoble-sunflower-sunset-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-sunflowers" src="/public/assets/img/jpegpaysages/desktopsize/grenoble-sunflower-sunset-450-60.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/cass-naud-light-picture-portrait-couple-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-light" src="/public/assets/img/jpegportraits/desktopsize/cass-naud-light-picture-portrait-couple-france-550-60.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild3-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1016,22 +1016,22 @@
                                     <div id="carousel3-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1049,12 +1049,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild divchild4-3">
+                <div class="divchild divchild4-3 order-3">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/grenoble-france-bnw-lac-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/grenoble-france-bnw-lac-450-60.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-cat-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-cat-picture-portrait-men-france-550-60.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild4-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1062,22 +1062,22 @@
                                     <div id="carousel3-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1095,12 +1095,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="divchild divchild5-3">
+                <div class="divchild divchild5-3 order-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/amiens-hortillonages-sunset-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-hortiset" src="/public/assets/img/jpegpaysages/desktopsize/amiens-hortillonages-sunset-450-60.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/jad-book-picture-portrait-men-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegportraits/desktopsize/jad-book-picture-portrait-men-france-550-60.jpg" alt="photo de Noël d'un homme qui lit dans le canapé carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild5-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1108,22 +1108,22 @@
                                     <div id="carousel3-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1143,10 +1143,10 @@
                 </div>
                 <div class="divchild divchild6-3">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-3Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/annecy-bnw-lac-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-lacannecy" src="/public/assets/img/jpegpaysages/desktopsize/annecy-bnw-lac-450-60.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue carousel desktop" loading="lazy">
-                    </picture> -->
+                    <picture class="carousel__img--desktop">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/cass-naud-canap-picture-portrait-couple-france-300-40.jpg" loading="lazy">
+                        <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-lacannecy" src="/public/assets/img/jpegportraits/desktopsize/cass-naud-canap-picture-portrait-couple-france-800-60.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé carousel desktop" loading="lazy">
+                    </picture>
                     <div class="modal fade" id="divchild6-3Modal"> <!-- Modal -->
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1154,22 +1154,22 @@
                                     <div id="carousel3-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                            <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1210,16 +1210,16 @@
         </div>
     </article>
     <!-- ! carousel 5 -->
-    <article>
+    <!-- <article>
         <div class="parent" data-index="4" data-status="inactive">
-            <div class="div1"> <!-- parent of the second grid -->
+            <div class="div1">
                 <div class="divchild divchild1-4">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/corse-plage-beach-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/corse-plage-beach-650-60.jpg" alt="photo de plage en corse avec des rochers en pose longue carousel desktop" loading="lazy">
-                    </picture> -->
-                    <div class="modal fade" id="divchild1-4Modal"> <!-- Modal -->
+                    </picture>
+                    <div class="modal fade" id="divchild1-4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -1260,12 +1260,12 @@
                     </div>
                 </div>
                 <div class="divchild divchild2-4">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/maroc-beach-sunset-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/maroc-beach-sunset-250-60.jpg" alt="photo de la mer au Maroc au coucher de soleil carousel desktop" loading="lazy">
-                    </picture> -->
-                    <div class="modal fade" id="divchild2-4Modal"> <!-- Modal -->
+                    </picture>
+                    <div class="modal fade" id="divchild2-4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -1306,12 +1306,12 @@
                     </div>
                 </div>
                 <div class="divchild divchild3-4">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> 
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/grenoble-sunset-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-gresol" src="/public/assets/img/jpegpaysages/desktopsize/grenoble-france-sunflowers-450-60.jpg" alt="photo de tournesols avec lumière du soir carousel desktop" loading="lazy">
-                    </picture> -->
-                    <div class="modal fade" id="divchild3-4Modal"> <!-- Modal -->
+                    </picture>
+                    <div class="modal fade" id="divchild3-4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -1352,12 +1352,12 @@
                     </div>
                 </div>
                 <div class="divchild divchild4-4">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/corse-france-beach-tree-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--corsetree" src="/public/assets/img/jpegpaysages/desktopsize/corse-france-beach-tree-450-60.jpg" alt="photo de plage en Corse avec un arbre solitaire carousel desktop" loading="lazy">
-                    </picture> -->
-                    <div class="modal fade" id="divchild4-4Modal"> <!-- Modal -->
+                    </picture>
+                    <div class="modal fade" id="divchild4-4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -1398,12 +1398,12 @@
                     </div>
                 </div>
                 <div class="divchild divchild5-4">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/espagne-city-zaragoza-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/espagne-city-zaragoza-450-60.jpg" alt="photo de Saragosse en Espagne carousel desktop" loading="lazy">
-                    </picture> -->
-                    <div class="modal fade" id="divchild5-4Modal"> <!-- Modal -->
+                    </picture>
+                    <div class="modal fade" id="divchild5-4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -1444,12 +1444,12 @@
                     </div>
                 </div>
                 <div class="divchild divchild6-4">
-                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
-                    <!-- <picture class="carousel__img--desktop">
+                    <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-4Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/rouen-france-city-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--moto" src="/public/assets/img/jpegpaysages/desktopsize/rouen-france-city-450-60.jpg" alt="photo de moto vintage à Rouen en France carousel desktop" loading="lazy">
-                    </picture> -->
-                    <div class="modal fade" id="divchild6-4Modal"> <!-- Modal -->
+                    </picture>
+                    <div class="modal fade" id="divchild6-4Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
                                 <div class="modal-body text-end p-0">
@@ -1509,17 +1509,17 @@
             </div>
             <div class="div5"> </div>
         </div>
-    </article>
+    </article> -->
     <!-- ! carousel 6 -->
-    <article>
+    <!-- <article>
         <div class="parent" data-index="5" data-status="inactive">
-            <div class="div1"> <!-- parent of the second grid -->
+            <div class="div1">
                 <div class="divchild divchild1-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/sea-corse-splash-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/sea-corse-splash-338-60.jpg" alt="photographie de vague en plein mer en Corse carousel desktop" loading="lazy">
-                    </picture> -->
+                    </picture>
                     <div class="modal fade" id="divchild1-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1562,10 +1562,10 @@
                 </div>
                 <div class="divchild divchild2-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild2-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/maroc-coquillage-sunset-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/maroc-coquillage-bokeh-450-60.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant carousel desktop" loading="lazy">
-                    </picture> -->
+                    </picture>
                     <div class="modal fade" id="divchild2-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1608,10 +1608,10 @@
                 </div>
                 <div class="divchild divchild3-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild3-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/hourdel-miroir-blockhaus-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/hourdel-miroir-blockhaus-450-60.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer carousel desktop" loading="lazy">
-                    </picture> -->
+                    </picture>
                     <div class="modal fade" id="divchild3-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1654,10 +1654,10 @@
                 </div>
                 <div class="divchild divchild4-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild4-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/corse-bois-wood-beach-plage-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/corse-bois-wood-beach-plage-650-60.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu carousel desktop" loading="lazy">
-                    </picture> -->
+                    </picture>
                     <div class="modal fade" id="divchild4-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1700,10 +1700,10 @@
                 </div>
                 <div class="divchild divchild5-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/espagne-cascade-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-cascade" src="/public/assets/img/jpegpaysages/desktopsize/espagne-cascade-450-60.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne carousel desktop" loading="lazy">
-                    </picture> -->
+                    </picture>
                     <div class="modal fade" id="divchild5-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1746,10 +1746,10 @@
                 </div>
                 <div class="divchild divchild6-5">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-5Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
-                    <!-- <picture class="carousel__img--desktop">
+                    <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/corse-river-riviere-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt-cascade" src="/public/assets/img/jpegpaysages/desktopsize/corse-river-riviere-450-60.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France carousel desktop" loading="lazy">
-                    </picture> -->
+                    </picture>
                     <div class="modal fade" id="divchild6-5Modal">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
                             <div class="modal-content">
@@ -1810,7 +1810,7 @@
             </div>
             <div class="div5"> </div>
         </div>
-    </article>
+    </article> -->
 </section>
 
 
