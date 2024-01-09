@@ -796,7 +796,7 @@
                 <div class="divchild divchild5-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild5-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-maroc-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-maroc-picture-portrait-women-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--orange" src="/public/assets/img/jpegportraits/desktopsize/pauline-maroc-picture-portrait-women-france-550-60.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild5-2Modal"> <!-- Modal -->
@@ -842,7 +842,7 @@
                 <div class="divchild divchild6-2">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6-2Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> <!-- Button trigger modal -->
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-lavande-picture-portrait-women-france-300-60.jpg" loading="lazy">
+                        <source media="(max-width: 768px)" srcset="/public/assets/img/jpegportraits/mobilesize/pauline-lavande-picture-portrait-women-france-300-40.jpg" loading="lazy">
                         <img class="carousel__img--desktop--adapt" id="carousel__img--desktop--adapt--lavande" src="/public/assets/img/jpegportraits/desktopsize/pauline-lavande-picture-portrait-women-france-550-60.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue carousel desktop" loading="lazy">
                     </picture>
                     <div class="modal fade" id="divchild6-2Modal"> <!-- Modal -->
