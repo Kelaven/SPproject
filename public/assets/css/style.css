@@ -113,19 +113,19 @@ a {
     height: 100vh;
 }
 
-#text-elements__col {
+.text-elements__col {
     width: 90vw;
 }
 
-#text-elements__div {
+.text-elements__div {
     width: 100vw;
 }
 
-#carousel-h1 {
+.carousel-h1 {
     font-size: 58px !important;
 }
 
-#carousel-h2,
+.carousel-h2,
 a {
     font-size: 20px;
 }
@@ -142,22 +142,22 @@ a {
 
 /* ! modify font-size with media queries ! */
 @media (min-width: 768px) and (max-width: 1200px) {
-    #carousel-h1 {
+    .carousel-h1 {
         font-size: 74px !important;
     }
 
-    #carousel-h2,
+    .carousel-h2,
     a {
         font-size: 22px;
     }
 }
 
 @media (min-width: 1201px) {
-    #carousel-h1 {
+    .carousel-h1 {
         font-size: 90px !important;
     }
 
-    #carousel-h2 {
+    .carousel-h2 {
         font-size: 26px;
     }
 

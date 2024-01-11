@@ -21,10 +21,10 @@
                                 <div class="d-none d-md-block position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div" class="pb-5">
-                                                    <h1 id="carousel-h1" class="pe-4">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div pb-5">
+                                                    <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                     <div class="btn-group px-2 pb-1" role="group">
                                                         <a href="#" data-bs-toggle="dropdown">
@@ -47,10 +47,10 @@
                                 <div class="d-block d-md-none position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div">
-                                                    <h1 id="carousel-h1" class="pe-4 pt-5">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div">
+                                                    <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                     <ul class="pe-5">
                                                         <li class="py-3">
@@ -89,10 +89,10 @@
                                 <div class="d-none d-md-block position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div" class="pb-5">
-                                                    <h1 id="carousel-h1" class="pe-4">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div pb-5">
+                                                    <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                         <div class="btn-group px-2 pb-1" role="group">
                                                         <a href="#" data-bs-toggle="dropdown">
@@ -115,10 +115,10 @@
                                 <div class="d-block d-md-none position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div">
-                                                    <h1 id="carousel-h1" class="pe-4 pt-5">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div">
+                                                    <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                         <ul class="pe-5">
                                                         <li class="py-3">
@@ -156,10 +156,10 @@
                                 <div class="d-none d-md-block position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div" class="pb-5">
-                                                    <h1 id="carousel-h1" class="pe-4">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div pb-5">
+                                                    <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                         <div class="btn-group px-2 pb-1" role="group">
                                                         <a href="#" data-bs-toggle="dropdown">
@@ -182,10 +182,10 @@
                                 <div class="d-block d-md-none position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div">
-                                                    <h1 id="carousel-h1" class="pe-4 pt-5">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div">
+                                                    <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                         <ul class="pe-5">
                                                         <li class="py-3">
@@ -225,10 +225,10 @@
                                 <div class="d-none d-md-block position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div" class="pb-5">
-                                                    <h1 id="carousel-h1" class="pe-4">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div pb-5">
+                                                    <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                         <div class="btn-group px-2 pb-1" role="group">
                                                         <a href="#" data-bs-toggle="dropdown">
@@ -251,10 +251,10 @@
                                 <div class="d-block d-md-none position-absolute z-2">
                                     <div class="container">
                                         <div class="row align-items-center text-center text-elements__row">
-                                            <div class="col" id="text-elements__col">
-                                                <div id="text-elements__div">
-                                                    <h1 id="carousel-h1" class="pe-4 pt-5">Kévin Lavenant</h1>
-                                                    <h2 id="carousel-h2" class="pe-3 me-1 pb-5">Photographe de portraits
+                                            <div class="col text-elements__col">
+                                                <div class="text-elements__div">
+                                                    <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
+                                                    <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
                                                         et paysages</h2>
                                                         <ul class="pe-5">
                                                         <li class="py-3">
