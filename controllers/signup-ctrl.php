@@ -1,5 +1,11 @@
 <?php
 
+// header/footer update
+$title = 'Inscrire un client —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+$signupScript = 'signup.js';
+
+
+
 // to have constants
 require_once __DIR__.'/../config/init.php';
 
@@ -95,6 +101,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
 
 
 // views
-include __DIR__.'/../views/templates/header__accesclientform.php';
+include __DIR__.'/../views/templates/header.php';
 include __DIR__.'/../views/dashboard/signup.php';
-include __DIR__.'/../views/templates/footer__accesclientform.php';
+include __DIR__.'/../views/templates/footer.php';

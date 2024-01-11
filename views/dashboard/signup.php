@@ -1,7 +1,7 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container" >
     <div class="row">
-        <div class="col pt-3">
+        <div class="col pt-5">
             <div class="card">
                 <form method="POST" class="px-2">
                     <legend class="py-3 px-3 text-center">Inscrire un nouveau client</legend>
@@ -146,8 +146,3 @@
         </div>
     </div>
 </section>
-
-
-
-
-<script src="/public/assets/js/signup.js"></script>

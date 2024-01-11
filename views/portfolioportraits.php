@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="/public/assets/css/portfolioportraits.css">
-
 <section id="section__paysages">
     <!-- ! carousel 1 -->
     <article>
@@ -1812,9 +1810,3 @@
         </div>
     </article> -->
 </section>
-
-
-
-
-
-<script src="/public/assets/js/portfoliopaysages.js"></script>

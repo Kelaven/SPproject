@@ -1,6 +1,11 @@
 <?php
 
-
+// header/footer update
+$navbar = 'header.php';
+$title = 'Portfolio paysages —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+$paysagesStyle = 'portfoliopaysages.js';
+$footer = 'footer.php';
+$portfolioScript = 'portfolio.js';
 
 // views
 include __DIR__.'/../views/templates/header.php';
