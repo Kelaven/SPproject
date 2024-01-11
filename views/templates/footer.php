@@ -29,7 +29,7 @@ if(isset($signupScript)){ // to connect at galeries
 <?php
 if(isset($portfolioScript)){ // for portfolio (paysages & portraits)
 ?>
-<script src="/public/assets/js/portfoliopaysages.js"></script>
+<script src="/public/assets/js/portfolio.js"></script>
 <?php } ?>
 
 </body>

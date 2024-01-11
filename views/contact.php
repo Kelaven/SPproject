@@ -110,7 +110,7 @@
                 <small class="text-danger ps-3"><?= $error['captcha']??'' ?></small>
                 <!-- ! validation btn -->
                 <div class="text-center py-3">
-                    <button class="btn btn-primary" type="submit">Envoyer</button>
+                    <button id="contact__btn" class="btn btn-primary" type="submit">Envoyer</button>
                 </div>
             </form>
         </div>

@@ -264,7 +264,7 @@ legend {
     border-radius: 0%;
 }
 
-button:last-child {
+#contact__btn:last-child {
     height: 100px;
     width: 120px;
     background-color: #2B3035 !important;
