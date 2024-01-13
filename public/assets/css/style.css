@@ -173,8 +173,11 @@ a {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! navbar */
+.navbar{
+    height: 12vh;
+}
 .navbar img {
-    height: 80px;
+    height: 5rem;
 }
 
 .fa-instagram {

@@ -15,6 +15,11 @@
     <!-- my style -->
     <link rel="stylesheet" href="/public/assets/css/style.css">
     <?php
+    if (isset($portfolioStyle)) { // for portfolio
+    ?>
+        <link rel="stylesheet" href="/public/assets/css/portfolio.css">
+    <?php } ?>
+    <?php
     if (isset($paysagesStyle)) { // for paysages portfolio
     ?>
         <link rel="stylesheet" href="/public/assets/css/portfoliopaysages.css">

@@ -1,8 +1,8 @@
 // ! Variables
 
 // * to make carousel on paysages
-const leftBtns = document.querySelectorAll('.carousel__btn--left');
-const rightBtns = document.querySelectorAll('.carousel__btn--right');
+const leftBtns = document.querySelectorAll('.div2');
+const rightBtns = document.querySelectorAll('.div3');
 const parents = document.querySelectorAll('.parent');
 let activeIndex = 0;
 let currentParent;

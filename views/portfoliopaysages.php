@@ -1,4 +1,4 @@
-<section id="section__paysages">
+<section class="section__portfolio">
     <!-- ! carousel 1 -->
     <article>
         <div class="parent" data-index="0" data-status="active">
@@ -283,21 +283,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Paysages
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>La photographie nous offre la possibilité de contempler la nature à travers le prisme de la créativité.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">David Ward</p>
+                </div>
+            </div>
         </div>
     </article>
 
@@ -585,21 +590,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Paysages
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>La photographie nous offre la possibilité de contempler la nature à travers le prisme de la créativité.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">David Ward</p>
+                </div>
+            </div>
         </div>
     </article>
 
@@ -887,21 +897,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Paysages
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>La photographie nous offre la possibilité de contempler la nature à travers le prisme de la créativité.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">David Ward</p>
+                </div>
+            </div>
         </div>
     </article>
 
@@ -1189,22 +1204,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Paysages
                 </h3>
             </div>
-            <div class="div5"> </div>
-            <!-- <div class="div6"> </div> -->
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>La photographie nous offre la possibilité de contempler la nature à travers le prisme de la créativité.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">David Ward</p>
+                </div>
+            </div>
         </div>
     </article>
     <!-- ! carousel 5 -->
@@ -1491,21 +1510,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Paysages
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>La photographie nous offre la possibilité de contempler la nature à travers le prisme de la créativité.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">David Ward</p>
+                </div>
+            </div>
         </div>
     </article>
     <!-- ! carousel 6 -->
@@ -1792,21 +1816,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-0 pb-lg-2">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Paysages
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>La photographie nous offre la possibilité de contempler la nature à travers le prisme de la créativité.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">David Ward</p>
+                </div>
+            </div>
         </div>
     </article>
 </section>

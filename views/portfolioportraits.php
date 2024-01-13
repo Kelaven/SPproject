@@ -1,4 +1,4 @@
-<section id="section__paysages">
+<section class="section__portfolio">
     <!-- ! carousel 1 -->
     <article>
         <div class="parent" data-index="0" data-status="active">
@@ -293,14 +293,14 @@
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3 pt-2 mt-xl-1">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Portraits
                 </h3>
             </div>
             <div class="div5">
-                <div class="container__portraits__citation">
-                    <p class="portraits__citation portraits__citation--text m-0 pb-1"> "Les portraits sont des fenêtres ouvertes sur des mondes intérieurs, des voyages au-delà des apparences."</p>
-                    <p class="portraits__citation portraits__citation--author text-end pb-5">Diane Arbus</p>
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>Les portraits sont des fenêtres ouvertes sur des mondes intérieurs, des voyages au-delà des apparences.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">Diane Arbus</p>
                 </div>
             </div>
         </div>
@@ -590,21 +590,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-1">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Portraits
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>Les portraits sont des fenêtres ouvertes sur des mondes intérieurs, des voyages au-delà des apparences.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">Diane Arbus</p>
+                </div>
+            </div>
         </div>
     </article>
 
@@ -892,21 +897,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-1">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Portraits
                 </h3>
             </div>
-            <div class="div5"> </div>
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>Les portraits sont des fenêtres ouvertes sur des mondes intérieurs, des voyages au-delà des apparences.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">Diane Arbus</p>
+                </div>
+            </div>
         </div>
     </article>
 
@@ -1194,22 +1204,26 @@
             <div class="div2 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--left" aria-label="Bouton précédent">
                     <span class="visually-hidden">Bouton précédent</span>
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="bi bi-arrow-left"></i>
                 </button>
             </div>
             <div class="div3 d-flex justify-content-center align-items-center">
                 <button class="carousel__btn--right" aria-label="Bouton suivant">
                     <span class="visually-hidden">Bouton suivant</span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="bi bi-arrow-right"></i>
                 </button>
             </div>
             <div class="div4 d-flex justify-content-center align-items-center">
-                <h3 class="paysages__h3  pt-2 pt-lg-1">
+                <h3 class="portfolio__h3 pt-2 mt-xl-1">
                     Portraits
                 </h3>
             </div>
-            <div class="div5"> </div>
-            <!-- <div class="div6"> </div> -->
+            <div class="div5">
+                <div class="container__citation">
+                    <p class="portfolio__citation portfolio__citation--text m-0 pb-1"> <span class="pe-1">"</span>Les portraits sont des fenêtres ouvertes sur des mondes intérieurs, des voyages au-delà des apparences.<span class="ps-1">"</span></p>
+                    <p class="portfolio__citation portfolio__citation--author text-end pb-5">Diane Arbus</p>
+                </div>
+            </div>
         </div>
     </article>
 </section>
