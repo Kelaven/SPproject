@@ -42,6 +42,8 @@
 
 <body>
 
+<div class="cursor--pages"></div>
+
     <?php
     if (isset($navbar)) {
     ?>

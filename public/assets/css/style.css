@@ -13,6 +13,16 @@
     -moz-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.9);
 }
+.cursor--pages {
+    position: absolute;
+    z-index: 999999999;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+        /* ? to continue using */
+        pointer-events: none;
+}
 
 /* ! to hide cursor into all the page : */
 #homepage {

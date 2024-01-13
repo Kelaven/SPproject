@@ -7,6 +7,7 @@ $portfolioStyle = 'portfolio.css';
 $paysagesStyle = 'portfoliopaysages.css';
 // $footer = 'footer.php';
 $portfolioScript = 'portfolio.js';
+$pagesScript = 'pages.js';
 
 // views
 include __DIR__.'/../views/templates/header.php';
