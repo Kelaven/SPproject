@@ -30,7 +30,7 @@ function ballFollowsMouse(event) {
 
         if (
             ballRect.right > targetRect.left &&
-            ballRect.left + 15 < targetRect.right &&
+            ballRect.left + 18 < targetRect.right &&
             ballRect.bottom - 20 > targetRect.top &&
             ballRect.top < targetRect.bottom
         ) {
