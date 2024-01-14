@@ -15,13 +15,14 @@
 }
 .cursor--pages {
     position: absolute;
-    z-index: 999999999;
-    width: 100px;
-    height: 100px;
+    z-index: 9999;
+    width: 20px;
+    height: 20px;
     background: red;
     border-radius: 50%;
-        /* ? to continue using */
-        pointer-events: none;
+    transition: transform 0.05s ease-out; /* to have smooth movement effect */
+    /* ? to continue using */
+    pointer-events: none;
 }
 
 /* ! to hide cursor into all the page : */
@@ -139,14 +140,17 @@ a {
 a {
     font-size: 20px;
 }
-.dropdown-menu--home{
+
+.dropdown-menu--home {
     background-color: rgba(0, 0, 0, 0);
     border: none !important;
 }
-.dropdown-item--home{
+
+.dropdown-item--home {
     padding: 0px 10px 0px 0px !important;
 }
-.dropdown-item--home:hover{
+
+.dropdown-item--home:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -183,9 +187,10 @@ a {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* ! navbar */
-.navbar{
+.navbar {
     height: 12vh;
 }
+
 .navbar img {
     height: 5rem;
 }
@@ -218,7 +223,7 @@ a {
     background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
 
-#form__overlay{
+#form__overlay {
     height: 100%;
     background: rgba(255, 255, 255, 0.4);
 }
@@ -367,7 +372,7 @@ small,
     background-position: center;
 }
 
-.accesclientform__bg input{
+.accesclientform__bg input {
     border-radius: 0% !important;
 }
 
@@ -417,11 +422,12 @@ small,
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-#signup__container{
+#signup__container {
     max-width: 61vw;
 }
+
 @media (max-width: 1024px) {
-    #signup__container{
+    #signup__container {
         max-width: 100vw;
     }
 }
@@ -431,7 +437,7 @@ small,
     cursor: pointer;
 }
 
-.span__password{
+.span__password {
     padding: 12px 13px;
     border-radius: 0% !important;
 }
@@ -444,8 +450,6 @@ small,
     color: #E84555;
 }
 
-#signup__container input{
+#signup__container input {
     border-radius: 0% !important;
 }
-
-
