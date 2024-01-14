@@ -9,6 +9,7 @@ const cursor = document.querySelector('.cursor'); // to select the div
 
 // * to move the div's cursor with the mouse 
 function cursorDivFollowsMouse(event) {
+    
     cursor.setAttribute("style", `top:${event.pageY - 60}px; left:${event.pageX - 60}px;`);
     // to modify the position in the style with setAttribute
     // pageY and pageX = position of the mouse

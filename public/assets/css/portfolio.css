@@ -1,5 +1,5 @@
 /* ! Global */
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     background-color: #2B3035;
     width: 16px;
 }
@@ -10,6 +10,9 @@ body::-webkit-scrollbar-thumb {
     background-color: #24282D;
     border-radius: 8px;
     border: 2px solid #2B3035;
+} */
+body{
+    overflow: hidden;
 }
 .section__portfolio {
     height: 88vh;

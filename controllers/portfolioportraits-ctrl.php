@@ -7,8 +7,7 @@ $portfolioStyle = 'portfolio.css';
 $portraitsStyle = 'portfolioportraits.css';
 // $footer = 'footer.php';
 $portfolioScript = 'portfolio.js';
-
-
+$pagesScript = 'pages.js';
 
 
 
