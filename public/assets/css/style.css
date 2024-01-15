@@ -13,6 +13,7 @@
     -moz-box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.9);
 }
+
 .cursor--pages {
     position: absolute;
     z-index: 9999;
@@ -20,38 +21,50 @@
     height: 20px;
     background-color: rgba(43, 48, 53, 0.5);
     border-radius: 50%;
-    transition: transform 0.05s ease-out; /* to have smooth movement effect */
+    transition: transform 0.05s ease-out;
+    /* to have smooth movement effect */
     /* ? to continue using */
     pointer-events: none;
 }
-.cursor--pages--pointer{ /* class for JS */
+
+.cursor--pages--pointer {
+    /* class for JS */
     animation: ballZoom 0.3s ease-in-out forwards;
     background-color: rgba(163, 137, 123, 0.8);
     box-shadow: 2px 2px 5px rgba(163, 137, 123, 0.1);
 }
+
 @keyframes ballZoom {
-    from{
+    from {
         height: 20px;
         width: 20px;
-    } to {
+    }
+
+    to {
         height: 30px;
         width: 30px;
     }
 }
-.cursor--pages--normal{ /* class for JS */
+
+.cursor--pages--normal {
+    /* class for JS */
     animation: ballZoomOut 0.3s ease-in-out forwards;
     background-color: rgba(215, 211, 204, 0.8);
     box-shadow: 2px 2px 5px rgba(215, 211, 204, 0.1);
 }
+
 @keyframes ballZoomOut {
-    from{
+    from {
         height: 30px;
         width: 30px;
-    } to {
+    }
+
+    to {
         height: 20px;
         width: 20px;
     }
 }
+
 /* ! to hide cursor into all the page : */
 #homepage {
     cursor: none;
@@ -238,8 +251,6 @@ a {
         padding: 0px 150px 0px 30px;
     }
 }
-
-
 
 
 

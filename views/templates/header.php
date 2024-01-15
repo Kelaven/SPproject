@@ -29,6 +29,12 @@
     ?>
         <link rel="stylesheet" href="/public/assets/css/portfolioportraits.css">
     <?php } ?>
+    <?php
+    if (isset($selectionStyle)) { // for selection
+    ?>
+        <link rel="stylesheet" href="/public/assets/css/selection.css">
+    <?php } ?>
+
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -63,11 +69,10 @@
                                 <ul class="dropdown-menu text-center">
                                     <li><a class="dropdown-item" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
                                     <li><a class="dropdown-item" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
-                                    <li><a class="dropdown-item" href="#">Photo du mois</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link active" aria-current="page" href="#">Tirages</a>
+                                <a class="nav-link active" aria-current="page" href="/controllers/selection-ctrl.php">Sélection</a>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
                                 <a class="nav-link active" href="/controllers/contact-ctrl.php">Contact</a>

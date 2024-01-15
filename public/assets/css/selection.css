@@ -1,0 +1,19 @@
+body{
+    overflow: hidden;
+}
+.selection__section {
+    height: 88vh;
+    background-color: #24282d;
+}
+
+.selection__img {
+    max-height: 70vh;
+    max-width: 90vw; /* to avoid bug with another pic */
+}
+.selection__col{
+    height: 88vh;
+}
+.selection__col--img{
+    display: flex;
+    align-items: center;
+}

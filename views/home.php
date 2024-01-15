@@ -8,7 +8,7 @@
                             <div class="cursor position-absolute z-3 d-none d-xl-block">
                             </div>
                             <!-- ! First slide, sunset on Normandy ! -->
-                            <div class="carousel-item active" data-bs-interval="1000000">
+                            <div class="carousel-item active" data-bs-interval="10000">
                                 <!-- * srcset to perform on all screens * -->
                                 <picture class="d-block w-100 position-absolute z-0">
                                     <source media="(max-width: 768px)" srcset="/public/assets/img/normandie-france-sunset-on-beach-picture-1400-30.jpg">
@@ -35,7 +35,7 @@
                                                             <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
                                                         </ul>
                                                     </div>
-                                                    <a href="#" class="px-2">Tirages</a>
+                                                    <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                     <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
                                                     <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
                                                 </div>
@@ -64,7 +64,7 @@
                                                                 </ul>
                                                             </div>
                                                         </li>
-                                                        <li class="py-3"><a href="#">Tirages</a></li>
+                                                        <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                         <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
                                                         <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
                                                     </ul>
@@ -103,7 +103,7 @@
                                                             <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
                                                         </ul>
                                                     </div>
-                                                    <a href="#" class="px-2">Tirages</a>
+                                                    <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                     <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
                                                     <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
                                                 </div>
@@ -132,7 +132,7 @@
                                                                 </ul>
                                                             </div>
                                                         </li>
-                                                        <li class="py-3"><a href="#">Tirages</a></li>
+                                                        <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                         <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
                                                         <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
                                                     </ul>
@@ -170,7 +170,7 @@
                                                             <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
                                                         </ul>
                                                     </div>
-                                                    <a href="#" class="px-2">Tirages</a>
+                                                    <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                     <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
                                                     <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
                                                 </div>
@@ -199,7 +199,7 @@
                                                                 </ul>
                                                             </div>
                                                         </li>
-                                                        <li class="py-3"><a href="#">Tirages</a></li>
+                                                        <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                         <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
                                                         <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
                                                     </ul>
@@ -239,7 +239,7 @@
                                                             <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
                                                         </ul>
                                                     </div>
-                                                    <a href="#" class="px-2">Tirages</a>
+                                                    <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                     <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
                                                     <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
                                                 </div>
@@ -268,7 +268,7 @@
                                                                 </ul>
                                                             </div>
                                                         </li>
-                                                        <li class="py-3"><a href="#">Tirages</a></li>
+                                                        <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                         <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
                                                         <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
                                                     </ul>
