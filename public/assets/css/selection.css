@@ -1,19 +1,95 @@
-body{
+body {
     overflow: hidden;
 }
+
 .selection__section {
     height: 88vh;
     background-color: #24282d;
 }
 
-.selection__img {
-    max-height: 70vh;
-    max-width: 90vw; /* to avoid bug with another pic */
-}
-.selection__col{
+.selection__col {
     height: 88vh;
 }
-.selection__col--img{
+
+.screen {
+    height: 80%;
+    width: 100%;
+    border-radius: 1rem;
+    border: 3px solid rgba(79, 74, 74, 0.8);
+    overflow: hidden;
+}
+
+.screen__img {
+    height: 100%;
+    width: 100%;
+    background-image: url('/public/assets/img/jpegpaysages/modalsize/selection-grenoble-vercors-mountains-1440-100.jpg');
+    background-size: 300%;
+    animation: imageMove 20s linear infinite;
+}
+
+
+@keyframes imageMove { /* 0% to 100% is the animation, cut in 5 moments. Each moment have a background position and size to look like a film */
+    0% {
+        background-position: 55% 51%;
+        background-size: 150%;
+    }
+    26% {
+        background-position: 30% 35%;
+        background-size: 150%;
+    }
+    26.0001% {
+        /* -- View 2 -- */
+        background-position: 40% 85%;
+        background-size: 300%;
+    }
+    44.5% {
+        background-position: 49% 81%;
+        background-size: 300%;
+    }
+    44.5001% {
+        /* -- View 3 -- */
+        background-position: 49% 57%;
+        background-size: 400%;
+    }
+    63% {
+        background-position: 45% 60%;
+        background-size: 400%;
+    }
+    63.0001% {
+        /* -- View 4 -- */
+        background-position: 0% 0%;
+        background-size: 300%;
+    }
+    81.5% {
+        background-position: 15% 20%;
+        background-size: 300%;
+    }
+    81.5001% {
+        /* -- View 5 -- */
+        background-position: 80% 10%;
+        background-size: 200%;
+    }
+    100% {
+        background-position: 72% 14%;
+        background-size: 200%;
+    }
+}
+
+
+
+
+
+/* .selection__col--img{
     display: flex;
     align-items: center;
+    max-height: 88vh;
+    max-width: 90vw; 
 }
+.selection__img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: 300% !important;
+    border-radius: 1rem;
+    border: 3px solid rgba(79, 74, 74, 0.8);
+}
+ */
