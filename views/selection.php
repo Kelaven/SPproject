@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-xl-4 selection__col selection__col--mobile d-flex align-items-center text-end">
                 <div class="w-100 selection__h1--container pe-4">
-                    <h1><span class="selection__h1--span">La</span> sélection <span class="selection__h1--span">du</span><span class="selection__h1--span2">moment</span></h1>
+                    <h1 class="h1__scramble"><span class="selection__h1--span">La</span> sélection <span class="selection__h1--span">du</span><span class="selection__h1--span2">moment</span></h1>
                 </div>
             </div>
             <div class="col-12 col-xl-4 selection__col selection__col--mobile--img d-flex align-items-center">
@@ -20,3 +20,9 @@
         </div>
     </div>
 </section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+<script src="https://unpkg.com/gsap@3.12.4/dist/TextPlugin.js"></script>
