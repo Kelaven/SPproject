@@ -20,7 +20,7 @@ function ballFollowsMouse(event) {
     mouseY = event.pageY + 5;
 
     // Function to change ball's design into specific divs
-    const elements = document.querySelectorAll('.div1, .div2, .div3, .carousel-inner, .navbar'); // select divs to change the ball's design
+    const elements = document.querySelectorAll('.div1, .div2, .div3, .carousel-inner, .navbar, .screen'); // select divs to change the ball's design
     const ballRect = ball.getBoundingClientRect(); // method to have a "DOMRect" object => to have the ball display informations like a 2D canvas rectangle (but with no border limits)
 
     let isHovering = false; // I consider that by default, the ball isn't in a element. isHovering acts as a persistent indicator when hovering over elements (target divs) to avoid instability between each element detection. 

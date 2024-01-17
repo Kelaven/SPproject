@@ -28,47 +28,58 @@ body {
 }
 
 
-@keyframes imageMove { /* 0% to 100% is the animation, cut in 5 moments. Each moment have a background position and size to look like a film */
+@keyframes imageMove {
+
+    /* 0% to 100% is the animation, cut in 5 moments. Each moment have a background position and size to look like a film */
     0% {
         background-position: 55% 51%;
         background-size: 150%;
     }
+
     26% {
         background-position: 30% 35%;
         background-size: 150%;
     }
+
     26.0001% {
         /* -- View 2 -- */
         background-position: 40% 85%;
         background-size: 300%;
     }
+
     44.5% {
         background-position: 49% 81%;
         background-size: 300%;
     }
+
     44.5001% {
         /* -- View 3 -- */
         background-position: 49% 57%;
         background-size: 400%;
     }
+
     63% {
         background-position: 45% 60%;
         background-size: 400%;
     }
+
     63.0001% {
         /* -- View 4 -- */
         background-position: 0% 0%;
         background-size: 300%;
     }
+
     81.5% {
         background-position: 15% 20%;
         background-size: 300%;
     }
+
     81.5001% {
         /* -- View 5 -- */
         background-position: 80% 10%;
         background-size: 200%;
     }
+
     100% {
         background-position: 72% 14%;
         background-size: 200%;
@@ -76,20 +87,102 @@ body {
 }
 
 
-
-
-
-/* .selection__col--img{
-    display: flex;
-    align-items: center;
-    max-height: 88vh;
-    max-width: 90vw; 
+h1 {
+    font-size: 3.5rem;
 }
-.selection__img {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: 300% !important;
-    border-radius: 1rem;
-    border: 3px solid rgba(79, 74, 74, 0.8);
+
+.selection__h1--container {
+    height: 82%;
 }
- */
+
+.selection__h1--container2 {
+    height: 84%;
+}
+
+.selection__h1--span {
+    font-size: 3rem;
+    display: block;
+}
+
+.selection__h1--span2 {
+    font-size: 4rem;
+    display: block;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        height: 13vh;
+    }
+
+    .selection__section {
+        height: 87vh;
+    }
+
+    .selection__col--mobile {
+        height: 10vh;
+    }
+
+    .selection__col--mobile--img {
+        height: 67vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .screen {
+        max-width: 90%;
+    }
+
+    h1 {
+        padding-top: 2vh;
+        font-size: 1.2rem;
+    }
+
+    .selection__h1--span {
+        font-size: 1rem;
+    }
+
+    .selection__h1--span2 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        padding-bottom: 2vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .selection__section {
+        height: 88vh;
+    }
+
+    .selection__col--mobile {
+        height: 15vh;
+    }
+
+    .selection__col--mobile--img {
+        height: 58vh;
+    }
+    h1 {
+        padding-top: 2vh;
+        font-size: 2.2rem;
+    }
+
+    .selection__h1--span {
+        font-size: 2rem;
+    }
+
+    .selection__h1--span2 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        padding-bottom: 2vh;
+    }
+}
