@@ -34,7 +34,11 @@
     ?>
         <link rel="stylesheet" href="/public/assets/css/selection.css">
     <?php } ?>
-
+    <?php
+    if (isset($pagesStyle)) { // for pages
+    ?>
+        <link rel="stylesheet" href="/public/assets/css/pages.css">
+    <?php } ?>
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -67,8 +71,8 @@
                                     Portfolio
                                 </a>
                                 <ul class="dropdown-menu text-center">
-                                    <li><a class="dropdown-item" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                    <li><a class="dropdown-item" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                    <li><a class="dropdown-item px-0" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
+                                    <li><a class="dropdown-item px-0" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">

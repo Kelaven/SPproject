@@ -36,6 +36,12 @@ if(isset($pagesScript)){ // for pages (without home)
 ?>
 <script src="/public/assets/js/pages.js"></script>
 <?php } ?>
+<?php
+if(isset($gsapScript)){ // for GSAP
+?>
+<script src="/public/assets/js/gsap.js"></script>
+<?php } ?>
+
 
 </body>
 

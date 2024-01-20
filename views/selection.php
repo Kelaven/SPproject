@@ -23,6 +23,7 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 
 <script src="https://unpkg.com/gsap@3.12.4/dist/TextPlugin.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
