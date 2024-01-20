@@ -7,7 +7,7 @@ $selectionStyle = 'selection.css';
 $pagesStyle = 'pages.css';
 // $footer = 'footer.php';
 $pagesScript = 'pages.js';
-$gsapScript = 'gsap.js';
+$gsapSelectionScript = 'selectiongsap.js';
 
 
 

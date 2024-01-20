@@ -1,17 +1,13 @@
 <section id="container__loading">
     <div class="row">
         <div class="col">
-            <!-- <div class="container__loadingImg"> -->
-                <div class="container__loading--animation">
-                    <div class="container__loadingImg">
-                        <img src="/public/assets/img/loading-img-grenoble-sunset-400-100.jpg" alt="Photo de Grenoble maison abandonée avec sunset" loading="lazy">
-                    </div>
-                    <div class="container__bgTransition"></div>
-                    <div class="loadingLogo">
-                        <!-- <img src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo du photographe de portraits et paysages Kévin Lavenant" loading="lazy"> -->
-                    </div>
+            <div class="container__loading--animation">
+                <div class="container__loadingImg">
+                    <img src="/public/assets/img/loading-img-grenoble-sunset-400-100.jpg" alt="Photo de Grenoble maison abandonée avec sunset" loading="lazy">
                 </div>
-            <!-- </div> -->
+                <div class="container__bgTransition"></div>
+                <img class="loadingLogo" src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo du photographe de portraits et paysages Kévin Lavenant" loading="lazy">
+            </div>
         </div>
     </div>
 </section>
@@ -52,7 +48,7 @@
                                                     </a>
                                                     <ul class="dropdown-menu dropdown-menu--home">
                                                         <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home pt-2" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
                                                     </ul>
                                                 </div>
                                                 <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
