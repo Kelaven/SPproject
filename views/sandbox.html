@@ -3,31 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animation de suivi de la souris avec GSAP</title>
-  <!-- Inclus la bibliothèque GSAP -->
-  <script src="https://unpkg.com/gsap@3.9.2/dist/gsap.min.js"></script>
+  <title>Image Grid</title>
   <style>
-    /* Assure-toi que l'image est positionnée en absolue */
-    #photo {
+    body {
+      background-color: #1A1919;
+      text-align: center;
+      margin: 0;
+    }
+
+    .placeholder {
+      display: inline-block;
+      position: relative;
+      width: 600px;
+      height: 600px;
+      overflow: hidden;
+      box-sizing: border-box;
+      margin-top: 100px;
+    }
+
+    .gridContainer {
+      width: 100%;
+      height: 100%;
+    }
+
+    .gridTile {
       position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-origin: center;
     }
   </style>
 </head>
 <body>
+  <div class="placeholder"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+  <script>
+    var options = {
+      imgSrc: "/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg",
+      containerName: "placeholder",
+      rows: 5,
+      columns: 5,
+      margin: 2.5,
+      animTime: 0.3
+    };
 
-<!-- Image que nous allons animer -->
-<img id="photo" src="/public/assets/img/anais-picture-portrait-women-maroc-beach-resizedforaccesclient-60.jpg" alt="Photo à animer">
+    function ImageGrid(defaults) {
+      var r = defaults.rows;
+      var c = defaults.columns;
+      var margin = defaults.margin;
 
-<script>
-    // Sélectionne l'élément photo
-    const photo = document.getElementById('photo');
-  
-    // Ajoute un écouteur d'événements pour suivre la souris
-    document.addEventListener('mousemove', (e) => {
-      // Utilise GSAP pour animer la position de la photo
-      gsap.to(photo, { duration: 0.5, x: e.clientX, y: e.clientY });
-    });
+      var placeholder = document.querySelector("." + defaults.containerName);
+      var container = document.createElement('div');
+      container.className = "gridContainer";
+      placeholder.appendChild(container);
+
+      var gridTile;
+
+      var w = (container.offsetWidth / c) - margin;
+      var h = (container.offsetHeight / r) - margin;
+      var arr = [];
+
+      for (var i = 0, l = r * c; i < l; i++) {
+        gridTile = document.createElement('div');
+        gridTile.className = "gridTile";
+        gridTile.style.backgroundImage = "url(" + defaults.imgSrc + ")";
+
+        arr = [
+          (w + margin) * (i % c),
+          (h + margin) * Math.floor(i / c),
+          ((w + margin) * (i % c) + w - margin),
+          (h + margin) * Math.floor(i / c),
+          ((w + margin) * (i % c) + w - margin),
+          ((h + margin) * Math.floor(i / c) + h - margin),
+          (w + margin) * (i % c),
+          ((h + margin) * Math.floor(i / c) + h - margin)
+        ];
+
+        TweenMax.set(gridTile, {
+          webkitClipPath: 'polygon(' + arr[0] + 'px ' + arr[1] + 'px,' + arr[2] + 'px ' + arr[3] + 'px, ' + arr[4] + 'px ' + arr[5] + 'px, ' + arr[6] + 'px ' + arr[7] + 'px)',
+          clipPath: 'polygon(' + arr[0] + 'px ' + arr[1] + 'px,' + arr[2] + 'px ' + arr[3] + 'px, ' + arr[4] + 'px ' + arr[5] + 'px, ' + arr[6] + 'px ' + arr[7] + 'px)'
+        });
+
+        container.appendChild(gridTile);
+
+        fixTilePosition(gridTile, i);
+      }
+
+      placeholder.addEventListener("mouseover", function (e) {
+        var allTiles = e.currentTarget.querySelectorAll(".gridTile");
+        for (var t = 0, le = allTiles.length; t < le; t++) {
+          TweenMax.to(allTiles[t], defaults.animTime, {
+            css: {
+              backgroundPosition: "0px 0px"
+            },
+            ease: Power1.easeOut
+          });
+        }
+      })
+
+      placeholder.addEventListener("mouseleave", function (e) {
+        var allTiles = e.currentTarget.querySelectorAll(".gridTile");
+        for (var ti = 0, len = allTiles.length; ti < len; ti++) {
+          fixTilePosition(allTiles[ti], ti, defaults.animTime);
+        }
+      })
+
+      function fixTilePosition(tile, ind, time) {
+        if (time == null) time = 0;
+        var centr, centrCol, centrRow, offsetW, offsetH, left, top;
+
+        centr = Math.floor(c * r / 2);
+        centrCol = Math.ceil(centr / c);
+        centrRow = Math.ceil(centr / r);
+
+        offsetW = w / centrCol;
+        offsetH = h / centrRow;
+
+        left = (Math.round((ind % c - centrCol + 1) * offsetW));
+        top = (Math.round((Math.floor(ind / c) - centrRow + 1) * offsetH));
+
+        TweenMax.to(tile, time, {
+          css: {
+            backgroundPosition: left + "px " + top + "px"
+          },
+          ease: Power1.easeOut
+        });
+      }
+    }
+
+    ImageGrid(options);
   </script>
-
 </body>
 </html>

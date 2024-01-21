@@ -1,3 +1,10 @@
+<style>
+    body{
+        overflow-x: hidden;
+    }
+</style>
+
+
 <section class="container-fluid" id="container__contact">
     <div class="row contact__row">
         <div class="col-xl-6 px-0 form__container--left">
@@ -77,3 +84,7 @@
     </div>
     </div>
 </section>
+
+
+
+

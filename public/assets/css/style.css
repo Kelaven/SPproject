@@ -363,10 +363,11 @@ form {
 #form__pic {
     background-image: url(/public/assets/img/cv-photo-profil-650-100.jpg);
     background-size: cover;
-    height: 60vmin;
-    width: 60vmin;
+    height: 54vmin;
+    width: 54vmin;
     border-radius: 50%;
 }
+
 
 #container__name {
     display: flex;
@@ -443,12 +444,15 @@ small,
         max-height: 175px !important;
         max-width: 175px !important;
     }
+
     .form__container--left {
         max-height: 60vh;
     }
+
     #form__container--right {
         min-height: 110vh;
     }
+
     #form__overlay p {
         font-size: 14px !important;
     }
@@ -513,10 +517,11 @@ small,
     .form__container--left {
         max-height: 70vh;
     }
+
     #form__container--right {
         height: 100vh;
     }
-    
+
     legend {
         font-size: 30px !important;
     }
@@ -539,10 +544,12 @@ small,
     #form__overlay p {
         font-size: 24px;
     }
-.container__legend{
-    padding-top: 50px;
-    height: 50px;
-}
+
+    .container__legend {
+        padding-top: 50px;
+        height: 50px;
+    }
+
     legend {
         font-size: 28px !important;
     }
@@ -569,6 +576,7 @@ small,
     button:last-child {
         font-size: 20px;
     }
+
     input {
         height: 70px;
     }
@@ -577,17 +585,20 @@ small,
 
 
 
-
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#accesclient__body {
+    background-color: #24282D;
+}
 
 .accesclient__img {
     height: 400px;
     width: 100%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .accesclient__a {
-    color: #212529 !important;
+    color: #fff !important;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
