@@ -3,7 +3,7 @@
 $navbar = 'header.php';
 $title = 'Contactez-moi —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $pagesStyle = 'pages.css';
-$footer = 'footer.php';
+// $footer = 'footer.php';
 
 // to have constants
 require_once __DIR__.'/../config/init.php';
