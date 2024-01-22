@@ -1,9 +1,3 @@
-<style>
-    body{
-        overflow-x: hidden;
-    }
-</style>
-
 <div id="accesclient__body">
     <section class="container">
         <div class="row justify-content-center">

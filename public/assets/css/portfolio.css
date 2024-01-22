@@ -1,18 +1,9 @@
-/* ! Global */
-/* body::-webkit-scrollbar {
-    background-color: #2B3035;
-    width: 16px;
-}
-body::-webkit-scrollbar-track {
-    background: #2B3035;
-}
-body::-webkit-scrollbar-thumb {
-    background-color: #24282D;
-    border-radius: 8px;
-    border: 2px solid #2B3035;
-} */
+
 body{
     overflow: hidden;
+}
+button{
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 .section__portfolio {
     height: 88vh;
@@ -201,13 +192,3 @@ article {
 
 
 
-
-
-/* ! Portraits */
-
-
-
-
-
-
-/* ! Paysages */

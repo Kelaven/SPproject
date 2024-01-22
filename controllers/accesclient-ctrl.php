@@ -4,7 +4,7 @@
 $navbar = 'header.php';
 $title = 'Accès client —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $pagesStyle = 'pages.css';
-
+$accesclientStyle = 'accesclient.css';
 // $footer = 'footer.php';
 $pagesScript = 'pages.js';
 

@@ -39,6 +39,16 @@
     ?>
         <link rel="stylesheet" href="/public/assets/css/pages.css">
     <?php } ?>
+    <?php
+    if (isset($contactStyle)) { // for contact
+    ?>
+        <link rel="stylesheet" href="/public/assets/css/contact.css">
+    <?php } ?>
+    <?php
+    if (isset($accesclientStyle)) { // for acces client
+    ?>
+        <link rel="stylesheet" href="/public/assets/css/accesclient.css">
+    <?php } ?>
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -85,7 +95,7 @@
                                 <a class="nav-link" href="/controllers/accesclient-ctrl.php">Accès client</a>
                             </li>
                             <li class="pt-2 pt-md-3">
-                                <i class="fa-brands fa-instagram fa-2xl"></i>
+                                <a href="https://www.instagram.com/klaven_portraits/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
                             </li>
                         </ul>
                     </div>

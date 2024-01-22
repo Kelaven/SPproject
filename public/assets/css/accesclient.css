@@ -1,0 +1,83 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+body {
+    overflow-x: hidden;
+}
+#accesclient__body {
+    background-color: #24282D;
+}
+
+.accesclient__img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.accesclient__a {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    /* text-transform: none; */
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.accesclientform__bg {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.accesclientform__bg input {
+    border-radius: 0% !important;
+}
+
+#accesclientform__bg--anais {
+    background-image: url("/public/assets/img/anais-picture-portrait-women-maroc-beach-1920-45.jpg");
+}
+
+/* #accesclientform__bg--pauline{
+    background-image: url("/public/assets/img/pauline-picture-portrait-women-france-montains-snow-1920-30.jpg");
+}
+#accesclientform__bg--jad{
+    background-image: url("/public/assets/img/jad-picture-portrait-men-france-sunset-streetstyle-1920-30.jpg");
+}
+#accesclientform__bg--melissa{
+    background-image: url("/public/assets/img/melissa-picture-portrait-women-italie-panorama-1920-30.jpg");
+}
+#accesclientform__bg--romain{
+    background-image: url("/public/assets/img/romain-picture-portrait-men-france-audi-voiture-1920-40.jpg");
+}
+#accesclientform__bg--antoine{
+    background-image: url("/public/assets/img/antoine-picture-portrait-men-france-architecture-streetstyle-1920-30.jpg");
+} */
+.accesclientform__overlay {
+    height: 100%;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accesclientform__h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    color: #2B3035 !important;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+@media (max-width: 429px) {
+    #accesclientform__h1--antoine {
+        font-size: 30px !important;
+    }
+}
