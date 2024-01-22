@@ -24,7 +24,7 @@
         <div class="col-xl-6 px-0" id="form__container--right">
             <form method="post">
                 <div class="container__legend">
-                    <legend class="px-3 py-4 text-center m-0">Formulaire de contact</legend>
+                    <legend class="pt-4 py-2 text-center m-0">Formulaire de contact</legend>
                 </div>
                 <div class="container__form">
                     <div class="container__form--ball">

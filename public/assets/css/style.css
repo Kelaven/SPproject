@@ -581,7 +581,18 @@ small,
         height: 70px;
     }
 }
-
+@media (min-width: 1025px) {
+    .navbar{
+        /* height: 12vh !important; */
+    }
+    #container__contact{
+        /* height: 88vh !important;
+        overflow: hidden; */
+    }
+    .container__legend {
+        height: 4vh;
+    }
+}
 
 
 
