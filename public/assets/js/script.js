@@ -105,7 +105,7 @@ function loader() {
 // * function (to move the div's cursor with the mouse )
 function cursorDivFollowsMouse(event) {
 
-    cursor.setAttribute("style", `top:${event.pageY - 80}px; left:${event.pageX - 80}px;`);
+    cursor.setAttribute("style", `top:${event.pageY - 100}px; left:${event.pageX - 100}px;`);
     // to modify the position in the style with setAttribute
     // pageY and pageX = position of the mouse
     //  so .cursor get the top and left mouse's position

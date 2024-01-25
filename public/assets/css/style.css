@@ -94,16 +94,16 @@ body::-webkit-scrollbar-thumb {
 .cursor {
     /* home cursor */
     /* opacity: 0; */
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     /* to have a circle */
     /* ? to continue using */
     pointer-events: none;
     /* * overlay */
-    -webkit-box-shadow: 0px 0px 0px 100vw rgba(9, 10, 11, 0.9);
-    -moz-box-shadow: 0px 0px 0px 100vw rgba(9, 10, 11, 0.9);
-    box-shadow: 0px 0px 0px 100vw rgba(9, 10, 11, 0.9);
+    -webkit-box-shadow: 0px 0px 0px 100vw rgba(9, 10, 11, 0.95);
+    -moz-box-shadow: 0px 0px 0px 100vw rgba(9, 10, 11, 0.95);
+    box-shadow: 0px 0px 0px 100vw rgba(9, 10, 11, 0.95);
 }
 
 /* ? design cursors's point in middle */
