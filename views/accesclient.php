@@ -13,7 +13,7 @@
                 <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php" target="_blank">
                     <img class="accesclient__img" src="/public/assets/img/pauline-picture-portrait-women-france-montains-snow-resizedforaccesclient-60.jpg" alt="photographie portrait de modèle féminin à la montagne avec de la neige">
                     <div>
-                        <p class="animate__flipInX accesclient__txt text-center"><i class="fa-solid fa-lock pe-2 pt-3"></i>Pauline</p>
+                        <p class="animate__flipInX accesclient__txt text-center"><i class="fa-solid fa-lock pe-2 pt-3"></i>Pauline | 11.2023</p>
                     </div>
                 </a>
             </div>

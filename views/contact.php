@@ -3,7 +3,7 @@
         <div class="col-xl-6 px-0 form__container--left">
             <div id="form__overlay">
                 <div class="d-flex justify-content-center flex-wrap">
-                    <p class="text-center py-4">
+                    <p class="text-center py-4 w-100">
                         Vous avez eu un coup de coeur pour l’une de mes photos ? <br>
                         Vous êtes intéressé par un shooting ? <br>
                         Vous avez des questions ? <br> <br>

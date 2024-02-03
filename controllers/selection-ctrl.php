@@ -8,7 +8,7 @@ $pagesStyle = 'pages.css';
 // $footer = 'footer.php';
 $pagesScript = 'pages.js';
 $gsapSelectionScript = 'selectiongsap.js';
-$gsapCDN = 'yes';
+$gsapCDN = true;
 
 
 

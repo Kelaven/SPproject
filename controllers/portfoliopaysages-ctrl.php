@@ -1,6 +1,9 @@
 <?php
 
 // header/footer update
+/**
+ * @todo = mettre un bool à $navbar
+ */
 $navbar = 'header.php';
 $title = 'Portfolio paysages —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $portfolioStyle = 'portfolio.css';
