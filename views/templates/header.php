@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="/public/assets/css/style.css">
     <?php
     /**
+     * 
      * @todo optimiser avec un tableau (ex. additionnalCss)
+     * 
      */
     if (isset($portfolioStyle)) { // for portfolio
     ?>

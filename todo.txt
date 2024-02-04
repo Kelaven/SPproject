@@ -1,0 +1,3 @@
+-> vérifications W3C
+-> sécurisation photos
+-> revoir les dataset dans les carrousel de portfolio (data-index est-il finalement utilisé ?)

@@ -50,3 +50,10 @@
         width: 20px;
     }
 }
+
+/* * hide on mobile */
+@media (max-width: 1199px) {
+    .cursor--pages{
+        display: none;
+    }
+}

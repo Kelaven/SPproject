@@ -1,35 +1,3 @@
-// ! Cookies
-// console.log(new Date(Date.now()))
-
-// let expirationDate = new Date(Date.now() + 10000);
-// expirationDate = expirationDate.toUTCString(); // to have date with the great format (GMT)
-// console.log(expirationDate);
-
-// document.cookie = `isVisit=visited; expires=${expirationDate}`; // expiration date from now in seconds
-
-// function getCookie(cookieName) { // getter method to get cookies. The paramater will be cookie(s)'s name I need
-//     const cookies = document.cookie.split('; '); // to have cookie(s) in array with key and value
-//     console.log(cookies);
-//     for (const cookie of cookies) {
-//         const [name, value] = cookie.split('='); // split('=') is used to divide each pair key/value in two parts : name and value
-//         if (name === cookieName) { // is exist ?
-//             return value;
-//         }
-//     }
-//     return null; // cookie(s) not find
-// }
-
-// const isVisit = getCookie('isVisit');
-// console.log(isVisit);
-
-
-// function deleteCookie(cookieName) {
-//     document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 GMT;`;
-// }
-// setTimeout(() => {
-//     deleteCookie('isVisit');
-// }, 10000);
-
 // ! GSAP (loading animation)
 
 // * variables
@@ -39,17 +7,10 @@ const logo = document.querySelector('.loadingLogo');
 const bgTransition = document.querySelector('.container__bgTransition');
 const cursor = document.querySelector('.cursor'); // to select the div
 
+
 // * event
-// if (!isVisit) {
-//     loadingContainer.classList.remove('d-none');
-    window.addEventListener('load', loader); // when pictures etc are loaded, launch the animation
-    console.log('coucou');
-// } else {
-//     loadingContainer.classList.add('d-none');
-//     console.log('ok');
-// }
-
-
+window.addEventListener('load', loader); // when pictures etc are loaded, launch the animation
+console.log('coucou');
 
 
 // * function
