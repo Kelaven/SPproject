@@ -28,6 +28,7 @@
                         <table>
                             <tr>
                                 <th>Nom :</th>
+                                <th>Date séance :</th>
                                 <th>Image :</th>
                                 <th>Passe d'accès :</th>
                                 <th></th> <!-- modifier -->
@@ -38,6 +39,7 @@
                             ?>
                                 <tr>
                                     <td><?= $gallery->name ?></td>
+                                    <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
                                     <td> <?php if (!empty($gallery->picture)) { ?>
                                         <img src="#" alt="Photo de couverture de la galerie">
                                     <?php } ?> </td>
