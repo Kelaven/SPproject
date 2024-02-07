@@ -1,3 +1,6 @@
 -> vérifications W3C
+-> une page de connexion au dashboard
 -> sécurisation photos
+-> fonction rechercher dans les galeries
+-> compteur de like
 -> revoir les dataset dans les carrousel de portfolio (data-index est-il finalement utilisé ?)
