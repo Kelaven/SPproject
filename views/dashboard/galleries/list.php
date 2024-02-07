@@ -3,7 +3,7 @@
         <div class="row pt-5">
             <div class="col pt-5">
                 <!-- bouton de redirection pour ajouter une galerie -->
-                <a href="#" class="btn btn-dark form__btn me-2">
+                <a href="/controllers/dashboard/galleries/add-ctrl.php" class="btn btn-dark form__btn me-2">
                     <i class="fa-solid fa-plus pe-3"></i>Ajouter une catégorie
                 </a>
                 <!-- bouton archives -->
@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col">
                 <!-- carte contenant les infos -->
-                <div class="card bg-dark mb-3">
+                <div class="card bg-dark mb-3" id="card__list--galleries" >
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Liste des catégories</h1>
                     </div>
@@ -45,10 +45,10 @@
                                     <?php } ?> </td>
                                     <td><?= $gallery->password ?></td>
                                     <td>
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
                                     </td>
                                     <td class="text-end">
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa-solid fa-box"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
                                     </td>
                                 </tr>
                             <?php
