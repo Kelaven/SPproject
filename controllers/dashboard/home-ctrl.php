@@ -1,6 +1,5 @@
 <?php
 
-// * dashboard home controller
 
 require_once __DIR__ . '/../../helpers/dd.php';
 require_once __DIR__ . '/../../config/init.php';
