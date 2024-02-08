@@ -7,7 +7,13 @@ require_once __DIR__ . '/../../config/init.php';
 
 
 
+try {
+    // * modification du header
+    $title = 'Dashboard';
 
+} catch (\Throwable $th) {
+    echo "Erreur : " . $th->getMessage();
+}
 
 
 

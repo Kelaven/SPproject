@@ -4,7 +4,7 @@
             <div class="col pt-5">
                 <!-- bouton de redirection pour ajouter une galerie -->
                 <a href="/controllers/dashboard/galleries/add-ctrl.php" class="btn btn-dark form__btn me-2">
-                    <i class="fa-solid fa-plus pe-3"></i>Ajouter une catégorie
+                    <i class="fa-solid fa-plus pe-3"></i>Ajouter une galerie
                 </a>
                 <!-- bouton archives -->
                 <a href="#" class="btn btn-dark form__btn">
@@ -19,7 +19,7 @@
                 <!-- carte contenant les infos -->
                 <div class="card bg-dark mb-3" id="card__list--galleries" >
                     <div class="card-header">
-                        <h1 class="form__h1 pt-2">Liste des catégories</h1>
+                        <h1 class="form__h1 pt-2">Liste des galeries</h1>
                     </div>
                     <div class="card-body p-5 pt-3">
                         <p class="text-info">

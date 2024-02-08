@@ -3,11 +3,16 @@
 
 require_once __DIR__ . '/../../../helpers/dd.php';
 require_once __DIR__ . '/../../../config/init.php';
+require_once __DIR__ . '/../../../config/regex.php';
 require_once __DIR__ . '/../../../models/Gallery.php';
 
 
 try {
-    //code...
+    // * modification du header
+    $title = 'Ajouter une galerie';
+
+
+
 } catch (\Throwable $th) {
     echo "Erreur : " . $th->getMessage();
 }
