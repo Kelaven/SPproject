@@ -1,66 +1,70 @@
 <?php
 
 // header/footer update
-$title = 'Inscrire un client —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+$navbar = 'header.php';
+$title = 'Créer un compte —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $signupScript = 'signup.js';
 
 
 
-// to have constants
-require_once __DIR__.'/../config/regex.php';
+
+require_once __DIR__ . '/../helpers/dd.php';
+require_once __DIR__ . '/../config/init.php';
+require_once __DIR__ .'/../config/regex.php';
+require_once __DIR__ .'/../models/User.php';
 
 
 // ! cleaning and validation
 if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     $error = [];
-    // ! firstnameSignup
-    $firstnameSignup = filter_input(INPUT_POST, 'firstnameSignup', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-    if (empty($firstnameSignup)) { // to be sure it's not empty
-        $error['firstnameSignup'] = 'Le prénom n\'est pas renseigné';
+    // ! firstname
+    $firstname = filter_input(INPUT_POST, 'firstname', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
+    if (empty($firstname)) { // to be sure it's not empty
+        $error['firstname'] = 'Le prénom n\'est pas renseigné';
     } else { // validation
-        $isFirstnameSignupOk = filter_var($firstnameSignup, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_NAME.'/')));
-        if (!$isFirstnameSignupOk) { // if it's not validate with the regex
-            $error['firstnameSignup'] = 'Le prénom ne doit pas comporter d\'espaces au début ni à la fin et doit contenir entre 2 et 30 lettres maximum.';
+        $isFirstnameOk = filter_var($firstname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_NAME.'/')));
+        if (!$isFirstnameOk) { // if it's not validate with the regex
+            $error['firstname'] = 'Le prénom ne doit pas comporter d\'espaces au début ni à la fin et doit contenir entre 2 et 30 lettres maximum.';
         }
     }
-    // ! lastnameSignup
-    $lastnameSignup = filter_input(INPUT_POST, 'lastnameSignup', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-    if (empty($lastnameSignup)) { // to be sure it's not empty
-        $error['lastnameSignup'] = 'Le nom n\'est pas renseigné';
+    // ! lastname
+    $lastname = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
+    if (empty($lastname)) { // to be sure it's not empty
+        $error['lastname'] = 'Le nom n\'est pas renseigné';
     } else { // validation
-        $isLastnameSignupOk = filter_var($lastnameSignup, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_NAME.'/')));
-        if (!$isLastnameSignupOk) { // if it's not validate with the regex
-            $error['lastnameSignup'] = 'Le nom ne doit pas comporter d\'espaces vides au début ni à la fin et doit contenir entre 2 et 30 caractères maximum.';
+        $isLastnameOk = filter_var($lastname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_NAME.'/')));
+        if (!$isLastnameOk) { // if it's not validate with the regex
+            $error['lastname'] = 'Le nom ne doit pas comporter d\'espaces vides au début ni à la fin et doit contenir entre 2 et 30 caractères maximum.';
         }
     }
-    // ! emailSignup
-    $emailSignup = filter_input(INPUT_POST, 'emailSignup', FILTER_SANITIZE_EMAIL); // cleaning
-    if (empty($emailSignup)) { // to be sure it's not empty
-        $error['emailSignup'] = 'Le mail n\'est pas renseigné';
+    // ! email
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL); // cleaning
+    if (empty($email)) { // to be sure it's not empty
+        $error['email'] = 'Le mail n\'est pas renseigné';
     } else { // validation
-        $isEmailSignupOk = filter_var($emailSignup, FILTER_VALIDATE_EMAIL);
-        if (!$isEmailSignupOk) { // if it's not validate with the regex
-            $error['emailSignup'] = 'Le format de votre adresse mail n\'est pas valide';
+        $isEmailOk = filter_var($email, FILTER_VALIDATE_EMAIL);
+        if (!$isEmailOk) { // if it's not validate with the regex
+            $error['email'] = 'Le format de votre adresse mail n\'est pas valide';
         }
     }
-    // ! mobileSignup
-    $mobileSignup = filter_input(INPUT_POST, 'mobileSignup', FILTER_SANITIZE_NUMBER_INT); // cleaning
-    if (empty($mobileSignup)) { // to be sure it's not empty
-        $error['mobileSignup'] = 'Le numéro de téléphone n\'est pas renseigné';
+    // ! mobile
+    $mobile = filter_input(INPUT_POST, 'mobile', FILTER_SANITIZE_NUMBER_INT); // cleaning
+    if (empty($mobile)) { // to be sure it's not empty
+        $error['mobile'] = 'Le numéro de téléphone n\'est pas renseigné';
     } else { // validation
-        $isMobileSignupOk = filter_var($mobileSignup, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_MOBILE.'/')));
-        if (!$isMobileSignupOk) { // if it's not validate with the regex
-            $error['mobileSignup'] = 'Le numéro de téléphone doit suivre ce format : 0X XX XX XX XX';
+        $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_MOBILE.'/')));
+        if (!$isMobileOk) { // if it's not validate with the regex
+            $error['mobile'] = 'Le numéro de téléphone doit suivre ce format : 0X XX XX XX XX';
         }
     }
-    // ! signup
-    $signup = filter_input(INPUT_POST, 'signup', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-    if (empty($signup)) { // to be sure it's not empty
-        $error['signup'] = 'L\'identifiant n\'est pas renseigné';
+    // ! username
+    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
+    if (empty($username)) { // to be sure it's not empty
+        $error['username'] = 'Le pseudonyme n\'est pas renseigné';
     } else { // validation
-        $isSignupOk = filter_var($signup, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_IDENTIFIANT.'/')));
-        if (!$isSignupOk) { // if it's not validate with the regex
-            $error['signup'] = 'L\'identifiant ne doit pas comporter d\'espaces vides ni de caractères accentués et doit contenir entre 10 et 30 lettres maximum.';
+        $isUsernameOk = filter_var($username, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_USERNAME.'/')));
+        if (!$isUsernameOk) { // if it's not validate with the regex
+            $error['username'] = 'Le pseudonyme ne doit pas comporter d\'espaces vides ni de caractères accentués et doit contenir entre 10 et 30 lettres maximum.';
         }
     }
     // ! password
@@ -77,22 +81,44 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
             $error["password"] = 'Les mots de passe doivent contenir un chiffre, une majuscule, une minuscule, un caractère spécial et faire entre 8 et 16 caractères.';
         } else {
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
+            // dd($passwordHash);
         }
     }
-    // ! captchaSignup
-    $captchaSignup = filter_input(INPUT_POST, 'captchaSignup', FILTER_SANITIZE_NUMBER_INT); // cleaning
-    if (empty($captchaSignup)) { // to be sure it's not empty
-        $error['captchaSignup'] = 'La réponse n\'est pas renseignée';
+    // ! captcha
+    $captcha = filter_input(INPUT_POST, 'captcha', FILTER_SANITIZE_NUMBER_INT); // cleaning
+    if (empty($captcha)) { // to be sure it's not empty
+        $error['captcha'] = 'La réponse n\'est pas renseignée';
     } else { // validation
-        $isCaptchaSignupOk = filter_var($captchaSignup, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_CAPTCHA.'/')));
-        if (!$isCaptchaSignupOk) { // if it's not validate with the regex
-            $error['captchaSignup'] = 'Votre réponse n\'est pas valide';
+        $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_CAPTCHA.'/')));
+        if (!$isCaptchaOk) { // if it's not validate with the regex
+            $error['captcha'] = 'Votre réponse n\'est pas valide';
         }
     }
+
     // ! validation msg
     if ($error == []) {
         $result = 'Votre client a bien été inscrit !';
+
+        // ! insert in base
+        $user = new User();
+
+        $user->setUsername($username);
+        $user->setFirstname($firstname);
+        $user->setLastname($lastname);
+        $user->setEmail($email);
+        $user->setMobile($mobile);
+        $user->setPassword($password);
+
+        $isOk = $user->insert();
+
+        if ($isOk) {
+            echo('ca marche :)');
+            // header('location: /controllers/dashboard/vehicles/list-ctrl.php');
+            // die;
+        }
     }
+
+    
 }
 
 

@@ -6,78 +6,57 @@ require_once(__DIR__ . '/../helpers/connect.php');
 class Gallery
 {
     // * attributs
-    private bool $isAdministrator;
-    private string $identifiant;
-    private string $firstname;
-    private string $lastname;
-    private string $email;
-    private string $mobile;
+    private ?int $id_gallery;
+    private string $name;
+    private string $date;
     private string $password;
-    private DateTime $created_at;
-    private DateTime $updated_at;
-    private ?DateTime $confirmed_at = NULL;
+    private ?DateTime $created_at;
+    private ?DateTime $updated_at;
+    private ?DateTime $deleted_at;
 
-    // * Setter et getter de l'attribut $isAdministrator
-    public function setIsAdministrator(bool $isAdministrator): void // void pour expliciter que le setter ne retourne rien
+    // * méthode magique construct
+    public function __construct(int $id_gallery = NULL, string $name  = '', string $date = '', string $password = '', DateTime $created_at = NULL, DateTime $updated_at = NULL, DateTime $deleted_at = NULL)
     {
-        $this->isAdministrator = $isAdministrator;
-    }
-    public function getIsAdministrator(): bool
-    {
-        return $this->isAdministrator;
-    }
-
-    // * Setter et getter de l'attribut $identifiant
-    public function setIdentifiant(string $identifiant): void
-    {
-        $this->identifiant = $identifiant;
-    }
-    public function getIdentifiant(): string
-    {
-        return $this->identifiant;
+        $this->id_gallery = $id_gallery;
+        $this->name = $name;
+        $this->date = $date;
+        $this->password = $password;
+        $this->created_at = $created_at;
+        $this->updated_at = $updated_at;
+        $this->deleted_at = $deleted_at;
     }
 
-    // * Setter et getter de l'attribut $firstname
-    public function setFirstname(string $firstname): void
+    // * Setter et getter pour id_gallery
+    public function setIdGallery(int $id_gallery): void
     {
-        $this->firstname = $firstname;
+        $this->id_gallery = $id_gallery;
     }
-    public function getFirstname(): string
+    public function getIdGallery(): int
     {
-        return $this->firstname;
-    }
-
-    // * Setter et getter de l'attribut $lastname
-    public function setLastname(string $lastname): void
-    {
-        $this->lastname = $lastname;
-    }
-    public function getLastname(): string
-    {
-        return $this->lastname;
+        return $this->id_gallery;
     }
 
-    // * Setter et getter de l'attribut $email
-    public function setEmail(string $email): void
+    // * Setter et getter pour name
+    public function setName(string $name): void
     {
-        $this->email = $email;
+        $this->name = $name;
     }
-    public function getEmail(): string
+    public function getName(): string
     {
-        return $this->email;
-    }
-
-    // * Setter et getter de l'attribut $mobile
-    public function setMobile(string $mobile): void
-    {
-        $this->mobile = $mobile;
-    }
-    public function getMobile(): string
-    {
-        return $this->mobile;
+        return $this->name;
     }
 
-    // * Setter et getter de l'attribut $password
+    // * Setter et getter pour date
+    public function setDate(string $date): void
+    {
+        $this->date = $date;
+    }
+    public function getDate(): string
+    {
+        return $this->date;
+    }
+
+    // * Setter et getter pour password
     public function setPassword(string $password): void
     {
         $this->password = $password;
@@ -87,36 +66,35 @@ class Gallery
         return $this->password;
     }
 
-    // * Setter et getter de l'attribut $created_at
-    public function setCreatedAt(DateTime $createdAt): void
+    // * Setter et getter pour created_at
+    public function setCreatedAt(DateTime $created_at): void
     {
-        $this->created_at = $createdAt;
+        $this->created_at = $created_at;
     }
     public function getCreatedAt(): DateTime
     {
         return $this->created_at;
     }
 
-    // * Setter et getter de l'attribut $updated_at
-    public function setUpdatedAt(DateTime $updatedAt): void
+    // * Setter et getter pour updated_at
+    public function setUpdatedAt(DateTime $updated_at): void
     {
-        $this->updated_at = $updatedAt;
+        $this->updated_at = $updated_at;
     }
     public function getUpdatedAt(): DateTime
     {
         return $this->updated_at;
     }
 
-    // * Setter et getter de l'attribut $confirmed_at
-    public function setConfirmedAt(?DateTime $confirmedAt): void
+    // * Setter et getter pour deleted_at
+    public function setDeletedAt(DateTime $deleted_at): void
     {
-        $this->confirmed_at = $confirmedAt;
+        $this->deleted_at = $deleted_at;
     }
-    public function getConfirmedAt(): ?DateTime
+    public function getDeletedAt(): DateTime
     {
-        return $this->confirmed_at;
+        return $this->deleted_at;
     }
-
 
     //  ! méthodes
 
@@ -130,11 +108,36 @@ class Gallery
         $pdo = Database::connect();
 
         $sql = 'SELECT * FROM `galleries`;';
-        
+
         $sth = $pdo->query($sql); // la méthode query prépare et exécute en même temps à condition qu'il n'y ait pas de marqueurs
-    
+
         $datas = $sth->fetchAll(PDO::FETCH_OBJ); // récupération des résultats sous forme d'objets grâce à FETCH_OBJ (par défaut c'est du tableau indexé associatif)
 
         return $datas;
+    }
+
+    // * Méthode pour insérer une nouvelle galerie
+    public function insert(): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'INSERT INTO `galleries` 
+    (`name`, `date`, `password`, `id_user`)
+    VALUES
+    (:name, :date, :password, 1);';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':name', $this->getName());
+        $sth->bindValue(':date', $this->getDate());
+        $sth->bindValue(':password', $this->getPassword());
+
+        $sth->execute();
+
+        if ($sth->rowCount() <= 0) {
+            throw new Exception('Erreur lors de l\'enregistrement de la catégorie');
+        } else {
+            return true;
+        }
     }
 }

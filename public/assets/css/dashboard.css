@@ -113,7 +113,7 @@ th::first-letter, td::first-letter{
     align-items: center;
 }
 #card__add--galleries{
-    width: 30vw;
+    width: 35vw;
 }
 
 input::placeholder{
