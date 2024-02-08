@@ -10,8 +10,8 @@ $signupScript = 'signup.js';
 
 require_once __DIR__ . '/../helpers/dd.php';
 require_once __DIR__ . '/../config/init.php';
-require_once __DIR__ .'/../config/regex.php';
-require_once __DIR__ .'/../models/User.php';
+require_once __DIR__ . '/../config/regex.php';
+require_once __DIR__ . '/../models/User.php';
 
 
 // ! cleaning and validation
@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     if (empty($firstname)) { // to be sure it's not empty
         $error['firstname'] = 'Le prénom n\'est pas renseigné';
     } else { // validation
-        $isFirstnameOk = filter_var($firstname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_NAME.'/')));
+        $isFirstnameOk = filter_var($firstname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_NAME . '/')));
         if (!$isFirstnameOk) { // if it's not validate with the regex
             $error['firstname'] = 'Le prénom ne doit pas comporter d\'espaces au début ni à la fin et doit contenir entre 2 et 30 lettres maximum.';
         }
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     if (empty($lastname)) { // to be sure it's not empty
         $error['lastname'] = 'Le nom n\'est pas renseigné';
     } else { // validation
-        $isLastnameOk = filter_var($lastname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_NAME.'/')));
+        $isLastnameOk = filter_var($lastname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_NAME . '/')));
         if (!$isLastnameOk) { // if it's not validate with the regex
             $error['lastname'] = 'Le nom ne doit pas comporter d\'espaces vides au début ni à la fin et doit contenir entre 2 et 30 caractères maximum.';
         }
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     if (empty($mobile)) { // to be sure it's not empty
         $error['mobile'] = 'Le numéro de téléphone n\'est pas renseigné';
     } else { // validation
-        $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_MOBILE.'/')));
+        $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_MOBILE . '/')));
         if (!$isMobileOk) { // if it's not validate with the regex
             $error['mobile'] = 'Le numéro de téléphone doit suivre ce format : 0X XX XX XX XX';
         }
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     if (empty($username)) { // to be sure it's not empty
         $error['username'] = 'Le pseudonyme n\'est pas renseigné';
     } else { // validation
-        $isUsernameOk = filter_var($username, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_USERNAME.'/')));
+        $isUsernameOk = filter_var($username, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_USERNAME . '/')));
         if (!$isUsernameOk) { // if it's not validate with the regex
             $error['username'] = 'Le pseudonyme ne doit pas comporter d\'espaces vides ni de caractères accentués et doit contenir entre 10 et 30 lettres maximum.';
         }
@@ -71,12 +71,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     $password = filter_input(INPUT_POST, 'password');
     $passwordCheck = filter_input(INPUT_POST, 'passwordCheck');
 
-    if($password != $passwordCheck){
+    if ($password != $passwordCheck) {
         $error["password"] = 'Les mots de passe ne correspondent pas';
     } elseif (empty($password) || empty($passwordCheck)) {
         $error["password"] = 'Les mots de passe ne sont pas renseignés';
     } else {
-        $isPasswordOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_PASSWORD.'/')));
+        $isPasswordOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
         if (!$isPasswordOk) {
             $error["password"] = 'Les mots de passe doivent contenir un chiffre, une majuscule, une minuscule, un caractère spécial et faire entre 8 et 16 caractères.';
         } else {
@@ -89,14 +89,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
     if (empty($captcha)) { // to be sure it's not empty
         $error['captcha'] = 'La réponse n\'est pas renseignée';
     } else { // validation
-        $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/'.REGEX_CAPTCHA.'/')));
+        $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_CAPTCHA . '/')));
         if (!$isCaptchaOk) { // if it's not validate with the regex
             $error['captcha'] = 'Votre réponse n\'est pas valide';
         }
     }
 
-    // ! validation msg
+
+    // ! verify if the data already exists
+    $isExist = User::isExist($username, $firstname, $lastname, $email, $mobile);
+    if ($isExist) {
+        $error['exist'] = 'Cette catégorie existe déjà!';
+    }
+
+    
     if ($error == []) {
+        // ! validation msg
         $result = 'Votre client a bien été inscrit !';
 
         // ! insert in base
@@ -112,13 +120,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
         $isOk = $user->insert();
 
         if ($isOk) {
-            echo('ca marche :)');
+            echo ('ca marche :)');
             // header('location: /controllers/dashboard/vehicles/list-ctrl.php');
             // die;
         }
     }
-
-    
 }
 
 
@@ -127,6 +133,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
 
 
 // views
-include __DIR__.'/../views/templates/header.php';
-include __DIR__.'/../views/dashboard/signup.php';
-include __DIR__.'/../views/templates/footer.php';
+include __DIR__ . '/../views/templates/header.php';
+include __DIR__ . '/../views/dashboard/signup.php';
+include __DIR__ . '/../views/templates/footer.php';

@@ -157,6 +157,10 @@ class User
     // ! méthodes
 
     // * méthode insert
+    /**
+     * Method to insert new user (sign up)
+     * @return bool True if the insert has worked
+     */
     public function insert(): bool
     {
         $pdo = Database::connect();
@@ -176,11 +180,51 @@ class User
         $sth->bindValue(':password', $this->getPassword());
 
         $sth->execute();
-        
+
         if ($sth->rowCount() <= 0) {
             throw new Exception('Erreur lors de l\'enregistrement de l\'utilisateur');
         } else {
             return true;
         }
+    }
+
+    // * méthode isExist
+    /**
+     * Method to test if the data already exists
+     * @param mixed $username
+     * @param mixed $firstname
+     * @param mixed $lastname
+     * @param mixed $email
+     * @param mixed $mobile
+     * @param mixed $password
+     * 
+     * @return bool True if the data exists already
+     */
+    public static function isExist($username, $firstname, $lastname, $email, $mobile): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT COUNT(`id_user`) AS "count"
+        FROM `users`
+        WHERE `username` = :username 
+        AND `firstname` = :firstname 
+        AND `lastname` = :lastname
+        AND `email` = :email
+        AND `mobile` = :mobile;';
+
+        $sth = $pdo->prepare($sql);
+        
+        $sth->bindValue(':username', $username);
+        $sth->bindValue(':firstname', $firstname);
+        $sth->bindValue(':lastname', $lastname);
+        $sth->bindValue(':email', $email);
+        $sth->bindValue(':mobile', $mobile);
+        // $sth->bindValue(':password', $password);
+        
+        $sth->execute();
+
+        $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
+
+        return $rowCount > 0;
     }
 }

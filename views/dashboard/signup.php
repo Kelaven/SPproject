@@ -8,6 +8,9 @@
                     <div class="text-success text-center">
                         <?= $result ?? '' ?>
                     </div>
+                    <div class="text-danger text-center">
+                        <?= $error['exist'] ?? '' ?>
+                    </div>
                     <div class="form__signup--container d-lg-flex">
                         <div class="form__signup--left col-lg-6">
                             <!-- ! firstname -->
