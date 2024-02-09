@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../config/init.php';
+
 
 // header/footer update
 $navbar = 'header.php';

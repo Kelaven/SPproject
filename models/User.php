@@ -188,7 +188,7 @@ class User
         }
     }
 
-    // * méthode isExist
+    // * method isExist
     /**
      * Method to test if the data already exists
      * @param mixed $username
@@ -200,31 +200,43 @@ class User
      * 
      * @return bool True if the data exists already
      */
-    public static function isExist($username, $firstname, $lastname, $email, $mobile): bool
+    public static function isExist($email): bool
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT COUNT(`id_user`) AS "count"
         FROM `users`
-        WHERE `username` = :username 
-        AND `firstname` = :firstname 
-        AND `lastname` = :lastname
-        AND `email` = :email
-        AND `mobile` = :mobile;';
+        WHERE `email` = :email;';
 
         $sth = $pdo->prepare($sql);
-        
-        $sth->bindValue(':username', $username);
-        $sth->bindValue(':firstname', $firstname);
-        $sth->bindValue(':lastname', $lastname);
+
+        // $sth->bindValue(':username', $username);
+        // $sth->bindValue(':firstname', $firstname);
+        // $sth->bindValue(':lastname', $lastname);
         $sth->bindValue(':email', $email);
-        $sth->bindValue(':mobile', $mobile);
-        // $sth->bindValue(':password', $password);
-        
+        // $sth->bindValue(':mobile', $mobile);
+
         $sth->execute();
 
         $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
 
         return $rowCount > 0;
+    }
+
+    // * method getByMail
+    public static function getByMail(?string $email): false|object
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT * FROM users 
+        WHERE email = :email;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':email', $email);
+
+        $sth->execute();
+
+        return $sth->fetch(PDO::FETCH_OBJ);
     }
 }

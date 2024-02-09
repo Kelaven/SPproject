@@ -1,4 +1,8 @@
 <?php
+
+require_once __DIR__ . '/../config/init.php';
+
+
 /**
  * @todo : changer nom des controller (les nommer comme dans Symfony plutôt qu'avec -ctrl)
  * @todo : améliorer taille des images de l'animation de chargement

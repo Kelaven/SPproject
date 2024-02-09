@@ -1,4 +1,4 @@
--> revoir la cardinalité entre galleries et pictures pour avoir une FK id_pictures dans galleries
+-> controler la force du MDP avec JS pour l'inscription
 -> continuer la méthode insert des Galeries (faire isExist etc)
 -> corriger le bug de responsivité des pages en mode mobile paysage
 -> corriger le bug d'alignement front des inputs du form signUp

@@ -5,7 +5,7 @@
             <div class="card">
                 <form method="POST" class="px-2" novalidate>
                     <legend class="py-3 px-3 text-center">Créer un compte</legend>
-                    <div class="text-success text-center">
+                    <div class="text-success text-center fs-6 fw-bold pb-3">
                         <?= $result ?? '' ?>
                     </div>
                     <div class="text-danger text-center">

@@ -1,5 +1,8 @@
 <?php
 
+require_once __DIR__ . '/../config/init.php';
+
+
 // header/footer update
 $navbar = 'header.php';
 $title = 'Accès client —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';

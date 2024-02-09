@@ -99,9 +99,24 @@
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
                                 <a class="nav-link" href="/controllers/accesclient-ctrl.php">Accès client</a>
                             </li>
-                            <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link" href="/controllers/signUp-ctrl.php">S'inscrire</a>
-                            </li>
+                            <?php if (empty($_SESSION['user'])) { ?>
+                                <li class="nav-item me-0 pe-md-3 pt-md-2">
+                                    <a class="nav-link" href="/controllers/signIn-ctrl.php">Se connecter</a>
+                                </li>
+                                <li class="nav-item me-0 pe-md-3 pt-md-2">
+                                    <a class="nav-link" href="/controllers/signUp-ctrl.php">S'inscrire</a>
+                                </li>
+                            <?php } ?>
+                            <?php if (!empty($_SESSION['user']) && ($_SESSION['user']->isAdministrator === 1)) { ?>
+                                <li class="nav-item me-0 pe-md-3 pt-md-2">
+                                    <a class="nav-link" href="/controllers/dashboard/home-ctrl.php">Dashboard</a>
+                                </li>
+                            <?php } ?>
+                            <?php if (!empty($_SESSION['user'])) { ?>
+                                <li class="nav-item me-0 pe-md-3 pt-md-2">
+                                    <a class="nav-link" href="/controllers/signOut-ctrl.php">Se déconnecter</a>
+                                </li>
+                            <?php } ?>
                             <li class="pt-2 pt-md-3">
                                 <a href="https://www.instagram.com/klaven_portraits/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
                             </li>
