@@ -15,17 +15,17 @@
                         <form method="post" enctype="multipart/form-data" novalidate>
                             <div class="form-group pb-5">
                                     <label for="name">Nom :</label>
-                                    <input class="form__inputs" type="text" id="name" name="name"  minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $gallery->name ?? '' ?>" required>
+                                    <input class="form__inputs" type="text" id="name" name="name"  minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $id_gallery->name ?? '' ?>" required>
                                     <small class="text-danger"><?= $error['name'] ?? '' ?></small>
                             </div>
                             <div class="form-group pb-5">
                                 <label class="w-100" for="date">Date :</label>
-                                <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" value="<?= $date ?? '' ?>" required>
+                                <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" value="<?= $id_gallery->date ?? '' ?>" required>
                                 <small class="text-danger"><?= $error['date'] ?? '' ?></small>
                             </div>
                             <div class="form-group pb-5">
                                 <label class="w-100" for="password">Passe d'accès :</label>
-                                <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="16" pattern="<?= REGEX_PASSWORD ?>" value="<?= $password ?? '' ?>" required>
+                                <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="16" pattern="<?= REGEX_PASSWORD ?>" value="<?= $id_gallery->password ?? '' ?>" required>
                                 <small class="text-danger"><?= $error['password'] ?? '' ?></small>
                             </div>
                             <!-- ? sélectionner une photo dans une liste déroulante ? -->

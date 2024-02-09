@@ -13,6 +13,12 @@ try {
     // * modification du header
     $title = 'Ajouter une galerie';
 
+    // * recover and clean id_gallery from URL
+    $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
+
+    // * get this id_gallery informations
+    $id_gallery = Gallery::get($id_gallery);
+    // dd($id_gallery);
 
     // * nettoyage et validation du formulaire
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -74,7 +80,7 @@ try {
             // call of insert's method
             $isOk = $gallery->insert();
 
-            // Si the method returns true
+            // if the method returns true
             if ($isOk) {
                 $result = 'La galerie a bien été enregistrée ! Vous pouvez en ajouter une autre.';
             }

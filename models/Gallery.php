@@ -192,4 +192,27 @@ class Gallery
 
         return $rowCount > 0;
     }
+
+    // * get method
+    /**
+     * method to get informations from $id_gallery
+     * @param int $id_gallery
+     * 
+     * @return null|object with informations
+     */
+    public static function get(int $id_gallery): null|object
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT * FROM `galleries` 
+        WHERE id_gallery = :id_gallery;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_gallery', $id_gallery);
+
+        $sth->execute();
+
+        return $sth->fetch(PDO::FETCH_OBJ);
+    }
 }
