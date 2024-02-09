@@ -1,7 +1,7 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
     <div class="row pt-4 justify-content-center" id="signup__row">
-        <div class="col-12 col-lg-8 pt-5">
+        <div class="col-12 pt-5">
             <div class="card">
                 <form method="POST" class="px-2" novalidate>
                     <legend class="py-4 px-3 text-center">Créer un compte</legend>

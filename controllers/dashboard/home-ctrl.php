@@ -3,8 +3,9 @@
 
 require_once __DIR__ . '/../../helpers/dd.php';
 require_once __DIR__ . '/../../config/init.php';
+require_once __DIR__ . '/../../helpers/connect.php';
 
-
+$auth = Auth::check();
 
 
 try {

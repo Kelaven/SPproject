@@ -1,6 +1,6 @@
 <section class="container pt-5" id="signin__container">
     <div class="row justify-content-center">
-        <div class="col-12 col-lg-5 pt-3">
+        <div class="col-12 col-md-6 pt-3">
             <div class="card">
                 <form method="POST" class="px-2" novalidate>
                     <legend class="py-3 py-xl-4 px-3 text-center">Connexion</legend>

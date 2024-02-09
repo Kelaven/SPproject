@@ -415,3 +415,6 @@ button {
 input{
     border-radius: 0% !important;
 }
+.form__login--container{
+    min-width: 70% !important;
+}

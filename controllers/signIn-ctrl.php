@@ -6,6 +6,7 @@ $title = 'Se connecter —— Kévin LAVENANT - Photographe de portraits et pays
 $contactStyle = 'contact.css';
 $pagesStyle = 'pages.css';
 $signupScript = 'signup.js';
+$pagesScript = 'pages.js';
 
 
 require_once __DIR__ . '/../helpers/dd.php';
