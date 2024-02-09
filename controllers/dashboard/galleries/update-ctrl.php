@@ -11,7 +11,7 @@ $auth = Auth::check();
 
 try {
     // * modification du header
-    $title = 'Ajouter une galerie';
+    $title = 'Modifier une galerie';
 
     // * recover and clean id_gallery from URL
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));

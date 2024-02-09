@@ -2,13 +2,8 @@
     <div class="container pb-4" id="container__creatList">
         <div class="row">
             <div class="col pt-5 pe-5">
-                <!-- bouton de redirection pour ajouter une galerie -->
-                <a href="/controllers/dashboard/galleries/add-ctrl.php" class="btn btn-dark form__btn me-2">
-                    <i class="fa-solid fa-plus pe-3"></i>Ajouter une galerie
-                </a>
-                <!-- bouton archives -->
-                <a href="/controllers/dashboard/galleries/archive-ctrl.php" class="btn btn-dark form__btn">
-                    <i class="fa-solid fa-box pe-3"></i></i>Accèder aux archives
+                <a href="/controllers/dashboard/galleries/list-ctrl.php">
+                    <p><i class="fa-regular fa-circle-left pe-2"></i>Retour à la liste des galeries</p>
                 </a>
             </div>
         </div>
@@ -17,9 +12,9 @@
         <div class="row">
             <div class="col">
                 <!-- carte contenant les infos -->
-                <div class="card bg-dark mb-3" id="card__list--galleries" >
+                <div class="card bg-dark mb-3" id="card__list--galleries">
                     <div class="card-header">
-                        <h1 class="form__h1 pt-2">Liste des galeries</h1>
+                        <h1 class="form__h1 pt-2">Liste des galeries archivées</h1>
                     </div>
                     <div class="card-body p-5 pt-3">
                         <p class="text-info">
@@ -41,8 +36,9 @@
                                     <td><?= $gallery->name ?></td>
                                     <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
                                     <td> <?php if (!empty($gallery->picture)) { ?>
-                                        <img src="#" alt="Photo de couverture de la galerie">
-                                    <?php } ?> </td>
+                                            <img src="#" alt="Photo de couverture de la galerie">
+                                        <?php } ?>
+                                    </td>
                                     <td><?= $gallery->password ?></td>
                                     <td>
                                         <a href="/controllers/dashboard/galleries/update-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>

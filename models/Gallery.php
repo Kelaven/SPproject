@@ -213,7 +213,7 @@ class Gallery
 
         $sth = $pdo->prepare($sql);
 
-        $sth->bindValue(':id_gallery', $id_gallery);
+        $sth->bindValue(':id_gallery', $id_gallery, PDO::PARAM_INT);
 
         $sth->execute();
 
@@ -241,6 +241,24 @@ class Gallery
         $sth->bindValue(':date', $this->getDate());
         $sth->bindValue(':password', $this->getPassword());
         $sth->bindValue(':id_gallery', $this->getIdGallery(), PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+    // * archive method
+    public static function archive(int $toArchive): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `galleries` 
+        SET `deleted_at` = NOW()
+        WHERE `id_gallery` = :id_gallery;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_gallery', $toArchive, PDO::PARAM_INT);
 
         $result = $sth->execute();
 
