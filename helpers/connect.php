@@ -17,6 +17,7 @@ class Database
     }
 }
 
+
 class Auth
 {
     // // * attributes
@@ -24,7 +25,7 @@ class Auth
     // * method to check if the user is admin or not to access or not at the dashboard with URL
     public static function check()
     {
-        if (empty($_SESSION['user']) || ($_SESSION['user']->role !== 1)) {
+        if (empty($_SESSION['user']) || ($_SESSION['user']->isAdministrator !== 1)) {
             header('location: /../../controllers/home-ctrl.php');
             die;
         }
