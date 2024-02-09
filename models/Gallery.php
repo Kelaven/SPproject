@@ -148,23 +148,25 @@ class Gallery
      * 
      * @return bool True if the data exists already
      */
-    public static function isExistByName($name): bool
+    public static function isExistByName($name, $currentId_gallery): bool
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT COUNT(`id_gallery`) AS "count"
         FROM `galleries`
-        WHERE `name` = :name;';
+        WHERE `name` = :name 
+        AND `id_gallery` != :id_gallery;'; // if the same name is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
 
         $sth = $pdo->prepare($sql);
 
         $sth->bindValue(':name', $name);
+        $sth->bindValue(':id_gallery', $currentId_gallery);
 
         $sth->execute();
 
         $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
 
-        return $rowCount > 0;
+        return (bool) $rowCount > 0;
     }
     /**
      * Method to test if a data with the same name already exists
@@ -174,17 +176,19 @@ class Gallery
      * 
      * @return bool True if the data exists already
      */
-    public static function isExistByPassword($password): bool
+    public static function isExistByPassword($password, $currentId_gallery): bool
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT COUNT(`id_gallery`) AS "count"
         FROM `galleries`
-        WHERE `password` = :password;';
+        WHERE `password` = :password
+        AND `id_gallery` != :id_gallery;'; // if the same name is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
 
         $sth = $pdo->prepare($sql);
 
         $sth->bindValue(':password', $password);
+        $sth->bindValue(':id_gallery', $currentId_gallery);
 
         $sth->execute();
 
@@ -200,7 +204,7 @@ class Gallery
      * 
      * @return null|object with informations
      */
-    public static function get(int $id_gallery): null|object
+    public static function get(?int $id_gallery): null|object
     {
         $pdo = Database::connect();
 
@@ -214,5 +218,32 @@ class Gallery
         $sth->execute();
 
         return $sth->fetch(PDO::FETCH_OBJ);
+    }
+
+    // * update method
+    /**
+     * method to update galleries' informations
+     * @return bool if execute works
+     */
+    public function update(): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `galleries`
+        SET `name` = :name,
+        `date` = :date,
+        `password` = :password
+        WHERE `id_gallery` = :id_gallery;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':name', $this->getName());
+        $sth->bindValue(':date', $this->getDate());
+        $sth->bindValue(':password', $this->getPassword());
+        $sth->bindValue(':id_gallery', $this->getIdGallery(), PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
     }
 }

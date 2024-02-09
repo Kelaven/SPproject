@@ -17,8 +17,8 @@ try {
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
 
     // * get this id_gallery informations
-    $id_gallery = Gallery::get($id_gallery);
-    // dd($id_gallery);
+    $gallery = Gallery::get($id_gallery);
+    // dd($gallery);
 
     // * nettoyage et validation du formulaire
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -60,29 +60,41 @@ try {
 
 
         // * check isExist
-        $isExistByName = Gallery::isExistByName($name);
-        if ($isExistByName) {
-            $result = 'Ce nom est déjà utilisé';
-        }
-        $isExistByPassword = Gallery::isExistByPassword($password);
-        if ($isExistByPassword) {
-            $result = 'Ce passe est déjà utilisé';
-        }
-
-        // * registration in base
+        // $isExistByName = Gallery::isExistByName($name);
+        // if ($isExistByName) {
+        //     $result = 'Ce nom est déjà utilisé';
+        // }
+        // dd($id_gallery);
+        if ((Gallery::isExistByName($name, $id_gallery)) ) { 
+            $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
+        } 
+        if ((Gallery::isExistByPassword($password, $id_gallery)) ) { 
+            $error['isExistByPassword'] = 'Une galerie avec le même passe existe déjà';
+        } 
+        // $isExistByPassword = Gallery::isExistByPassword($password);
+        // if ($isExistByPassword) {
+        //     $result = 'Ce passe est déjà utilisé';
+        // }
+// dd($id_gallery);
+        // * update
         if (empty($error)) {
             $gallery = new Gallery();
             // object hydratation
             $gallery->setName($name);
             $gallery->setDate($date);
             $gallery->setPassword($password);
+            $gallery->setIdGallery($id_gallery);
+            // dd($id_gallery->id_gallery);
 
-            // call of insert's method
-            $isOk = $gallery->insert();
+            // call of update's method
+            $isOk = $gallery->update();
 
             // if the method returns true
             if ($isOk) {
-                $result = 'La galerie a bien été enregistrée ! Vous pouvez en ajouter une autre.';
+                $result = 'La galerie a bien été modifiée ! Vous allez être redirigé...';
+                // sleep(3);
+                // header('Location: /list-ctrl.php');
+                // exit;
             }
         }
     }
