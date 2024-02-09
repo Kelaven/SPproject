@@ -78,7 +78,11 @@ article {
     border: none;
     height: 85vh;
 }
-
+@media (max-width: 376px) {
+    .section__portfolio, .parent {
+        height: 84vh !important;
+    }
+}
 @media (max-width: 768px) {
     .modal {
         padding-top: 60px;

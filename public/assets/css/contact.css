@@ -108,7 +108,7 @@ legend {
     box-sizing: border-box;
 }
 
-#contact__btn:last-child, #signUp__btn {
+#contact__btn:last-child, .signUp__btn {
     height: 100px;
     width: 120px;
     background-color: #333740 !important;
@@ -144,7 +144,6 @@ small,
     .form__container--left {
         max-height: 60vh;
     }
-
     #form__container--right {
         min-height: 110vh;
     }
@@ -166,6 +165,9 @@ small,
 
     .form__container--left {
         max-height: 70vh;
+    }
+    #signin__container {
+        height: 84vh !important;
     }
 }
 
@@ -224,7 +226,7 @@ small,
     }
 
     form {
-        height: 100vh;
+        max-height: 100vh;
     }
 
     input {

@@ -3,6 +3,8 @@
 // header/footer update
 $navbar = 'header.php';
 $title = 'Se connecter —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+$contactStyle = 'contact.css';
+$pagesStyle = 'pages.css';
 $signupScript = 'signup.js';
 
 

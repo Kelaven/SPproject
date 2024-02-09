@@ -7,4 +7,5 @@
 -> sécurisation photos
 -> fonction rechercher dans les galeries
 -> compteur de like
+-> Optimisation feuilles CSS, style JS (répétitions, code inutile, nom des classes / id), JS, Row et Col bootstrap
 -> revoir les dataset dans les carrousel de portfolio (data-index est-il finalement utilisé ?)

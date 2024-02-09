@@ -2,7 +2,7 @@
 const ball = document.querySelector('.cursor--pages');
 let mouseX; // to store ball positions
 let mouseY;
-console.log(ball);
+// console.log(ball);
 
 
 // ! Functions

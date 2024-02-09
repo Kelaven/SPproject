@@ -1,7 +1,7 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
     <div class="row pt-4 justify-content-center" id="signup__row">
-        <div class="col-12 col-ld-8 pt-5">
+        <div class="col-12 col-lg-8 pt-5">
             <div class="card">
                 <form method="POST" class="px-2" novalidate>
                     <legend class="py-4 px-3 text-center">Créer un compte</legend>
@@ -78,7 +78,7 @@
                     </div>
                     <!-- ! validation btn -->
                     <div class="text-center pt-4 pb-5 w-100">
-                        <button class="btn btn-primary" id="signUp__btn" type="submit">Envoyer</button>
+                        <button class="btn btn-primary signUp__btn" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>

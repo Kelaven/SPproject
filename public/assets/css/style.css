@@ -296,7 +296,11 @@ a {
 .dropdown-item {
     font-size: 1em;
 }
-
+@media (max-width: 376px) {
+    .navbar {
+        height: 16vh;
+    }
+}
 @media (max-width: 992px) {
     .navbar-toggler {
         background-color: rgba(0, 0, 0, 0) !important;
@@ -343,9 +347,12 @@ a {
 main, .card {
     background-color: #24282D !important;
 }
-#signup__container {
+#signup__container{
     max-width: 61vw;
     min-height: 100vh;
+}
+#signin__container {
+    height: 88vh;
 }
 label, input, .field__rsz{
     max-height: 36px;
