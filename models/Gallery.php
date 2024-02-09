@@ -140,4 +140,56 @@ class Gallery
             return true;
         }
     }
+
+    // * method isExist
+    /**
+     * Method to test if a data with the same name already exists
+     * @param mixed $name
+     * 
+     * @return bool True if the data exists already
+     */
+    public static function isExistByName($name): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT COUNT(`id_gallery`) AS "count"
+        FROM `galleries`
+        WHERE `name` = :name;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':name', $name);
+
+        $sth->execute();
+
+        $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
+
+        return $rowCount > 0;
+    }
+    /**
+     * Method to test if a data with the same name already exists
+     * @param mixed $mail
+     * @param mixed $firstname
+
+     * 
+     * @return bool True if the data exists already
+     */
+    public static function isExistByPassword($password): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT COUNT(`id_gallery`) AS "count"
+        FROM `galleries`
+        WHERE `password` = :password;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':password', $password);
+
+        $sth->execute();
+
+        $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
+
+        return $rowCount > 0;
+    }
 }

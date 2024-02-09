@@ -1,7 +1,7 @@
 <section class="pe-5">
-    <div class="container p-5" id="container__creatList">
-        <div class="row pt-5">
-            <div class="col pt-5">
+    <div class="container pb-4" id="container__creatList">
+        <div class="row">
+            <div class="col pt-5 pe-5">
                 <!-- bouton de redirection pour ajouter une galerie -->
                 <a href="/controllers/dashboard/galleries/add-ctrl.php" class="btn btn-dark form__btn me-2">
                     <i class="fa-solid fa-plus pe-3"></i>Ajouter une galerie
@@ -45,7 +45,7 @@
                                     <?php } ?> </td>
                                     <td><?= $gallery->password ?></td>
                                     <td>
-                                        <a href="#" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
+                                        <a href="/controllers/dashboard/galleries/update-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
                                     </td>
                                     <td class="text-end">
                                         <a href="#" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>

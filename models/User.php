@@ -191,12 +191,7 @@ class User
     // * method isExist
     /**
      * Method to test if the data already exists
-     * @param mixed $username
-     * @param mixed $firstname
-     * @param mixed $lastname
      * @param mixed $email
-     * @param mixed $mobile
-     * @param mixed $password
      * 
      * @return bool True if the data exists already
      */

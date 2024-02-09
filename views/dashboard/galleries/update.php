@@ -5,7 +5,7 @@
                 <!-- carte contenant le form -->
                 <div class="card bg-light mb-3" id="card__add--galleries">
                     <div class="card-header">
-                        <h1 class="form__h1 pt-2">Ajouter une nouvelle galerie</h1>
+                        <h1 class="form__h1 pt-2">Modifier une galerie</h1>
                     </div>
                     <div class="text-info text-center pt-2">
                         <?= $result ?? '' ?>
@@ -15,7 +15,7 @@
                         <form method="post" enctype="multipart/form-data" novalidate>
                             <div class="form-group pb-5">
                                     <label for="name">Nom :</label>
-                                    <input class="form__inputs" type="text" id="name" name="name" placeholder="Pauline" minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $name ?? '' ?>" required>
+                                    <input class="form__inputs" type="text" id="name" name="name"  minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $gallery->name ?? '' ?>" required>
                                     <small class="text-danger"><?= $error['name'] ?? '' ?></small>
                             </div>
                             <div class="form-group pb-5">
