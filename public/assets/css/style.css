@@ -286,7 +286,13 @@ a {
     color: #FFF;
     height: 30px;
 }
-
+#logo__insta{
+    max-width: 40px !important;
+    /* background-color: #E84555 !important; */
+}
+.logos__connexion{
+    max-width: 70px;
+}
 .dropdown-item {
     font-size: 1em;
 }
@@ -334,19 +340,30 @@ a {
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+main, .card {
+    background-color: #24282D !important;
+}
 #signup__container {
     max-width: 61vw;
+    min-height: 100vh;
 }
-
+label, input, .field__rsz{
+    max-height: 36px;
+}
+.form__signup--left, .form__signup--right{
+    /* width: 60%; */
+}
 @media (max-width: 1024px) {
     #signup__container {
         max-width: 100vw;
+    }
+    .form__signup--left, .form__signup--right{
+        /* width: 100%; */
     }
 }
 
 .span__signup__pwd--eye {
     background-color: #FFF;
-    /* cursor: pointer; */
 }
 
 .span__password {
@@ -381,6 +398,8 @@ button {
     border: none !important;
     border-radius: 0% !important;
 }
+
+
 
 
 

@@ -73,7 +73,7 @@
     if (isset($navbar)) {
     ?>
         <header>
-            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary py-0" data-bs-theme="dark">
+            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/controllers/home-ctrl.php"><img src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo de Kévin Lavenant, photographe passionné de portraits et paysages"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -118,7 +118,7 @@
                                 </li>
                             <?php } ?>
                             <li class="pt-2 pt-md-3">
-                                <a href="https://www.instagram.com/klaven_portraits/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                                <a id="logo__insta--link" href="https://www.instagram.com/klaven_portraits/" target="_blank"><i id="logo__insta" class="fa-brands fa-instagram fa-2xl"></i></a>
                             </li>
                         </ul>
                     </div>

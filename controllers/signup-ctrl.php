@@ -4,6 +4,7 @@
 $navbar = 'header.php';
 $title = 'Créer un compte —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $signupScript = 'signup.js';
+$contactStyle = 'contact.css';
 
 
 require_once __DIR__ . '/../helpers/dd.php';

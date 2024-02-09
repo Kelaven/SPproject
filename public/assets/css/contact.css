@@ -67,7 +67,7 @@ form {
     width: 100vw !important;
 }
 
-#span__captcha,
+#span__form__signup--containerptcha,
 #span__lastname {
     padding: 12px 10px;
 }
@@ -96,7 +96,10 @@ legend {
 #email,
 #lastname,
 #firstname,
-#mobile {
+#mobile,
+#username,
+#password,
+#passwordCheck {
     color: #fff !important;
     border-radius: 0%;
     background-color: #333740;
@@ -105,7 +108,7 @@ legend {
     box-sizing: border-box;
 }
 
-#contact__btn:last-child {
+#contact__btn:last-child, #signUp__btn {
     height: 100px;
     width: 120px;
     background-color: #333740 !important;

@@ -1,17 +1,17 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
-    <div class="row">
-        <div class="col pt-3">
+    <div class="row pt-4 justify-content-center" id="signup__row">
+        <div class="col-12 col-ld-8 pt-5">
             <div class="card">
                 <form method="POST" class="px-2" novalidate>
-                    <legend class="py-3 px-3 text-center">Créer un compte</legend>
+                    <legend class="py-4 px-3 text-center">Créer un compte</legend>
                     <div class="text-success text-center fs-6 fw-bold pb-3">
                         <?= $result ?? '' ?>
                     </div>
                     <div class="text-danger text-center">
                         <?= $error['exist'] ?? '' ?>
                     </div>
-                    <div class="form__signup--container d-lg-flex">
+                    <div class="row justify-content-center">
                         <div class="form__signup--left col-lg-6">
                             <!-- ! firstname -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
@@ -42,7 +42,7 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['mobile'] ?? '' ?></small>
                         </div>
-                        <div class="form__signup--left col-lg-6">
+                        <div class="form__signup--right col-lg-6">
                             <!-- ! username -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="username"></label>
@@ -53,8 +53,8 @@
                             <!-- ! password -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 </label>
-                                <span class="input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input required type="password" name="password" id="password" placeholder="Mot de passe" autocomplete="given-name" minlength="8" maxlength="16" class="form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
+                                <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
+                                <input required type="password" name="password" id="password" placeholder="Mot de passe" autocomplete="given-name" minlength="8" maxlength="16" class="field__rsz form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
@@ -62,23 +62,23 @@
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="passwordCheck">
                                 </label>
-                                <span class="input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input required type="password" name="passwordCheck" id="passwordCheck" placeholder="Confirmez le mot de passe" autocomplete="given-name" minlength="8" maxlength="16" class="form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
+                                <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
+                                <input required type="password" name="passwordCheck" id="passwordCheck" placeholder="Confirmez le mot de passe" autocomplete="given-name" minlength="8" maxlength="16" class="field__rsz form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
                             <!-- ! captcha -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="captcha"></label>
-                                <span class="input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
-                                <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" minlength="1" maxlength="1" class="form-control" pattern="<?= REGEX_CAPTCHA ?>">
+                                <span class="field__rsz input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
+                                <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" minlength="1" maxlength="1" class="field__rsz form-control" pattern="<?= REGEX_CAPTCHA ?>">
                             </div>
                             <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                         </div>
                     </div>
                     <!-- ! validation btn -->
-                    <div class="text-center py-3">
-                        <button class="btn btn-primary" type="submit">Envoyer</button>
+                    <div class="text-center pt-4 pb-5 w-100">
+                        <button class="btn btn-primary" id="signUp__btn" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
