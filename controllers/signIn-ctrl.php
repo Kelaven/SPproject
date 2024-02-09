@@ -58,8 +58,8 @@ try {
                     unset($user->password); // useless to keep password into pages
                     $_SESSION['user'] = $user; // to keep connexion in session, use it in other pages with init file
                     // dd($_SESSION['user']);
-                    $result = 'Vous êtes bien connecté ! Vous allez être redirigé dans quelques instants...';
-                    header('Refresh: 4; URL=/controllers/portfoliopaysages-ctrl.php');
+                    $result = 'Vous êtes bien connecté ! Vous allez être redirigé...';
+                    header('Refresh: 3; URL=/controllers/portfoliopaysages-ctrl.php');
                 }
             }
         }

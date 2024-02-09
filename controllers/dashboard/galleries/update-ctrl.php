@@ -65,17 +65,17 @@ try {
         //     $result = 'Ce nom est déjà utilisé';
         // }
         // dd($id_gallery);
-        if ((Gallery::isExistByName($name, $id_gallery)) ) { 
+        if ((Gallery::isExistByName($name, $id_gallery))) {
             $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
-        } 
-        if ((Gallery::isExistByPassword($password, $id_gallery)) ) { 
+        }
+        if ((Gallery::isExistByPassword($password, $id_gallery))) {
             $error['isExistByPassword'] = 'Une galerie avec le même passe existe déjà';
-        } 
+        }
         // $isExistByPassword = Gallery::isExistByPassword($password);
         // if ($isExistByPassword) {
         //     $result = 'Ce passe est déjà utilisé';
         // }
-// dd($id_gallery);
+        // dd($id_gallery);
         // * update
         if (empty($error)) {
             $gallery = new Gallery();
@@ -92,9 +92,7 @@ try {
             // if the method returns true
             if ($isOk) {
                 $result = 'La galerie a bien été modifiée ! Vous allez être redirigé...';
-                // sleep(3);
-                // header('Location: /list-ctrl.php');
-                // exit;
+                header('Refresh: 3; URL=/controllers/dashboard/galleries/list-ctrl.php');
             }
         }
     }
