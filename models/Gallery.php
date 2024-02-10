@@ -265,6 +265,7 @@ class Gallery
 
         return $result;
     }
+
     // * method unarchive
     public static function unarchive(int $archive): bool
     {
@@ -277,6 +278,23 @@ class Gallery
         $sth = $pdo->prepare($sql);
 
         $sth->bindValue(':id_gallery', $archive, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+    // * method delete
+    public static function delete(int $id_gallery): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'DELETE FROM `galleries`
+        WHERE `id_gallery` = :id_gallery;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_gallery', $id_gallery, PDO::PARAM_INT);
 
         $result = $sth->execute();
 
