@@ -3,7 +3,7 @@
     <div class="row pt-5 justify-content-center">
         <div class="col-12 pt-5">
             <div class="card card__sign">
-                <form method="POST" class="px-2" novalidate>
+                <form method="POST" class="px-2">
                     <legend class="py-4 px-3 text-center">Créer un compte</legend>
                     <div class="text-success text-center fs-6 fw-bold pb-3">
                         <?= $result ?? '' ?>

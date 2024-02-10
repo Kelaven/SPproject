@@ -12,7 +12,7 @@
                     </div>
                     <div class="card-body p-5">
                         <!-- form -->
-                        <form method="post" enctype="multipart/form-data" novalidate>
+                        <form method="post" enctype="multipart/form-data">
                             <div class="form-group pb-5">
                                     <label for="name">Nom :</label>
                                     <input class="form__inputs" type="text" id="name" name="name"  minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $gallery->name ?? '' ?>" required>
