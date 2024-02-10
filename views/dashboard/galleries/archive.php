@@ -17,14 +17,17 @@
                         <h1 class="form__h1 pt-2">Liste des galeries archivées</h1>
                     </div>
                     <div class="card-body p-5 pt-3">
+                        <p class="text-info">
+                            <?= $msg ?? '' ?>
+                        </p>
                         <table>
                             <tr>
                                 <th>Nom :</th>
                                 <th>Date séance :</th>
                                 <th>Image :</th>
                                 <th>Passe d'accès :</th>
-                                <th></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
+                                <th></th> <!-- supprimer -->
                             </tr>
                             <?php
                             foreach ($galleries as $gallery) {
@@ -37,11 +40,11 @@
                                         <?php } ?>
                                     </td>
                                     <td><?= $gallery->password ?></td>
-                                    <td>
-                                        <a href="/controllers/dashboard/galleries/update-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
+                                    <td class="text-end">
+                                        <a href="/controllers/dashboard/galleries/unarchive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open pe-4"></i></a>
                                     </td>
                                     <td class="text-end">
-                                        <a href="/controllers/dashboard/galleries/archive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
+                                        <a data-delete="<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
                                     </td>
                                 </tr>
                             <?php

@@ -188,7 +188,7 @@ class Gallery
             $sth->bindValue(':password', $password);
         }
         if ($currentId_gallery != null) {
-            $sth->bindValue(':id_gallery', $currentId_gallery);
+            $sth->bindValue(':id_gallery', $currentId_gallery, PDO::PARAM_INT);
         }
 
         $sth->execute();
@@ -198,7 +198,7 @@ class Gallery
         return $rowCount > 0;
     }
 
-    // * get method
+    // * method get
     /**
      * method to get informations from $id_gallery
      * @param int $id_gallery
@@ -221,7 +221,7 @@ class Gallery
         return $sth->fetch(PDO::FETCH_OBJ);
     }
 
-    // * update method
+    // * method update
     /**
      * method to update galleries' informations
      * @return bool if execute works
@@ -248,7 +248,7 @@ class Gallery
         return $result;
     }
 
-    // * archive method
+    // *  method archive
     public static function archive(int $toArchive): bool
     {
         $pdo = Database::connect();
@@ -260,6 +260,23 @@ class Gallery
         $sth = $pdo->prepare($sql);
 
         $sth->bindValue(':id_gallery', $toArchive, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+    // * method unarchive
+    public static function unarchive(int $archive): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `galleries`
+        SET `deleted_at` = NULL
+        WHERE `id_gallery` = :id_gallery;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_gallery', $archive, PDO::PARAM_INT);
 
         $result = $sth->execute();
 
