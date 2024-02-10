@@ -13,15 +13,16 @@ try {
     $toArchive = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
 // dd($toArchive);
     if (isset($toArchive)) {
-        // * archiver
+        // * archive
         $archive = Gallery::archive($toArchive);
-
-        // $msg = 'La donnée a bien été archivée !';
-        // $_SESSION['msg'] = $msg;
+// dd($archive);
+        $msg = 'La donnée a bien été archivée !';
+        $_SESSION['msg'] = $msg; // flash message, handle in list-ctrl.php too
 
         header('Location: /controllers/dashboard/galleries/list-ctrl.php');
         die;
     }
+
 } catch (\Throwable $th) {
     //throw $th;
 }

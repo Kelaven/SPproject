@@ -60,22 +60,16 @@ try {
 
 
         // * check isExist
-        // $isExistByName = Gallery::isExistByName($name);
-        // if ($isExistByName) {
-        //     $result = 'Ce nom est déjà utilisé';
-        // }
-        // dd($id_gallery);
-        if ((Gallery::isExistByName($name, $id_gallery))) {
+        $isExistName = Gallery::isExist(name: $name, currentId_gallery: $id_gallery);
+        if ($isExistName) {
             $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
         }
-        if ((Gallery::isExistByPassword($password, $id_gallery))) {
+        $isExistPassword = Gallery::isExist(password: $password, currentId_gallery: $id_gallery);
+        if ($isExistPassword) {
             $error['isExistByPassword'] = 'Une galerie avec le même passe existe déjà';
         }
-        // $isExistByPassword = Gallery::isExistByPassword($password);
-        // if ($isExistByPassword) {
-        //     $result = 'Ce passe est déjà utilisé';
-        // }
-        // dd($id_gallery);
+
+
         // * update
         if (empty($error)) {
             $gallery = new Gallery();

@@ -92,14 +92,15 @@ try {
 
 
         // * check isExist
-        $isExistByName = Gallery::isExistByName($name);
-        if ($isExistByName) {
-            $result = 'Ce nom est déjà utilisé';
+        $isExistName = Gallery::isExist(name: $name);
+        if ($isExistName) {
+            $error['isExistByName'] = 'Ce nom est déjà utilisé';
         }
-        $isExistByPassword = Gallery::isExistByPassword($password);
-        if ($isExistByPassword) {
-            $result = 'Ce passe est déjà utilisé';
+        $isExistPassword = Gallery::isExist(password: $password);
+        if ($isExistPassword) {
+            $error['isExistByPassword'] = 'Ce passe est déjà utilisé';
         }
+
 
         // * registration in base
         if (empty($error)) {

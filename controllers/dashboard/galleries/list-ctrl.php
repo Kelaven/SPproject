@@ -9,13 +9,18 @@ require_once __DIR__ . '/../../../helpers/connect.php';
 $auth = Auth::check();
 
 try {
-    // * modification du header
+    // * header's modification
     $title = 'Liste des galeries';
 
-    // * afficher la liste des galeries
-    $galleries = Gallery::getAll();
+    // * display galleries list
+    $galleries = Gallery::getAll(); // without archived vehicles (thanks to default argument)
     // dd($galleries);
 
+    // * display archive message
+    $msg = filter_var($_SESSION['msg'] ?? '', FILTER_SANITIZE_SPECIAL_CHARS); // get the $msg from archive-ctrl.php
+    if (isset($_SESSION['msg'])) {
+        unset($_SESSION['msg']); // flash message
+    }
 } catch (\Throwable $th) {
     echo "Erreur : " . $th->getMessage();
 }

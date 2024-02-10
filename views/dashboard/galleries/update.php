@@ -9,8 +9,6 @@
                     </div>
                     <div class="text-info text-center pt-2">
                         <?= $result ?? '' ?>
-                        <?= $error['isExistByName'] ?? '' ?>
-                        <?= $error['isExistByPassword'] ?? '' ?>
                     </div>
                     <div class="card-body p-5">
                         <!-- form -->
@@ -19,6 +17,7 @@
                                     <label for="name">Nom :</label>
                                     <input class="form__inputs" type="text" id="name" name="name"  minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $gallery->name ?? '' ?>" required>
                                     <small class="text-danger"><?= $error['name'] ?? '' ?></small>
+                                    <small class="text-danger"><?= $error['isExistByName'] ?? '' ?></small>                                    
                             </div>
                             <div class="form-group pb-5">
                                 <label class="w-100" for="date">Date :</label>
@@ -29,6 +28,7 @@
                                 <label class="w-100" for="password">Passe d'accès :</label>
                                 <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="16" pattern="<?= REGEX_PASSWORD ?>" value="<?= $gallery->password ?? '' ?>" required>
                                 <small class="text-danger"><?= $error['password'] ?? '' ?></small>
+                                <small class="text-danger"><?= $error['isExistByPassword'] ?? '' ?></small>
                             </div>
                             <!-- ? sélectionner une photo dans une liste déroulante ? -->
                             <!-- <div class="form-group pb-5">

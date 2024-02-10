@@ -98,16 +98,23 @@ class Gallery
 
     //  ! méthodes
 
-    // * Méthode pour afficher la listes des galeries
+    // * Method to display galleries' list
     /**
-     * Méthode permettant d'afficher la liste des galeries 
-     * @return array tableau d'objets
+     * Method to display galleries' list
+     * @return array objects array
      */
-    public static function getAll(): array
+    public static function getAll(bool $archive = false): array
     {
         $pdo = Database::connect();
 
-        $sql = 'SELECT * FROM `galleries`;';
+        $sql = 'SELECT * FROM `galleries`';
+        $sql .= ' WHERE 1 = 1';
+
+        if ($archive === false) {
+            $sql .= ' AND `galleries`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
+        } else {
+            $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
+        }
 
         $sth = $pdo->query($sql); // la méthode query prépare et exécute en même temps à condition qu'il n'y ait pas de marqueurs
 
@@ -116,15 +123,19 @@ class Gallery
         return $datas;
     }
 
-    // * Méthode pour insérer une nouvelle galerie
+    // * Method to insert new gallery
+    /**
+     * Method to insert new gallery
+     * @return bool true if insert works
+     */
     public function insert(): bool
     {
         $pdo = Database::connect();
 
         $sql = 'INSERT INTO `galleries` 
-    (`name`, `date`, `password`, `id_user`)
-    VALUES
-    (:name, :date, :password, 1);';
+                (`name`, `date`, `password`, `id_user`)
+                VALUES
+                (:name, :date, :password, 1);';
 
         $sth = $pdo->prepare($sql);
 
@@ -143,52 +154,42 @@ class Gallery
 
     // * method isExist
     /**
-     * Method to test if a data with the same name already exists
-     * @param mixed $name
+     * method to check if data already exist in base. Please read below details : 
+     * @param null enter $name if you want to check if the same name already exists in base
+     * @param null enter $password if you want to check if the same password already exists in base
+     * @param null enter $id_gallery, only when update a gallery, if you want to check if the same name or password already exists in base (NB : use this with $name and $password wich must not be null here)
      * 
-     * @return bool True if the data exists already
+     * @return bool
      */
-    public static function isExistByName($name, $currentId_gallery): bool
+    public static function isExist($name = null, $password = null, $currentId_gallery = null): bool
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT COUNT(`id_gallery`) AS "count"
-        FROM `galleries`
-        WHERE `name` = :name 
-        AND `id_gallery` != :id_gallery;'; // if the same name is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
+                FROM `galleries`';
+        $sql .= ' WHERE 1 = 1';
+
+        if ($name != null) {
+            $sql .= ' AND `name` = :name';
+        }
+        if ($password != null) {
+            $sql .= ' AND `password` = :password';
+        }
+        if ($currentId_gallery != null) {
+            $sql .= ' AND `id_gallery` != :id_gallery'; // if the same name or password is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
+        }
 
         $sth = $pdo->prepare($sql);
 
-        $sth->bindValue(':name', $name);
-        $sth->bindValue(':id_gallery', $currentId_gallery);
-
-        $sth->execute();
-
-        $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
-
-        return (bool) $rowCount > 0;
-    }
-    /**
-     * Method to test if a data with the same name already exists
-     * @param mixed $mail
-     * @param mixed $firstname
-
-     * 
-     * @return bool True if the data exists already
-     */
-    public static function isExistByPassword($password, $currentId_gallery): bool
-    {
-        $pdo = Database::connect();
-
-        $sql = 'SELECT COUNT(`id_gallery`) AS "count"
-        FROM `galleries`
-        WHERE `password` = :password
-        AND `id_gallery` != :id_gallery;'; // if the same name is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
-
-        $sth = $pdo->prepare($sql);
-
-        $sth->bindValue(':password', $password);
-        $sth->bindValue(':id_gallery', $currentId_gallery);
+        if ($name != null) {
+            $sth->bindValue(':name', $name);
+        }
+        if ($password != null) {
+            $sth->bindValue(':password', $password);
+        }
+        if ($currentId_gallery != null) {
+            $sth->bindValue(':id_gallery', $currentId_gallery);
+        }
 
         $sth->execute();
 

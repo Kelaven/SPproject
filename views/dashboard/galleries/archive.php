@@ -17,9 +17,6 @@
                         <h1 class="form__h1 pt-2">Liste des galeries archivées</h1>
                     </div>
                     <div class="card-body p-5 pt-3">
-                        <p class="text-info">
-                            <?= $msg ?? '' ?>
-                        </p>
                         <table>
                             <tr>
                                 <th>Nom :</th>
