@@ -8,7 +8,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 // * variable
 const deleteLinks = document.querySelectorAll('.delete__link');
-console.log(deleteLinks);
+// console.log(deleteLinks);
 
 
 // * fonction

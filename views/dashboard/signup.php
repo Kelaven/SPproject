@@ -1,8 +1,8 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
-    <div class="row pt-4 justify-content-center" id="signup__row">
+    <div class="row pt-5 justify-content-center">
         <div class="col-12 pt-5">
-            <div class="card">
+            <div class="card card__sign">
                 <form method="POST" class="px-2" novalidate>
                     <legend class="py-4 px-3 text-center">Créer un compte</legend>
                     <div class="text-success text-center fs-6 fw-bold pb-3">
@@ -11,8 +11,8 @@
                     <div class="text-danger text-center">
                         <?= $error['exist'] ?? '' ?>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="form__signup--left col-lg-6">
+                    <div class="row w-100 justify-content-center">
+                        <div class="col-lg-6">
                             <!-- ! firstname -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="firstname"></label>
@@ -42,7 +42,7 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['mobile'] ?? '' ?></small>
                         </div>
-                        <div class="form__signup--right col-lg-6">
+                        <div class="col-lg-6">
                             <!-- ! username -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="username"></label>
@@ -54,8 +54,13 @@
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 </label>
                                 <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input required type="password" name="password" id="password" placeholder="Mot de passe" autocomplete="given-name" minlength="8" maxlength="16" class="field__rsz form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
+                                <input required type="password" name="password" id="password" placeholder="Mot de passe" autocomplete="given-name" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
+                            </div>
+                            <div id="nudge">
+                                <span class="badge ms-1 ms-xl-3 text-bg-danger d-none">Faible</span>
+                                <span class="badge ms-1 ms-xl-3 text-bg-warning d-none">Moyen</span>
+                                <span class="badge ms-1 ms-xl-3 text-bg-success d-none">Fort</span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
                             <!-- ! password check -->
@@ -63,7 +68,7 @@
                                 <label for="passwordCheck">
                                 </label>
                                 <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input required type="password" name="passwordCheck" id="passwordCheck" placeholder="Confirmez le mot de passe" autocomplete="given-name" minlength="8" maxlength="16" class="field__rsz form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
+                                <input required type="password" name="passwordCheck" id="passwordCheck" placeholder="Confirmez le mot de passe" autocomplete="given-name" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>

@@ -82,7 +82,7 @@ try {
         } else {
             $isPasswordOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
             if (!$isPasswordOk) {
-                $error["password"] = 'Les mots de passe doivent contenir un chiffre, une majuscule, une minuscule, un caractère spécial et faire entre 8 et 16 caractères.';
+                $error["password"] = 'Les mots de passe doivent contenir un chiffre, une majuscule, une minuscule, un caractère spécial et faire entre 8 et 30 caractères.';
             } else {
                 $passwordHash = password_hash($password, PASSWORD_DEFAULT);
                 // dd($passwordHash);

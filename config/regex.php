@@ -6,5 +6,5 @@ define('REGEX_NAME_GALLERIES', '^(?:(?=\S)(?:(?:(?=[a-zA-Z0-9\-|])\S\s?){0,2}[a-
 define('REGEX_MOBILE', '^0(?:\s?[0-9]){9}$');
 define('REGEX_USERNAME', '^[a-zA-Z0-9]{2,30}$');
 define('REGEX_CAPTCHA', '^2$');
-define('REGEX_PASSWORD', '^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^<>\\w\\d\\s:])([^\s<>]){8,16}$'); // must have one Capitalize letter, lowercase, number, between 6 and 16 characters and exclude < >.
+define('REGEX_PASSWORD', '^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^<>\\w\\d\\s:])([^\s<>]){8,30}$'); // must have one Capitalize letter, lowercase, number, between 8 and 30 characters and exclude < >.
 define('REGEX_DATE', '^([0-9]{4})[\/\-]?([0-9]{2})[\/\-]?([0-9]{2})$'); // accept date format in YYYY/MM/DD or YYYY-MM-DD

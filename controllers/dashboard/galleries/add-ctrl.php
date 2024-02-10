@@ -48,7 +48,7 @@ try {
         } else {
             $isOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
             if (!$isOk) {
-                $error['password'] = 'Le passe doit avoir au moins une majuscule, une minuscule, un chiffre, un caractère spécial (excepté "<" ou ">") et faire entre 8 et 16 caractères';
+                $error['password'] = 'Le passe doit avoir au moins une majuscule, une minuscule, un chiffre, un caractère spécial (excepté "<" ou ">") et faire entre 8 et 30 caractères';
             }
         }
         /// ? PHOTO A VERIFIER UNE FOIS L ENTITE PICTURES GEREE EN BACK ///

@@ -1,11 +1,15 @@
 -> controler la force du MDP avec JS pour l'inscription
--> continuer la méthode insert des Galeries (faire isExist etc)
--> corriger le bug de responsivité des pages en mode mobile paysage
--> corriger le bug d'alignement front des inputs du form signUp
+
+-> corriger le bug de responsivité des pages en mode mobile paysage (overflow hidden à revoir)
+
 -> vérifications W3C
--> une page de connexion au dashboard
+
 -> sécurisation photos
+
 -> fonction rechercher dans les galeries
+
 -> compteur de like
+
 -> Optimisation feuilles CSS, style JS (répétitions, code inutile, nom des classes / id), JS, Row et Col bootstrap
+
 -> revoir les dataset dans les carrousel de portfolio (data-index est-il finalement utilisé ?)

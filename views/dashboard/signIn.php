@@ -1,7 +1,7 @@
 <section class="container pt-5" id="signin__container">
-    <div class="row justify-content-center">
+    <div class="row pt-xl-4 justify-content-center">
         <div class="col-12 col-md-6 pt-3">
-            <div class="card">
+            <div class="card card__sign">
                 <form method="POST" class="px-2" novalidate>
                     <legend class="py-3 py-xl-4 px-3 text-center">Connexion</legend>
                     <div class="text-success text-center fs-6 fw-bold pb-3">
