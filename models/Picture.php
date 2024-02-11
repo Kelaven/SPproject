@@ -143,4 +143,31 @@ class Picture
     {
         return $this->id_gallery;
     }
+
+    //  ! methods
+
+    // * Method to display pictures' list
+    /**
+     * Method to display pictures' list
+     * @return array objects array
+     */
+    public static function getAll(bool $archive = false): array
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT * FROM `pictures`';
+        $sql .= ' WHERE 1 = 1';
+
+        if ($archive === false) {
+            $sql .= ' AND `pictures`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
+        } else {
+            $sql .= ' AND `pictures`.`deleted_at` IS NOT NULL';
+        }
+
+        $sth = $pdo->query($sql);
+
+        $datas = $sth->fetchAll(PDO::FETCH_OBJ);
+
+        return $datas;
+    }
 }

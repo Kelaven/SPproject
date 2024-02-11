@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col">
                 <!-- carte contenant le form -->
-                <div class="card bg-light mb-3" id="card__add--galleries">
+                <div class="card bg-light mb-3" class="card__add--galleries">
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Ajouter une nouvelle galerie</h1>
                     </div>

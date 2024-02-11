@@ -96,7 +96,7 @@ class Gallery
         return $this->deleted_at;
     }
 
-    //  ! méthodes
+    //  ! methods
 
     // * Method to display galleries' list
     /**
@@ -116,9 +116,9 @@ class Gallery
             $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
         }
 
-        $sth = $pdo->query($sql); // la méthode query prépare et exécute en même temps à condition qu'il n'y ait pas de marqueurs
+        $sth = $pdo->query($sql); // the query method prepare and execute in same time provided there are no markers
 
-        $datas = $sth->fetchAll(PDO::FETCH_OBJ); // récupération des résultats sous forme d'objets grâce à FETCH_OBJ (par défaut c'est du tableau indexé associatif)
+        $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
 
         return $datas;
     }
