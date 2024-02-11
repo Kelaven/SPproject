@@ -236,8 +236,9 @@
                 <div class="divchild divchild6">
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild6Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button>
                     <picture class="carousel__img--desktop">
-                        <source media="(max-width: 1200px)" srcset="/public/assets/img/jpegpaysages/mobilesize/vercors-france-panorama-mountains-300-40.jpg" loading="lazy">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-crop-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy">
+                        <source media="(max-width: 840px)" srcset="/public/assets/img/jpegpaysages/mobilesize/vercors-france-panorama-mountains-300-40.jpg" loading="lazy">
+                        <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-crop-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild6Modal" data-modal-index="5">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">

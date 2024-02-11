@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col">
                 <!-- carte contenant les infos -->
-                <div class="card bg-dark mb-3" class="card__list--galleries">
+                <div class="card bg-dark mb-3 card__list--galleries">
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Liste des galeries archivées</h1>
                     </div>

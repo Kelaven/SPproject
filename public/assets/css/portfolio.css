@@ -1,6 +1,7 @@
-
 body{
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #24282d;
 }
 button{
     background-color: rgba(0, 0, 0, 0) !important;
@@ -129,6 +130,11 @@ article {
         font-size: 6.7vw;
         line-height: 50px;
         padding-top: 26px;
+    }
+}
+@media (max-height: 768px) {
+    body{
+        overflow-y: visible;
     }
 }
 

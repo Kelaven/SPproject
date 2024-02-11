@@ -35,7 +35,7 @@ try {
         } else {
             $isOk = filter_var($name, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_NAME_PHOTOS . '/')));
             if (!$isOk) {
-                $error['name'] = 'Le nom peut contenir des majuscules, minuscules, chiffres et symboles "-" "_" uniquement';
+                $error['name'] = 'Le nom peut contenir des majuscules, minuscules, chiffres et symboles "-" "_" uniquement. Il doit faire entre 2 et 50 caractères maximum';
             }
         }
         /// PHOTO ///

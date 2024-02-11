@@ -1,8 +1,8 @@
 <section>
-    <div class="container" id="container__form">
+    <div class="container container__form">
         <div class="row">
             <div class="col">
-                <div class="card bg-light mb-3" class="card__add--galleries">
+                <div class="card bg-light mb-3 card__add">
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Ajouter une nouvelle photo</h1>
                     </div>
@@ -11,7 +11,7 @@
                     </div>
                     <div class="card-body p-5">
                         <!-- form -->
-                        <form method="post" enctype="multipart/form-data">
+                        <form method="post" enctype="multipart/form-data" novalidate>
                             <div class="form-group pb-5">
                                 <label class="w-100" for="isSelection">Afficher sur la page Sélection ?</label>
                                 <select id="isSelection" name="isSelection" class="form__inputs">

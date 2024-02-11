@@ -1,6 +1,6 @@
 <section class="selection__section">
     <div class="container">
-        <div class="row">
+        <div class="row row__responsive">
             <div class="col-12 col-xl-4 selection__col selection__col--mobile d-flex align-items-center text-end">
                 <div class="w-100 selection__h1--container pe-4">
                     <h1 class="h1__scramble"><span class="selection__h1--span">La</span> sélection <span class="selection__h1--span">du</span><span class="selection__h1--span2">moment</span></h1>

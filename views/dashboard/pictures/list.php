@@ -14,7 +14,7 @@
     <div class="container p-5 pt-0" id="container__readList">
         <div class="row">
             <div class="col">
-                <div class="card bg-dark mb-3" class="card__list--galleries">
+                <div class="card bg-dark mb-3 card__list--galleries">
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Liste des photos</h1>
                     </div>

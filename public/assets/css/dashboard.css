@@ -83,7 +83,7 @@ h1, p, th, .form__h1, td, .fa-solid, .card-header, label{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .card__list--galleries{
-    min-width: 60vw;
+    min-width: 60vw !important;
 }
 .list-group-item{
     min-height: 40px; /* pour éviter les bugs si le nom renseigné est vide */
@@ -122,13 +122,13 @@ th::first-letter, td::first-letter{
 }
 
 /* ! add galleries */
-#container__form{
+.container__form{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card__add--galleries{
+.card__add{
     width: 35vw;
 }
 
