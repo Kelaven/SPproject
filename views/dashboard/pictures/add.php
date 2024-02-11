@@ -13,7 +13,7 @@
                         <!-- form -->
                         <form method="post" enctype="multipart/form-data">
                             <div class="form-group pb-5">
-                                <label class="w-100" for="isSelection">Affichage sur la page Sélection ?</label>
+                                <label class="w-100" for="isSelection">Afficher sur la page Sélection ?</label>
                                 <select id="isSelection" name="isSelection" class="form__inputs">
                                     <option value="non" selected>Non</option>
                                     <option value="oui">Oui</option>

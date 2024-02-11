@@ -9,3 +9,5 @@ define('REGEX_USERNAME', '^[a-zA-Z0-9]{2,30}$');
 define('REGEX_CAPTCHA', '^2$');
 define('REGEX_PASSWORD', '^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^<>\\w\\d\\s:])([^\s<>]){8,30}$'); // must have one Capitalize letter, lowercase, number, between 8 and 30 characters and exclude < >.
 define('REGEX_DATE', '^([0-9]{4})[\/\-]?([0-9]{2})[\/\-]?([0-9]{2})$'); // accept date format in YYYY/MM/DD or YYYY-MM-DD
+define('REGEX_ISSELECTION', '/^(Non|Oui|non|oui)$/');
+define('REGEX_DESCRIPTION', '/^[^<>]{1,1000}$/');
