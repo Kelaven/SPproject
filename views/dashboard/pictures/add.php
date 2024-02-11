@@ -13,9 +13,11 @@
                         <!-- form -->
                         <form method="post" enctype="multipart/form-data">
                             <div class="form-group pb-5">
-                                <label for="isSelection">Affichage sur la page sélection ?</label>
-                                <input type="checkbox" id="isSelection" name="isSelection" <?= isset($isSelection) && $isSelection ? 'checked' : '' ?>>
-                                <!-- <label for="isSelection">Sélectionner cette photo</label> -->
+                                <label class="w-100" for="isSelection">Affichage sur la page Sélection ?</label>
+                                <select id="isSelection" name="isSelection" class="form__inputs">
+                                    <option value="non" selected>Non</option>
+                                    <option value="oui">Oui</option>
+                                </select>
                             </div>
                             <div class="form-group pb-5">
                                 <label for="photo">Sélectionner une photo :</label>
@@ -25,7 +27,7 @@
                             <div class="form-group pb-5">
                                 <div class="form-group pb-5">
                                     <label for="name">Nom de la photo :</label>
-                                    <input class="form__inputs" type="text" id="name" name="name" placeholder="Nom de la photo" minlength="2" maxlength="50" pattern="<?= REGEX_NAME_PHOTOS ?>" value="<?= $name ?? '' ?>" required>
+                                    <input class="form__inputs" type="text" id="name" name="name" placeholder="pauline_022024_shootingbruges" minlength="2" maxlength="50" pattern="<?= REGEX_NAME_PHOTOS ?>" value="<?= $name ?? '' ?>" required>
                                     <small class="text-danger"><?= $error['name'] ?? '' ?></small>
                                 </div>
                                 <label for="description">Description :</label>

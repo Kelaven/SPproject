@@ -145,3 +145,8 @@ input::placeholder{
 .fa-trash{
     cursor: pointer;
 }
+
+/* ! add pictures */
+#isSelection{
+    max-width: 13%;
+}
