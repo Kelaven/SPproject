@@ -9,6 +9,7 @@ require_once __DIR__ . '/../../../helpers/connect.php';
 
 $auth = Auth::check();
 
+
 try {
     // * modification du header
     $title = 'Modifier une galerie';

@@ -26,7 +26,7 @@
                         <a href="/controllers/dashboard/galleries/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-people-group pe-2"></i>Galeries</a>
                     </li>
                     <li>
-                        <a href="#" class="sidebar__nav--tabs"><i class="fa-solid fa-images pe-2"></i>Photos</a>
+                        <a href="/controllers/dashboard/pictures/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-images pe-2"></i>Photos</a>
                     </li>
                     <li>
                         <a href="#" class="sidebar__nav--tabs"><i class="fa-solid fa-comment-dots pe-2"></i>Commentaires</a>

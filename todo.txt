@@ -1,5 +1,3 @@
--> controler la force du MDP avec JS pour l'inscription
-
 -> corriger le bug de responsivité des pages en mode mobile paysage (overflow hidden à revoir)
 
 -> vérifications W3C

@@ -6,6 +6,9 @@ require_once __DIR__ . '/../../../models/Gallery.php';
 require_once __DIR__ . '/../../../helpers/connect.php';
 
 
+$auth = Auth::check();
+
+
 try {
     // * get the id_gallery to delete
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
