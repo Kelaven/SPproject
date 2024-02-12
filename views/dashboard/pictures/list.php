@@ -28,30 +28,67 @@
                                 <th>Photo :</th>
                                 <th>Nom :</th>
                                 <th>Description :</th>
-                                <th>Like :</th>
+                                <th class="pe-5">Like :</th>
                                 <th></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
                             </tr>
-                            <!-- <?php
-                                    foreach ($pictures as $picture) {
-                                    ?>
+                            <?php
+                            foreach ($pictures as $picture) {
+                                // dd($picture);
+                            ?>
                                 <tr>
-                                    <td><?= $picture->name ?></td>
-                                    <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
-                                    <td> <?php if (!empty($gallery->picture)) { ?>
-                                        <img src="#" alt="Photo de couverture de la galerie">
-                                    <?php } ?> </td>
-                                    <td><?= $gallery->password ?></td>
+                                    <td class="pe-4"><?= $picture->id_picture ?></td>
                                     <td>
-                                        <a href="/controllers/dashboard/pictures/update-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
+                                        <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $picture->photo ?>">
+                                        <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                    </td>
+                                    <td class="pe-3"><?= $picture->name ?></td>
+                                    <td><?php
+                                        if (strlen($picture->description) >= 30) {
+                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
+                                                                                                                                                                                                                                                                            } else {
+                                                                                                                                                                                                                                                                                echo ($picture->description);
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                ?></td>
+                                    <td><?= $picture->picture_like ?></td>
+                                    <td>
+                                        <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
                                     </td>
                                     <td class="text-end">
-                                        <a href="/controllers/dashboard/pictures/archive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
+                                        <a href="/controllers/dashboard/pictures/archive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
                                     </td>
                                 </tr>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="voirplus<?= $picture->id_picture ?>" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h2 class="modal-title fs-5"><?= $picture->name ?></h2>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <?= $picture->description ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="zoom<?= $picture->id_picture ?>" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h2 class="modal-title fs-5"><?= $picture->name ?></h2>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="/public/assets/img/ftp/<?= $picture->photo ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             <?php
-                                    }
-                            ?> -->
+                            }
+                            ?>
                         </table>
                         </ul>
                     </div>
