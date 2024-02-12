@@ -200,4 +200,50 @@ class Picture
             return true;
         }
     }
+
+    // * Method isExist
+    /**
+     * method to check if data already exist in base. Please read below details : 
+     * @param null enter $name if you want to check if the same name already exists in base
+     * @param null enter $description if you want to check if the same description already exists in base
+     * @param null enter $id_picture, only when update a picture, if you want to check if the same name or description already exists in base (NB : use this with $name and $description wich must not be null here)
+     * 
+     * @return bool
+     */
+    public static function isExist($name = null, $description = null, $currentId_photo = null): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT COUNT(`id_picture`) AS "count"
+                FROM `pictures`';
+        $sql .= ' WHERE 1 = 1';
+
+        if ($name != null) {
+            $sql .= ' AND `name` = :name';
+        }
+        if ($description != null) {
+            $sql .= ' AND `description` = :description';
+        }
+        if ($currentId_photo != null) {
+            $sql .= ' AND `id_gallery` != :id_gallery';
+        }
+
+        $sth = $pdo->prepare($sql);
+
+        if ($name != null) {
+            $sth->bindValue(':name', $name);
+        }
+        if ($description != null) {
+            $sth->bindValue(':description', $description);
+        }
+        if ($currentId_photo != null) {
+            $sth->bindValue(':id_gallery', $currentId_photo, PDO::PARAM_INT);
+        }
+
+        $sth->execute();
+
+        $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
+
+        return $rowCount > 0;
+    }
 }

@@ -100,15 +100,18 @@ try {
             }
         }
 
-        // // * check isExist
-        // $isExistName = Gallery::isExist(name: $name);
-        // if ($isExistName) {
-        //     $error['isExistByName'] = 'Ce nom est déjà utilisé';
-        // }
-        // $isExistPassword = Gallery::isExist(password: $password);
-        // if ($isExistPassword) {
-        //     $error['isExistByPassword'] = 'Ce passe est déjà utilisé';
-        // }
+        // * check isExist
+        $isExistName = Picture::isExist(name: $name);
+        if ($isExistName) {
+            $error['isExistByName'] = 'Ce nom est déjà utilisé';
+        }
+        if ($description != null) {
+            // dd($description);
+            $isExistDescription = Picture::isExist(description: $description);
+            if ($isExistDescription) {
+                $error['isExistByDescription'] = 'Cette description est déjà utilisée';
+            }
+        }
 
 
         // * registration in base

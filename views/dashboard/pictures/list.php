@@ -28,7 +28,7 @@
                                 <th>Photo :</th>
                                 <th>Nom :</th>
                                 <th>Description :</th>
-                                <th class="pe-5">Like :</th>
+                                <!-- ? <th class="pe-5">Like :</th> -->
                                 <th></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
                             </tr>
@@ -44,13 +44,13 @@
                                     </td>
                                     <td class="pe-3"><?= $picture->name ?></td>
                                     <td><?php
-                                        if (strlen($picture->description) >= 30) {
+                                        if (($picture->description != null) && (strlen($picture->description) >= 30)) {
                                             echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
-                                                                                                                                                                                                                                                                            } else {
-                                                                                                                                                                                                                                                                                echo ($picture->description);
-                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                ?></td>
-                                    <td><?= $picture->picture_like ?></td>
+                                                } else {
+                                                    echo ($picture->description);
+                                                }
+                                                    ?></td>
+                                    <!-- ? <td><?= $picture->picture_like ?></td> -->
                                     <td>
                                         <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
                                     </td>
