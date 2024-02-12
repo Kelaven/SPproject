@@ -9,9 +9,9 @@ class Picture
 {
     // * Attributes
     private ?int $id_picture;
-    private bool $isSelection;
+    private int $isSelection;
+    private ?string $name;
     private ?string $photo;
-    private string $name;
     private ?string $description;
     private ?int $picture_like;
     private ?DateTime $created_at;
@@ -22,9 +22,9 @@ class Picture
     // * Magic method construct
     public function __construct(
         ?int $id_picture = null,
-        bool $isSelection = false,
+        int $isSelection = 0,
+        ?string $name = null,
         ?string $photo = null,
-        string $name = null,
         ?string $description = null,
         ?int $picture_like = null,
         ?DateTime $created_at = null,
@@ -55,13 +55,23 @@ class Picture
     }
 
     // Setter et getter pour isSelection
-    public function setIsSelection(bool $isSelection): void
+    public function setIsSelection(int $isSelection): void
     {
         $this->isSelection = $isSelection;
     }
-    public function getIsSelection(): bool
+    public function getIsSelection(): int
     {
         return $this->isSelection;
+    }
+
+    // Setter et getter pour name
+    public function setName(?string $name): void
+    {
+        $this->name = $name;
+    }
+    public function getName(): ?string
+    {
+        return $this->name;
     }
 
     // Setter et getter pour photo
@@ -74,15 +84,6 @@ class Picture
         return $this->photo;
     }
 
-    // Setter et getter pour name
-    public function setName(string $name): void
-    {
-        $this->name = $name;
-    }
-    public function getName(): string
-    {
-        return $this->name;
-    }
 
     // Setter et getter pour description
     public function setDescription(?string $description): void
@@ -169,5 +170,34 @@ class Picture
         $datas = $sth->fetchAll(PDO::FETCH_OBJ);
 
         return $datas;
+    }
+
+    // * Method to insert new picture
+    /**
+     * Method to insert new picture
+     * @return bool true if insert works
+     */
+    public function insert(): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'INSERT INTO `pictures`
+        (`isSelection`, `name`, `photo`, `description`)
+        VALUES (:isSelection, :name, :photo, :description);';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':isSelection', $this->getIsSelection());
+        $sth->bindValue(':name', $this->getName());
+        $sth->bindValue(':photo', $this->getPhoto());
+        $sth->bindValue(':description', $this->getDescription());
+
+        $sth->execute();
+
+        if ($sth->rowCount() <= 0) {
+            throw new Exception('Erreur lors de l\'enregistrement de la catégorie');
+        } else {
+            return true;
+        }
     }
 }
