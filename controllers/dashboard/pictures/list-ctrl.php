@@ -14,9 +14,21 @@ try {
     // * header's modification
     $title = 'Liste des photos';
 
-    // * display galleries list
+    // * display pictures list
     $pictures = Picture::getAll(); // without archived pictures (thanks to default argument)
     // dd($galleries);
+
+    // * To search by keywords
+    $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
+    // dd($search);
+    if ($search != '') {
+        $searchedPhotos = Picture::search(search: $search);
+        $pictures = $searchedPhotos; // use search results and not all images
+
+    }
+
+    // dd($search);
+
 
     // * display archive message
     $msg = filter_var($_SESSION['msg'] ?? '', FILTER_SANITIZE_SPECIAL_CHARS); // get the $msg from archive-ctrl.php

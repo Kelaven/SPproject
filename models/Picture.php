@@ -364,4 +364,36 @@ class Picture
 
         return $result;
     }
+
+
+    // * Method search
+    public static function search(string $search = '', bool $archive = false): array|null
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT * FROM `pictures`';
+
+        $sql .= ' WHERE 1 = 1';
+
+        if ($search != '') {
+            $sql .= ' AND `name` LIKE :search';
+        }
+        if ($archive === false) {
+            $sql .= ' AND `pictures`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
+        } else {
+            $sql .= ' AND `pictures`.`deleted_at` IS NOT NULL';
+        }
+
+        $sth = $pdo->prepare($sql);
+
+        if ($search != '') {
+            $sth->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
+        }
+
+        $sth->execute();
+
+        $result = $sth->fetchAll(PDO::FETCH_OBJ);
+
+        return $result;
+    }
 }

@@ -164,3 +164,19 @@ input::placeholder{
     text-transform: lowercase;
     color: #fff;
 }
+.dashboard__search--container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.dashboard__search--offContainer{
+    max-width: 26%;
+}
+.dashboard__search--labelInput{
+    max-width: 100%;
+    display: flex;
+    height: 35px;
+}
+.dashboard__small--search{
+    color: #fff;
+}

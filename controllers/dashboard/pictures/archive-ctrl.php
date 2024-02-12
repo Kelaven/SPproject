@@ -13,6 +13,7 @@ try {
     // * header's modification
     $title = 'Liste des photos archivées';
 
+
     // * To archive a photo when we clicks on the btn 
     $toArchive = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
 
