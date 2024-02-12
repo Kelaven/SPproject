@@ -325,6 +325,12 @@ class Picture
     }
 
     // * method unarchive
+    /**
+     * metho to unarchive a photo
+     * @param int $archive
+     * 
+     * @return bool true if execute works
+     */
     public static function unarchive(int $archive): bool
     {
         $pdo = Database::connect();
@@ -336,6 +342,23 @@ class Picture
         $sth = $pdo->prepare($sql);
 
         $sth->bindValue(':id_picture', $archive, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+    // * method delete
+    public static function delete(int $id_picture): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'DELETE FROM `pictures`
+            WHERE `id_picture` = :id_picture;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_picture', $id_picture, PDO::PARAM_INT);
 
         $result = $sth->execute();
 

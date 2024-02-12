@@ -52,7 +52,7 @@
                                         <a href="/controllers/dashboard/pictures/unarchive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open pe-4"></i></a>
                                     </td>
                                     <td class="text-end">
-                                        <a class="delete__link" data-delete="<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
+                                        <a class="delete__link" data-delete-picture="<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
                                     </td>
                                 </tr>
 

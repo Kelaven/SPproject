@@ -44,7 +44,7 @@
                                         <a href="/controllers/dashboard/galleries/unarchive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open pe-4"></i></a>
                                     </td>
                                     <td class="text-end">
-                                        <a class="delete__link" data-delete="<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
+                                        <a class="delete__link" data-delete-gallery="<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
                                     </td>
                                 </tr>
                             <?php
