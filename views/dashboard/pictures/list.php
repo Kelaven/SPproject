@@ -23,7 +23,6 @@
                             <div class="dashboard__search--offContainer">
                                 <form>
                                     <label for="search" class="form-label">Recherche par mots clés :</label>
-
                                     <div class="dashboard__search--labelInput">
                                         <input id="search" name="search" class="form-control" type="search" placeholder="Recherche">
                                         <button class="btn btn-dark my-2 my-sm-0 d-flex justify-content-center" type="submit">
@@ -31,7 +30,6 @@
                                         </button>
                                     </div>
                                     <small class="fst-italic"><a href="/controllers/dashboard/pictures/list-ctrl.php" class="dashboard__small--search">Afficher toutes les photos</a></small>
-
                                 </form>
                             </div>
                         </div>

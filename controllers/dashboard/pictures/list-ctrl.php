@@ -24,7 +24,6 @@ try {
     if ($search != '') {
         $searchedPhotos = Picture::search(search: $search);
         $pictures = $searchedPhotos; // use search results and not all images
-
     }
 
     // dd($search);

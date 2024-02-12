@@ -31,6 +31,16 @@ try {
     // * To display archived galleries like a list, in archive.php
     $pictures = Picture::getAll(archive: true);
 
+    
+    // * To search by keywords
+    $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
+
+    if ($search != '') {
+        $searchedPhotos = Picture::search(search: $search, archive: true);
+        $pictures = $searchedPhotos; // use search results and not all images
+    }
+
+
     // * display unarchive message
     $msg = filter_var($_SESSION['msg'] ?? '', FILTER_SANITIZE_SPECIAL_CHARS); // get the $msg from unarchive-ctrl.php
     if (isset($_SESSION['msg'])) {
