@@ -1,19 +1,25 @@
 <?php
 
-
 require_once __DIR__ . '/../../../helpers/dd.php';
 require_once __DIR__ . '/../../../config/init.php';
 require_once __DIR__ . '/../../../config/regex.php';
 require_once __DIR__ . '/../../../models/Picture.php';
 require_once __DIR__ . '/../../../helpers/connect.php';
 
+
 $auth = Auth::check();
 
 
 try {
     // * modification du header
-    $title = 'Ajouter une photo';
+    $title = 'Modifier une photo';
 
+    // * recover and clean id_photo from URL
+    $id_picture = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
+
+    // * get this id_picture informations
+    $picture = Picture::get($id_picture);
+    // dd($gallery);
 
     // * nettoyage et validation du formulaire
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -29,7 +35,6 @@ try {
             } else {
                 if ($isSelection == 'non') {
                     $isSelection = 0;
-                    // dd($isSelection);
                 } else {
                     $isSelection = 1;
                 }
@@ -48,10 +53,13 @@ try {
         }
 
         /// PHOTO ///
-        if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
-            $error['photo'] = 'Vous n\'avez pas sélectionné la photo';
+        $photo = $picture->photo;
+        if (isset($_FILES['photo']) || !empty($_FILES['photo']['name'])) {
+            // $error['photo'] = 'Vous n\'avez pas sélectionné la photo';
+            // si the user don't choose a new photo, no changes
         } else {
             try {
+                @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $filename); // delete image from disk if we modified it
                 // file exist ?
                 if (!isset($_FILES['photo'])) {
                     throw new Exception("Le champ photo n'existe pas");
@@ -69,12 +77,6 @@ try {
                 if ($_FILES['photo']['size'] > MAX_FILESIZE) {
                     throw new Exception("Ce fichier est trop volumineux");
                 }
-                // // file's name cleaning
-                // $photo = filter_input(INPUT_POST, 'photo', FILTER_SANITIZE_SPECIAL_CHARS);
-                // dd($photo);
-                // if (!$photo) {
-                //     throw new Exception("Il y a un problème avec le fichier");
-                // }
 
                 $from = $_FILES['photo']['tmp_name'];
                 $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
@@ -82,7 +84,6 @@ try {
                 $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
                 move_uploaded_file($from, $to);
                 $photo = $filename; // to send in base inly file's name and not the path (to exclude NULL in base)
-                // dd($photo);
 
             } catch (\Throwable $th) {
                 $error['photo'] = $th->getMessage();
@@ -100,47 +101,44 @@ try {
             }
         }
 
+
         // * check isExist
-        $isExistName = Picture::isExist(name: $name);
+        $isExistName = Picture::isExist(name: $name, currentId_picture: $id_picture);
         if ($isExistName) {
             $error['isExistByName'] = 'Ce nom est déjà utilisé';
         }
         if ($description != null) {
-            // dd($description);
-            $isExistDescription = Picture::isExist(description: $description);
+            $isExistDescription = Picture::isExist(description: $description, currentId_picture: $id_picture);
             if ($isExistDescription) {
                 $error['isExistByDescription'] = 'Cette description est déjà utilisée';
             }
         }
 
-
-        // * registration in base
+        // dd('test');
+        // * update
         if (empty($error)) {
-            // dd($name);
             $picture = new Picture();
-
+            
             $picture->setIsSelection($isSelection);
             $picture->setName($name);
             $picture->setPhoto($photo);
             $picture->setDescription($description);
+            $picture->setIdPicture($id_picture);
 
+            // call of update's method
+            $isOk = $picture->update();
+            // dd($isOk);
 
-            // call of insert's method
-            $isOk = $picture->insert();
-
-            // Si the method returns true
+            // if the method returns true
             if ($isOk) {
-                $result = 'La photo a bien été enregistrée ! Vous pouvez en ajouter une autre.';
+                $result = 'La photo a bien été modifiée ! Vous allez être redirigé...';
+                // header('Refresh: 3; URL=/controllers/dashboard/pictures/list-ctrl.php');
             }
         }
-        // dd('Reached after registration block');
     }
 } catch (\Throwable $th) {
-    echo ($th->getMessage());
+    echo "Erreur : " . $th->getMessage();
 }
-
-
-
 
 
 
@@ -154,5 +152,5 @@ try {
 // ! views
 
 include __DIR__ . '/../../../views/templates/dashboard/header.php';
-include __DIR__ . '/../../../views/dashboard/pictures/add.php';
+include __DIR__ . '/../../../views/dashboard/pictures/update.php';
 include __DIR__ . '/../../../views/templates/dashboard/footer.php';

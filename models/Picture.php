@@ -210,7 +210,7 @@ class Picture
      * 
      * @return bool
      */
-    public static function isExist($name = null, $description = null, $currentId_photo = null): bool
+    public static function isExist($name = null, $description = null, $currentId_picture = null): bool
     {
         $pdo = Database::connect();
 
@@ -224,7 +224,7 @@ class Picture
         if ($description != null) {
             $sql .= ' AND `description` = :description';
         }
-        if ($currentId_photo != null) {
+        if ($currentId_picture != null) {
             $sql .= ' AND `id_gallery` != :id_gallery';
         }
 
@@ -236,8 +236,8 @@ class Picture
         if ($description != null) {
             $sth->bindValue(':description', $description);
         }
-        if ($currentId_photo != null) {
-            $sth->bindValue(':id_gallery', $currentId_photo, PDO::PARAM_INT);
+        if ($currentId_picture != null) {
+            $sth->bindValue(':id_gallery', $currentId_picture, PDO::PARAM_INT);
         }
 
         $sth->execute();
@@ -245,5 +245,57 @@ class Picture
         $rowCount = $sth->fetchColumn(); // to have number of lignes wich are corresponding themself
 
         return $rowCount > 0;
+    }
+
+    // * method get
+    /**
+     * method to get informations from $id_picture
+     * @param int $id_picture
+     * 
+     * @return null|object with informations
+     */
+    public static function get(?int $id_picture): null|object
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT * FROM `pictures` 
+        WHERE id_picture = :id_picture;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_picture', $id_picture, PDO::PARAM_INT);
+
+        $sth->execute();
+
+        return $sth->fetch(PDO::FETCH_OBJ);
+    }
+
+    // * method update
+    /**
+     * method to update picture' informations
+     * @return bool if execute works
+     */
+    public function update(): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `pictures`
+        SET `isSelection` = :isSelection,
+        `name` = :name,
+        `photo` = :photo,
+        `description` = :description
+        WHERE `id_picture` = :id_picture;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':isSelection', $this->getIsSelection(), PDO::PARAM_INT);
+        $sth->bindValue(':name', $this->getName());
+        $sth->bindValue(':photo', $this->getPhoto());
+        $sth->bindValue(':description', $this->getDescription());
+        $sth->bindValue(':id_picture', $this->getIdPicture(), PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
     }
 }
