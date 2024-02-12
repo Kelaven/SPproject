@@ -9,7 +9,7 @@
                         Vous avez des questions ? <br> <br>
                         <span>N’hésitez pas, contactez-moi !</span>
                     </p>
-                    <div id="form__pic" class="rounded-circle">
+                    <div id="form__pic" class="rounded-circle mb-3">
                     </div>
                 </div>
             </div>

@@ -139,5 +139,5 @@ try {
 
 // views
 include __DIR__ . '/../views/templates/header.php';
-include __DIR__ . '/../views/dashboard/signUp.php';
+include __DIR__ . '/../views/signUp.php';
 include __DIR__ . '/../views/templates/footer.php';
