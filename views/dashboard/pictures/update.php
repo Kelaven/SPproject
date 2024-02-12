@@ -39,7 +39,7 @@
                                 <small class="text-danger"><?= $error['description'] ?? '' ?></small>
                                 <small class="text-danger"><?= $error['isExistByDescription'] ?? '' ?></small>
                             </div>
-                            <input type="submit" class="btn btn-dark" value="Ajouter la photo">
+                            <input type="submit" class="btn btn-dark" value="Valider">
                         </form>
                     </div>
                 </div>

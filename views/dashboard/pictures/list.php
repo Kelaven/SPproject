@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <div class="container p-5 pt-0" id="container__readList">
+    <div class="container px-5 py-0" id="container__readList">
         <div class="row">
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--galleries">
@@ -109,5 +109,34 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container pt-1">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item <?php if ($page == 1) { ?>
+                            disabled
+                        <?php } ?>">
+                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page - 1 ?>&id_picture=<?= $id_picture ?>">&laquo;</a>
+                        </li>
+                        <?php
+                        for ($p = 1; $p <= $nbePages; $p++) { ?>
+                            <li class="page-item <?php if ($p == $page) { ?> active <?php } ?>">
+                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $p ?>&id_picture=<?= $id_picture ?>"><?= $p ?></a>
+                            </li>
+                        <?php
+                        }
+                        ?>
+                        <li class="page-item <?php if ($page == $nbePages) { ?>
+                            disabled
+                        <?php } ?>">
+                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page + 1 ?>&id_picture=<?= $id_picture ?>">&raquo;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </section>

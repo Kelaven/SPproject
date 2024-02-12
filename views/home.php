@@ -53,7 +53,7 @@
                                                 </div>
                                                 <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                 <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
+                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@
                                                     </li>
                                                     <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                     <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
+                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -121,7 +121,7 @@
                                                 </div>
                                                 <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                 <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
+                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -150,7 +150,7 @@
                                                     </li>
                                                     <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                     <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
+                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -188,7 +188,7 @@
                                                 </div>
                                                 <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                 <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
+                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@
                                                     </li>
                                                     <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                     <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
+                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -257,7 +257,7 @@
                                                 </div>
                                                 <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
                                                 <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Accès client</a>
+                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -286,7 +286,7 @@
                                                     </li>
                                                     <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
                                                     <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Accès client</a></li>
+                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>

@@ -14,19 +14,38 @@ try {
     // * header's modification
     $title = 'Liste des photos';
 
+    // * filter
+    $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
+    $page = intval(filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_INT));
+
     // * display pictures list
     $pictures = Picture::getAll(); // without archived pictures (thanks to default argument)
-    // dd($galleries);
 
+    
     // * To search by keywords
-    $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
-    // dd($search);
     if ($search != '') {
         $searchedPhotos = Picture::search(search: $search);
         $pictures = $searchedPhotos; // use search results and not all images
     }
 
-    // dd($search);
+
+    // * Paginate
+    $nbePictures = count($pictures);
+    
+    $nbePages = ceil($nbePictures / NB_ELEMENTS_PER_PAGE);
+    // dd($nbePages);
+    if ($page <= 0 || $page > $nbePages) {
+        $page = 1;
+    }
+
+
+    // calcul de la premiere photo de la page perPages: true
+    $firstPicture = ($page * NB_ELEMENTS_PER_PAGE) - NB_ELEMENTS_PER_PAGE; // la premiere photo fait 0
+    // dd($firstPicture);
+
+
+
+
 
 
     // * display archive message

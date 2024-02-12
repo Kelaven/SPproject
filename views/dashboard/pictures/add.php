@@ -6,7 +6,7 @@
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Ajouter une nouvelle photo</h1>
                     </div>
-                    <div class="text-info text-center pt-2">
+                    <div class="text-info pt-2 px-5">
                         <?= $result ?? '' ?>
                     </div>
                     <div class="card-body p-5">

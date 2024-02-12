@@ -97,7 +97,7 @@
                                 <a class="nav-link active" href="/controllers/contact-ctrl.php">Contact</a>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link" href="/controllers/accesclient-ctrl.php">Accès client</a>
+                                <a class="nav-link" href="/controllers/accesclient-ctrl.php">Galeries</a>
                             </li>
                             <?php if (empty($_SESSION['user'])) { ?>
                                 <li class="nav-item me-0 pe-md-3 pt-md-2">
