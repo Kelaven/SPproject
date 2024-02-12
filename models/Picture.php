@@ -225,7 +225,7 @@ class Picture
             $sql .= ' AND `description` = :description';
         }
         if ($currentId_picture != null) {
-            $sql .= ' AND `id_gallery` != :id_gallery';
+            $sql .= ' AND `id_picture` != :id_picture';
         }
 
         $sth = $pdo->prepare($sql);
@@ -237,7 +237,7 @@ class Picture
             $sth->bindValue(':description', $description);
         }
         if ($currentId_picture != null) {
-            $sth->bindValue(':id_gallery', $currentId_picture, PDO::PARAM_INT);
+            $sth->bindValue(':id_picture', $currentId_picture, PDO::PARAM_INT);
         }
 
         $sth->execute();
@@ -293,6 +293,49 @@ class Picture
         $sth->bindValue(':photo', $this->getPhoto());
         $sth->bindValue(':description', $this->getDescription());
         $sth->bindValue(':id_picture', $this->getIdPicture(), PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+
+    // *  method archive
+    /**
+     * metho to archive a picture
+     * @param int $toArchive
+     * 
+     * @return bool if execute workd
+     */
+    public static function archive(int $toArchive): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `pictures` 
+            SET `deleted_at` = NOW()
+            WHERE `id_picture` = :id_picture;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_picture', $toArchive, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+    // * method unarchive
+    public static function unarchive(int $archive): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `pictures`
+            SET `deleted_at` = NULL
+            WHERE `id_picture` = :id_picture;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_picture', $archive, PDO::PARAM_INT);
 
         $result = $sth->execute();
 

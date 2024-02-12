@@ -2,11 +2,8 @@
     <div class="container pb-4" id="container__creatList">
         <div class="row">
             <div class="col pt-5 pe-5">
-                <a href="/controllers/dashboard/pictures/add-ctrl.php" class="btn btn-dark form__btn me-2">
-                    <i class="fa-solid fa-plus pe-3"></i>Ajouter une photo
-                </a>
-                <a href="/controllers/dashboard/pictures/archive-ctrl.php" class="btn btn-dark form__btn">
-                    <i class="fa-solid fa-box pe-3"></i></i>Accèder aux archives
+            <a href="/controllers/dashboard/pictures/list-ctrl.php">
+                    <p><i class="fa-regular fa-circle-left pe-2"></i>Retour à la liste des photos</p>
                 </a>
             </div>
         </div>
@@ -29,8 +26,8 @@
                                 <th>Nom :</th>
                                 <th>Description :</th>
                                 <!-- ? <th class="pe-5">Like :</th> -->
-                                <th></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
+                                <th></th> <!-- supprimer -->
                             </tr>
                             <?php
                             foreach ($pictures as $picture) {
@@ -51,11 +48,11 @@
                                                 }
                                                     ?></td>
                                     <!-- ? <td><?= $picture->picture_like ?></td> -->
-                                    <td>
-                                        <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
+                                    <td class="text-end">
+                                        <a href="/controllers/dashboard/pictures/unarchive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open pe-4"></i></a>
                                     </td>
                                     <td class="text-end">
-                                        <a href="/controllers/dashboard/pictures/archive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
+                                        <a class="delete__link" data-delete="<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
                                     </td>
                                 </tr>
 

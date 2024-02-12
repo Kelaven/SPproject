@@ -54,12 +54,12 @@ try {
 
         /// PHOTO ///
         $photo = $picture->photo;
-        if (isset($_FILES['photo']) || !empty($_FILES['photo']['name'])) {
-            // $error['photo'] = 'Vous n\'avez pas sélectionné la photo';
-            // si the user don't choose a new photo, no changes
+
+        if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
+            $photo = $picture->photo;
         } else {
             try {
-                @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $filename); // delete image from disk if we modified it
+                @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $photo); // delete image from disk if we modified it
                 // file exist ?
                 if (!isset($_FILES['photo'])) {
                     throw new Exception("Le champ photo n'existe pas");
@@ -83,8 +83,7 @@ try {
                 $filename = $name . '.' . $extension;
                 $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
                 move_uploaded_file($from, $to);
-                $photo = $filename; // to send in base inly file's name and not the path (to exclude NULL in base)
-
+                $photo = $picture->photo; // update the picture in list.php
             } catch (\Throwable $th) {
                 $error['photo'] = $th->getMessage();
             }
@@ -104,13 +103,13 @@ try {
 
         // * check isExist
         $isExistName = Picture::isExist(name: $name, currentId_picture: $id_picture);
-        if ($isExistName) {
-            $error['isExistByName'] = 'Ce nom est déjà utilisé';
+        if ($isExistName && !empty($name)) {
+            $error['isExistByName'] = 'Le nom que cous avez entré est déjà utilisé';
         }
         if ($description != null) {
             $isExistDescription = Picture::isExist(description: $description, currentId_picture: $id_picture);
             if ($isExistDescription) {
-                $error['isExistByDescription'] = 'Cette description est déjà utilisée';
+                $error['isExistByDescription'] = 'La description que vous avez entrée est déjà utilisée';
             }
         }
 
@@ -118,7 +117,7 @@ try {
         // * update
         if (empty($error)) {
             $picture = new Picture();
-            
+
             $picture->setIsSelection($isSelection);
             $picture->setName($name);
             $picture->setPhoto($photo);
@@ -132,7 +131,7 @@ try {
             // if the method returns true
             if ($isOk) {
                 $result = 'La photo a bien été modifiée ! Vous allez être redirigé...';
-                // header('Refresh: 3; URL=/controllers/dashboard/pictures/list-ctrl.php');
+                header('Refresh: 3; URL=/controllers/dashboard/pictures/list-ctrl.php');
             }
         }
     }
