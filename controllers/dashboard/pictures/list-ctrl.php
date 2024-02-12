@@ -24,7 +24,7 @@ try {
     
     // * To search by keywords
     if ($search != '') {
-        $searchedPhotos = Picture::search(search: $search);
+        $searchedPhotos = Picture::getAll(search: $search);
         $pictures = $searchedPhotos; // use search results and not all images
     }
 
@@ -34,7 +34,7 @@ try {
     
     $nbePages = ceil($nbePictures / NB_ELEMENTS_PER_PAGE);
     // dd($nbePages);
-    if ($page <= 0 || $page > $nbePages) {
+    if ($page <= 0 || $page > $nbePages) { 
         $page = 1;
     }
 

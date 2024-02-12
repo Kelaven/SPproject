@@ -36,7 +36,7 @@ try {
     $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
 
     if ($search != '') {
-        $searchedPhotos = Picture::search(search: $search, archive: true);
+        $searchedPhotos = Picture::getAll(archive: true, search: $search);
         $pictures = $searchedPhotos; // use search results and not all images
     }
 
