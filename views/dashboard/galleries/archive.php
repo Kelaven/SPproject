@@ -14,7 +14,7 @@
                 <!-- carte contenant les infos -->
                 <div class="card bg-dark mb-3 card__list--galleries">
                     <div class="card-header">
-                        <h1 class="form__h1 pt-2">Liste des galeries archivées</h1>
+                        <h1 class="form__h1 pt-2">Liste des galeries <span class="text-warning">archivées</span></h1>
                     </div>
                     <div class="card-body p-5 pt-3">
                         <p class="text-info">

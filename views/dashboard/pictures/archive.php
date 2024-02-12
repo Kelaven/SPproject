@@ -13,7 +13,7 @@
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--galleries">
                     <div class="card-header">
-                        <h1 class="form__h1 pt-2">Liste des photos archivées</h1>
+                        <h1 class="form__h1 pt-2">Liste des photos <span class="text-warning">archivées</span></h1>
                     </div>
                     <div class="card-body p-5 pt-3">
                         <div class="dashboard__search--container">
@@ -115,12 +115,12 @@
                         <li class="page-item <?php if ($page == 1) { ?>
                             disabled
                         <?php } ?>">
-                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page - 1 ?>">&laquo;</a>
+                            <a class="page-link" href="/controllers/dashboard/pictures/archive-ctrl.php?page=<?= $page - 1 ?>">&laquo;</a>
                         </li>
                         <?php
                         for ($p = 1; $p <= $nbePages; $p++) { ?>
                             <li class="page-item <?php if ($p == $page) { ?> active <?php } ?>">
-                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $p ?>"><?= $p ?></a>
+                                <a class="page-link" href="/controllers/dashboard/pictures/archive-ctrl.php?page=<?= $p ?>"><?= $p ?></a>
                             </li>
                         <?php
                         }
