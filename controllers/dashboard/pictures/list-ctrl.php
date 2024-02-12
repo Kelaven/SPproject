@@ -17,17 +17,18 @@ try {
     // * filter
     $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
     $page = intval(filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_INT));
-
+    
     // * display pictures list
     $pictures = Picture::getAll(); // without archived pictures (thanks to default argument)
-
+    
     
     // * To search by keywords
     if ($search != '') {
         $searchedPhotos = Picture::getAll(search: $search);
         $pictures = $searchedPhotos; // use search results and not all images
     }
-
+    
+    // dd($pictures);
 
     // * Paginate
     $nbePictures = count($pictures);
@@ -37,12 +38,10 @@ try {
     if ($page <= 0 || $page > $nbePages) { 
         $page = 1;
     }
-
-
-    // calcul de la premiere photo de la page perPages: true
-    $firstPicture = ($page * NB_ELEMENTS_PER_PAGE) - NB_ELEMENTS_PER_PAGE; // la premiere photo fait 0
-    // dd($firstPicture);
-
+    // calculate first photo of each page
+    $firstPicture = ($page * NB_ELEMENTS_PER_PAGE) - NB_ELEMENTS_PER_PAGE;
+    $pictures = Picture::getAll(search: $search, perPages: true, firstPicture: $firstPicture);
+    // dd($pictures);
 
 
 

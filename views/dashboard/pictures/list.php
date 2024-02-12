@@ -118,12 +118,12 @@
                         <li class="page-item <?php if ($page == 1) { ?>
                             disabled
                         <?php } ?>">
-                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page - 1 ?>&id_picture=<?= $id_picture ?>">&laquo;</a>
+                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page - 1 ?>">&laquo;</a>
                         </li>
                         <?php
                         for ($p = 1; $p <= $nbePages; $p++) { ?>
                             <li class="page-item <?php if ($p == $page) { ?> active <?php } ?>">
-                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $p ?>&id_picture=<?= $id_picture ?>"><?= $p ?></a>
+                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $p ?>"><?= $p ?></a>
                             </li>
                         <?php
                         }
@@ -131,7 +131,7 @@
                         <li class="page-item <?php if ($page == $nbePages) { ?>
                             disabled
                         <?php } ?>">
-                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page + 1 ?>&id_picture=<?= $id_picture ?>">&raquo;</a>
+                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page + 1 ?>">&raquo;</a>
                         </li>
                     </ul>
                 </div>

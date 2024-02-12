@@ -13,10 +13,11 @@ try {
     // * header's modification
     $title = 'Liste des photos archivées';
 
+    // * filter
+    $toArchive = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
+    $page = intval(filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_INT));
 
     // * To archive a photo when we clicks on the btn 
-    $toArchive = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
-
     if ($toArchive) {
         $archive = Picture::archive($toArchive);
 
@@ -31,7 +32,7 @@ try {
     // * To display archived galleries like a list, in archive.php
     $pictures = Picture::getAll(archive: true);
 
-    
+
     // * To search by keywords
     $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
 
@@ -39,6 +40,19 @@ try {
         $searchedPhotos = Picture::getAll(archive: true, search: $search);
         $pictures = $searchedPhotos; // use search results and not all images
     }
+
+
+    // * Paginate
+    $nbePictures = count($pictures);
+
+    $nbePages = ceil($nbePictures / NB_ELEMENTS_PER_PAGE);
+    // dd($nbePages);
+    if ($page <= 0 || $page > $nbePages) {
+        $page = 1;
+    }
+    // calculate first photo of each page
+    $firstPicture = ($page * NB_ELEMENTS_PER_PAGE) - NB_ELEMENTS_PER_PAGE;
+    $pictures = Picture::getAll(archive: true, search: $search, perPages: true, firstPicture: $firstPicture);
 
 
     // * display unarchive message

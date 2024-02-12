@@ -152,7 +152,7 @@ class Picture
      * Method to display pictures' list
      * @return array objects array
      */
-    public static function getAll(bool $archive = false, string $search = ''): array
+    public static function getAll(bool $archive = false, string $search = '', bool $perPages = false, int $firstPicture = 0): array
     {
         $pdo = Database::connect();
 
@@ -161,17 +161,26 @@ class Picture
 
         if ($archive === false) {
             $sql .= ' AND `pictures`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
+            // $sql .= ' ORDER BY `name`';
         } else {
             $sql .= ' AND `pictures`.`deleted_at` IS NOT NULL';
+            // $sql .= ' ORDER BY `name`';
         }
         if ($search != '') {
             $sql .= ' AND `name` LIKE :search';
         }
+        if ($perPages === true) { // to display X photos per pages
+            $sql .= ' ORDER BY `name` LIMIT :firstPicture,' . NB_ELEMENTS_PER_PAGE;
+        }
+
 
         $sth = $pdo->prepare($sql);
 
         if ($search != '') {
             $sth->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
+        }
+        if ($perPages === true) {
+            $sth->bindValue(':firstPicture', $firstPicture, PDO::PARAM_INT);
         }
 
         $sth->execute();
@@ -374,7 +383,4 @@ class Picture
 
         return $result;
     }
-
-
-
 }
