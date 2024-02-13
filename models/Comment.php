@@ -148,4 +148,70 @@ class Comment
 
         return $result;
     }
+
+
+    // *  method archive
+    /**
+     * metho to archive a comment
+     * @param int $toArchive
+     * 
+     * @return bool if execute workd
+     */
+    public static function archive(int $toArchive): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `comments` 
+            SET `deleted_at` = NOW()
+            WHERE `id_comment` = :id_comment;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_comment', $toArchive, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+    // * method unarchive
+    /**
+     * metho to unarchive a comment
+     * @param int $archive
+     * 
+     * @return bool true if execute works
+     */
+    public static function unarchive(int $archive): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `comments`
+            SET `deleted_at` = NULL
+            WHERE `id_comment` = :id_comment;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_comment', $archive, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
+    // * method delete
+    public static function delete(int $id_comment): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'DELETE FROM `comments`
+                WHERE `id_comment` = :id_comment;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_comment', $id_comment, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
+    }
 }
