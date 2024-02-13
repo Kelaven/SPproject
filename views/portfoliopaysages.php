@@ -239,7 +239,9 @@
                     <picture class="carousel__img--desktop">
                         <source media="(max-width: 840px)" srcset="/public/assets/img/jpegpaysages/mobilesize/vercors-france-panorama-mountains-300-40.jpg">
                         <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-crop-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy">
+                        <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
+                        <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-10.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
+                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-30.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild6Modal" data-modal-index="5">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
