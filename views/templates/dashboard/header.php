@@ -29,7 +29,7 @@
                         <a href="/controllers/dashboard/pictures/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-images pe-2"></i>Photos</a>
                     </li>
                     <li>
-                        <a href="#" class="sidebar__nav--tabs"><i class="fa-solid fa-comment-dots pe-2"></i>Commentaires</a>
+                        <a href="/controllers/dashboard/comments/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-comment-dots pe-2"></i>Commentaires</a>
                     </li>
                 </ul>
                 <a class="btn btn-primary btn__home" href="/controllers/portfoliopaysages-ctrl.php">Quitter</a>
