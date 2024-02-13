@@ -44,7 +44,7 @@
     height: 100%;
     object-fit: cover;
 }
-#carousel__img--desktop--adapt--storm{
+.carousel__img--desktop--adapt--storm{
     object-position: 50% 65%;
 }
 #carousel__img--desktop--adapt--tree{
@@ -77,7 +77,7 @@
 #carousel__img--desktop--adapt-lacannecy{
     object-position: 90% 50%;
 }
-#carousel__img--desktop--adapt-gresol, #carousel__img--desktop--adapt--corsetree, #carousel__img--desktop--adapt-cascade{
+#carousel__img--desktop--adapt-gresol, #carousel__img--desktop--adapt--corsetree, .carousel__img--desktop--adapt-cascade{
     object-position: 50% 60%;
 }
     .divchild{
