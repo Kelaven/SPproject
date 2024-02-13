@@ -32,6 +32,7 @@ article {
 .portfolio__h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 4vw;
+    font-weight: 400 !important;
     color: #fff;
     text-transform: uppercase;
 }
@@ -59,6 +60,7 @@ article {
 .portfolio__citation--author{
     font-family: 'Allura', sans-serif;
     font-size: 3vw;
+    font-weight: lighter;
 }
 .modal__btn {
     height: 100% !important;
