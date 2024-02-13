@@ -27,12 +27,12 @@
                         </p>
                         <table>
                             <tr>
-                                <th>Id :</th>
+                                <th class="pe-3">Id :</th>
                                 <th>Nom :</th>
                                 <th>Date séance :</th>
                                 <th>Image :</th>
                                 <th>Passe d'accès :</th>
-                                <th></th> <!-- modifier -->
+                                <th class="pe-4"></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
                             </tr>
                             <?php
@@ -43,7 +43,7 @@
                                     <td><?= $gallery->id_gallery ?></td>
                                     <td><?= $gallery->name ?></td>
                                     <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
-                                    <td> <?php if (!empty($gallery->gallery_photo)) { ?>
+                                    <td> <?php if (!empty($gallery->gallery_photo) && $gallery->gallery_isCover == 1) { ?>
                                             <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>" alt="Photo de couverture de la galerie">
                                             <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoomGallery<?= $gallery->id_gallery ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
                                         <?php } ?>

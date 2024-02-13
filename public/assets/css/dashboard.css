@@ -82,7 +82,7 @@ h1, p, th, .form__h1, td, .fa-solid, .card-header, label, .fa-regular{
     /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.card__list--galleries{
+.card__list--galleries, .card__list--pictures, .card__list--comments{
     min-width: 60vw !important;
 }
 .list-group-item{
@@ -187,8 +187,8 @@ input::placeholder{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 @media (min-width: 1900px) {
-    .card{
-        margin: 0px 10vw 0px 0px !important;
+    .card__list--pictures, .dashboard__colBtns--pictures, .card__list--comments, .dashboard__colBtns--comments{
+        margin: 0px 10vw 0px 0px;
     }
 }
 
