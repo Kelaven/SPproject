@@ -26,8 +26,8 @@
                                 <th class="ps-4">Galerie :</th>
                                 <th class="ps-4">Auteur :</th>
                                 <th class="ps-4">Date écriture :</th>
-                                <th class="ps-4">Date confirmation :</th>
-                                <th></th> <!-- modifier -->
+                                <th class="ps-4 pe-5">Date confirmation :</th>
+                                <th class="px-4"></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
                             </tr>
                             <?php
@@ -54,7 +54,7 @@
                                         <?php } ?>
                                     </td>
                                     <td>
-                                        <a href="/controllers/dashboard/comments/confirm-ctrl.php?id_comment=<?= $comment->id_comment ?>" data-bs-toggle="tooltip" data-bs-title="Confirmer"><i class="fa-regular fa-square-check px-5"></i></a>
+                                        <a href="/controllers/dashboard/comments/confirm-ctrl.php?id_comment=<?= $comment->id_comment ?>" data-bs-toggle="tooltip" data-bs-title="Confirmer"><i class="fa-regular fa-square-check"></i></a>
                                     </td>
                                     <td class="text-end">
                                         <a href="/controllers/dashboard/comments/archive-ctrl.php?id_comment=<?= $comment->id_comment ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>

@@ -1,4 +1,12 @@
--> corriger le bug de responsivité des pages en mode mobile paysage (overflow hidden à revoir)
+roadmap ? affichage galeries et leurs photos de couv, implémenter une page de connexion pr les galeries, gérer les photos avec ftp, 
+securiser pr eviter leurs telechargements indesirables, modifier la Sélection, fonction de like, php mailer pour recevoir les ddes de contact
+bonus : commentaires dans les galeries, confirmation d'inscription par mail, tableau de bord utilisateurs pr gerer leur compte
+
+
+
+-> ajouter un ordre croissant sur les dates dans le CRUD des galeries
+
+-> ajouter une case j'accepte les conditions générales lors de l'inscription
 
 -> vérifications W3C
 
@@ -7,6 +15,8 @@
 -> fonction rechercher dans les galeries
 
 -> compteur de like
+
+-> optimiser les catch
 
 -> Optimisation feuilles CSS, style JS (répétitions, code inutile, nom des classes / id), JS, Row et Col bootstrap
 

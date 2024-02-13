@@ -2,10 +2,10 @@
 
 body {
     overflow-x: hidden;
-}
-#accesclient__body {
     background-color: #24282D;
 }
+/* #accesclient__body {
+} */
 
 .accesclient__img {
     height: 400px;

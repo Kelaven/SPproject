@@ -10,6 +10,7 @@ class Picture
     // * Attributes
     private ?int $id_picture;
     private int $isSelection;
+    private int $isCover;
     private ?string $name;
     private ?string $photo;
     private ?string $description;
@@ -23,6 +24,7 @@ class Picture
     public function __construct(
         ?int $id_picture = null,
         int $isSelection = 0,
+        int $isCover = 0,
         ?string $name = null,
         ?string $photo = null,
         ?string $description = null,
@@ -34,6 +36,7 @@ class Picture
     ) {
         $this->id_picture = $id_picture;
         $this->isSelection = $isSelection;
+        $this->isCover = $isCover;
         $this->photo = $photo;
         $this->name = $name;
         $this->description = $description;
@@ -62,6 +65,16 @@ class Picture
     public function getIsSelection(): int
     {
         return $this->isSelection;
+    }
+
+    // Setter et getter pour isCover
+    public function setIsCover(int $isCover): void
+    {
+        $this->isCover = $isCover;
+    }
+    public function getIsCover(): int
+    {
+        return $this->isCover;
     }
 
     // Setter et getter pour name
@@ -383,4 +396,57 @@ class Picture
 
         return $result;
     }
+
+    // * method isCover
+    public static function isCover(?int $id_pictureCover = null, ?int $id_pictureUncover = null)
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `pictures` SET `isCover` =';
+
+        if ($id_pictureCover !== null) {
+            $sql .= ' 1 WHERE `id_picture` = :id_pictureCover;';
+        }
+
+        if ($id_pictureUncover !== null) {
+            $sql .= ' 0 WHERE `id_picture` = :id_pictureUncover;';
+        }
+
+        $sth = $pdo->prepare($sql);
+
+        if ($id_pictureCover !== null) {
+            $sth->bindValue(':id_pictureCover', $id_pictureCover, PDO::PARAM_INT);
+
+            $result = $sth->execute();
+
+            return $result;
+        }
+
+        if ($id_pictureUncover !== null) {
+            $sth->bindValue(':id_pictureUncover', $id_pictureUncover, PDO::PARAM_INT);
+
+            $result = $sth->execute();
+
+            return $result;
+        }
+
+
+    }
+    // // * method unCover
+    // public static function unCover(int $id_pictureNo)
+    // {
+    //     $pdo = Database::connect();
+
+    //     $sql = 'UPDATE `pictures`
+    //     SET `isCover` = 0
+    //     WHERE `id_picture` = :id_pictureNo;';
+
+    //     $sth = $pdo->prepare($sql);
+
+    //     $sth->bindValue(':id_pictureNo', $id_pictureNo, PDO::PARAM_INT);
+
+    //     $result = $sth->execute();
+
+    //     return $result;
+    // }
 }

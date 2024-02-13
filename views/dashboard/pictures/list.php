@@ -42,7 +42,8 @@
                                 <th>Photo :</th>
                                 <th>Nom :</th>
                                 <th>Description :</th>
-                                <!-- ? <th class="pe-5">Like :</th> -->
+                                <th>Couverture :</th>
+                                <th  class="pe-3">Galerie :</th>
                                 <th></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
                             </tr>
@@ -59,12 +60,19 @@
                                     <td class="pe-3"><?= $picture->name ?></td>
                                     <td><?php
                                         if (($picture->description != null) && (strlen($picture->description) >= 30)) {
-                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
+                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-4" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($picture->description);
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                 ?></td>
                                     <!-- ? <td><?= $picture->picture_like ?></td> -->
+                                    <!-- <td class="pe-4"><?= $picture->isCover ?><i class="fa-solid fa-money-bill-transfer ps-3"></i></td> -->
+                                    <td class="pe-4">
+                                    <?= $picture->isCover ?>
+                                        <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureCover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Oui"><i class="fa-solid fa-square-plus ps-1"></i></a>
+                                        <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureUncover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Non"><i class="fa-solid fa-eraser"></i></a>
+                                    </td>
+                                    <td class="pe-4"><?= $picture->id_gallery ?></td>
                                     <td>
                                         <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
                                     </td>

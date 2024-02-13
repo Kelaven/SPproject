@@ -61,7 +61,7 @@ hr {
 }
 
 /* ! home.php */
-h1, p, th, .form__h1, td, .fa-solid, .card-header, label{
+h1, p, th, .form__h1, td, .fa-solid, .card-header, label, .fa-regular{
     color: #fff;
 }
 
@@ -192,7 +192,4 @@ input::placeholder{
 .dashboard__commentsBdg{
     color: black !important;
     text-transform: uppercase;
-}
-.fa-regular{
-    color: #fff;
 }
