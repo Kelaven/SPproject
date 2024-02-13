@@ -156,6 +156,25 @@ class User
 
     // ! méthodes
 
+    // * Method to display users' list
+    /**
+     * Method to display users' list
+     * @return array objects array
+     */
+    public static function getAll(): array
+    {
+        $pdo = Database::connect();
+
+        $sql = 'SELECT *
+        FROM `users`;';
+
+        $sth = $pdo->query($sql); // the query method prepare and execute in same time provided there are no markers
+
+        $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
+
+        return $datas;
+    }
+
     // * méthode insert
     /**
      * Method to insert new user (sign up)
@@ -233,5 +252,22 @@ class User
         $sth->execute();
 
         return $sth->fetch(PDO::FETCH_OBJ);
+    }
+
+    // * method delete
+    public static function delete(int $id_user): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'DELETE FROM `users`
+                    WHERE `id_user` = :id_user;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':id_user', $id_user, PDO::PARAM_INT);
+
+        $result = $sth->execute();
+
+        return $result;
     }
 }

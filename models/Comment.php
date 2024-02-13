@@ -103,7 +103,7 @@ class Comment
 
     // ! Methods
 
-    // * Method to display galleries' list
+    // * Method to display comments' list
     /**
      * Method to display comments' list
      * @return array objects array

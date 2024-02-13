@@ -31,6 +31,9 @@
                     <li>
                         <a href="/controllers/dashboard/comments/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-comment-dots pe-2"></i>Commentaires</a>
                     </li>
+                    <li>
+                        <a href="/controllers/dashboard/users/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-user pe-2"></i>Utilisateurs</a>
+                    </li>
                 </ul>
                 <a class="btn btn-primary btn__home" href="/controllers/portfoliopaysages-ctrl.php">Quitter</a>
             </div>
