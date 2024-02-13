@@ -18,6 +18,8 @@ bonus : commentaires dans les galeries, confirmation d'inscription par mail, tab
 
 -> optimiser les catch
 
+-> transformer les conditions des vues en ternaires
+
 -> Optimisation feuilles CSS, style JS (répétitions, code inutile, nom des classes / id), JS, Row et Col bootstrap
 
 -> revoir les dataset dans les carrousel de portfolio (data-index est-il finalement utilisé ?)

@@ -96,75 +96,8 @@ class Gallery
         return $this->deleted_at;
     }
 
+
     //  ! methods
-
-    // * Method to display galleries' list
-    // /**
-    //  * Method to display galleries' list
-    //  * @return array objects array
-    //  */
-    // public static function getAll(bool $archive = false): array
-    // {
-    //     $pdo = Database::connect();
-
-    //     $sql = 'SELECT * FROM `galleries`';
-    //     $sql .= ' WHERE 1 = 1';
-
-    //     if ($archive === false) {
-    //         $sql .= ' AND `galleries`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
-    //     } else {
-    //         $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
-    //     }
-
-    //     $sth = $pdo->query($sql); // the query method prepare and execute in same time provided there are no markers
-
-    //     $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
-
-    //     return $datas;
-    // }
-
-    // // * Method to display galleries' list
-    // /**
-    //  * Method to display galleries' list
-    //  * @return array objects array
-    //  */
-    // public static function getAll(bool $archive = false, ?int $id_gallery = null): array
-    // {
-    //     $pdo = Database::connect();
-
-    //     $sql = 'SELECT `galleries`.*';
-    //     if ($id_gallery != null) {
-    //         $sql .= ', `pictures`.`photo` AS gallery_photo';
-    //     }
-    //     $sql .= ' FROM `galleries`';
-    //     if ($id_gallery != null) {
-    //         $sql .= ' JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery`';
-    //     }
-    //     $sql .= ' WHERE 1 = 1';
-
-    //     if ($archive === false) {
-    //         $sql .= ' AND `galleries`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
-    //     } else {
-    //         $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
-    //     }
-    //     if ($id_gallery != null) {
-    //         $sql .= ' AND `pictures`.`id_gallery` = :id_gallery';
-    //     }
-
-    //     // $sth = $pdo->query($sql); // the query method prepare and execute in same time provided there are no markers
-
-    //     $sth = $pdo->prepare($sql);
-
-    //     if ($id_gallery != null) {
-    //         $sth->bindValue(':id_gallery', $id_gallery, PDO::PARAM_INT);
-    //     }
-
-    //     $result = $sth->execute();
-
-    //     $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
-
-    //     return $datas;
-    // }
 
     // * Method to display galleries' list
     /**
@@ -193,33 +126,6 @@ class Gallery
 
         return $datas;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     // * Method to insert new gallery
     /**
@@ -307,8 +213,10 @@ class Gallery
     {
         $pdo = Database::connect();
 
-        $sql = 'SELECT * FROM `galleries` 
-        WHERE id_gallery = :id_gallery;';
+        $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `pictures_photo`, `pictures`.`isCover` AS `pictures_isCover`
+        FROM `galleries`
+        JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery`
+        WHERE `galleries`.`id_gallery` = :id_gallery;';
 
         $sth = $pdo->prepare($sql);
 

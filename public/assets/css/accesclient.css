@@ -37,25 +37,14 @@ body {
     border-radius: 0% !important;
 }
 
-#accesclientform__bg--anais {
-    background-image: url("/public/assets/img/anais-picture-portrait-women-maroc-beach-1920-45.jpg");
+.accesclientform__bg{
+    position: absolute;
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-/* #accesclientform__bg--pauline{
-    background-image: url("/public/assets/img/pauline-picture-portrait-women-france-montains-snow-1920-30.jpg");
-}
-#accesclientform__bg--jad{
-    background-image: url("/public/assets/img/jad-picture-portrait-men-france-sunset-streetstyle-1920-30.jpg");
-}
-#accesclientform__bg--melissa{
-    background-image: url("/public/assets/img/melissa-picture-portrait-women-italie-panorama-1920-30.jpg");
-}
-#accesclientform__bg--romain{
-    background-image: url("/public/assets/img/romain-picture-portrait-men-france-audi-voiture-1920-40.jpg");
-}
-#accesclientform__bg--antoine{
-    background-image: url("/public/assets/img/antoine-picture-portrait-men-france-architecture-streetstyle-1920-30.jpg");
-} */
 .accesclientform__overlay {
     height: 100%;
     width: 100vw;

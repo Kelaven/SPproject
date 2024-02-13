@@ -1,11 +1,16 @@
-<section class="container-fluid">
-    <div class="row accesclientform__bg" id="accesclientform__bg--anais"> <!-- ! il faudra charger dynamiquement l'image pour qu'elle corresponde -->
-        <div class="accesclientform__overlay">
-            <div class="col col-md-8 col-xl-5 p-0">
-                <h1 class="accesclientform__h1 pb-5">"Prénom" - séance portraits</h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
+<section class="container-fluid px-0">
+    <img class="accesclientform__bg" src="/public/assets/img/ftp/<?php
+    if ($gallery->pictures_isCover != 0) {
+        echo($gallery->pictures_photo );
+    }
+    ?>" alt="photographie de couverture de la galerie" loading="lazy">
+    <div class="row accesclientform__bg justify-content-center align-items-center"> <!-- ! il faudra charger dynamiquement l'image pour qu'elle corresponde -->
+        <!-- <div class="accesclientform__overlay"> -->
+            <div class="col-12 col-md-8 col-xl-5 ps-4 ms-2">
+                <h1 class="accesclientform__h1 pb-5"><?= $gallery->name ?></h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
                 <form action="" method="post">
                     <!-- ! loginAccess -->
-                    <div class="input-group pe-xl-3 ps-xl-3 px-1">
+                    <!-- <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="loginAccess"></label>
                         <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                         <input 
@@ -16,8 +21,8 @@
                         placeholder="Identifiant" 
                         class="form-control" 
                         value="<?= $loginAccess ?? '' ?>">
-                    </div>
-                    <small class="text-danger ps-3"><?= $error['loginAccess'] ?? '' ?></small>
+                    </div> -->
+                    <!-- <small class="text-danger ps-3"><?= $error['loginAccess'] ?? '' ?></small> -->
                     <!-- ! passwordAccess -->
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="passwordAccess"></label>
@@ -32,11 +37,11 @@
                     </div>
                     <small class="text-danger ps-3"><?= $error['passwordAccess'] ?? '' ?></small>
                     <!-- ! validation btn -->
-                    <div class="text-center py-3">
+                    <div class="text-center py-5">
                         <button class="btn btn-primary" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 </section>

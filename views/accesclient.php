@@ -10,16 +10,16 @@
                 </a>
             </div>
             <?php
-                // dd($galleries);
             foreach ($galleries as $gallery) {
+                // dd($gallery);
             ?>
                 <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
-                    <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php" target="_blank">
+                    <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
                         <img class="accesclient__img" src="/public/assets/img/ftp/<?php
                         if ($gallery->gallery_isCover == 1) {
                             echo($gallery->gallery_photo );
                         }
-                        ?>" alt="photographie de couverture de galerie client">
+                        ?>" alt="photographie de couverture de galerie client" loading="lazy">
                         <div>
                             <p class="animate__flipInX accesclient__txt text-center"><i class="fa-solid fa-lock pe-2 pt-3"></i><?= $gallery->name ?></p>
                         </div>
