@@ -14,6 +14,9 @@ try {
     // * modification du header
     $title = 'Ajouter une photo';
 
+    // * getAll to display galleries' id in select (into the form)
+    $galleries = Picture::getAll();
+    // d($galleries);
 
     // * nettoyage et validation du formulaire
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -33,6 +36,18 @@ try {
                 } else {
                     $isSelection = 1;
                 }
+            }
+        }
+
+        /// id_gallery ///
+        $id_gallery = intval(filter_input(INPUT_POST, 'id_gallery', FILTER_SANITIZE_SPECIAL_CHARS));
+        if (empty($id_gallery)) {
+            $error['id_gallery'] = 'Le champ ne peut pas être vide';
+        } else {
+            $isOk = filter_var($id_gallery, FILTER_VALIDATE_INT);
+            // dd($isOk);
+            if (!$isOk) {
+                $error['id_gallery'] = 'Il y\'a un problème';
             }
         }
 
@@ -113,7 +128,6 @@ try {
             }
         }
 
-
         // * registration in base
         if (empty($error)) {
             // dd($name);
@@ -123,6 +137,7 @@ try {
             $picture->setName($name);
             $picture->setPhoto($photo);
             $picture->setDescription($description);
+            $picture->setIdGallery($id_gallery);
 
 
             // call of insert's method

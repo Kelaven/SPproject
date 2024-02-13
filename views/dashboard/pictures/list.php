@@ -1,5 +1,5 @@
 <section class="pe-5">
-    <div class="container pb-4" id="container__creatList">
+    <div class="container-fluid pb-4" id="container__creatList">
         <div class="row">
             <div class="col pt-5 pe-5">
                 <a href="/controllers/dashboard/pictures/add-ctrl.php" class="btn btn-dark form__btn me-2">
@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <div class="container px-5 py-0" id="container__readList">
+    <div class="container-fluid px-5 py-0" id="container__readList">
         <div class="row">
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--galleries">
@@ -24,7 +24,7 @@
                                 <form>
                                     <label for="search" class="form-label">Recherche par mots clés :</label>
                                     <div class="dashboard__search--labelInput">
-                                        <input id="search" name="search" class="form-control" type="search" placeholder="Recherche">
+                                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom photo">
                                         <button class="btn btn-dark my-2 my-sm-0 d-flex justify-content-center" type="submit">
                                             <i class="fa-solid fa-magnifying-glass"></i>
                                         </button>
@@ -42,9 +42,9 @@
                                 <th>Photo :</th>
                                 <th>Nom :</th>
                                 <th>Description :</th>
-                                <th>Couverture :</th>
-                                <th  class="pe-3">Galerie :</th>
-                                <th></th> <!-- modifier -->
+                                <th class="pe-5">Couverture :</th>
+                                <th class="pe-3">Galerie :</th>
+                                <th class="pe-5"></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
                             </tr>
                             <?php
@@ -60,7 +60,7 @@
                                     <td class="pe-3"><?= $picture->name ?></td>
                                     <td><?php
                                         if (($picture->description != null) && (strlen($picture->description) >= 30)) {
-                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-4" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
+                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($picture->description);
                                                                                                                                                                                                                                                                             }
@@ -72,7 +72,7 @@
                                         <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureCover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Oui"><i class="fa-solid fa-square-plus ps-1"></i></a>
                                         <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureUncover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Non"><i class="fa-solid fa-eraser"></i></a>
                                     </td>
-                                    <td class="pe-4"><?= $picture->id_gallery ?></td>
+                                    <td class="pe-5"><?= $picture->id_gallery ?> : <?= $picture->gallery_name ?></td>
                                     <td>
                                         <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
                                     </td>
@@ -118,11 +118,11 @@
             </div>
         </div>
     </div>
-    <div class="container pt-1">
+    <div class="container-fluid pt-1">
         <div class="row">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <ul class="pagination">
+                    <ul class="pagination pt-xxl-2">
                         <li class="page-item <?php if ($page == 1) { ?>
                             disabled
                         <?php } ?>">

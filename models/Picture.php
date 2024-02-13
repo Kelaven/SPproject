@@ -169,7 +169,9 @@ class Picture
     {
         $pdo = Database::connect();
 
-        $sql = 'SELECT * FROM `pictures`';
+        $sql = 'SELECT `pictures`.*, `galleries`.`name` AS `gallery_name`
+        FROM `pictures`
+        LEFT JOIN `galleries` ON `pictures`.`id_gallery` = `galleries`.`id_gallery`';
         $sql .= ' WHERE 1 = 1';
 
         if ($archive === false) {
@@ -180,7 +182,7 @@ class Picture
             // $sql .= ' ORDER BY `name`';
         }
         if ($search != '') {
-            $sql .= ' AND `name` LIKE :search';
+            $sql .= ' AND `pictures`.`name` LIKE :search';
         }
         if ($perPages === true) { // to display X photos per pages
             $sql .= ' ORDER BY `name` LIMIT :firstPicture,' . NB_ELEMENTS_PER_PAGE;
@@ -214,15 +216,17 @@ class Picture
         $pdo = Database::connect();
 
         $sql = 'INSERT INTO `pictures`
-        (`isSelection`, `name`, `photo`, `description`)
-        VALUES (:isSelection, :name, :photo, :description);';
+        (`isSelection`, `isCover`, `name`, `photo`, `description`, `id_gallery`)
+        VALUES (:isSelection, :isCover, :name, :photo, :description, :id_gallery);';
 
         $sth = $pdo->prepare($sql);
 
         $sth->bindValue(':isSelection', $this->getIsSelection());
+        $sth->bindValue(':isCover', $this->getIsCover());
         $sth->bindValue(':name', $this->getName());
         $sth->bindValue(':photo', $this->getPhoto());
         $sth->bindValue(':description', $this->getDescription());
+        $sth->bindValue(':id_gallery', $this->getIdGallery());
 
         $sth->execute();
 
@@ -315,7 +319,8 @@ class Picture
         SET `isSelection` = :isSelection,
         `name` = :name,
         `photo` = :photo,
-        `description` = :description
+        `description` = :description,
+        `id_gallery` = :id_gallery
         WHERE `id_picture` = :id_picture;';
 
         $sth = $pdo->prepare($sql);
@@ -324,6 +329,7 @@ class Picture
         $sth->bindValue(':name', $this->getName());
         $sth->bindValue(':photo', $this->getPhoto());
         $sth->bindValue(':description', $this->getDescription());
+        $sth->bindValue(':id_gallery', $this->getIdGallery());
         $sth->bindValue(':id_picture', $this->getIdPicture(), PDO::PARAM_INT);
 
         $result = $sth->execute();

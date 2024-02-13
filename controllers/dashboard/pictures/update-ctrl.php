@@ -14,6 +14,9 @@ try {
     // * modification du header
     $title = 'Modifier une photo';
 
+    // * getAll to display galleries' id in select (into the form)
+    $galleries = Picture::getAll();
+
     // * recover and clean id_photo from URL
     $id_picture = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
 
@@ -38,6 +41,18 @@ try {
                 } else {
                     $isSelection = 1;
                 }
+            }
+        }
+
+        /// id_gallery ///
+        $id_gallery = intval(filter_input(INPUT_POST, 'id_gallery', FILTER_SANITIZE_SPECIAL_CHARS));
+        if (empty($id_gallery)) {
+            $error['id_gallery'] = 'Le champ ne peut pas être vide';
+        } else {
+            $isOk = filter_var($id_gallery, FILTER_VALIDATE_INT);
+            // dd($isOk);
+            if (!$isOk) {
+                $error['id_gallery'] = 'Il y\'a un problème';
             }
         }
 
@@ -122,6 +137,7 @@ try {
             $picture->setName($name);
             $picture->setPhoto($photo);
             $picture->setDescription($description);
+            $picture->setIdGallery($id_gallery);
             $picture->setIdPicture($id_picture);
 
             // call of update's method

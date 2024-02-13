@@ -29,8 +29,17 @@ try {
     $toUncover = Picture::isCover(id_pictureUncover: $id_pictureUncover);
     // dd($_SERVER);
 
-    if ($toCover && $_SERVER['REQUEST_URI'] !== '/controllers/dashboard/pictures/list-ctrl.php' && $id_pictureCover != null || $toUncover && $_SERVER['REQUEST_URI'] !== '/controllers/dashboard/pictures/list-ctrl.php' && $id_pictureCover != null) { // if the url is not the same than the destination url (it's the case before clicking on icon)
-        header("Location: /controllers/dashboard/pictures/list-ctrl.php");
+    if ($toCover && $_SERVER['REQUEST_URI'] !== '/controllers/dashboard/pictures/list-ctrl.php' && $id_pictureCover != null || $toUncover && $_SERVER['REQUEST_URI'] !== '/controllers/dashboard/pictures/list-ctrl.php' && $id_pictureUncover != null) { // if the url is not the same than the destination url (it's the case before clicking on icon)
+
+        if ($id_pictureCover != null) {
+            $msg = 'La photo est bien affichée en couverture de galerie !';
+            $_SESSION['msg'] = $msg;
+        } else if ($id_pictureUncover != null) {
+            $msg = 'La photo n\'est plus en couverture de galerie !';
+            $_SESSION['msg'] = $msg;
+        }
+
+        header('Location: /controllers/dashboard/pictures/list-ctrl.php');
         exit();
     } else {
 
@@ -50,7 +59,6 @@ try {
         // calculate first photo of each page
         $firstPicture = ($page * NB_ELEMENTS_PER_PAGE) - NB_ELEMENTS_PER_PAGE;
         $pictures = Picture::getAll(search: $search, perPages: true, firstPicture: $firstPicture);
-
     }
 
 
