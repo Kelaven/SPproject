@@ -54,6 +54,24 @@ try {
                 $error["passwordAccess"] = 'Le mots de passe est incorrect';
             } else {
                 $passwordAccessHash = password_hash($passwordAccess, PASSWORD_DEFAULT);
+
+
+
+
+                $test = 'test';
+                $_SESSION['test'] = $test;
+                dd($_SESSION);
+
+                //? If (empty(($_SESSION[‘user’]) || $_SESSION[‘user’]->role != 1){
+                //?     Header(‘location: controllers/users-signIn-ctrl.php’);
+                // Die;
+                // } 
+                
+
+
+
+
+
             }
         }
 

@@ -13,6 +13,10 @@ try {
     // * recover and clean id_gallery from URL
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
 
+    // * header update
+    $title = "Galerie $gallery->name —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France";
+    $pagesStyle = 'pages.css';
+
 
     // * galleries infos
     $gallery = Gallery::get($id_gallery);
@@ -22,16 +26,7 @@ try {
     $pictures = Picture::getAll();
     d($pictures);
 
-    // * display pics of the current gallery
-    // foreach ($pictures as $picture) {
-    //     if ($picture->id_gallery === $gallery->id_gallery) {
-    //         $currentGalleryPhoto = $picture->photo;
-    //     }
-    // }
 
-    // header update
-    $title = "Galerie $gallery->name —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France";
-    $pagesStyle = 'pages.css';
 } catch (\Throwable $th) {
     //throw $th;
 }
