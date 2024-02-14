@@ -8,7 +8,7 @@
         <!-- <div class="accesclientform__overlay"> -->
             <div class="col-12 col-md-8 col-xl-5 ps-4 ms-2">
                 <h1 class="accesclientform__h1 pb-5"><?= $gallery->name ?></h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
-                <form action="" method="post">
+                <form method="post">
                     <!-- ! loginAccess -->
                     <!-- <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="loginAccess"></label>

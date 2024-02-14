@@ -24,7 +24,7 @@
                                 <form>
                                     <label for="search" class="form-label">Recherche par mots clés :</label>
                                     <div class="dashboard__search--labelInput">
-                                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom photo">
+                                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom, Galerie">
                                         <button class="btn btn-dark my-2 my-sm-0 d-flex justify-content-center" type="submit">
                                             <i class="fa-solid fa-magnifying-glass"></i>
                                         </button>
@@ -53,14 +53,14 @@
                             ?>
                                 <tr>
                                     <td class="pe-4"><?= $picture->id_picture ?></td>
-                                    <td>
+                                    <td class="pe-4">
                                         <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $picture->photo ?>">
                                         <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
                                     </td>
-                                    <td class="pe-3"><?= $picture->name ?></td>
-                                    <td><?php
-                                        if (($picture->description != null) && (strlen($picture->description) >= 30)) {
-                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
+                                    <td class="pe-4"><?= $picture->name ?></td>
+                                    <td class="pe-4"><?php
+                                        if (($picture->description != null) && (strlen($picture->description) >= 25)) {
+                                            echo (substr($picture->description, 0, 25) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($picture->description);
                                                                                                                                                                                                                                                                             }

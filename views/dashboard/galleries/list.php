@@ -22,6 +22,20 @@
                         <h1 class="form__h1 pt-2">Liste des galeries</h1>
                     </div>
                     <div class="card-body p-5 pt-3">
+                    <div class="dashboard__search--container pb-2">
+                            <div class="dashboard__search--offContainer">
+                                <form>
+                                    <label for="search" class="form-label">Recherche par mots clés :</label>
+                                    <div class="dashboard__search--labelInput">
+                                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom galerie">
+                                        <button class="btn btn-dark my-2 my-sm-0 d-flex justify-content-center" type="submit">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                    <small class="fst-italic"><a href="/controllers/dashboard/galleries/list-ctrl.php" class="dashboard__small--search">Afficher toutes les galeries</a></small>
+                                </form>
+                            </div>
+                        </div>
                         <p class="text-info">
                             <?= $msg ?? '' ?>
                         </p>

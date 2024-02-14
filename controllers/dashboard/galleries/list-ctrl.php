@@ -12,9 +12,18 @@ try {
     // * header's modification
     $title = 'Liste des galeries';
 
+    // * filter
+    $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
+    // dd($search);
+
     // * display galleries list
     $galleries = Gallery::getAll(); // without archived galleries (thanks to default argument)
     // dd($galleries);
+
+    // * To search by keywords
+    if ($search != '') {
+        $galleries = Gallery::getAll(search: $search);
+    }
 
     // * display archive message
     $msg = filter_var($_SESSION['msg'] ?? '', FILTER_SANITIZE_SPECIAL_CHARS); // get the $msg from archive-ctrl.php

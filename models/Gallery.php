@@ -104,7 +104,7 @@ class Gallery
      * Method to display galleries' list
      * @return array objects array
      */
-    public static function getAll(bool $archive = false): array
+    public static function getAll(bool $archive = false, string $search = ''): array
     {
         $pdo = Database::connect();
 
@@ -119,8 +119,17 @@ class Gallery
         } else {
             $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
         }
+        if ($search != '') {
+            $sql .= ' AND `galleries`.`name` LIKE :search';
+        }
 
-        $sth = $pdo->query($sql); // the query method prepare and execute in same time provided there are no markers
+        $sth = $pdo->prepare($sql);
+
+        if ($search != '') {
+            $sth->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
+        }
+        
+        $sth->execute();
 
         $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
 

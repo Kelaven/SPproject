@@ -182,7 +182,7 @@ class Picture
             // $sql .= ' ORDER BY `name`';
         }
         if ($search != '') {
-            $sql .= ' AND `pictures`.`name` LIKE :search';
+            $sql .= ' AND `pictures`.`name` LIKE :search OR `galleries`.`name` LIKE :search';
         }
         if ($perPages === true) { // to display X photos per pages
             $sql .= ' ORDER BY `name` LIMIT :firstPicture,' . NB_ELEMENTS_PER_PAGE;

@@ -25,10 +25,13 @@
                                 <select id="id_gallery" name="id_gallery" class="form__inputs">
                                     <option value="" disabled></option>
                                     <?php
+                                    $addedGallery = [];
                                     foreach ($galleries as $gallery) {
-                                    ?>
-                                        <option value="<?= $gallery->id_gallery ?>" <?php if ((isset($id_gallery)) && ($id_gallery == $gallery->id_gallery)) { ?> selected <?php } ?>><?= $gallery->id_gallery ?> - <?= $gallery->gallery_name ?></option>
+                                        if (!in_array($gallery->id_gallery, $addedGallery)) { ?>
+                                            <option value="<?= $gallery->id_gallery ?>" <?php if ((isset($id_gallery)) && ($id_gallery == $gallery->id_gallery)) { ?> selected <?php } ?>><?= $gallery->id_gallery ?> - <?= $gallery->gallery_name ?></option>
                                     <?php
+                                            $addedGallery[] = $gallery->id_gallery;
+                                        }
                                     }
                                     ?>
                                 </select>
@@ -36,7 +39,8 @@
                             </div>
                             <div class="form-group pb-3">
                                 <label for="name">Nom de la photo :</label>
-                                <input class="form__inputs" type="text" id="name" name="name" placeholder="pauline_022024_shootingbruges" minlength="2" maxlength="50" pattern="<?= REGEX_NAME_PHOTOS ?>" <?php if (empty($result) || !isset($result)) { ?> value="<?= $name ?? '' ?>" <?php } ?> required>
+                                <!-- <input class="form__inputs" type="text" id="name" name="name" placeholder="pauline_022024_shootingbruges" minlength="2" maxlength="50" pattern="<?= REGEX_NAME_PHOTOS ?>" <?php if (empty($result) || !isset($result)) { ?> value="<?= $name ?? '' ?>" <?php } ?> required> -->
+                                <input class="form__inputs" type="text" id="name" name="name" placeholder="pauline_022024_shootingbruges" minlength="2" maxlength="50" pattern="<?= REGEX_NAME_PHOTOS ?>" value="<?= $name ?? '' ?>" required>
                                 <small class="text-danger"><?= $error['name'] ?? '' ?></small>
                                 <small class="text-danger"><?= $error['isExistByName'] ?? '' ?></small>
                             </div>
@@ -50,9 +54,10 @@
                             </div>
                             <div class="form-group pb-3">
                                 <label for="description">Description :</label>
-                                <textarea class="form__inputs" id="description" name="description" rows="4" placeholder="Ajoutez une description..."><?php if (empty($result) || !isset($result)) {
-                                                                                                                                                            echo ($description) ?? '';
-                                                                                                                                                        } ?></textarea>
+                                <!-- <textarea class="form__inputs" id="description" name="description" rows="4" placeholder="Ajoutez une description..."><?php if (empty($result) || !isset($result)) {
+                                                                                                                                                                echo ($description) ?? '';
+                                                                                                                                                            } ?></textarea> -->
+                                <textarea class="form__inputs" id="description" name="description" rows="4" placeholder="Ajoutez une description..."><?= $description ?? ''; ?></textarea>
                                 <small class="text-danger"><?= $error['description'] ?? '' ?></small>
                                 <small class="text-danger"><?= $error['isExistByDescription'] ?? '' ?></small>
                             </div>

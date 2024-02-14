@@ -70,3 +70,56 @@ body {
         font-size: 30px !important;
     }
 }
+
+/* #accesclientform__bg--anais {
+    background-image: url("/public/assets/img/anais-picture-portrait-women-maroc-beach-1920-45.jpg");
+} */
+/* #accesclientform__bg--pauline{
+    background-image: url("/public/assets/img/pauline-picture-portrait-women-france-montains-snow-1920-30.jpg");
+}
+#accesclientform__bg--jad{
+    background-image: url("/public/assets/img/jad-picture-portrait-men-france-sunset-streetstyle-1920-30.jpg");
+}
+#accesclientform__bg--melissa{
+    background-image: url("/public/assets/img/melissa-picture-portrait-women-italie-panorama-1920-30.jpg");
+}
+#accesclientform__bg--romain{
+    background-image: url("/public/assets/img/romain-picture-portrait-men-france-audi-voiture-1920-40.jpg");
+}
+#accesclientform__bg--antoine{
+    background-image: url("/public/assets/img/antoine-picture-portrait-men-france-architecture-streetstyle-1920-30.jpg");
+} */
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT GALLERY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.galleryPictures__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33)); */
+}
+.galleryPictures__img--container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.modalGallery__btn{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 999;
+}
+.galleryPictures__modal{    
+    background-color: #24282D;
+    background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+    border-radius: 0%;
+}
+.modal__imgGallery{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.modal-header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
