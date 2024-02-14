@@ -66,8 +66,12 @@
 </head>
 
 <body>
-
-    <div class="cursor--pages"></div>
+    <?php
+    if (!isset($dNoneBall)) {
+    ?>
+        <div class="cursor--pages"></div>
+    <?php } ?>
+    <!-- <div class="cursor--pages"></div> -->
 
     <?php
     if (isset($navbar)) {

@@ -10,6 +10,7 @@ let currentParent;
 
 
 
+
 // ! Functions
 
 // * to activate carousel on paysages
@@ -19,21 +20,23 @@ function clickRightBtns() {
     rightBtns.forEach(rightBtn => {
         rightBtn.addEventListener('click', () => {
 
-                activeIndex++;
+            activeIndex++;
 
-                if (activeIndex >= parents.length) { // to reset carousel if we are at the end
-                    activeIndex = 0
-                }
+            if (activeIndex >= parents.length) { // to reset carousel if we are at the end
+                activeIndex = 0
+            }
 
-                currentParent = document.querySelector(`[data-index="${activeIndex}"]`) // to select the activeIndex
-                // console.log(currentParent);
+            currentParent = document.querySelector(`[data-index="${activeIndex}"]`) // to select the activeIndex
+            // console.log(currentParent);
 
-                parents.forEach(parent => { // to place others parents in the left (with CSS)
-                    parent.dataset.status = "inactive";
-                });
+            parents.forEach(parent => { // to place others parents in the left (with CSS)
+                parent.dataset.status = "inactive";
+                parent.querySelector(".div1").classList.remove("fade");
+            });
 
-                currentParent.dataset.status = "active" // to display the activeIndex (with CSS)
-                // console.log(activeIndex);
+            currentParent.dataset.status = "active" // to display the activeIndex (with CSS)
+            console.log(currentParent.querySelector(".div1"));
+            currentParent.querySelector(".div1").classList.add("fade");
         })
     });
 }
@@ -53,12 +56,13 @@ function clickLeftBtns() {
 
             parents.forEach(parent => {
                 parent.dataset.status = "inactive";
+                parent.querySelector(".div1").classList.remove("fade");
             });
 
             currentParent.dataset.status = "active";
+            currentParent.querySelector(".div1").classList.add("fade");
             // console.log(activeIndex);
 
         })
     });
-    
 }

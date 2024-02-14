@@ -2,7 +2,7 @@
     <!-- ! carousel 1 -->
     <article>
         <div class="parent" data-index="0" data-status="active">
-            <div class="div1" data-ball-div1="1"> <!-- parent of the second grid -->
+            <div class="div1"> <!-- parent of the second grid -->
                 <div class="divchild divchild1">
                     <!-- ? <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open" class="visually-hidden-focusable">Click to open modal</button> -->
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open">Click to open modal</button>

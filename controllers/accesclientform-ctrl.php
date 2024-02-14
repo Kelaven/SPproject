@@ -46,40 +46,21 @@ try {
         if (empty($passwordAccess)) {
             $error['passwordAccess'] = 'Le mot de passe n\'est pas renseigné';
         } else {
-            // dd($passwordAccess);
-            // dd($gallery->password);
             $isOk = $passwordAccess === $gallery->password; // return true if the user's password is exactly the same than the gallery's password
-            // dd($test);
+            // $isOk = password_verify($passwordAccess, $gallery->password);
+            // dd($isOk);
             if (!$isOk) {
                 $error["passwordAccess"] = 'Le mots de passe est incorrect';
             } else {
                 $passwordAccessHash = password_hash($passwordAccess, PASSWORD_DEFAULT);
 
-
-
-
-                $test = 'test';
-                $_SESSION['test'] = $test;
-                dd($_SESSION);
-
-                //? If (empty(($_SESSION[‘user’]) || $_SESSION[‘user’]->role != 1){
-                //?     Header(‘location: controllers/users-signIn-ctrl.php’);
-                // Die;
-                // } 
-                
-
-
-
-
-
+                // * if password if ok, the user can access to the gallery (and not to others galleries thanks to SESSION !)
+                $_SESSION['isAllow' . $id_gallery] = true; // used in gallerypictures-ctrl.php
+                // unset($_SESSION['isAllow']);
+                // dd($_SESSION);
+                header("Location: /controllers/gallerypictures-ctrl.php?id_gallery=$gallery->id_gallery");
+                die;
             }
-        }
-
-
-
-        if (empty($error)) {
-            header("Location: /controllers/gallerypictures-ctrl.php?id_gallery=$gallery->id_gallery");
-            die;
         }
     }
 } catch (\Throwable $th) {
