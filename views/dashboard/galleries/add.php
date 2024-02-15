@@ -15,18 +15,21 @@
                         <form method="post" enctype="multipart/form-data">
                             <div class="form-group pb-5">
                                     <label for="name">Nom :</label>
-                                    <input class="form__inputs" type="text" id="name" name="name" placeholder="Pauline" minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $name ?? '' ?>" required>
+                                    <!-- <input class="form__inputs" type="text" id="name" name="name" placeholder="Pauline" minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" value="<?= $name ?? '' ?>" required> -->
+                                    <input class="form__inputs" type="text" id="name" name="name" placeholder="Pauline" minlength="2" maxlength="20" pattern="<?= REGEX_NAME_GALLERIES ?>" required>
                                     <small class="text-danger"><?= $error['name'] ?? '' ?></small>
                                     <small class="text-danger"><?= $error['isExistByName'] ?? '' ?></small>
                             </div>
                             <div class="form-group pb-5">
                                 <label class="w-100" for="date">Date :</label>
-                                <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" value="<?= $date ?? '' ?>" required>
+                                <!-- <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" value="<?= $date ?? '' ?>" required> -->
+                                <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" required>
                                 <small class="text-danger"><?= $error['date'] ?? '' ?></small>
                             </div>
                             <div class="form-group pb-5">
                                 <label class="w-100" for="password">Passe d'accès :</label>
-                                <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="30" pattern="<?= REGEX_PASSWORD ?>" value="<?= $password ?? '' ?>" required>
+                                <!-- <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="30" pattern="<?= REGEX_PASSWORD ?>" value="<?= $password ?? '' ?>" required> -->
+                                <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="30" pattern="<?= REGEX_PASSWORD ?>" required>
                                 <small class="text-danger"><?= $error['password'] ?? '' ?></small>
                                 <small class="text-danger"><?= $error['isExistByPassword'] ?? '' ?></small>
                             </div>

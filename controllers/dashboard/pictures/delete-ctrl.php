@@ -13,7 +13,14 @@ try {
     // * get the id_gallery to delete
     $id_picture = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
 
+    // * get infos of the picture
+    $picture = Picture::get($id_picture);
+    // dd($picture);
+
+// dd($picture->photo);
     $delete = Picture::delete($id_picture);
+
+    @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $picture->photo);
 
     if ($delete) {
 

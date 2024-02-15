@@ -116,13 +116,13 @@ try {
             $user->setLastname($lastname);
             $user->setEmail($email);
             $user->setMobile($mobile);
-            $user->setPassword($password);
+            $user->setPassword($passwordHash);
 
             $isOk = $user->insert();
 
             if ($isOk) {
                 $result = 'Vous êtes bien inscrit ! Vous allez être redirigé dans quelques instants...';
-                header("Refresh: 4; URL=/controllers/portfoliopaysages-ctrl.php");
+                header("Refresh: 4; URL=/controllers/signIn-ctrl.php");
                 // die;
             }
         }
