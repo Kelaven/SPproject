@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     background-color: #24282D;
 }
+
 /* #accesclient__body {
 } */
 
@@ -37,7 +38,7 @@ body {
     border-radius: 0% !important;
 }
 
-.accesclientform__bg{
+.accesclientform__bg {
     position: absolute;
     z-index: -99;
     width: 100%;
@@ -93,52 +94,119 @@ body {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT GALLERY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.galleryPictures__img{
+.galleryPictures__img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     /* background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33)); */
 }
-.galleryPictures__img--container{
+
+.galleryPictures__img--container {
     height: 100%;
     width: 100%;
     position: relative;
 }
-.modalGallery__btn{
+
+.modalGallery__btn {
     height: 100%;
     width: 100%;
     opacity: 0;
     position: absolute;
     z-index: 999;
 }
-.galleryPictures__modal{    
+
+.galleryPictures__modal {
     background-color: #24282D;
     background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
     border-radius: 0%;
 }
-.modal__imgGallery{
+
+.modal__imgGallery {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.modal-header{
+
+.modal-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
-.galeries__search--labelInput{
+
+.galeries__search--labelInput {
     max-width: 187px;
     max-height: 30px;
     display: flex;
     /* width: 35px; */
 }
-.galeries__search--logo{
+
+.galeries__search--logo {
     max-height: 30px;
     max-width: 30px;
 }
-.galeries__small--search{
+
+.galeries__small--search {
     font-weight: 400;
     text-transform: none;
     font-size: 0.9em;
     text-decoration: underline;
 }
-.galeries__search--label{
+
+.galeries__search--label {
     color: #fff;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GALLERY PICTURES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.gallerypictures__card {
+    color: #fff;
+    /* border: 1px solid black !important; */
+    border-radius: 0%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.gallerypictures__btn {
+    width: 200px;
+    height: 50px;
+}
+
+.gallerypictures__btnSignIn {
+    width: 400px;
+    height: 55px;
+    font-size: 0.9em;
+    font-family: Poppins;
+    background-color: #333740;
+    border-radius: 0%;
+}
+
+.gallerypictures__btnSignIn:hover {
+    background-color: #2d3238 !important;
+}
+
+.gallerypictures__btn:hover, .signUp__btn:hover {
+    background-color: #2d3238 !important;
+}
+
+.gallerypictures__form {
+    /* border: solid 1px black; */
+    color: #fff;
+    width: 100%;
+    padding: 0px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+#comment{
+    background-color: #24282D;
+    color: #fff;
+    min-height: 200px;
+}
+#comment::placeholder{
+    color: #fff;
+}
+
+
+@media (min-width: 992px) {
+    .gallerypictures__cardContainer, .gallerypictures__form {
+        width: 50%;
+        max-width: 50vw;
+    }
 }

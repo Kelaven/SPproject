@@ -45,6 +45,11 @@ if(isset($accesclientformScript)){ // to connect at galeries
 <script src="/public/assets/js/accesclientform.js"></script>
 <?php } ?>
 <?php
+if(isset($gallerypicturesScript)){ // to connect at galeries
+?>
+<script src="/public/assets/js/gallerypictures.js"></script>
+<?php } ?>
+<?php
 if(isset($portfolioScript)){ // for portfolio (paysages & portraits)
 ?>
 <script src="/public/assets/js/portfolio.js"></script>

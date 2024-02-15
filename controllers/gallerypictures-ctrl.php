@@ -9,8 +9,9 @@ require_once __DIR__ . '/../models/Picture.php';
 $accesclientStyle = 'accesclient.css';
 $dNoneBall = true;
 $footer = true;
+$gallerypicturesScript = 'gallerypicturesScript.js';
 
-
+// dd($_SESSION);
 
 
 
