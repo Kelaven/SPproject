@@ -148,7 +148,7 @@ class Gallery
         $sql = 'INSERT INTO `galleries` 
                 (`name`, `date`, `password`, `id_user`)
                 VALUES
-                (:name, :date, :password, 1);';
+                (:name, :date, :password, 10);';
 
         $sth = $pdo->prepare($sql);
 

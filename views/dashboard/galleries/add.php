@@ -29,7 +29,7 @@
                             <div class="form-group pb-5">
                                 <label class="w-100" for="password">Passe d'accès :</label>
                                 <!-- <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="30" pattern="<?= REGEX_PASSWORD ?>" value="<?= $password ?? '' ?>" required> -->
-                                <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="30" pattern="<?= REGEX_PASSWORD ?>" required>
+                                <input class="form__inputs" type="text" id="password" name="password" placeholder="galeriedepauline1234" minlength="8" maxlength="30" pattern="<?= REGEX_PASSWORD ?>" autocomplete="off" required>
                                 <small class="text-danger"><?= $error['password'] ?? '' ?></small>
                                 <small class="text-danger"><?= $error['isExistByPassword'] ?? '' ?></small>
                             </div>
