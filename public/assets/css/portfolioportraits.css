@@ -26,7 +26,18 @@
     background-color: #2B3035;
     /* padding: 5px; */
 }
+.fade{
+    animation: fadeAnimation 0.5s forwards ease-in; 
+}
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+    }
 
+    100% {
+        opacity: 1;
+    }
+}
 .carousel__img--desktop {
     object-fit: cover;
     height: 100%;

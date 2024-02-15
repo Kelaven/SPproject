@@ -33,7 +33,7 @@
 
 }
 .fade{
-    animation: fadeAnimation 1s forwards; 
+    animation: fadeAnimation 0.5s forwards ease-in; 
 }
 @keyframes fadeAnimation {
     0% {

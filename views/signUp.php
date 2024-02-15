@@ -1,7 +1,7 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
     <div class="row pt-5 justify-content-center">
-        <div class="col-12 pt-5">
+        <div class="col-12 pt-3">
             <div class="card card__sign mb-5 mb-xl-0">
                 <form method="POST" class="px-2">
                     <legend class="py-4 px-3 text-center">Créer un compte</legend>

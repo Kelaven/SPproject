@@ -1,5 +1,5 @@
-roadmap ? fonction de recherche sur la page Galeries, gérer les photos avec ftp, 
-securiser pr eviter leurs telechargements indesirables, modifier la Sélection, fonction de like, php mailer pour recevoir les ddes de contact
+roadmap ? gérer les photos avec ftp, securiser pr eviter leurs telechargements indesirables, modifier la Sélection, fonction de like, 
+php mailer pour recevoir les ddes de contact
 bonus : commentaires dans les galeries, confirmation d'inscription par mail, tableau de bord utilisateurs pr gerer leur compte, leur permettre de réinitialiser le mdp
 
 
@@ -18,6 +18,6 @@ bonus : commentaires dans les galeries, confirmation d'inscription par mail, tab
 
 -> Optimisation feuilles CSS, style JS (répétitions, code inutile, nom des classes / id), JS, Row et Col bootstrap
 
--> revoir les dataset dans les carrousel de portfolio (data-index est-il finalement utilisé ?)
+-> revoir les dataset dans les carrousel de portfolio
 
-/!\ Penser a refr un compte admin avec mdp haché
+-> améliorer le chargement des pages avec un effet smooth
