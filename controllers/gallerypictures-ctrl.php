@@ -36,10 +36,54 @@ try {
     $pictures = Picture::getAll();
     // d($pictures);
 
-    
+
     // * header update
     $title = "Galerie $gallery->name —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France";
     $pagesStyle = 'pages.css';
+
+    // * filter form
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $error = [];
+
+        /// comment ///
+        $comment = filter_input(INPUT_POST, 'comment', FILTER_SANITIZE_SPECIAL_CHARS);
+        if (empty($comment)) {
+            $error['comment'] = 'Le commentaire est vide';
+        } else {
+            $isOk = filter_var($comment, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_COMMENT . '/')));
+            if (!$isOk) {
+                $error['comment'] = 'Le texte ne peut pas contenir les symboles "<" ">" et doit faire entre 5 et 2000 caractères.';
+            }
+        }
+
+        // dd($error);
+
+        // ? registration in base
+        // if (empty($error)) {
+        //     // dd($name);
+        //     $picture = new Picture();
+
+        //     $picture->setIsSelection($isSelection);
+        //     $picture->setName($name);
+        //     $picture->setPhoto($photo);
+        //     $picture->setcomment($comment);
+        //     $picture->setIdGallery($id_gallery);
+
+
+        //     // call of insert's method
+        //     $isOk = $picture->insert();
+
+        //     // Si the method returns true
+        //     if ($isOk) {
+        //         $result = 'La photo a bien été enregistrée ! Vous pouvez en ajouter une autre.';
+        //     }
+        // }
+    }
+
+
+
+
+
 } catch (\Throwable $th) {
     //throw $th;
 }

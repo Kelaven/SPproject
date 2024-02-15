@@ -45,7 +45,7 @@
     <div class="row pt-3">
         <?php if (!empty($_SESSION['user'])) { ?>
             <div class="col text-center">
-                <button type="button" class="btn btn-dark gallerypictures__btn" id="gallerypictures__btn--write" >Ecrire un message</button>
+                <button type="button" class="btn btn-dark gallerypictures__btn" id="gallerypictures__btn--write">Ecrire un message</button>
             </div>
         <?php } ?>
         <?php if (empty($_SESSION['user'])) { ?>
@@ -56,18 +56,16 @@
     </div>
     <div class="row d-none" id="gallerypictures__row--write">
         <div class="col d-flex justify-content-center">
-            <form method="POST" class="gallerypictures__form mt-4">
+            <form method="POST" class="gallerypictures__form mt-4" id="commentForm" novalidate>
                 <legend class="py-3 py-xl-4 px-3 text-center">Ajouter un commentaire</legend>
-
                 <div class="form__comment--container">
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="comment"></label>
                         <!-- <span class="input-group-text"><i class="fa-solid fa-comment"></i></span> -->
-                        <textarea required name="comment" id="comment" placeholder="Votre commentaire..." class="form-control"><?= $comment ?? '' ?></textarea>
+                        <textarea required name="comment" id="comment" placeholder="Votre commentaire..." class="form-control" minlength="5" maxlength="2000"><?= $comment ?? '' ?></textarea>
                     </div>
-                    <small class="text-danger ps-3"><?= $error['comment'] ?? '' ?></small>
+                    <small class="text-danger ps-3" id="smallIndicators"><?= $error['comment'] ?? '' ?></small>
                 </div>
-
                 <div class="text-center py-5 w-100">
                     <button class="btn btn-primary signUp__btn" type="submit">Envoyer</button>
                 </div>
@@ -87,3 +85,10 @@
         </div>
     </div>
 </section>
+
+
+
+<script>
+    let test = "<?php echo $error['comment'] ?>"
+    console.log(error);
+</script>
