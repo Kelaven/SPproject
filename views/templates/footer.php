@@ -40,6 +40,11 @@ if(isset($signupScript)){ // to connect at galeries
 <script src="/public/assets/js/signup.js"></script>
 <?php } ?>
 <?php
+if(isset($accesclientformScript)){ // to connect at galeries
+?>
+<script src="/public/assets/js/accesclientform.js"></script>
+<?php } ?>
+<?php
 if(isset($portfolioScript)){ // for portfolio (paysages & portraits)
 ?>
 <script src="/public/assets/js/portfolio.js"></script>
