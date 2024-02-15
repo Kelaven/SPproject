@@ -6,6 +6,8 @@ $pagesStyle = 'pages.css';
 $contactStyle = 'contact.css';
 // $footer = 'footer.php';
 $pagesScript = 'pages.js';
+$footer = true;
+
 
 // to have constants
 require_once __DIR__.'/../config/init.php';
@@ -69,6 +71,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
             $error['captcha'] = 'Votre réponse n\'est pas valide';
         }
     }
+    // ! consent
+    $consent = filter_input(INPUT_POST, 'consent', FILTER_SANITIZE_SPECIAL_CHARS);
+    if (empty($consent)) {
+        $error['consent'] = 'La case n\'est pas cochée';
+    }
+
+
+
+
     // ! validation msg
     if ($error == []) {
         $result = 'Votre demande a bien été envoyée !';

@@ -5,7 +5,13 @@
 if (isset($footer)) {
 ?>
     <footer>
-        FOOTER
+        <div class="container footer__container">
+            <div class="row align-content-center">
+                <div class="col text-center py-3">
+                    <a class="footer__mentionslegales" target="_blank" href="/controllers/mentionslegales-ctrl.php">Mentions légales</a>
+                </div>
+            </div>
+        </div>
     </footer>
 <?php } ?>
 

@@ -1,9 +1,8 @@
 roadmap ? fonction de recherche sur la page Galeries, gérer les photos avec ftp, 
 securiser pr eviter leurs telechargements indesirables, modifier la Sélection, fonction de like, php mailer pour recevoir les ddes de contact
-bonus : commentaires dans les galeries, confirmation d'inscription par mail, tableau de bord utilisateurs pr gerer leur compte
+bonus : commentaires dans les galeries, confirmation d'inscription par mail, tableau de bord utilisateurs pr gerer leur compte, leur permettre de réinitialiser le mdp
 
 
-plusieurs fois la meme galerie dans leur affichage !!!! et me permettre de réinitialiser le mdp !!!!!!!
 
 -> ajouter un ordre croissant sur les dates dans le CRUD des galeries
 

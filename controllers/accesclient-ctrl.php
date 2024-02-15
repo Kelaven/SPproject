@@ -17,8 +17,10 @@ try {
     $accesclientStyle = 'accesclient.css';
     // $footer = 'footer.php';
     $pagesScript = 'pages.js';
+    $footer = true;
 
 
+    
     $galleries = Gallery::getAll();
     // dd($galleries);
     // // $galleries = Gallery::getAll(id_gallery: $galleries->id_gallery);

@@ -2,7 +2,7 @@
 <section class="container" id="signup__container">
     <div class="row pt-5 justify-content-center">
         <div class="col-12 pt-5">
-            <div class="card card__sign">
+            <div class="card card__sign mb-5 mb-xl-0">
                 <form method="POST" class="px-2">
                     <legend class="py-4 px-3 text-center">Créer un compte</legend>
                     <div class="text-success text-center fs-6 fw-bold pb-3">
@@ -80,9 +80,14 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                         </div>
+                        <label for="consent" class="check__consent py-2 ps-4">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans le but de traiter ma demande. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
+                        </label>
+                        <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
                     </div>
                     <!-- ! validation btn -->
-                    <div class="text-center pt-4 pb-5 w-100">
+                    <div class="text-center pt-5 pt-lg-4 pb-5 w-100">
                         <button class="btn btn-primary signUp__btn" type="submit">Envoyer</button>
                     </div>
                 </form>

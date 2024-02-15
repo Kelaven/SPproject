@@ -428,3 +428,29 @@ input{
 .form__login--container{
     min-width: 70% !important;
 }
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+footer{
+    background-color: #2B3035;
+    min-height: 50px;
+}
+.footer__mentionslegales{
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MENTIONS LEGALES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.mentions__h1{
+    font-size: 1.5em;
+}
+.mentions__h2{
+    font-size: 1em;
+}
+.mentions__p{
+    color: #FFF;
+}

@@ -15,9 +15,9 @@
             </div>
         </div>
         <div class="col-xl-6 px-0" id="form__container--right">
-            <form method="post">
+            <form method="post" novalidate>
                 <div class="container__legend">
-                    <legend class="pt-4 py-2 text-center m-0">Formulaire de contact</legend>
+                    <legend class="pt-4 text-center m-0 contact__legend">Formulaire de contact</legend>
                 </div>
                 <div class="container__form">
                     <div class="container__form--ball">
@@ -66,9 +66,14 @@
                             <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" minlength="1" maxlength="1" class="form-control">
                         </div>
                         <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
+                        <label for="consent" class="check__consent py-2">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans le but de traiter ma demande. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
+                        </label>
+                        <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
                     </div>
                     <!-- ! validation btn -->
-                    <div class="text-center py-3 pt-4 mb-3 mb-lg-0">
+                    <div class="text-center py-3 mb-3 mb-lg-0">
                         <button id="contact__btn" class="btn btn-primary" type="submit">Envoyer</button>
                     </div>
                 </div>
@@ -77,7 +82,3 @@
     </div>
     </div>
 </section>
-
-
-
-

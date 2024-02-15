@@ -7,6 +7,7 @@ $signupScript = 'signup.js';
 $contactStyle = 'contact.css';
 $pagesStyle = 'pages.css';
 $pagesScript = 'pages.js';
+$footer = true;
 
 
 require_once __DIR__ . '/../helpers/dd.php';
@@ -98,7 +99,11 @@ try {
                 $error['captcha'] = 'Votre réponse n\'est pas valide';
             }
         }
-
+        // ! consent
+        $consent = filter_input(INPUT_POST, 'consent', FILTER_SANITIZE_SPECIAL_CHARS);
+        if (empty($consent)) {
+            $error['consent'] = 'La case n\'est pas cochée';
+        }
 
         // ! verify if the data already exists
         $isExist = User::isExist($email);
