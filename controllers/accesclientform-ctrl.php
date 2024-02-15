@@ -18,7 +18,7 @@ try {
     // header update
     $title = 'Formulaire d\'accès —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
     $accesclientStyle = 'accesclient.css';
-
+    $signupScript = 'signup.js';
 
 
     // * galleries infos
@@ -29,17 +29,6 @@ try {
     if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
 
         $error = [];
-        // // ! loginAccess
-        // $loginAccess = filter_input(INPUT_POST, 'loginAccess', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-        // if (empty($loginAccess)) { // to be sure it's not empty
-        //     $error['loginAccess'] = 'L\'identifiant n\'est pas renseigné';
-        // } else { // validation
-        //     $isloginAccessOk = filter_var($loginAccess, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_IDENTIFIANT . '/')));
-        //     if (!$isloginAccessOk) { // if it's not validate with the regex
-        //         $error['loginAccess'] = 'L\'identifiant n\'est pas correct';
-        //     }
-        // }
-
         // * passwordAccess
         $passwordAccess = filter_input(INPUT_POST, 'passwordAccess');
 
@@ -72,8 +61,6 @@ try {
 
 
 // views
-// include __DIR__.'/../views/templates/header__accesclientform.php';
 include __DIR__ . '/../views/templates/header.php';
 include __DIR__ . '/../views/accesclientform.php';
 include __DIR__ . '/../views/templates/footer.php';
-// include __DIR__.'/../views/templates/footer__accesclientform.php';

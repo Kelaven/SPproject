@@ -10,8 +10,6 @@ bonus : commentaires dans les galeries, confirmation d'inscription par mail, tab
 
 -> sécurisation photos
 
--> fonction rechercher dans les galeries
-
 -> compteur de like
 
 -> optimiser les catch
