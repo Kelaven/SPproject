@@ -1,5 +1,19 @@
 <div id="accesclient__body">
     <section class="container">
+        <div class="row justify-content-end py-3">
+            <div class="col-12 col-xl-3 d-flex justify-content-end pe-5">
+                <form>
+                    <label for="search" class="form-label galeries__search--label">Recherche par mots clés :</label>
+                    <div class="galeries__search--labelInput">
+                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom ou date">
+                        <button class="btn btn-dark d-flex justify-content-center galeries__search--logo" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <small class="fst-italic"><a href="/controllers/accesclient-ctrl.php" class="galeries__small--search">Afficher toutes les galeries</a></small>
+                </form>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
                 <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php" target="_blank">
@@ -10,22 +24,26 @@
                 </a>
             </div>
             <?php
+            $addedGallery = [];
             foreach ($galleries as $gallery) {
                 // dd($gallery);
+                if (!in_array($gallery->id_gallery, $addedGallery)) {
             ?>
-                <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
-                    <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
-                        <img class="accesclient__img" src="/public/assets/img/ftp/<?php
-                        if ($gallery->gallery_isCover == 1) {
-                            echo($gallery->gallery_photo );
-                        }
-                        ?>" alt="photographie de couverture de galerie client" loading="lazy">
-                        <div>
-                            <p class="animate__flipInX accesclient__txt text-center"><i class="fa-solid fa-lock pe-2 pt-3"></i><?= $gallery->name ?></p>
-                        </div>
-                    </a>
-                </div>
+                    <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
+                        <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
+                            <img class="accesclient__img" src="/public/assets/img/ftp/<?php
+                                                                                        if ($gallery->gallery_isCover == 1) {
+                                                                                            echo ($gallery->gallery_photo);
+                                                                                        }
+                                                                                        ?>" alt="photographie de couverture de galerie client" loading="lazy">
+                            <div>
+                                <p class="animate__flipInX accesclient__txt text-center"><i class="fa-solid fa-lock pe-2 pt-3"></i><?= $gallery->name ?></p>
+                            </div>
+                        </a>
+                    </div>
             <?php
+                    $addedGallery[] = $gallery->id_gallery;
+                }
             }
             ?>
 

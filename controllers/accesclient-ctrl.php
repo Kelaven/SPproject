@@ -20,20 +20,18 @@ try {
     $footer = true;
 
 
-    
-    $galleries = Gallery::getAll();
-    // dd($galleries);
-    // // $galleries = Gallery::getAll(id_gallery: $galleries->id_gallery);
-    // foreach ($galleries as $key => $gallery) {
-    //     $galleries = Gallery::getAll(id_gallery: $gallery->id_gallery);
-    //     dd($galleries);
-    //     $displayName = $gallery->name;
-    //     // dd($displayName);
-    //     $displayPhoto = $gallery->gallery_photo;
-    //     // dd($displayPhoto);
-    // }
-    // // dd($galleries);
 
+    $galleries = Gallery::getAll();
+
+    // * filter
+    $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
+
+    // * To search by keywords
+    if ($search != '') {
+        $galleries = Gallery::getAll(search: $search);
+    }
+
+    
 } catch (\Throwable $th) {
     //throw $th;
 }

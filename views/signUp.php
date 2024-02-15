@@ -80,7 +80,7 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                         </div>
-                        <label for="consent" class="check__consent py-2 ps-4">
+                        <label for="consent" class="check__consent py-2 ps-4 ms-xl-1">
                             <input type="checkbox" id="consent" name="consent" required>
                             En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans un but fonctionnel. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
                         </label>

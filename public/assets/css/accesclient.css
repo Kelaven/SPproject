@@ -123,3 +123,22 @@ body {
 .modal-header{
     border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
+.galeries__search--labelInput{
+    max-width: 187px;
+    max-height: 30px;
+    display: flex;
+    /* width: 35px; */
+}
+.galeries__search--logo{
+    max-height: 30px;
+    max-width: 30px;
+}
+.galeries__small--search{
+    font-weight: 400;
+    text-transform: none;
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+.galeries__search--label{
+    color: #fff;
+}
