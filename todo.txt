@@ -6,8 +6,6 @@ bonus : commentaires dans les galeries, confirmation d'inscription par mail, tab
 
 -> ajouter un ordre croissant sur les dates dans le CRUD des galeries
 
--> ajouter une case j'accepte les conditions générales lors de l'inscription IMPORTANT
-
 -> vérifications W3C
 
 -> sécurisation photos
