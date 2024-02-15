@@ -18,7 +18,7 @@ try {
 
     // * display galleries list
     $galleries = Gallery::getAll(); // without archived galleries (thanks to default argument)
-    // dd($galleries);
+    // d($galleries);
 
     // * To search by keywords
     if ($search != '') {

@@ -28,7 +28,7 @@
                                     $addedGallery = [];
                                     foreach ($galleries as $gallery) {
                                         if (!in_array($gallery->id_gallery, $addedGallery)) { ?>
-                                            <option value="<?= $gallery->id_gallery ?>" <?php if ((isset($id_gallery)) && ($id_gallery == $gallery->id_gallery)) { ?> selected <?php } ?>><?= $gallery->id_gallery ?> - <?= $gallery->gallery_name ?></option>
+                                            <option value="<?= $gallery->id_gallery ?>" <?php if ((isset($id_gallery)) && ($id_gallery == $gallery->id_gallery)) { ?> selected <?php } ?>><?= $gallery->id_gallery ?> - <?= $gallery->name ?></option>
                                     <?php
                                             $addedGallery[] = $gallery->id_gallery;
                                         }

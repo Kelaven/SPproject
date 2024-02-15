@@ -5,6 +5,7 @@ require_once __DIR__ . '/../../../helpers/dd.php';
 require_once __DIR__ . '/../../../config/init.php';
 require_once __DIR__ . '/../../../config/regex.php';
 require_once __DIR__ . '/../../../models/Picture.php';
+require_once __DIR__ . '/../../../models/Gallery.php';
 require_once __DIR__ . '/../../../helpers/connect.php';
 
 $auth = Auth::check();
@@ -15,7 +16,7 @@ try {
     $title = 'Ajouter une photo';
 
     // * getAll to display galleries' id in select (into the form)
-    $galleries = Picture::getAll();
+    $galleries = Gallery::getAll();
     // d($galleries);
 
     // * nettoyage et validation du formulaire

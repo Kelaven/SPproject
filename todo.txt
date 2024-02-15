@@ -2,11 +2,12 @@ roadmap ? fonction de recherche sur la page Galeries, gérer les photos avec ftp
 securiser pr eviter leurs telechargements indesirables, modifier la Sélection, fonction de like, php mailer pour recevoir les ddes de contact
 bonus : commentaires dans les galeries, confirmation d'inscription par mail, tableau de bord utilisateurs pr gerer leur compte
 
--> vérifier si la suppression d'image entraine bien la suppression du fichier
+
+plusieurs fois la meme galerie dans leur affichage !!!! et me permettre de réinitialiser le mdp !!!!!!!
 
 -> ajouter un ordre croissant sur les dates dans le CRUD des galeries
 
--> ajouter une case j'accepte les conditions générales lors de l'inscription
+-> ajouter une case j'accepte les conditions générales lors de l'inscription IMPORTANT
 
 -> vérifications W3C
 

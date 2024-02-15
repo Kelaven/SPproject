@@ -218,13 +218,13 @@ class Gallery
      * 
      * @return null|object with informations
      */
-    public static function get(?int $id_gallery): null|object
+    public static function get(?int $id_gallery): null|false|object
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `pictures_photo`, `pictures`.`isCover` AS `pictures_isCover`
         FROM `galleries`
-        JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery`
+        JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery` -- Warning : if the galerie hasnt pic, the result return false
         WHERE `galleries`.`id_gallery` = :id_gallery;';
 
         $sth = $pdo->prepare($sql);

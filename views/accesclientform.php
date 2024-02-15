@@ -1,7 +1,7 @@
 <section class="container-fluid px-0">
     <img class="accesclientform__bg" src="/public/assets/img/ftp/<?php
-    if ($gallery->pictures_isCover != 0) {
-        echo($gallery->pictures_photo );
+    if (($gallery->pictures_isCover != 0) && (isset($gallery->pictures_photo))) {
+        echo($gallery->pictures_photo);
     }
     ?>" alt="photographie de couverture de la galerie" loading="lazy">
     <div class="row accesclientform__bg justify-content-center align-items-center"> <!-- ! il faudra charger dynamiquement l'image pour qu'elle corresponde -->

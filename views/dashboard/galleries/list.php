@@ -22,7 +22,7 @@
                         <h1 class="form__h1 pt-2">Liste des galeries</h1>
                     </div>
                     <div class="card-body p-5 pt-3">
-                    <div class="dashboard__search--container pb-2">
+                        <div class="dashboard__search--container pb-2">
                             <div class="dashboard__search--offContainer">
                                 <form>
                                     <label for="search" class="form-label">Recherche par mots clés :</label>
@@ -45,46 +45,52 @@
                                 <th>Nom :</th>
                                 <th>Date séance :</th>
                                 <th>Image :</th>
-                                <th>Passe d'accès :</th>
-                                <th class="pe-4"></th> <!-- modifier -->
-                                <th></th> <!-- archiver -->
+                                <th class="pe-4"></th> <!-- update -->
+                                <!-- <th class="pe-4"></th> -->
+                                <th></th> <!-- archive -->
                             </tr>
                             <?php
+                            $addedGallery = [];
                             foreach ($galleries as $gallery) {
                                 // dd($gallery);
+                                if (!in_array($gallery->id_gallery, $addedGallery)) {
                             ?>
-                                <tr>
-                                    <td><?= $gallery->id_gallery ?></td>
-                                    <td><?= $gallery->name ?></td>
-                                    <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
-                                    <td> <?php if (!empty($gallery->gallery_photo) && $gallery->gallery_isCover == 1) { ?>
-                                            <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>" alt="Photo de couverture de la galerie">
-                                            <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoomGallery<?= $gallery->id_gallery ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
-                                        <?php } ?>
-                                    </td>
-                                    <td><?= $gallery->password ?></td>
-                                    <td>
-                                        <a href="/controllers/dashboard/galleries/update-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
-                                    </td>
-                                    <td class="text-end">
-                                        <a href="/controllers/dashboard/galleries/archive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
-                                    </td>
-                                </tr>
-                                <!-- modal -->
-                                <div class="modal fade" id="zoomGallery<?= $gallery->id_gallery ?>" tabindex="-1">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h2 class="modal-title fs-5"><?= $gallery->name ?></h2>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>">
+                                    <tr>
+                                        <td><?= $gallery->id_gallery ?></td>
+                                        <td><?= $gallery->name ?></td>
+                                        <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
+                                        <td> <?php if (!empty($gallery->gallery_photo) && $gallery->gallery_isCover == 1) { ?>
+                                                <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>" alt="Photo de couverture de la galerie">
+                                                <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoomGallery<?= $gallery->id_gallery ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                            <?php } ?>
+                                        </td>
+                                        <td>
+                                            <a href="/controllers/dashboard/galleries/update-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
+                                        </td>
+                                        <!-- <td>
+                                            <a href="/controllers/dashboard/galleries/resetpassword-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Reset mot de passe"><i class="fa-solid fa-rotate"></i></a>
+                                        </td> -->
+                                        <td class="text-end">
+                                            <a href="/controllers/dashboard/galleries/archive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
+                                        </td>
+                                    </tr>
+                                    <!-- modal -->
+                                    <div class="modal fade" id="zoomGallery<?= $gallery->id_gallery ?>" tabindex="-1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 class="modal-title fs-5"><?= $gallery->name ?></h2>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             <?php
+                                    $addedGallery[] = $gallery->id_gallery;
+                                }
                             }
                             ?>
                         </table>
