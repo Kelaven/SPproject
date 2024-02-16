@@ -38,11 +38,11 @@
                         </p>
                         <table>
                             <tr>
-                                <th>Id :</th>
+                                <!-- <th>Id :</th> -->
                                 <th>Photo :</th>
                                 <th>Nom :</th>
                                 <th>Description :</th>
-                                <th class="pe-5">Couverture :</th>
+                                <th class="pe-5">Couv :</th>
                                 <th class="pe-3">Galerie :</th>
                                 <th class="pe-5"></th> <!-- modifier -->
                                 <th></th> <!-- archiver -->
@@ -52,7 +52,7 @@
                                 // dd($picture);
                             ?>
                                 <tr>
-                                    <td class="pe-4"><?= $picture->id_picture ?></td>
+                                    <!-- <td class="pe-4"><?= $picture->id_picture ?></td> -->
                                     <td class="pe-4">
                                         <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $picture->photo ?>">
                                         <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
@@ -72,7 +72,7 @@
                                         <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureCover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Oui"><i class="fa-solid fa-square-plus ps-1"></i></a>
                                         <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureUncover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Non"><i class="fa-solid fa-eraser"></i></a>
                                     </td>
-                                    <td class="pe-5"><?= $picture->id_gallery ?> : <?= $picture->gallery_name ?></td>
+                                    <td class="pe-4"><?= $picture->gallery_name ?></td>
                                     <td>
                                         <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
                                     </td>
@@ -103,7 +103,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="/public/assets/img/ftp/<?= $picture->photo ?>">
+                                                <img class="pictureList__modalImg" src="/public/assets/img/ftp/<?= $picture->photo ?>">
                                             </div>
                                         </div>
                                     </div>

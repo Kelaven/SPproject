@@ -7,6 +7,7 @@ require_once __DIR__ . '/../../../config/regex.php';
 require_once __DIR__ . '/../../../models/Picture.php';
 require_once __DIR__ . '/../../../models/Gallery.php';
 require_once __DIR__ . '/../../../helpers/connect.php';
+require_once __DIR__ . '/../../../helpers/Img.class.php';
 
 $auth = Auth::check();
 
@@ -64,46 +65,49 @@ try {
         }
 
         /// PHOTO ///
-        if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
-            $error['photo'] = 'Vous n\'avez pas sélectionné la photo';
-        } else {
-            try {
-                // file exist ?
-                if (!isset($_FILES['photo'])) {
-                    throw new Exception("Le champ photo n'existe pas");
-                }
-                // dd($photo);
-                // transfer errors ? 
-                if ($_FILES['photo']['error'] != 0) {
-                    throw new Exception("Une erreur est survenue lors du transfert");
-                }
-                // file format verification
-                if (!in_array($_FILES['photo']['type'], FORMAT_IMAGE)) {
-                    throw new Exception("Ce fichier n'est pas au bon format");
-                }
-                // max size verification
-                if ($_FILES['photo']['size'] > MAX_FILESIZE) {
-                    throw new Exception("Ce fichier est trop volumineux");
-                }
-                // // file's name cleaning
-                // $photo = filter_input(INPUT_POST, 'photo', FILTER_SANITIZE_SPECIAL_CHARS);
-                // dd($photo);
-                // if (!$photo) {
-                //     throw new Exception("Il y a un problème avec le fichier");
-                // }
+        // if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
+        //     $error['photo'] = 'Vous n\'avez pas sélectionné la photo';
+        // } else {
+        //     try {
+        //         // file exist ?
+        //         if (!isset($_FILES['photo'])) {
+        //             throw new Exception("Le champ photo n'existe pas");
+        //         }
+        //         // dd($photo);
+        //         // transfer errors ? 
+        //         if ($_FILES['photo']['error'] != 0) {
+        //             throw new Exception("Une erreur est survenue lors du transfert");
+        //         }
+        //         // file format verification
+        //         if (!in_array($_FILES['photo']['type'], FORMAT_IMAGE)) {
+        //             throw new Exception("Ce fichier n'est pas au bon format");
+        //         }
+        //         // max size verification
+        //         if ($_FILES['photo']['size'] > MAX_FILESIZE) {
+        //             throw new Exception("Ce fichier est trop volumineux");
+        //         }
 
-                $from = $_FILES['photo']['tmp_name'];
-                $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
-                $filename = $name . '.' . $extension;
-                $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
-                move_uploaded_file($from, $to);
-                $photo = $filename; // to send in base inly file's name and not the path (to exclude NULL in base)
-                // dd($photo);
+        //         $from = $_FILES['photo']['tmp_name'];
+        //         $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
+        //         $filename = $name . '.' . $extension;
+        //         $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
+        //         move_uploaded_file($from, $to);
+        //         $photo = $filename; // to send in base inly file's name and not the path (to exclude NULL in base)
+        //         // dd($photo);
+        //         // ! automatically resize
+        //         $image = imagecreatefromjpeg($to); // use function from the library GD
+        //         $width = 1280; // max to have great quality with reduced weight
+        //         $height = -1;
+        //         $mode = IMG_BILINEAR_FIXED; // algo of img resizing
+        //         $resampledObject = imagescale($image, $width, $height, $mode); // transform img in object to apply changes
+        //         imagejpeg($resampledObject, $to, 80); // transform object in img
 
-            } catch (\Throwable $th) {
-                $error['photo'] = $th->getMessage();
-            }
-        }
+        //     } catch (\Throwable $th) {
+        //         $error['photo'] = $th->getMessage();
+        //     }
+        // }
+        $photo = Image::resize(name: $name);
+        // dd($photo);
 
         /// DESCRIPTION ///
         $description = filter_input(INPUT_POST, 'description', FILTER_SANITIZE_SPECIAL_CHARS);

@@ -45,6 +45,7 @@ try {
 
                 // * if password is ok, the user can access to the gallery (and not to others galleries thanks to SESSION !)
                 $_SESSION['isAllow' . $id_gallery] = true; // used in gallerypictures-ctrl.php
+                $_SESSION['timestamp' . $id_gallery] = time();
                 // unset($_SESSION['isAllow']);
                 // dd($_SESSION);
                 header("Location: /controllers/gallerypictures-ctrl.php?id_gallery=$gallery->id_gallery");

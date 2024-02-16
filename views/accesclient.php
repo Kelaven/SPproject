@@ -15,14 +15,14 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
+            <!-- <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
                 <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php" target="_blank">
                     <img class="accesclient__img" src="/public/assets/img/anais-picture-portrait-women-maroc-beach-resizedforaccesclient-60.jpg" alt="photographie portrait de modèle féminin pendant un coucher de soleil au Maroc avec un livre">
                     <div>
                         <p class="animate__flipInX accesclient__txt text-center"><i class="fa-solid fa-lock pe-2 pt-3"></i>Anaïs | 06.2023</p>
                     </div>
                 </a>
-            </div>
+            </div> -->
             <?php
             // $addedGallery = [];
             foreach ($galleries as $gallery) {

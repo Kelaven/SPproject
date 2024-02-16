@@ -5,6 +5,7 @@ require_once __DIR__ . '/../../../config/init.php';
 require_once __DIR__ . '/../../../config/regex.php';
 require_once __DIR__ . '/../../../models/Picture.php';
 require_once __DIR__ . '/../../../helpers/connect.php';
+require_once __DIR__ . '/../../../helpers/Img.class.php';
 
 
 $auth = Auth::check();
@@ -70,36 +71,46 @@ try {
         /// PHOTO ///
         $photo = $picture->photo; // the old photo
 
-        if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
-            $photo = $picture->photo; // If no new image is uploaded, keep the old
-        } else {
-            try {
-                @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $photo); // delete old image from disk
-                // ! new photo treatment : 
-                if (!isset($_FILES['photo'])) { // file exist ?
-                    throw new Exception("Le champ photo n'existe pas");
-                }
-                if ($_FILES['photo']['error'] != 0) { // transfer errors ? 
-                    throw new Exception("Une erreur est survenue lors du transfert");
-                }
-                if (!in_array($_FILES['photo']['type'], FORMAT_IMAGE)) { // file format verification
-                    throw new Exception("Ce fichier n'est pas au bon format");
-                }
-                if ($_FILES['photo']['size'] > MAX_FILESIZE) { // max size verification
-                    throw new Exception("Ce fichier est trop volumineux");
-                }
+        $photoTreatment = Image::resize(true, $photo, $name);
+        // dd($photoTreatment);
 
-                $from = $_FILES['photo']['tmp_name'];
-                $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
-                $filename = $name . '.' . $extension;
-                $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
-                move_uploaded_file($from, $to);
-                // dd($photo = $picture->photo);
-                $photo = $filename; // update the picture in list.php with the new picture
-            } catch (\Throwable $th) {
-                $error['photo'] = $th->getMessage();
-            }
-        }
+        // if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
+        //     $photo = $picture->photo; // If no new image is uploaded, keep the old
+        // } else {
+        //     try {
+                // @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $photo); // delete old image from disk
+        //         // ! new photo treatment : 
+        //         if (!isset($_FILES['photo'])) { // file exist ?
+        //             throw new Exception("Le champ photo n'existe pas");
+        //         }
+        //         if ($_FILES['photo']['error'] != 0) { // transfer errors ? 
+        //             throw new Exception("Une erreur est survenue lors du transfert");
+        //         }
+        //         if (!in_array($_FILES['photo']['type'], FORMAT_IMAGE)) { // file format verification
+        //             throw new Exception("Ce fichier n'est pas au bon format");
+        //         }
+        //         if ($_FILES['photo']['size'] > MAX_FILESIZE) { // max size verification
+        //             throw new Exception("Ce fichier est trop volumineux");
+        //         }
+
+        //         $from = $_FILES['photo']['tmp_name'];
+        //         $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
+        //         $filename = $name . '.' . $extension;
+        //         $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
+        //         move_uploaded_file($from, $to);
+        //         // dd($photo = $picture->photo);
+        //         $photo = $filename; // update the picture in list.php with the new picture
+        //         // ! automatically resize
+        //         $image = imagecreatefromjpeg($to); // use function from the library GD
+        //         $width = 1280; // max to have great quality with reduced weight
+        //         $height = -1;
+        //         $mode = IMG_BILINEAR_FIXED; // algo of img resizing
+        //         $resampledObject = imagescale($image, $width, $height, $mode); // transform img in object to apply changes
+        //         imagejpeg($resampledObject, $to, 80); // transform object in img
+        //     } catch (\Throwable $th) {
+        //         $error['photo'] = $th->getMessage();
+        //     }
+        // }
 
         /// DESCRIPTION ///
         $description = filter_input(INPUT_POST, 'description', FILTER_SANITIZE_SPECIAL_CHARS);
@@ -132,7 +143,11 @@ try {
 
             $picture->setIsSelection($isSelection);
             $picture->setName($name);
-            $picture->setPhoto($photo);
+            if ($photoTreatment !== NULL) { // if user don't modify photo
+                $picture->setPhoto($photoTreatment);
+            } else {
+                $picture->setPhoto($photo);
+            }
             $picture->setDescription($description);
             $picture->setIdGallery($id_gallery);
             $picture->setIdPicture($id_picture);
