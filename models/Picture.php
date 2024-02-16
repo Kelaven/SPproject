@@ -163,9 +163,13 @@ class Picture
     // * Method to display pictures' list
     /**
      * Method to display pictures' list
+     * 
+     * $perPages and $firstPicture is to paginate the dashboard's list
+     * $perGallery is to display the pictures of the current gallery when users acced it
+     * 
      * @return array objects array
      */
-    public static function getAll(bool $archive = false, string $search = '', bool $perPages = false, int $firstPicture = 0): array
+    public static function getAll(bool $archive = false, string $search = '', bool $perPages = false, int $firstPicture = 0, int $perGallery = 0): array
     {
         $pdo = Database::connect();
 
@@ -187,6 +191,9 @@ class Picture
         if ($perPages === true) { // to display X photos per pages
             $sql .= ' ORDER BY `name` LIMIT :firstPicture,' . NB_ELEMENTS_PER_PAGE;
         }
+        if ($perGallery !== 0) { 
+            $sql .= ' AND `pictures`.`id_gallery` = :perGallery';
+        }
 
 
         $sth = $pdo->prepare($sql);
@@ -196,6 +203,10 @@ class Picture
         }
         if ($perPages === true) {
             $sth->bindValue(':firstPicture', $firstPicture, PDO::PARAM_INT);
+        }
+        if ($perGallery !== 0) { 
+            $sth->bindValue(':perGallery', $perGallery, PDO::PARAM_INT);
+
         }
 
         $sth->execute();

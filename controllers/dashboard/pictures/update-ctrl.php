@@ -68,28 +68,24 @@ try {
         }
 
         /// PHOTO ///
-        $photo = $picture->photo;
+        $photo = $picture->photo; // the old photo
 
         if (!isset($_FILES['photo']) || empty($_FILES['photo']['name'])) {
-            $photo = $picture->photo;
+            $photo = $picture->photo; // If no new image is uploaded, keep the old
         } else {
             try {
-                @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $photo); // delete image from disk if we modified it
-                // file exist ?
-                if (!isset($_FILES['photo'])) {
+                @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $photo); // delete old image from disk
+                // ! new photo treatment : 
+                if (!isset($_FILES['photo'])) { // file exist ?
                     throw new Exception("Le champ photo n'existe pas");
                 }
-                // dd($photo);
-                // transfer errors ? 
-                if ($_FILES['photo']['error'] != 0) {
+                if ($_FILES['photo']['error'] != 0) { // transfer errors ? 
                     throw new Exception("Une erreur est survenue lors du transfert");
                 }
-                // file format verification
-                if (!in_array($_FILES['photo']['type'], FORMAT_IMAGE)) {
+                if (!in_array($_FILES['photo']['type'], FORMAT_IMAGE)) { // file format verification
                     throw new Exception("Ce fichier n'est pas au bon format");
                 }
-                // max size verification
-                if ($_FILES['photo']['size'] > MAX_FILESIZE) {
+                if ($_FILES['photo']['size'] > MAX_FILESIZE) { // max size verification
                     throw new Exception("Ce fichier est trop volumineux");
                 }
 
@@ -98,7 +94,8 @@ try {
                 $filename = $name . '.' . $extension;
                 $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
                 move_uploaded_file($from, $to);
-                $photo = $picture->photo; // update the picture in list.php
+                // dd($photo = $picture->photo);
+                $photo = $filename; // update the picture in list.php with the new picture
             } catch (\Throwable $th) {
                 $error['photo'] = $th->getMessage();
             }

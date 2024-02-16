@@ -35,15 +35,15 @@ try {
         if (empty($passwordAccess)) {
             $error['passwordAccess'] = 'Le mot de passe n\'est pas renseigné';
         } else {
-            $isOk = $passwordAccess === $gallery->password; // return true if the user's password is exactly the same than the gallery's password
-            // $isOk = password_verify($passwordAccess, $gallery->password);
+            // $isOk = $passwordAccess === $gallery->password; // return true if the user's password is exactly the same than the gallery's password
+            $isOk = password_verify($passwordAccess, $gallery->password);
             // dd($isOk);
             if (!$isOk) {
                 $error["passwordAccess"] = 'Le mots de passe est incorrect';
             } else {
-                $passwordAccessHash = password_hash($passwordAccess, PASSWORD_DEFAULT);
+                // $passwordAccessHash = password_hash($passwordAccess, PASSWORD_DEFAULT);
 
-                // * if password if ok, the user can access to the gallery (and not to others galleries thanks to SESSION !)
+                // * if password is ok, the user can access to the gallery (and not to others galleries thanks to SESSION !)
                 $_SESSION['isAllow' . $id_gallery] = true; // used in gallerypictures-ctrl.php
                 // unset($_SESSION['isAllow']);
                 // dd($_SESSION);

@@ -21,19 +21,19 @@ try {
 
 
 
-    $galleries = Gallery::getAll();
-
+    $galleries = Gallery::getAll(isCover: 1);
+// dd($galleries);
     // * filter
     $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
 
     // * To search by keywords
     if ($search != '') {
-        $galleries = Gallery::getAll(search: $search);
+        $galleries = Gallery::getAll(search: $search, isCover: 1);
     }
 
     
 } catch (\Throwable $th) {
-    //throw $th;
+    echo($th->getMessage());
 }
 
 

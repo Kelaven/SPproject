@@ -112,7 +112,7 @@ th, td{
     border-right: none;
     text-transform: lowercase;
 }
-th::first-letter, td::first-letter{
+th::first-letter{
     text-transform: capitalize;
 }
 .listVehicles__pic{

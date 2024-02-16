@@ -58,9 +58,9 @@
                                         <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
                                     </td>
                                     <td class="pe-4"><?= $picture->name ?></td>
-                                    <td class="pe-4"><?php
+                                    <td class="pe-2"><?php
                                         if (($picture->description != null) && (strlen($picture->description) >= 25)) {
-                                            echo (substr($picture->description, 0, 25) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
+                                            echo (substr($picture->description, 0, 25) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($picture->description);
                                                                                                                                                                                                                                                                             }

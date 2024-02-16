@@ -2,23 +2,27 @@
 
 // to have constants
 require_once __DIR__ . '/../config/init.php';
+require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../helpers/dd.php';
 require_once __DIR__ . '/../models/Gallery.php';
 require_once __DIR__ . '/../models/Picture.php';
+require_once __DIR__ . '/../models/Comment.php';
 
 $accesclientStyle = 'accesclient.css';
 $dNoneBall = true;
 $footer = true;
 $gallerypicturesScript = 'gallerypicturesScript.js';
 
-// dd($_SESSION);
+
+
+// dd($_SESSION['user']->id_user);
 
 
 
 try {
     // * recover and clean id_gallery from URL
-    // dd($id_gallery);
-    $id_gallery = filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT);
+    $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
+    // d($id_gallery);
 
 
     // * Exclude unauthorized user !
@@ -28,14 +32,21 @@ try {
     }
 
 
-    // * galleries infos
+    // * gallery infos
     $gallery = Gallery::get($id_gallery);
-
+    // d($gallery);
+    if ($gallery === false) { // if the gallery hasn't pictures or Cover picture
+        header("Location: /controllers/accesclient-ctrl.php");
+        die;
+    }
 
     // * pictures
-    $pictures = Picture::getAll();
+    $pictures = Picture::getAll(perGallery: $id_gallery); // parametre facultatif pr sortir les photos de la galerie en cours et retirer la condition dans la vue
     // d($pictures);
 
+    // * comments
+    $comments = Comment::getAll();
+    // dd($comments);
 
     // * header update
     $title = "Galerie $gallery->name —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France";
@@ -52,40 +63,38 @@ try {
         } else {
             $isOk = filter_var($comment, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_COMMENT . '/')));
             if (!$isOk) {
-                $error['comment'] = 'Le texte ne peut pas contenir les symboles "<" ">" et doit faire entre 5 et 2000 caractères.';
+                $error['comment'] = 'Le texte doit faire entre 5 et 2000 caractères.';
             }
         }
 
         // dd($error);
 
-        // ? registration in base
-        // if (empty($error)) {
-        //     // dd($name);
-        //     $picture = new Picture();
+        // * registration in base
+        if (empty($error)) {
+            // dd($name);
+            $commentTxt = new Comment();
 
-        //     $picture->setIsSelection($isSelection);
-        //     $picture->setName($name);
-        //     $picture->setPhoto($photo);
-        //     $picture->setcomment($comment);
-        //     $picture->setIdGallery($id_gallery);
+            $commentTxt->setText($comment);
+            $commentTxt->setIdGallery($id_gallery);
+            $commentTxt->setIdUser($_SESSION['user']->id_user);
+
+            // call of insert's method
+            $isOk = $commentTxt->insert();
+
+            // Si the method returns true
+            if ($isOk) {
+                $result = 'Votre commentaire a bien été envoyé ! Il sera affiché dès sa validation effectuée par l\'administrateur.';
+            }
+        }
 
 
-        //     // call of insert's method
-        //     $isOk = $picture->insert();
+        // * display confirmed comments
 
-        //     // Si the method returns true
-        //     if ($isOk) {
-        //         $result = 'La photo a bien été enregistrée ! Vous pouvez en ajouter une autre.';
-        //     }
-        // }
+
+
     }
-
-
-
-
-
 } catch (\Throwable $th) {
-    //throw $th;
+    echo ($th->getMessage());
 }
 
 

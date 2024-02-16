@@ -202,11 +202,3 @@ body {
 #comment::placeholder{
     color: #fff;
 }
-
-
-@media (min-width: 992px) {
-    .gallerypictures__cardContainer, .gallerypictures__form {
-        width: 50%;
-        max-width: 50vw;
-    }
-}

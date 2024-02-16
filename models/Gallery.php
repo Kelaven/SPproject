@@ -102,16 +102,18 @@ class Gallery
     // * Method to display galleries' list
     /**
      * Method to display galleries' list
+     * 
+     * $isCover is to display galleries in the page accesclient only when a gallery have a cover picture
+     * 
      * @return array objects array
      */
-    public static function getAll(bool $archive = false, string $search = ''): array
+    public static function getAll(bool $archive = false, string $search = '', int $isCover = 0): array
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `gallery_photo`, `pictures`.`isCover` AS `gallery_isCover`
         FROM `galleries`
         LEFT JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery`'; // LEFT JOIN to have galeries without photos too
-
         $sql .= ' WHERE 1 = 1';
 
         if ($archive === false) {
@@ -119,8 +121,13 @@ class Gallery
         } else {
             $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
         }
-        if ($search != '') {
+        if ($search != '' && $isCover != 0) {
+            $sql .= ' AND `galleries`.`name` LIKE :search AND `pictures`.`isCover` = 1';
+        } else if ($search != '' && $isCover == 0) {
             $sql .= ' AND `galleries`.`name` LIKE :search';
+        }
+        if ($isCover === 1) {
+            $sql .= ' AND `pictures`.`isCover` = 1';
         }
 
         $sth = $pdo->prepare($sql);
@@ -128,13 +135,47 @@ class Gallery
         if ($search != '') {
             $sth->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
         }
-        
+
         $sth->execute();
 
         $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
 
         return $datas;
     }
+
+    // public static function getAllDashboard(bool $archive = false, string $search = '', bool $displayWithoutDuplicate = false)
+    // {
+    //     $pdo = Database::connect();
+
+    //     $sql = 'SELECT `galleries`.*, COUNT(`pictures`.`photo`) AS `gallery_photo`, COUNT(`pictures`.`isCover`) AS `gallery_isCover`
+    //     FROM `galleries`
+    //     LEFT JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery`'; 
+    //     $sql .= ' WHERE 1 = 1';
+
+    //     if ($archive === false) {
+    //         $sql .= ' AND `galleries`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
+    //     } else {
+    //         $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
+    //     }
+    //     if ($search != '') {
+    //         $sql .= ' AND `galleries`.`name` LIKE :search';
+    //     }
+    //     if ($displayWithoutDuplicate != false) {
+    //         $sql .= ' GROUP BY `galleries`.`id_gallery`';
+    //     }
+
+    //     $sth = $pdo->prepare($sql);
+
+    //     if ($search != '') {
+    //         $sth->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
+    //     }
+
+    //     $sth->execute();
+
+    //     $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
+
+    //     return $datas;
+    // }
 
     // * Method to insert new gallery
     /**
@@ -186,7 +227,7 @@ class Gallery
             $sql .= ' AND `name` = :name';
         }
         if ($password != null) {
-            $sql .= ' AND `password` = :password';
+            $sql .= ' AND `password` != :password';
         }
         if ($currentId_gallery != null) {
             $sql .= ' AND `id_gallery` != :id_gallery'; // if the same name or password is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
@@ -217,15 +258,20 @@ class Gallery
      * @param int $id_gallery
      * 
      * @return null|object with informations
+     * @return false if the gallery hasn't pictures or cover picture !!!!
      */
     public static function get(?int $id_gallery): null|false|object
     {
         $pdo = Database::connect();
 
-        $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `pictures_photo`, `pictures`.`isCover` AS `pictures_isCover`
+        $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `picture_photoCover`
         FROM `galleries`
         JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery` -- Warning : if the galerie hasnt pic, the result return false
-        WHERE `galleries`.`id_gallery` = :id_gallery;';
+        WHERE `galleries`.`id_gallery` = :id_gallery AND `pictures`.`isCover` = 1;'; // Warning : if the galerie hasnt cover pic, the result return false
+
+        // if ($isCover === 1) {
+        //     $sql .= ' AND `pictures`.`isCover` = 1';
+        // }
 
         $sth = $pdo->prepare($sql);
 

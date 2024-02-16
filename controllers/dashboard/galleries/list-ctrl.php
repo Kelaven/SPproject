@@ -17,13 +17,21 @@ try {
     // dd($search);
 
     // * display galleries list
-    $galleries = Gallery::getAll(); // without archived galleries (thanks to default argument)
+    $galleries = Gallery::getAll(); 
     // d($galleries);
 
     // * To search by keywords
     if ($search != '') {
         $galleries = Gallery::getAll(search: $search);
     }
+
+    // $galleriesDashboard = Gallery::getAllDashboard(displayWithoutDuplicate: true);
+    //     if ($search != '') {
+    //     $galleriesDashboard = Gallery::getAllDashboard(search: $search, displayWithoutDuplicate: true);
+    // }
+
+
+
 
     // * display archive message
     $msg = filter_var($_SESSION['msg'] ?? '', FILTER_SANITIZE_SPECIAL_CHARS); // get the $msg from archive-ctrl.php

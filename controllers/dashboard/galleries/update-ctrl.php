@@ -56,6 +56,8 @@ try {
             $isOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
             if (!$isOk) {
                 $error['password'] = 'Le passe doit avoir au moins une majuscule, une minuscule, un chiffre, un caractère spécial (excepté "<" ou ">") et faire entre 8 et 30 caractères';
+            } else {
+                $passwordHash = password_hash($password, PASSWORD_DEFAULT);
             }
         }
 
@@ -65,10 +67,10 @@ try {
         if ($isExistName) {
             $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
         }
-        $isExistPassword = Gallery::isExist(password: $password, currentId_gallery: $id_gallery);
-        if ($isExistPassword) {
-            $error['isExistByPassword'] = 'Une galerie avec le même passe existe déjà';
-        }
+        // $isExistPassword = Gallery::isExist(password: $password, currentId_gallery: $id_gallery);
+        // if ($isExistPassword) {
+        //     $error['isExistByPassword'] = 'Une galerie avec le même passe existe déjà';
+        // }
 
 
         // * update
@@ -77,7 +79,7 @@ try {
             // object hydratation
             $gallery->setName($name);
             $gallery->setDate($date);
-            $gallery->setPassword($password);
+            $gallery->setPassword($passwordHash);
             $gallery->setIdGallery($id_gallery);
             // dd($id_gallery->id_gallery);
 

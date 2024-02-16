@@ -61,10 +61,10 @@ try {
         if ($isExistName) {
             $error['isExistByName'] = 'Ce nom est déjà utilisé';
         }
-        $isExistPassword = Gallery::isExist(password: $password);
-        if ($isExistPassword) {
-            $error['isExistByPassword'] = 'Ce passe est déjà utilisé';
-        }
+        // $isExistPassword = Gallery::isExist(password: $password);
+        // if ($isExistPassword) {
+        //     $error['isExistByPassword'] = 'Ce passe est déjà utilisé';
+        // }
 
 
         // * registration in base

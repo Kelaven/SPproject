@@ -214,4 +214,34 @@ class Comment
 
         return $result;
     }
+
+    // * Method to insert new comment
+    /**
+     * Method to insert new comment
+     * @return bool true if comment works
+     */
+    public function insert(): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'INSERT INTO `comments`
+        (`text`, `id_gallery`, `id_user`)
+        VALUES (:text, :id_gallery, :id_user);';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':text', $this->getText());
+        $sth->bindValue(':id_gallery', $this->getIdGallery());
+        $sth->bindValue(':id_user', $this->getIdUser());
+
+        $sth->execute();
+
+        if ($sth->rowCount() <= 0) {
+            throw new Exception('Erreur lors de l\'enregistrement du commentaire');
+        } else {
+            return true;
+        }
+    }
+
+
 }

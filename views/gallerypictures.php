@@ -3,11 +3,14 @@
         <div class="col text-center p-5">
             <h1><?= $gallery->name ?></h1>
         </div>
+        <div class="text-center text-info py-2 px-5">
+            <?= $result ?? '' ?>
+        </div>
     </div>
     <div class="row justify-content-center">
         <?php
         foreach ($pictures as $picture) {
-            if ($picture->id_gallery === $gallery->id_gallery) {
+            // if ($picture->id_gallery === $gallery->id_gallery) {
         ?>
                 <div class="col-12 col-md-5 col-lg-4 col-xl-3 p-3">
                     <div class="galleryPictures__img--container">
@@ -33,7 +36,7 @@
                     </div>
                 </div>
         <?php
-            }
+            // }
         }
         ?>
     </div>
@@ -73,22 +76,30 @@
         </div>
     </div>
     <div class="row justify-content-center pt-3">
-        <div class="col-12 py-4 gallerypictures__cardContainer">
-            <div class="card gallerypictures__card">
-                <div class="card-header">
-                    Auteur et date
+        <?php
+        foreach ($comments as $comment) {
+            // d($comment);
+            if (($comment->id_gallery === $id_gallery) && ($comment->confirmed_at != NULL)) { ?>
+                <div class="col-12 col-lg-6 py-4 gallerypictures__cardContainer">
+                    <div class="card gallerypictures__card">
+                        <div class="card-header">
+                            <?= $comment->user_username ?>, le <?= date('Y-m-d à H:i', strtotime($comment->created_at)) ?> <!-- $comment->created_at is a string, became a timestamp with strtotime to be used with date() -->
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"><?= $comment->text ?></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-        </div>
+        <?php
+            }
+        }
+        ?>
     </div>
 </section>
 
 
 
-<script>
+<!-- <script>
     let test = "<?php echo $error['comment'] ?>"
     console.log(error);
-</script>
+</script> -->

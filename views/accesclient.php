@@ -24,10 +24,10 @@
                 </a>
             </div>
             <?php
-            $addedGallery = [];
+            // $addedGallery = [];
             foreach ($galleries as $gallery) {
                 // dd($gallery);
-                if (!in_array($gallery->id_gallery, $addedGallery)) {
+                // if (!in_array($gallery->id_gallery, $addedGallery)) {
             ?>
                     <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
                         <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
@@ -42,8 +42,8 @@
                         </a>
                     </div>
             <?php
-                    $addedGallery[] = $gallery->id_gallery;
-                }
+                    // $addedGallery[] = $gallery->id_gallery;
+                // }
             }
             ?>
 

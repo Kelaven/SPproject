@@ -1,13 +1,15 @@
 <section class="container-fluid px-0">
     <img class="accesclientform__bg" src="/public/assets/img/ftp/<?php
-                                                                    if (($gallery->pictures_isCover != 0) && (isset($gallery->pictures_photo))) {
-                                                                        echo ($gallery->pictures_photo);
+                                                                    if (isset($gallery->picture_photoCover)) {
+                                                                        echo ($gallery->picture_photoCover);
                                                                     }
                                                                     ?>" alt="photographie de couverture de la galerie" loading="lazy">
     <div class="row accesclientform__bg justify-content-center align-items-center"> <!-- ! il faudra charger dynamiquement l'image pour qu'elle corresponde -->
         <!-- <div class="accesclientform__overlay"> -->
         <div class="col-12 col-md-8 col-xl-5 ps-4 ms-2">
-            <h1 class="accesclientform__h1 pb-5"><?= $gallery->name ?></h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
+            <h1 class="accesclientform__h1 pb-5"><?php if (isset($gallery->picture_photoCover)) {
+                                                        echo ($gallery->name);
+                                                    } ?></h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
             <form method="post">
                 <!-- ! passwordAccess -->
                 <div class="input-group pe-xl-3 ps-xl-3 px-1">

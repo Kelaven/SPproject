@@ -24,11 +24,11 @@
                                 <th class="pe-4">Id :</th>
                                 <th>Admin :</th>
                                 <th class="ps-4">Pseudo :</th>
-                                <th class="ps-4">Prénom :</th>
-                                <th class="ps-4">Nom :</th>
-                                <th class="ps-4">Email :</th>
+                                <th class="ps-3">Prénom :</th>
+                                <th class="ps-3">Nom :</th>
+                                <th class="ps-3">Email :</th>
                                 <th class="ps-4">Telephone :</th>
-                                <th class="pe-5"></th> <!-- supprimer -->
+                                <th class="pe-4"></th> <!-- supprimer -->
                             </tr>
                             <?php
                             foreach ($users as $user) {
@@ -46,9 +46,9 @@
                                     <td class="px-4"><?= $user->username ?></td>
                                     <td class="px-4"><?= $user->firstname ?></td>
                                     <td class="px-4"><?= $user->lastname ?></td>
-                                    <td class="px-4"><?php
-                                                        if (($user->email != null) && (strlen($user->email) >= 15)) {
-                                                            echo (substr($user->email, 0, 15) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplusemail<?= $user->id_user ?>">[voir plus]</button> <?php
+                                    <td class="px-3"><?php
+                                                        if (($user->email != null) && (strlen($user->email) >= 10)) {
+                                                            echo (substr($user->email, 0, 10) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplusemail<?= $user->id_user ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                     } else {
                                                                                                                                                                                                                                                                         echo ($user->email);
                                                                                                                                                                                                                                                                     }
