@@ -50,8 +50,17 @@ class Image
                 // dd($photo);
                 // ! automatically resize
                 $image = imagecreatefromjpeg($to); // use function from the library GD
-                $width = 1280; // max to have great quality with reduced weight
-                $height = -1;
+
+                $widthOriginal = imagesx($image);
+                $heightOriginal = imagesy($image);
+                if ($heightOriginal > $widthOriginal) { // c du portrait
+                    $height = 1280;
+                    $width = ceil(($widthOriginal * $height) / $heightOriginal);
+                } else {
+                    $width = 1280; // max to have great quality with reduced weight
+                    $height = -1;
+                }
+
                 $mode = IMG_BILINEAR_FIXED; // algo of img resizing
                 $resampledObject = imagescale($image, $width, $height, $mode); // transform img in object to apply changes
                 imagejpeg($resampledObject, $to, 80); // transform object in img
