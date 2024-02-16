@@ -86,13 +86,10 @@ try {
                 $result = 'Votre commentaire a bien été envoyé ! Il sera affiché dès sa validation effectuée par l\'administrateur.';
             }
         }
-
-
-        // * display confirmed comments
-
-
-
     }
+    // d($_SESSION);
+    // ! unset SESSION isAllow THEN WE ARE IN ONE GALLERY
+    unset($_SESSION['isAllow' . $id_gallery]);
 } catch (\Throwable $th) {
     echo ($th->getMessage());
 }
