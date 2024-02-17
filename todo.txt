@@ -2,6 +2,8 @@ roadmap ? gérer les photos avec ftp, securiser pr eviter leurs telechargements 
 php mailer pour recevoir les ddes de contact
 bonus : commentaires dans les galeries, confirmation d'inscription par mail, tableau de bord utilisateurs pr gerer leur compte, leur permettre de réinitialiser le mdp
 
+-> rfr boutons connexion navbar
+
 -> ajouter un générateur de mdp
 
 -> ajouter un ordre croissant sur les dates dans le CRUD des galeries
