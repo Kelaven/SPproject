@@ -32,8 +32,8 @@
     /* animation: fadeAnimation 1s forwards;  */
 
 }
-.fade{
-    animation: fadeAnimation 0.5s forwards ease-in; 
+.fadeManual{
+    animation: fadeAnimation 0.5s ease-in; 
 }
 @keyframes fadeAnimation {
     0% {

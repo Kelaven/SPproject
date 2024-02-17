@@ -26,8 +26,8 @@
     background-color: #2B3035;
     /* padding: 5px; */
 }
-.fade{
-    animation: fadeAnimation 0.5s forwards ease-in; 
+.fadeManual{
+    animation: fadeAnimation 0.5s ease-in; 
 }
 @keyframes fadeAnimation {
     0% {
