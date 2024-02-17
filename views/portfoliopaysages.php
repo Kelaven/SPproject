@@ -17,22 +17,22 @@
                                     <div id="carousel0" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -63,22 +63,22 @@
                                     <div id="carousel0-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -109,22 +109,22 @@
                                     <div id="carousel0-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -155,22 +155,22 @@
                                     <div id="carousel0-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -201,22 +201,22 @@
                                     <div id="carousel0-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -239,7 +239,7 @@
                     <picture class="carousel__img--desktop">
                         <source media="(max-width: 840px)" srcset="/public/assets/img/jpegpaysages/mobilesize/vercors-france-panorama-mountains-300-40.jpg">
                         <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-crop-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
-                        <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
+                        <!-- <img class="carousel__img--desktop--adapt" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
                         <!-- <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-10.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy"> -->
                         <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-30.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver carousel desktop" loading="lazy">
                     </picture>
@@ -250,22 +250,22 @@
                                     <div id="carousel0-6" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=st-valery-sur-somme-infrared-1920-100.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-snow-tree-1920-80.jpg" alt="photographie enneigée d'un sapin en pleine nature dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-sea-storm-rain-1440-80.jpg" alt="photographie en Italie de rochers dans la mer en pleine tempête" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="photographie d'un soir sur la plage avec un coucher de soleil en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-lac-sunset-1440-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/desktopsize/vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-panorama-mountains-1260-60.jpg" alt="photographie d'un panorama de montagnes dans le Vercors en France pendant l'hiver" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -327,22 +327,22 @@
                                     <div id="carousel1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -373,22 +373,22 @@
                                     <div id="carousel1-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -419,22 +419,22 @@
                                     <div id="carousel1-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -465,22 +465,22 @@
                                     <div id="carousel1-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -511,22 +511,22 @@
                                     <div id="carousel1-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -557,22 +557,22 @@
                                     <div id="carousel1-6" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-tree-1280-80.jpg" alt="photo de Corse avec un arbre et le soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-panorama-bigmountain-1920-80.jpg" alt="photo de montagne enneigée" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-village-mountains-1920-80.jpg" alt="photo de village en montagne pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=vercors-france-sunset-hut-1440-80.jpg" alt="photo de roulottes en montagne dans la neige au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=italie-cadenas-love-1440-80.jpg" alt="photo de cadenas avec amour" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=boves-france-night-1920-80.jpg" alt="photo de Boves, étang de nuit" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -634,22 +634,22 @@
                                     <div id="carousel2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -680,22 +680,22 @@
                                     <div id="carousel2-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -726,22 +726,22 @@
                                     <div id="carousel2-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -772,22 +772,22 @@
                                     <div id="carousel2-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -818,22 +818,22 @@
                                     <div id="carousel2-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -864,22 +864,22 @@
                                     <div id="carousel2-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=france-beach-sunset-1920-80.jpg" alt="photo de plage au coucher de soleil avec une famille au loin" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-france-city-1589-80.jpg" alt="photo vintage d'un café à Annecy en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=normandie-velo-vintage-1440-80.jpg" alt="photo vintage d'un vélo en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-city-colors-1440-80.jpg" alt="photo de Sicile dans la ville avec des couleurs vives" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sicile-sea-parc-1440-80.jpg" alt="photo de Sicile dans un parc naturel avec ambiance dramatique" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=bruges-belgium-city-1920-80.jpg" alt="photo de Bruges en Belgique avec une pose longue en noir et blanc" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -941,22 +941,22 @@
                                     <div id="carousel3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -987,22 +987,22 @@
                                     <div id="carousel3-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1033,22 +1033,22 @@
                                     <div id="carousel3-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1079,22 +1079,22 @@
                                     <div id="carousel3-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1125,22 +1125,22 @@
                                     <div id="carousel3-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1171,22 +1171,22 @@
                                     <div id="carousel3-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-france-blockhaus-1440-80.jpg" alt="photo d'un blockhaus de guerre à la plage de Le Hourdel" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-road-1440-80.jpg" alt="photo de route en Corse dans la montagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-sunflower-sunset-1440-80.jpg" alt="photo de tournesols à Vif près de Grenoble au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-bnw-lac-1920-80.jpg" alt="photo d'un lac vers Grenoble en noir et blanc avec du grain" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=amiens-hortillonages-sunset-1280-80.jpg" alt="photo de paysage de barques aux hortillonages d'Amiens" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=annecy-bnw-lac-1920-80.jpg" alt="photo du lac d'Annecy en noir et blanc en pose longue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1247,22 +1247,22 @@
                                     <div id="carousel4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1293,22 +1293,22 @@
                                     <div id="carousel4-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1339,22 +1339,22 @@
                                     <div id="carousel4-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1385,22 +1385,22 @@
                                     <div id="carousel4-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1431,22 +1431,22 @@
                                     <div id="carousel4-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1477,22 +1477,22 @@
                                     <div id="carousel4-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-plage-beach-1920-80.jpg" alt="photo de plage en corse avec des rochers en pose longue" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-beach-sunset-1440-80.jpg" alt="photo de la mer au Maroc au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=grenoble-france-sunflowers-1440-80.jpg" alt="photo de tournesols avec lumière du soir" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-france-beach-tree-1440-80.jpg" alt="photo de plage en Corse avec un arbre solitaire" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-city-zaragoza-1920-80.jpg" alt="photo de Saragosse en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=rouen-france-city-1440-80.jpg" alt="photo de moto vintage à Rouen en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1553,22 +1553,22 @@
                                     <div id="carousel5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1599,22 +1599,22 @@
                                     <div id="carousel5-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1645,22 +1645,22 @@
                                     <div id="carousel5-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1691,22 +1691,22 @@
                                     <div id="carousel5-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1737,22 +1737,22 @@
                                     <div id="carousel5-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1783,22 +1783,22 @@
                                     <div id="carousel5-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=sea-corse-splash-1440-80.jpg" alt="photographie de vague en plein mer en Corse" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=maroc-coquillage-bokeh-1440-80.jpg" alt="photographie d'un coquillage sur une plage marocaine au soleil couchant" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=hourdel-miroir-blockhaus-1440-80.jpg" alt="photographie du blockhaus du Hourdel avec un reflet dans la mer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-bois-wood-beach-plage-1920-80.jpg" alt="photographie d'un lac au coucher de soleil à Grenoble en France sur un pont suspendu" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=espagne-cascade-1920-80.jpg" alt="photographie d'une cascade dans un parc naturel en Espagne" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegpaysages/modalsize/corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
+                                                <img class="carousel__img" src="/pictures.php?picture=corse-river-riviere-1440-80.jpg" alt="photographie d'une rivière en plein nature dans la Corse en France" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>

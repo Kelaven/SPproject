@@ -28,8 +28,8 @@
                             <!-- * srcset to perform on all screens * -->
                             <picture class="d-block w-100 position-absolute z-0">
                                 <source media="(max-width: 768px)" srcset="/public/assets/img/normandie-france-sunset-on-beach-picture-1400-30.jpg">
-                                <source media="(max-width: 1400px)" srcset="/public/assets/img/normandie-france-sunset-on-beach-picture-1400-70.jpg">
-                                <img class="carousel-img__size" src="/public/assets/img/normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="Photo de paysage d'un coucher de soleil normand en France sur la plage">
+                                <source media="(max-width: 1400px)" srcset="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1400-70.jpg">
+                                <img class="carousel-img__size" src="/pictures.php?picture=normandie-france-sunset-on-beach-picture-1920-50.jpg" alt="Photo de paysage d'un coucher de soleil normand en France sur la plage">
                             </picture>
                             <!-- overlay -->
                             <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -96,8 +96,8 @@
                             <picture class="d-block w-100 position-absolute z-0">
                                 <source media="(max-width: 768px)" srcset="/public/assets/img/portrait-women-laon-france-picture-1200-30.jpg">
                                 <source media="(max-width: 1200px)" srcset="/public/assets/img/portrait-women-laon-france-picture-1200.jpg">
-                                <source media="(max-width: 1400px)" srcset="/public/assets/img/portrait-women-laon-france-picture-1400-70.jpg">
-                                <img class="carousel-img__size" id="meli-pic" src="/public/assets/img/portrait-women-laon-france-picture-1920-50.jpg" alt="Photo de portrait d'un modèle féminin en France dans une ville médiévale">
+                                <source media="(max-width: 1400px)" srcset="/picturesPortraits.php?picture=portrait-women-laon-france-picture-1400-70.jpg">
+                                <img class="carousel-img__size" id="meli-pic" src="/picturesPortraits.php?picture=portrait-women-laon-france-picture-1920-50.jpg" alt="Photo de portrait d'un modèle féminin en France dans une ville médiévale">
                             </picture>
                             <!-- overlay -->
                             <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -163,8 +163,8 @@
                             <!-- * srcset to perform on all screens * -->
                             <picture class="d-block w-100 position-absolute z-0">
                                 <source media="(max-width: 768px)" srcset="/public/assets/img/vercors-france-moutains-winter-snow-picture-1600-30.jpg">
-                                <source media="(max-width: 1600px)" srcset="/public/assets/img/vercors-france-moutains-winter-snow-picture-1600-60.jpg">
-                                <img class="carousel-img__size" src="/public/assets/img/vercors-france-moutains-winter-snow-picture-1920-50.jpg" alt="Photo de paysage d'une montagne enneigée dans le Vercors en France">
+                                <source media="(max-width: 1600px)" srcset="/pictures.php?picture=vercors-france-moutains-winter-snow-picture-1600-60.jpg">
+                                <img class="carousel-img__size" src="/pictures.php?picture=vercors-france-moutains-winter-snow-picture-1920-50.jpg" alt="Photo de paysage d'une montagne enneigée dans le Vercors en France">
                             </picture>
                             <!-- overlay -->
                             <div class="carousel-img__filigram position-absolute z-1"></div>
@@ -232,8 +232,8 @@
                                 <source media="(max-width: 768px)" srcset="/public/assets/img/portrait-women-normandie-france-picture-768-30.jpg">
                                 <source media="(max-width: 992px)" srcset="/public/assets/img/portrait-women-normandie-france-picture-992.jpg">
                                 <source media="(max-width: 1200px)" srcset="/public/assets/img/portrait-women-normandie-france-picture-1200.jpg">
-                                <source media="(max-width: 1400px)" srcset="/public/assets/img/portrait-women-normandie-france-picture-1400-70.jpg">
-                                <img class="carousel-img__size" id="pau-pic" src="/public/assets/img/portrait-women-normandie-france-picture-1920-50.jpg" alt="Photo de portrait d'un modèle féminin en normandie en France, dans un champ de marguerites">
+                                <source media="(max-width: 1400px)" srcset="/picturesPortraits.php?picture=portrait-women-normandie-france-picture-1400-70.jpg">
+                                <img class="carousel-img__size" id="pau-pic" src="/picturesPortraits.php?picture=portrait-women-normandie-france-picture-1920-50.jpg" alt="Photo de portrait d'un modèle féminin en normandie en France, dans un champ de marguerites">
                             </picture>
                             <!-- overlay -->
                             <div class="carousel-img__filigram position-absolute z-1"></div>

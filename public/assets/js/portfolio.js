@@ -31,12 +31,12 @@ function clickRightBtns() {
 
             parents.forEach(parent => { // to place others parents in the left (with CSS)
                 parent.dataset.status = "inactive";
-                parent.querySelector(".div1").classList.remove("fade");
+                // parent.querySelector(".div1").classList.remove("fade");
             });
 
             currentParent.dataset.status = "active" // to display the activeIndex (with CSS)
             console.log(currentParent.querySelector(".div1"));
-            currentParent.querySelector(".div1").classList.add("fade");
+            // currentParent.querySelector(".div1").classList.add("fade");
         })
     });
 }
@@ -56,11 +56,11 @@ function clickLeftBtns() {
 
             parents.forEach(parent => {
                 parent.dataset.status = "inactive";
-                parent.querySelector(".div1").classList.remove("fade");
+                // parent.querySelector(".div1").classList.remove("fade");
             });
 
             currentParent.dataset.status = "active";
-            currentParent.querySelector(".div1").classList.add("fade");
+            // currentParent.querySelector(".div1").classList.add("fade");
             // console.log(activeIndex);
 
         })

@@ -17,22 +17,22 @@
                                     <div id="carousel0" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -63,22 +63,22 @@
                                     <div id="carousel0-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -109,22 +109,22 @@
                                     <div id="carousel0-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -155,22 +155,22 @@
                                     <div id="carousel0-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -201,22 +201,22 @@
                                     <div id="carousel0-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -247,22 +247,22 @@
                                     <div id="carousel0-6" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-picture-portrait-women-france-1440-80.jpg" alt="photo de femme à Laon en France ville médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-remparts-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France avec des remparts médiévaux" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-bnw-picture-portrait-women-france-1440-80.jpg" alt="photographie d'une femme pendant des vacances en Italie en noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-door-picture-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France devant une porte de maison médiévale" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-road-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale sur un rempart" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=melissa-paysage-portrait-women-france-1920-80.jpg" alt="photographie d'une femme à Laon en France ville médéviale dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -324,22 +324,22 @@
                                     <div id="carousel1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -370,22 +370,22 @@
                                     <div id="carousel1-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -416,22 +416,22 @@
                                     <div id="carousel1-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -462,22 +462,22 @@
                                     <div id="carousel1-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -508,22 +508,22 @@
                                     <div id="carousel1-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -554,22 +554,22 @@
                                     <div id="carousel1-6" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-assis-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens assis sur la route au sunset" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-profil-picture-portrait-men-france-1920-80.jpg" alt="photo d'homme en France à Amiens de profil avec un bandana au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ballon-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec un ballon" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-ombre-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur un terrain de basket avec une ombre et un coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-gare-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens sur une voie ferroviaire au coucher de soleil" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-tag-picture-portrait-men-france-1440-80.jpg" alt="photo d'homme en France à Amiens contre un mur plein de tags" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -631,22 +631,22 @@
                                     <div id="carousel2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -677,22 +677,22 @@
                                     <div id="carousel2-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -723,22 +723,22 @@
                                     <div id="carousel2-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -769,22 +769,22 @@
                                     <div id="carousel2-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -815,22 +815,22 @@
                                     <div id="carousel2-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -861,22 +861,22 @@
                                     <div id="carousel2-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-marguerite-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en Normandie en France dans un champ de marguerites" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-corse-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme en Corse en France au coucher de soleil devant un parking sur la plage" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-flowers-picture-portrait-women-france-1440-80.jpg" alt="photo d'une femme dans les fleurs en Normandie en France" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-bnw-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait rapproché noir et blanc" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-maroc-picture-portrait-women-france-1275-80.jpg" alt="photo de femme en portrait au Maroc avec des murs oranges" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=pauline-lavande-picture-portrait-women-france-1440-80.jpg" alt="photo de femme en portrait en Italie avec de la lavande dans la rue" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -938,22 +938,22 @@
                                     <div id="carousel3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -984,22 +984,22 @@
                                     <div id="carousel3-1" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1030,22 +1030,22 @@
                                     <div id="carousel3-2" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1076,22 +1076,22 @@
                                     <div id="carousel3-3" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1122,22 +1122,22 @@
                                     <div id="carousel3-4" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
@@ -1168,22 +1168,22 @@
                                     <div id="carousel3-5" class="carousel slide">
                                         <div class="carousel-inner">
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-dog-picture-portrait-men-france-1920-80.jpg" alt="photo d'un homme pendant les fêtes de Noël avec son chien, animal de compagnie" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-boule-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant les fêtes de Noël en train de décorer" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-light-picture-portrait-couple-france-1440-80.jpg" alt="photo d'un couple pendant Noël avec jeu de lumières" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-cat-picture-portrait-men-france-1440-80.jpg" alt="photo d'un homme avec un beau chat mignon à Noël" loading="lazy">
                                             </div>
                                             <div class="carousel-item text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=jad-book-picture-portrait-men-france-1440-80.jpg" alt="photo de Noël d'un homme qui lit dans le canapé" loading="lazy">
                                             </div>
                                             <div class="carousel-item active text-center">
-                                                <img class="carousel__img" src="/public/assets/img/jpegportraits/modalsize/cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
+                                                <img class="carousel__img" src="/picturesPortraits.php?picture=cass-naud-canap-picture-portrait-couple-france-1920-80.jpg" alt="photo d'un couple pendant Noël dans une pièce décorée sur un canapé" loading="lazy">
                                             </div>
                                         </div>
                                         <p><i class="fa-solid fa-xmark ps-2 pt-4 pe-5 modal__close" data-bs-dismiss="modal"></i></p>
