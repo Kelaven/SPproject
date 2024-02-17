@@ -76,3 +76,16 @@ function cursorDivFollowsMouse(event) {
 
 // * event (animate div's cursor to follow the mouse)
 document.addEventListener("mousemove", cursorDivFollowsMouse); // to have event when the mouse moves
+
+
+
+// ! disable right click
+let images = document.querySelectorAll('img');
+console.log(images);
+
+images.forEach(image => {
+    image.addEventListener('contextmenu', (event) => {
+        event.preventDefault;
+    })
+});
+

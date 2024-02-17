@@ -1,3 +1,8 @@
+// ! enable popovers
+// const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+// const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+
 // ! Variables
 const ball = document.querySelector('.cursor--pages');
 let mouseX; // to store ball positions
@@ -56,6 +61,20 @@ document.addEventListener("mousemove", ballFollowsMouse);
 
 
 
+// ! disable right click
+let images = document.querySelectorAll('img');
 
+images.forEach(image => {
 
+    image.addEventListener('contextmenu', (event) => {
+        const tooltip = new bootstrap.Tooltip(image, {
+            animation: true,
+            title: 'Images protégées © Kévin Lavenant',
+            trigger: 'focus'
+        })
+        console.log(tooltip);
+        tooltip.show(); // bootstrap's method to manually display the tooltip. Use hide() if needed
 
+        event.preventDefault();
+    });
+});

@@ -8,7 +8,7 @@
                     <button type="button" class="btn btn-primary modal__btn" data-bs-toggle="modal" data-bs-target="#divchild1Modal" aria-label="Open">Click to open modal</button>
                     <picture class="carousel__img--desktop">
                         <source media="(max-width: 768px)" srcset="/public/assets/img/jpegpaysages/mobilesize/st-valery-sur-somme-infrared-300-80.jpg">
-                        <img class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/st-valery-sur-somme-infrared-1057-60.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge format carousel desktop" loading="lazy">
+                        <img id="test" class="carousel__img--desktop--adapt" src="/public/assets/img/jpegpaysages/desktopsize/st-valery-sur-somme-infrared-1057-60.jpg" alt="photo de paysage de Saint-Valery-Sur-Somme en infrarouge format carousel desktop" loading="lazy">
                     </picture>
                     <div class="slide0modal modal fade" id="divchild1Modal" data-modal-index="0">
                         <div class="modal-dialog m-0 ms-md-4 m-lg-5">
