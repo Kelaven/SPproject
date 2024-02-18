@@ -60,7 +60,7 @@
     <div class="row d-none" id="gallerypictures__row--write">
         <div class="col d-flex justify-content-center">
             <form method="POST" class="gallerypictures__form mt-4" id="commentForm" novalidate>
-                <legend class="py-3 py-xl-4 px-3 text-center">Ajouter un commentaire</legend>
+                <h3 class="py-3 py-xl-4 px-3 text-center">Ajouter un commentaire</h3>
                 <div class="form__comment--container">
                     <div class="input-group pe-xl-3 ps-xl-3 px-1">
                         <label for="comment"></label>

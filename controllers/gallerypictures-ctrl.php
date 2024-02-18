@@ -89,12 +89,10 @@ try {
     }
     // d($_SESSION);
     // ! UNSET SESSION isAllow THEN WE ARE IN ONE GALLERY SINCE 20 MINUTES
-    // d($_SESSION);
-    // d(time());
     if (time() - $_SESSION['timestamp' . $id_gallery] > 1200 ) { // 1200 is 20 mins * 60 sec
     unset($_SESSION['isAllow' . $id_gallery]);
     }
-    // unset($_SESSION['isAllow' . $id_gallery]);
+    
 } catch (\Throwable $th) {
     echo ($th->getMessage());
 }

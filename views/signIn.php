@@ -3,7 +3,7 @@
         <div class="col-12 col-md-6 pt-3">
             <div class="card card__sign">
                 <form method="POST" class="px-2">
-                    <legend class="py-3 py-xl-4 px-3 text-center">Connexion</legend>
+                    <h1 class="py-3 py-xl-4 px-3 text-center contact__legend w-100">Connexion</h1>
                     <div class="text-success text-center fs-6 fw-bold pb-3">
                         <?= $result ?? '' ?>
                     </div>

@@ -53,7 +53,7 @@ class Image
 
                 $widthOriginal = imagesx($image);
                 $heightOriginal = imagesy($image);
-                if ($heightOriginal > $widthOriginal) { // c du portrait
+                if ($heightOriginal > $widthOriginal) { // it's portrait
                     $height = 1280;
                     $width = ceil(($widthOriginal * $height) / $heightOriginal);
                 } else {

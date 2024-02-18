@@ -1,17 +1,19 @@
-Prochaines priorités : php mailer pour Contact et panneau config utilisateur
+Prochaines priorités : php mailer pour Contact et panneau config utilisateur puis confirmation inscription par mail 
+et permettre aux membres de réinitialiser leur mdp
+
 
 Bonus :
-gérer les photos avec ftp, modifier la Sélection, fonction de like, 
-confirmation d'inscription par mail, leur permettre de réinitialiser le mdp
+gérer les photos avec ftp, modifier la Sélection, fonction de like, recevoir une notif quand un utilisateur laisse un commentaire
 
+
+
+
+
+-> vérifications W3C
 
 -> ajouter un générateur de mdp
 
 -> ajouter un ordre croissant sur les dates dans le CRUD des galeries
-
--> vérifications W3C
-
--> compteur de like
 
 -> optimiser les catch
 

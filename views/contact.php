@@ -17,7 +17,7 @@
         <div class="col-xl-6 px-0" id="form__container--right">
             <form method="post">
                 <div class="container__legend">
-                    <legend class="pt-4 text-center m-0 contact__legend">Formulaire de contact</legend>
+                    <h1 class="pt-4 text-center m-0 contact__legend">Formulaire de contact</h1>
                 </div>
                 <div class="container__form">
                     <div class="container__form--ball">
@@ -63,7 +63,7 @@
                         <div class="input-group pe-xl-3 ps-xl-3 px-1">
                             <label for="captcha"></label>
                             <span class="input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
-                            <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" minlength="1" maxlength="1" class="form-control">
+                            <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" class="form-control">
                         </div>
                         <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                         <label for="consent" class="check__consent py-2">
@@ -79,6 +79,5 @@
                 </div>
             </form>
         </div>
-    </div>
     </div>
 </section>

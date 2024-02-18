@@ -58,7 +58,7 @@ body {
     flex-wrap: wrap;
 }
 .accesclientform__h1 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     color: #2B3035 !important;
     text-align: center;
