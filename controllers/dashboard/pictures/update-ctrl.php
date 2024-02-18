@@ -78,7 +78,7 @@ try {
         //     $photo = $picture->photo; // If no new image is uploaded, keep the old
         // } else {
         //     try {
-                // @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $photo); // delete old image from disk
+                // @unlink(__DIR__ . '/../../../public/assets/img/uploads/' . $photo); // delete old image from disk
         //         // ! new photo treatment : 
         //         if (!isset($_FILES['photo'])) { // file exist ?
         //             throw new Exception("Le champ photo n'existe pas");
@@ -96,7 +96,7 @@ try {
         //         $from = $_FILES['photo']['tmp_name'];
         //         $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
         //         $filename = $name . '.' . $extension;
-        //         $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
+        //         $to = __DIR__ . '/../../../public/assets/img/uploads/' . $filename;
         //         move_uploaded_file($from, $to);
         //         // dd($photo = $picture->photo);
         //         $photo = $filename; // update the picture in list.php with the new picture

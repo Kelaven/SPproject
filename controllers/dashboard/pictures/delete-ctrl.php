@@ -20,7 +20,7 @@ try {
 // dd($picture->photo);
     $delete = Picture::delete($id_picture);
 
-    @unlink(__DIR__ . '/../../../public/assets/img/ftp/' . $picture->photo);
+    @unlink(__DIR__ . '/../../../public/assets/img/uploads/' . $picture->photo);
 
     if ($delete) {
 

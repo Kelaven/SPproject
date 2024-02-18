@@ -164,8 +164,11 @@ input::placeholder{
     /* max-width: 30px; */
     /* background-color: red; */
     font-style: italic;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     color: #fff;
+}
+.listPictures__capitalize::first-letter{
+    text-transform: capitalize;
 }
 .dashboard__search--container{
     width: 100%;

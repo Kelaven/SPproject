@@ -31,7 +31,7 @@
             ?>
                     <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
                         <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
-                            <img class="accesclient__img" src="/public/assets/img/ftp/<?php
+                            <img class="accesclient__img" src="/public/assets/img/uploads/<?php
                                                                                         if ($gallery->gallery_isCover == 1) {
                                                                                             echo ($gallery->gallery_photo);
                                                                                         }

@@ -56,10 +56,10 @@
                             ?>
                                     <tr>
                                         <td><?= $gallery->id_gallery ?></td>
-                                        <td><?= $gallery->name ?></td>
+                                        <td class="listPictures__capitalize"><?= $gallery->name ?></td>
                                         <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
                                         <!-- <td> <?php if (!empty($gallery->gallery_photo) && $gallery->gallery_isCover == 1) { ?>
-                                                <img class="dashboard__imgRsz" src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>" alt="Photo de couverture de la galerie">
+                                                <img class="dashboard__imgRsz" src="/public/assets/img/uploads/<?= $gallery->gallery_photo ?>" alt="Photo de couverture de la galerie">
                                                 <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoomGallery<?= $gallery->id_gallery ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
                                             <?php } ?>
                                         </td> -->
@@ -79,7 +79,7 @@
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="/public/assets/img/ftp/<?= $gallery->gallery_photo ?>">
+                                                    <img src="/public/assets/img/uploads/<?= $gallery->gallery_photo ?>">
                                                 </div>
                                             </div>
                                         </div>

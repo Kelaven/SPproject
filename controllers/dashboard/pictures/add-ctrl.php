@@ -90,7 +90,7 @@ try {
         //         $from = $_FILES['photo']['tmp_name'];
         //         $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
         //         $filename = $name . '.' . $extension;
-        //         $to = __DIR__ . '/../../../public/assets/img/ftp/' . $filename;
+        //         $to = __DIR__ . '/../../../public/assets/img/uploads/' . $filename;
         //         move_uploaded_file($from, $to);
         //         $photo = $filename; // to send in base inly file's name and not the path (to exclude NULL in base)
         //         // dd($photo);

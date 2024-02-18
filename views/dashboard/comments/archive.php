@@ -37,8 +37,8 @@
                                 <tr>
                                     <td class="pe-4"><?= $comment->id_comment ?></td>
                                     <td><?php
-                                        if (($comment->text != null) && (strlen($comment->text) >= 30)) {
-                                            echo (substr($comment->text, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirpluscomment<?= $comment->id_comment ?>">[voir plus]</button> <?php
+                                        if (($comment->text != null) && (strlen($comment->text) >= 20)) {
+                                            echo (substr($comment->text, 0, 20) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirpluscomment<?= $comment->id_comment ?>">[voir plus]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($comment->text);
                                                                                                                                                                                                                                                                             }

@@ -1,6 +1,6 @@
 <section class="container">
     <div class="row">
-        <div class="col text-center p-5">
+        <div class="col-12 text-center p-5">
             <h1><?= $gallery->name ?></h1>
         </div>
         <div class="text-center text-info py-2 px-5">
@@ -15,7 +15,7 @@
                 <div class="col-12 col-md-5 col-lg-4 col-xl-3 p-3">
                     <div class="galleryPictures__img--container">
                         <button type="button" class="btn btn-primary modalGallery__btn" data-bs-toggle="modal" data-bs-target="#modal<?= $picture->name ?>" aria-label="Open">Click to open modal</button>
-                        <img class="galleryPictures__img" src="/public/assets/img/ftp/<?= $picture->photo ?>" alt="Photographie <?= $picture->name ?> de la galerie <?= $picture->gallery_name ?>">
+                        <img class="galleryPictures__img" src="/public/assets/img/uploads/<?= $picture->photo ?>" alt="Photographie <?= $picture->name ?> de la galerie <?= $picture->gallery_name ?>">
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body text-center p-5">
-                                <img class="modal__imgGallery" src="/public/assets/img/ftp/<?= $picture->photo ?>" alt="Photographie <?= $picture->name ?> de la galerie <?= $picture->gallery_name ?>">
+                                <img class="modal__imgGallery pictureList__modalImg" src="/public/assets/img/uploads/<?= $picture->photo ?>" alt="Photographie <?= $picture->name ?> de la galerie <?= $picture->gallery_name ?>">
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
             </form>
         </div>
     </div>
-    <div class="row justify-content-center pt-3">
+    <div class="row justify-content-center pt-3 pb-5">
         <?php
         foreach ($comments as $comment) {
             // d($comment);

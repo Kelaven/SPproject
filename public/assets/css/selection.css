@@ -23,7 +23,7 @@ body {
 .screen__img {
     height: 100%;
     width: 100%;
-    background-image: url('/public/assets/img/jpegpaysages/modalsize/selection-grenoble-vercors-mountains-1440-100.jpg');
+    background-image: url('/pictures.php?picture=selection-grenoble-vercors-mountains-1440-100.jpg');
     background-size: 300%;
     animation: imageMove 20s linear infinite;
 }
