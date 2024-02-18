@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     background-color: #24282D;
 }
+
 #accesclient__body {
     min-height: 88vh;
 }
@@ -26,36 +27,36 @@ body {
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-.accesclientform__bg {
+.accesclientform__bg2 {
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    position: relative;
 }
-
-.accesclientform__bg input {
-    border-radius: 0% !important;
-}
-
-.accesclientform__bg {
-    position: absolute;
-    z-index: -99;
-    min-width: 101%;
+.accesclientform__img2 {
     height: 100%;
+    width: 100%;
     object-fit: cover;
+    position: absolute;
+    z-index: 0;
+    /* background: rgba(255, 255, 255, 0.6); */
+}
+.accesclientform__overlay2 {
+    /* height: 100vh;
+    width: 100vw; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
     background: rgba(255, 255, 255, 0.6);
 }
-
-/* .accesclientform__overlay {
+.accesclientform__infosContainer{
     height: 100%;
-    width: 100vw;
-    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    position: absolute;
+    z-index: 2;
     display: flex;
-    justify-content: center;
     align-items: center;
-} */
-
+    flex-wrap: wrap;
+}
 .accesclientform__h1 {
     font-family: Poppins;
     font-size: 36px;
@@ -64,19 +65,22 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 4px;
+    width: 100vw;
 }
-.accesclientform__txt{
-    /* position: absolute;
-    z-index: 2; */
+.accesclientform__form{
+    width: 100vw;
 }
-
-@media (max-width: 429px) {
-    #accesclientform__h1--antoine {
-        font-size: 30px !important;
+.accesclientform__input{
+    max-width: 80vw;
+}
+.accesclientform__span{
+    height: 36px;
+}
+@media (min-width: 768px) {
+    .accesclientform__input{
+        max-width: 40vw;
     }
 }
-
-
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT GALLERY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -169,7 +173,8 @@ body {
     background-color: #2d3238 !important;
 }
 
-.gallerypictures__btn:hover, .signUp__btn:hover {
+.gallerypictures__btn:hover,
+.signUp__btn:hover {
     background-color: #2d3238 !important;
 }
 
@@ -181,14 +186,17 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
 }
-.pictureList__modalImg{
+
+.pictureList__modalImg {
     max-width: 100%;
 }
-#comment{
+
+#comment {
     background-color: #24282D;
     color: #fff;
     min-height: 200px;
 }
-#comment::placeholder{
+
+#comment::placeholder {
     color: #fff;
 }
