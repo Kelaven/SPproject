@@ -15,7 +15,6 @@
                                                                     echo ($gallery->name);
                                                                 } ?></h1> <!-- ! il faudra charger dynamiquement le prénom pour qu'il corresponde -->
                         <form method="post" class="accesclientform__form d-flex flex-wrap justify-content-center">
-                            <small class="text-danger ps-3"><?= $error['passwordAccess'] ?? '' ?></small>
                             <div class="w-100 d-flex justify-content-center">
                                 <div class="input-group pe-xl-3 ps-xl-3 px-1 accesclientform__input">
                                     <label for="passwordAccess"></label>
@@ -24,6 +23,7 @@
                                     <span class="input-group-text span__signup__pwd--eye accesclientform__span"><i class="fa-solid fa-eye" id="pwd-eye-gallery"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-gallery"></i></span>
                                 </div>
                             </div>
+                            <small class="text-danger ps-3 w-100 text-center" style="max-height: 30px;"><?= $error['passwordAccess'] ?? '' ?></small>
                             <div class="text-center py-5">
                                 <button class="btn btn-primary" type="submit">Envoyer</button>
                             </div>
