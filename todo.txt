@@ -7,9 +7,9 @@ gérer les photos avec ftp, modifier la Sélection, fonction de like, recevoir u
 
 
 
+-> ajouter possibilité supprimer compte
 
-
--> vérifications W3C
+-> vérifications W3C dashboard
 
 -> ajouter un générateur de mdp
 
