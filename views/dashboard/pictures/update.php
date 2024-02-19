@@ -22,12 +22,14 @@
                             <div class="form-group pb-3">
                                 <label class="w-100" for="id_gallery">Choisir une galerie :</label>
                                 <select id="id_gallery" name="id_gallery" class="form__inputs">
-                                    <option value="" disabled></option>
+                                    <!-- <option value="" disabled></option> -->
                                     <?php
+                                    $addedGallery = [];
                                     foreach ($galleries as $gallery) {
-                                    ?>
-                                        <option value="<?= $gallery->id_gallery ?>" <?php if ((isset($id_gallery)) && ($id_gallery == $gallery->id_gallery)) { ?> selected <?php } ?>><?= $gallery->id_gallery ?> - <?= $gallery->gallery_name ?></option>
-                                    <?php
+                                        if (!in_array($gallery->id_gallery, $addedGallery)) { ?>
+                                            <option value="<?= $gallery->id_gallery ?>" <?php if ((isset($id_gallery)) && ($id_gallery == $gallery->id_gallery)) { ?> selected <?php } ?>><?= $gallery->id_gallery ?> - <?= $gallery->gallery_name ?></option>
+                                        <?php }
+                                        $addedGallery[] = $gallery->id_gallery;
                                     }
                                     ?>
                                 </select>

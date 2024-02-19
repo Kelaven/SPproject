@@ -92,7 +92,7 @@ try {
             $error['existEmail'] = 'Un compte avec cet email existe déjà';
         }
         if (User::isExist(username: $username) && $username != $_SESSION['user']->username) {
-            $error['existEmail'] = 'Un compte avec cet email existe déjà';
+            $error['existUsername'] = 'Un compte avec cet email existe déjà';
         }
 
         if ($error == []) {
