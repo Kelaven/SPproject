@@ -43,7 +43,7 @@
                             </div>
                             <div class="form-group pb-3">
                                 <label for="photo">Sélectionner la photo :</label>
-                                <input class="form__inputs" type="file" id="photo" name="photo" accept="jpg" required>
+                                <input class="form__inputs" type="file" id="photo" name="photo" accept="image/jpeg" required>
                                 <!-- <?php if (!empty($photo) && isset($photo) && empty($error)) { ?>
                                     <small class="text-success fst-italic">Vous venez d'ajouter la photo "<?= $photo ?? '' ?>".</small>
                                 <?php } ?> -->

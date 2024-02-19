@@ -20,8 +20,8 @@
                 <ul class="sidebar__nav">
                     <li class="sidebar__nav--title pt-3">
                         <a href="/controllers/dashboard/home-ctrl.php">Dashboard</a>
+                        <hr class="mb-0 mt-2 py-3">
                     </li>
-                    <hr class="mb-0 mt-2 py-3">
                     <li>
                         <a href="/controllers/dashboard/galleries/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-people-group pe-2"></i>Galeries</a>
                     </li>

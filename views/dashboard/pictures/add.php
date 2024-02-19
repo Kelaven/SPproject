@@ -23,7 +23,7 @@
                             <div class="form-group pb-3">
                                 <label class="w-100" for="id_gallery">Choisir une galerie :</label>
                                 <select id="id_gallery" name="id_gallery" class="form__inputs">
-                                    <option value="" disabled></option>
+                                    <!-- <option value="" disabled></option> -->
                                     <?php
                                     $addedGallery = [];
                                     foreach ($galleries as $gallery) {
@@ -46,7 +46,7 @@
                             </div>
                             <div class="form-group pb-3">
                                 <label for="photo">Sélectionner la photo :</label>
-                                <input class="form__inputs" type="file" id="photo" name="photo" accept="jpg" required>
+                                <input class="form__inputs" type="file" id="photo" name="photo" accept="image/jpeg" required>
                                 <?php if (!empty($photo) && isset($photo) && empty($error)) { ?>
                                     <small class="text-success fst-italic">Vous venez d'ajouter la photo "<?= $photo ?? '' ?>".</small>
                                 <?php } ?>

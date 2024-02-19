@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col pt-5 pe-5">
                 <a href="/controllers/dashboard/comments/archive-ctrl.php" class="btn btn-dark form__btn dashboard__colBtns--comments">
-                    <i class="fa-solid fa-box pe-3"></i></i>Accèder aux archives
+                    <i class="fa-solid fa-box pe-3"></i>Accèder aux archives
                 </a>
             </div>
         </div>

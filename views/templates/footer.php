@@ -34,17 +34,22 @@ if(isset($homeScript)){ // for homepage
 <script src="/public/assets/js/script.js"></script>
 <?php } ?>
 <?php
-if(isset($signupScript)){ // to connect at galeries
+if(isset($signupScript)){
 ?>
 <script src="/public/assets/js/signup.js"></script>
 <?php } ?>
 <?php
-if(isset($accesclientformScript)){ // to connect at galeries
+if(isset($signinScript)){ 
+?>
+<script src="/public/assets/js/signin.js"></script>
+<?php } ?>
+<?php
+if(isset($accesclientformScript)){ 
 ?>
 <script src="/public/assets/js/accesclientform.js"></script>
 <?php } ?>
 <?php
-if(isset($gallerypicturesScript)){ // to connect at galeries
+if(isset($gallerypicturesScript)){ 
 ?>
 <script src="/public/assets/js/gallerypictures.js"></script>
 <?php } ?>
@@ -64,9 +69,9 @@ if(isset($gsapSelectionScript)){ // for selection GSAP
 <script src="/public/assets/js/selectiongsap.js"></script>
 <?php } ?>
 <?php
-if(isset($deleteScript)){ // for selection GSAP
+if(isset($deleteScript)){
 ?>
-<script src="/public/assets/js/dashboard.js"></script>
+<script src="/public/assets/js/profile.js"></script>
 <?php } ?>
 
 

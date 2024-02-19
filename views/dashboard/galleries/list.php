@@ -8,7 +8,7 @@
                 </a>
                 <!-- bouton archives -->
                 <a href="/controllers/dashboard/galleries/archive-ctrl.php" class="btn btn-dark form__btn">
-                    <i class="fa-solid fa-box pe-3"></i></i>Accèder aux archives
+                    <i class="fa-solid fa-box pe-3"></i>Accèder aux archives
                 </a>
             </div>
         </div>
@@ -90,7 +90,6 @@
                             }
                             ?>
                         </table>
-                        </ul>
                     </div>
                 </div>
             </div>

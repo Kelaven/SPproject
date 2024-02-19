@@ -50,7 +50,7 @@
                                 <tr>
                                     <td class="pe-4"><?= $picture->id_picture ?></td>
                                     <td>
-                                        <img class="dashboard__imgRsz" src="/public/assets/img/uploads/<?= $picture->photo ?>">
+                                        <img class="dashboard__imgRsz" src="/public/assets/img/uploads/<?= $picture->photo ?>" alt="photographies issues de shootings professionnels">
                                         <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
                                     </td>
                                     <td class="pe-3"><?= $picture->name ?></td>

@@ -23,7 +23,7 @@
                             <div class="form-group pb-5">
                                 <label class="w-100" for="date">Date :</label>
                                 <!-- <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" value="<?= $date ?? '' ?>" required> -->
-                                <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" pattern="<?= REGEX_DATE ?>" required>
+                                <input class="form__inputs" type="date" id="date" name="date" min="2015-01-01" max="2040-12-31" required>
                                 <small class="text-danger"><?= $error['date'] ?? '' ?></small>
                             </div>
                             <div class="form-group pb-5">

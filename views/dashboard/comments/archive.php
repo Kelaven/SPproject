@@ -36,7 +36,7 @@
                             ?>
                                 <tr>
                                     <td class="pe-4"><?= $comment->id_comment ?></td>
-                                    <td><?php
+                                    <td class="pe-3"><?php
                                         if (($comment->text != null) && (strlen($comment->text) >= 20)) {
                                             echo (substr($comment->text, 0, 20) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirpluscomment<?= $comment->id_comment ?>">[voir plus]</button> <?php
                                                                                                                                                                                                                                                                             } else {
@@ -53,8 +53,8 @@
                                             <span class="badge bg-warning dashboard__commentsBdg">A confirmer</span>
                                         <?php } ?>
                                     </td>
-                                    <td>
-                                        <a href="/controllers/dashboard/comments/unarchive-ctrl.php?id_comment=<?= $comment->id_comment ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open px-5"></i></a>
+                                    <td class="rsz_update text-center">
+                                        <a href="/controllers/dashboard/comments/unarchive-ctrl.php?id_comment=<?= $comment->id_comment ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open"></i></a>
                                     </td>
                                     <td class="text-end">
                                         <a class="delete__link" data-delete-comment="<?= $comment->id_comment ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>

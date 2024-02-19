@@ -49,7 +49,6 @@
                             }
                             ?>
                         </table>
-                        </ul>
                     </div>
                 </div>
             </div>
