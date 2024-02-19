@@ -56,7 +56,7 @@
                             <!-- ! password -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input required type="password" name="password" id="password" placeholder="Mot de passe" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" pattern="<?= REGEX_PASSWORD ?>">
+                                <input required type="password" name="password" id="password" placeholder="Mot de passe" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" pattern="<?= REGEX_PASSWORD ?>" autocomplete="new-password">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
                             </div>
                             <div id="nudge">

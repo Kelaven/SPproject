@@ -7,6 +7,9 @@
             <div class="card card__sign mb-5 mb-xl-0">
                 <form method="POST" class="px-2">
                     <h1 class="py-4 px-3 text-center contact__legend">Modifier mes informations</h1>
+                    <p class="text-info">
+                        <?= $success['ok'] ?? '' ?>
+                    </p>
                     <div class="text-danger text-center">
                         <?= $error['exist'] ?? '' ?>
                     </div>
@@ -77,7 +80,7 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
-                            <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>">Supprimer le compte</button>
+                                <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>">Supprimer le compte</button>
                             </div>
                         </div>
                         <!-- ! validation btn -->

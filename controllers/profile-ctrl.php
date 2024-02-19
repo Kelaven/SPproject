@@ -7,7 +7,9 @@ $signupScript = 'signup.js';
 $contactStyle = 'contact.css';
 $pagesStyle = 'pages.css';
 $pagesScript = 'pages.js';
+$deleteScript = true;
 $footer = true;
+
 
 
 require_once __DIR__ . '/../helpers/dd.php';

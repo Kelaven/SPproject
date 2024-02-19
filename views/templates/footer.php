@@ -20,8 +20,6 @@ if (isset($footer)) {
 <script src="https://kit.fontawesome.com/dce61209e7.js" crossorigin="anonymous"></script>
 <!-- bootstrap script CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<!-- mon script -->
-<script src="/public/assets/js/dashboard.js"></script>
 <!-- GSAP CDN -->
 <?php
 if(isset($gsapCDN)){ // for homepage
@@ -65,6 +63,13 @@ if(isset($gsapSelectionScript)){ // for selection GSAP
 ?>
 <script src="/public/assets/js/selectiongsap.js"></script>
 <?php } ?>
+<?php
+if(isset($deleteScript)){ // for selection GSAP
+?>
+<script src="/public/assets/js/dashboard.js"></script>
+<?php } ?>
+
+
 
 
 </body>
