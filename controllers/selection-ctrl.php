@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/../config/init.php';
+require_once __DIR__ . '/../helpers/dd.php';
 
 
 // header/footer update
@@ -12,7 +13,7 @@ $pagesScript = 'pages.js';
 $gsapSelectionScript = 'selectiongsap.js';
 $gsapCDN = true;
 
-
+// d($_SESSION);
 
 
 // views

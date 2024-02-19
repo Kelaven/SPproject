@@ -14,7 +14,7 @@
                             <input required type="email" name="email" id="email" placeholder="Adresse mail" class="form-control" value="<?= $email ?? '' ?>">
                         </div>
                         <small class="text-danger ps-3"><?= $error['email'] ?? '' ?></small>
-                        <div class="input-group pe-xl-3 ps-xl-3 px-1">
+                        <div class="input-group pe-xl-3 ps-xl-3 px-1 pt-xxl-1">
                             <label for="password"></label>
                             <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
                             <input required type="password" name="password" id="password" placeholder="Mot de passe" class="form-control password__inputs" value="<?= $password ?? '' ?>" pattern="<?= REGEX_PASSWORD ?>">

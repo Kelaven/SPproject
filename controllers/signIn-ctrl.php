@@ -35,18 +35,22 @@ try {
 
         // ! get user's exists hached password to verify if the entered password is the same
         $user = User::get(email: $email);
-
+        // d($user);
 
         // * password
         $password = filter_input(INPUT_POST, 'password');
         if (empty($password)) {
             $error['password'] = 'Le mot de passe n\'est pas renseigné';
         } else {
-            
+
             // dd($user);
-            $isOk = password_verify($password, $user->password);
-            if (!$isOk) {
-                $error['password'] = 'Le mot de passe est incorrect';
+            if ($user) {
+                $isOk = password_verify($password, $user->password);
+                if (!$isOk) {
+                    $error['password'] = 'Le mot de passe est incorrect';
+                }
+            } else {
+                $error['email'] = 'L\'adresse mail renseignée n\'est pas connue';
             }
         }
 

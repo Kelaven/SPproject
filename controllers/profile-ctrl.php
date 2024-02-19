@@ -15,7 +15,7 @@ require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../models/User.php';
 
-// d($_SESSION);
+// d($_SESSION['user']);
 
 
 try {

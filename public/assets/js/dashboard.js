@@ -21,6 +21,7 @@ function openPopup(event) {
         let pictureId = event.currentTarget.getAttribute('data-delete-picture');
         let commentId = event.currentTarget.getAttribute('data-delete-comment');
         let userId = event.currentTarget.getAttribute('data-delete-user');
+        // let profileUserId = event.currentTarget.getAttribute('data-delete-profile');
 
         let redirectionPage; // I removed the originally present href="" in list.php within the <a> tag.
 
@@ -32,7 +33,10 @@ function openPopup(event) {
             redirectionPage = `/controllers/dashboard/comments/delete-ctrl.php?id_comment=${commentId}`;
         } else if (userId) {
             redirectionPage = `/controllers/dashboard/users/delete-ctrl.php?id_user=${userId}`;
-        }
+        } 
+        // else if (profileUserId) {
+        //     redirectionPage = `/controllers/profile-delete-ctrl.php?id_user=${profileUserId}`;
+        // }
 
 
         window.location.replace(redirectionPage); // window.location represents the current page's URL in the browser. replace() is a method of the window.location object that replaces the current URL with a new one. It would have worked with href as well.
@@ -44,3 +48,16 @@ function openPopup(event) {
 deleteLinks.forEach(deleteLink => {
     deleteLink.addEventListener('click', openPopup);
 });
+
+
+
+
+profile__delete.addEventListener('click', (event) => {
+    const confirmDelete = window.confirm('Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible ! Vos informations personnelles n\'apparaîtrons plus dans la base de données.'); // The window object is the global object in the browser where global methods like confirm() reside.
+    if (confirmDelete) {
+        let profileUserId = event.currentTarget.getAttribute('data-delete-profile');
+        let redirectionPage;
+        redirectionPage = `/controllers/profile-delete-ctrl.php?id_user=${profileUserId}`;
+        window.location.replace(redirectionPage);
+    }
+})

@@ -23,7 +23,7 @@
                                     <span class="input-group-text span__signup__pwd--eye accesclientform__span"><i class="fa-solid fa-eye" id="pwd-eye-gallery"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-gallery"></i></span>
                                 </div>
                             </div>
-                            <small class="text-danger ps-3 w-100 text-center" style="max-height: 30px;"><?= $error['passwordAccess'] ?? '' ?></small>
+                            <small class="text-danger w-100 text-center" style="max-height: 30px;"><?= $error['passwordAccess'] ?? '' ?></small>
                             <div class="text-center py-5">
                                 <button class="btn btn-primary" type="submit">Envoyer</button>
                             </div>

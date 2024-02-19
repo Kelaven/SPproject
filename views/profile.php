@@ -76,6 +76,9 @@
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
+                            <div class="input-group pe-xl-3 ps-xl-3 px-1">
+                            <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>">Supprimer le compte</button>
+                            </div>
                         </div>
                         <!-- ! validation btn -->
                         <div class="text-center pt-5 pt-lg-4 pb-5 w-100">
