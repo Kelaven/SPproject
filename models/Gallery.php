@@ -226,18 +226,18 @@ class Gallery
         if ($name != null) {
             $sql .= ' AND `name` = :name';
         }
-        // if ($currentId_gallery != null) {
-        //     $sql .= ' AND `id_gallery` != :id_gallery'; // if the same name or password is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
-        // }
+        if ($currentId_gallery != null) {
+            $sql .= ' AND `id_gallery` != :id_gallery'; // if the same name or password is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
+        }
 
         $sth = $pdo->prepare($sql);
 
         if ($name != null) {
             $sth->bindValue(':name', $name);
         }
-        // if ($currentId_gallery != null) {
-        //     $sth->bindValue(':id_gallery', $currentId_gallery, PDO::PARAM_INT);
-        // }
+        if ($currentId_gallery != null) {
+            $sth->bindValue(':id_gallery', $currentId_gallery, PDO::PARAM_INT);
+        }
 
         $sth->execute();
 

@@ -19,7 +19,7 @@ try {
 // dd($id_gallery);
     // * get this id_gallery informations
     $gallery = Gallery::get($id_gallery);
-    d($gallery);
+    // d($gallery);
 
     // * nettoyage et validation du formulaire
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -63,14 +63,14 @@ try {
 
 // dd($name);
         // * check isExist
-        // $isExistName = Gallery::isExist(name: $name, currentId_gallery: $id_gallery);
-        // if ($isExistName) {
-        //     $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
-        // }
-        
-        if (Gallery::isExist(name: $name) && $name != $gallery->name) {
+        $isExist = Gallery::isExist(name: $name, currentId_gallery: $id_gallery);
+        if ($isExist) {
             $error['isExist'] = 'Une galerie avec le même nom existe déjà';
         }
+        
+        // if (Gallery::isExist(name: $name) && $name != $gallery->name) {
+        //     $error['isExist'] = 'Une galerie avec le même nom existe déjà';
+        // }
 
         // * update
         if (empty($error)) {
