@@ -41,7 +41,7 @@
                                 <small class="text-danger"><?= $error['photo'] ?? '' ?></small>
                             </div> -->
 
-                            <input type="submit" class="btn btn-dark" value="Ajouter la galerie">
+                            <input type="submit" class="btn btn-dark" value="Modifier la galerie">
                         </form>
                     </div>
                 </div>

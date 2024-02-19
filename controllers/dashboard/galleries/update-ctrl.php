@@ -16,7 +16,7 @@ try {
 
     // * recover and clean id_gallery from URL
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
-// dd($id_gallery);
+    // dd($id_gallery);
     // * get this id_gallery informations
     $gallery = Gallery::get($id_gallery);
     // d($gallery);
@@ -27,7 +27,6 @@ try {
         /// NAME ///
         $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS); // nettoyage
         if (empty($name)) {
-            $error['name'] = 'Le champ ne peut pas être vide';
         } else {
             $isOk = filter_var($name, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_NAME_GALLERIES . '/'))); // validation
             if (!$isOk) {
@@ -51,7 +50,6 @@ try {
         /// PASSWORD ///
         $password = filter_input(INPUT_POST, 'password', FILTER_DEFAULT);
         if (empty($password)) {
-            $error['password'] = 'Le champ ne peut pas être vide';
         } else {
             $isOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
             if (!$isOk) {
@@ -61,29 +59,37 @@ try {
             }
         }
 
-// dd($name);
+        // dd($name);
         // * check isExist
         $isExist = Gallery::isExist(name: $name, currentId_gallery: $id_gallery);
         if ($isExist) {
             $error['isExist'] = 'Une galerie avec le même nom existe déjà';
         }
-        
+
         // if (Gallery::isExist(name: $name) && $name != $gallery->name) {
         //     $error['isExist'] = 'Une galerie avec le même nom existe déjà';
         // }
 
         // * update
         if (empty($error)) {
-            $gallery = new Gallery();
+            $galleryUpdate = new Gallery();
             // object hydratation
-            $gallery->setName($name);
-            $gallery->setDate($date);
-            $gallery->setPassword($passwordHash);
-            $gallery->setIdGallery($id_gallery);
+            if (!empty($name)) {
+                $galleryUpdate->setName($name); // if we want to change name
+            } else {
+                $galleryUpdate->setName($gallery->name); // else, keep old name
+            }
+            $galleryUpdate->setDate($date);
+            if (!empty($passwordHash)) {
+                $galleryUpdate->setPassword($passwordHash); // if we want to change password
+            } else {
+                $galleryUpdate->setPassword($gallery->password); // else, keep old password
+            }
+            $galleryUpdate->setIdGallery($id_gallery);
             // dd($id_gallery->id_gallery);
 
             // call of update's method
-            $isOk = $gallery->update();
+            $isOk = $galleryUpdate->update();
 
             // if the method returns true
             if ($isOk) {
