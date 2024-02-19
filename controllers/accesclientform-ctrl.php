@@ -39,7 +39,7 @@ try {
             $isOk = password_verify($passwordAccess, $gallery->password);
             // dd($isOk);
             if (!$isOk) {
-                $error["passwordAccess"] = 'Le mots de passe est incorrect';
+                $error["passwordAccess"] = 'Le mot de passe est incorrect';
             } else {
                 // $passwordAccessHash = password_hash($passwordAccess, PASSWORD_DEFAULT);
 

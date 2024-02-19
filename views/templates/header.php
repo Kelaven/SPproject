@@ -126,6 +126,11 @@
                                     <?php } ?>
                                     <?php if (!empty($_SESSION['user'])) { ?>
                                         <li class="nav-item">
+                                            <a class="nav-link dropdown-item" href="/controllers/profile-ctrl.php">Mon compte</a>
+                                        </li>
+                                    <?php } ?>
+                                    <?php if (!empty($_SESSION['user'])) { ?>
+                                        <li class="nav-item">
                                             <a class="nav-link dropdown-item" href="/controllers/signOut-ctrl.php">Se déconnecter</a>
                                         </li>
                                     <?php } ?>
@@ -149,6 +154,11 @@
                             <?php if (!empty($_SESSION['user']) && ($_SESSION['user']->isAdministrator === 1)) { ?>
                                 <li class="nav-item">
                                     <a class="nav-link dropdown-item" href="/controllers/dashboard/home-ctrl.php">Dashboard</a>
+                                </li>
+                            <?php } ?>
+                            <?php if (!empty($_SESSION['user'])) { ?>
+                                <li class="nav-item pt-md-2">
+                                    <a class="nav-link dropdown-item" href="/controllers/profile-ctrl.php">Mon compte</a>
                                 </li>
                             <?php } ?>
                             <?php if (!empty($_SESSION['user'])) { ?>

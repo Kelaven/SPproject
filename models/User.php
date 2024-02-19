@@ -207,28 +207,68 @@ class User
         }
     }
 
+    // * method update
+    /**
+     * method to update users' informations
+     * @return bool if execute works
+     */
+    public function update(): bool
+    {
+        $pdo = Database::connect();
+
+        $sql = 'UPDATE `users`
+        SET `username` = :username,
+        `firstname` = :firstname,
+        `lastname` = :lastname,
+        `email` = :email,
+        `mobile` = :mobile,
+        `password` = :password
+        WHERE `id_user` = :id_user;';
+
+        $sth = $pdo->prepare($sql);
+
+        $sth->bindValue(':username', $this->getUsername());
+        $sth->bindValue(':firstname', $this->getFirstname());
+        $sth->bindValue(':lastname', $this->getLastname());
+        $sth->bindValue(':email', $this->getEmail());
+        $sth->bindValue(':mobile', $this->getMobile());
+        $sth->bindValue(':password', $this->getPassword());
+        $sth->bindValue(':id_user', $this->getIdUser());
+
+        $result = $sth->execute();
+
+        return $result;
+    }
+
     // * method isExist
     /**
      * Method to test if the data already exists
-     * @param mixed $email
+     * @param mixed $email to verify email, username to verify username
      * 
      * @return bool True if the data exists already
      */
-    public static function isExist($email): bool
+    public static function isExist(string $email = null, string $username = null): bool
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT COUNT(`id_user`) AS "count"
-        FROM `users`
-        WHERE `email` = :email;';
+        FROM `users`';
+        $sql .= ' WHERE 1 = 1';
+        if ($email != null) {
+            $sql .= ' AND `email` = :email';
+        }
+        if ($username != null) {
+            $sql .= ' AND `username` = :username';
+        }
+        // WHERE `email` = :email OR `username` = :username;';
 
         $sth = $pdo->prepare($sql);
-
-        // $sth->bindValue(':username', $username);
-        // $sth->bindValue(':firstname', $firstname);
-        // $sth->bindValue(':lastname', $lastname);
-        $sth->bindValue(':email', $email);
-        // $sth->bindValue(':mobile', $mobile);
+        if ($email != null) {
+            $sth->bindValue(':email', $email);
+        }
+        if ($username != null) {
+            $sth->bindValue(':username', $username);
+        }
 
         $sth->execute();
 
@@ -238,16 +278,28 @@ class User
     }
 
     // * method getByMail
-    public static function getByMail(?string $email): false|object
+    public static function get(?string $email = null, ?int $id_user = null): false|object
     {
         $pdo = Database::connect();
 
-        $sql = 'SELECT * FROM users 
-        WHERE email = :email;';
+        $sql = 'SELECT * FROM users';
+        $sql .= ' WHERE 1 = 1';
+        // WHERE email = :email;';
+        if ($email !== null) {
+            $sql .= ' AND email = :email';
+        }
+        if ($id_user !== null) {
+            $sql .= ' AND id_user = :id_user';
+        }
 
         $sth = $pdo->prepare($sql);
 
-        $sth->bindValue(':email', $email);
+        if ($email !== null) {
+            $sth->bindValue(':email', $email);
+        }
+        if ($id_user !== null) {
+            $sth->bindValue(':id_user', $id_user);
+        }
 
         $sth->execute();
 

@@ -2,7 +2,7 @@
 
 // header/footer update
 $navbar = 'header.php';
-$title = 'Créer un compte —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+$title = 'Gérer mon compte —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $signupScript = 'signup.js';
 $contactStyle = 'contact.css';
 $pagesStyle = 'pages.css';
@@ -15,7 +15,7 @@ require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../models/User.php';
 
-
+// d($_SESSION);
 
 
 try {
@@ -24,8 +24,7 @@ try {
         $error = [];
         // ! firstname
         $firstname = filter_input(INPUT_POST, 'firstname', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-        if (empty($firstname)) { // to be sure it's not empty
-            $error['firstname'] = 'Le prénom n\'est pas renseigné';
+        if (empty($firstname)) {
         } else { // validation
             $isFirstnameOk = filter_var($firstname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_NAME . '/')));
             if (!$isFirstnameOk) { // if it's not validate with the regex
@@ -34,8 +33,7 @@ try {
         }
         // ! lastname
         $lastname = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-        if (empty($lastname)) { // to be sure it's not empty
-            $error['lastname'] = 'Le nom n\'est pas renseigné';
+        if (empty($lastname)) {
         } else { // validation
             $isLastnameOk = filter_var($lastname, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_NAME . '/')));
             if (!$isLastnameOk) { // if it's not validate with the regex
@@ -44,8 +42,7 @@ try {
         }
         // ! email
         $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL); // cleaning
-        if (empty($email)) { // to be sure it's not empty
-            $error['email'] = 'Le mail n\'est pas renseigné';
+        if (empty($email)) {
         } else { // validation
             $isEmailOk = filter_var($email, FILTER_VALIDATE_EMAIL);
             if (!$isEmailOk) { // if it's not validate with the regex
@@ -54,8 +51,7 @@ try {
         }
         // ! mobile
         $mobile = filter_input(INPUT_POST, 'mobile', FILTER_SANITIZE_NUMBER_INT); // cleaning
-        if (empty($mobile)) { // to be sure it's not empty
-            $error['mobile'] = 'Le numéro de téléphone n\'est pas renseigné';
+        if (empty($mobile)) {
         } else { // validation
             $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_MOBILE . '/')));
             if (!$isMobileOk) { // if it's not validate with the regex
@@ -64,8 +60,7 @@ try {
         }
         // ! username
         $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS); // cleaning
-        if (empty($username)) { // to be sure it's not empty
-            $error['username'] = 'Le pseudonyme n\'est pas renseigné';
+        if (empty($username)) {
         } else { // validation
             $isUsernameOk = filter_var($username, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_USERNAME . '/')));
             if (!$isUsernameOk) { // if it's not validate with the regex
@@ -76,62 +71,60 @@ try {
         $password = filter_input(INPUT_POST, 'password');
         $passwordCheck = filter_input(INPUT_POST, 'passwordCheck');
 
-        if ($password != $passwordCheck) {
-            $error["password"] = 'Les mots de passe ne correspondent pas';
-        } elseif (empty($password) || empty($passwordCheck)) {
-            $error["password"] = 'Les mots de passe ne sont pas renseignés';
-        } else {
-            $isPasswordOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
-            if (!$isPasswordOk) {
-                $error["password"] = 'Les mots de passe doivent contenir un chiffre, une majuscule, une minuscule, un caractère spécial et faire entre 8 et 30 caractères.';
+        if (!empty($password) && !empty($passwordCheck)) {
+            if ($password != $passwordCheck) {
+                $error["password"] = 'Les mots de passe ne correspondent pas';
             } else {
-                $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-                // dd($passwordHash);
+                $isPasswordOk = filter_var($password, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_PASSWORD . '/')));
+                if (!$isPasswordOk) {
+                    $error["password"] = 'Les mots de passe doivent contenir un chiffre, une majuscule, une minuscule, un caractère spécial et faire entre 8 et 30 caractères.';
+                } else {
+                    $passwordHash = password_hash($password, PASSWORD_DEFAULT);
+                    // dd($passwordHash);
+                }
             }
         }
-        // ! captcha
-        $captcha = filter_input(INPUT_POST, 'captcha', FILTER_SANITIZE_NUMBER_INT); // cleaning
-        if (empty($captcha)) { // to be sure it's not empty
-            $error['captcha'] = 'La réponse n\'est pas renseignée';
-        } else { // validation
-            $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_CAPTCHA . '/')));
-            if (!$isCaptchaOk) { // if it's not validate with the regex
-                $error['captcha'] = 'Votre réponse n\'est pas valide';
-            }
-        }
-        // ! consent
-        $consent = filter_input(INPUT_POST, 'consent', FILTER_SANITIZE_SPECIAL_CHARS);
-        if (empty($consent)) {
-            $error['consent'] = 'La case n\'est pas cochée';
-        }
+
+
 
         // ! verify if the data already exists
-        $isExist = User::isExist(email: $email);
-        if ($isExist) {
+        if (User::isExist(email: $email) && $email != $_SESSION['user']->email) {
             $error['existEmail'] = 'Un compte avec cet email existe déjà';
         }
-        $isExist = User::isExist(username: $username);
-        if ($isExist) {
-            $error['existUsername'] = 'Un compte avec ce pseudo existe déjà';
+        if (User::isExist(username: $username) && $username != $_SESSION['user']->username) {
+            $error['existEmail'] = 'Un compte avec cet email existe déjà';
         }
 
-
         if ($error == []) {
-            // ! insert in base
+            // * update
             $user = new User();
-
+            // object hydratation
             $user->setUsername($username);
             $user->setFirstname($firstname);
             $user->setLastname($lastname);
             $user->setEmail($email);
             $user->setMobile($mobile);
-            $user->setPassword($passwordHash);
+            if (!empty($password) && !empty($passwordCheck)) {
+                $user->setPassword($passwordHash);
+            } else {
+                $user->setPassword($_SESSION['user']->password);
+            }
+            $user->setIdUser($_SESSION['user']->id_user);
 
-            $isOk = $user->insert();
+            // call of update's method
+            $isOk = $user->update();
 
+            // if the method returns true
             if ($isOk) {
-                $result = 'Vous êtes bien inscrit ! Vous allez être redirigé dans quelques instants...';
-                header("Refresh: 4; URL=/controllers/signIn-ctrl.php");
+                $result = 'Votre compte a bien été modifié !';
+
+                // * récupérer les nouvelles infos pour les afficher dans le form à la place des anciennes
+                $user = User::get(id_user: $_SESSION['user']->id_user);
+                $_SESSION['user'] = $user;
+                // d($user);
+                // d($_SESSION['user'] = $user);
+                // header('Refresh: 2; URL=/controllers/profile-ctrl.php');
+                // header('Location: /controllers/profile-ctrl.php');
                 // die;
             }
         }
@@ -142,11 +135,11 @@ try {
 
 
 
-
+// unset($_SESSION['user']);
 
 
 
 // views
 include __DIR__ . '/../views/templates/header.php';
-include __DIR__ . '/../views/signUp.php';
+include __DIR__ . '/../views/profile.php';
 include __DIR__ . '/../views/templates/footer.php';
