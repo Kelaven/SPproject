@@ -80,7 +80,7 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
-                                <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>">Supprimer le compte</button>
+                                <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Supprime le compte et redirige vers la page d'accueil">Supprimer le compte</button>
                             </div>
                         </div>
                         <!-- ! validation btn -->
