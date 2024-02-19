@@ -22,10 +22,9 @@
                         </p>
                         <table>
                             <tr>
-                                <th>Nom :</th>
-                                <th>Date séance :</th>
-                                <th>Image :</th>
-                                <th>Passe d'accès :</th>
+                                <th class="pe-4">Nom :</th>
+                                <th class="pe-4">Date séance :</th>
+                                <th class="pe-4">Image :</th>
                                 <th></th> <!-- archiver -->
                                 <th></th> <!-- supprimer -->
                             </tr>
@@ -39,7 +38,6 @@
                                             <img src="#" alt="Photo de couverture de la galerie">
                                         <?php } ?>
                                     </td>
-                                    <td><?= $gallery->password ?></td>
                                     <td class="text-end">
                                         <a href="/controllers/dashboard/galleries/unarchive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open pe-4"></i></a>
                                     </td>

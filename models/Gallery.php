@@ -215,7 +215,7 @@ class Gallery
      * 
      * @return bool
      */
-    public static function isExist($name = null, $password = null, $currentId_gallery = null): bool
+    public static function isExist($name = null, $currentId_gallery = null): bool
     {
         $pdo = Database::connect();
 
@@ -226,24 +226,18 @@ class Gallery
         if ($name != null) {
             $sql .= ' AND `name` = :name';
         }
-        if ($password != null) {
-            $sql .= ' AND `password` != :password';
-        }
-        if ($currentId_gallery != null) {
-            $sql .= ' AND `id_gallery` != :id_gallery'; // if the same name or password is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
-        }
+        // if ($currentId_gallery != null) {
+        //     $sql .= ' AND `id_gallery` != :id_gallery'; // if the same name or password is already in another data in base it don't work but if the same name if only on the current data it will work !!!!!!
+        // }
 
         $sth = $pdo->prepare($sql);
 
         if ($name != null) {
             $sth->bindValue(':name', $name);
         }
-        if ($password != null) {
-            $sth->bindValue(':password', $password);
-        }
-        if ($currentId_gallery != null) {
-            $sth->bindValue(':id_gallery', $currentId_gallery, PDO::PARAM_INT);
-        }
+        // if ($currentId_gallery != null) {
+        //     $sth->bindValue(':id_gallery', $currentId_gallery, PDO::PARAM_INT);
+        // }
 
         $sth->execute();
 
@@ -260,18 +254,16 @@ class Gallery
      * @return null|object with informations
      * @return false if the gallery hasn't pictures or cover picture !!!!
      */
-    public static function get(?int $id_gallery): null|false|object
+    public static function get(int $id_gallery): null|false|object
     {
         $pdo = Database::connect();
 
         $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `picture_photoCover`
         FROM `galleries`
-        JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery` -- Warning : if the galerie hasnt pic, the result return false
-        WHERE `galleries`.`id_gallery` = :id_gallery AND `pictures`.`isCover` = 1;'; // Warning : if the galerie hasnt cover pic, the result return false
+        LEFT JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery` -- LEFT JOIN to have gallery event if it hasnt pics
+        WHERE `galleries`.`id_gallery` = :id_gallery;'; 
+// AND `pictures`.`isCover` = 1 // Warning : if the galerie hasnt cover pic, the result return false
 
-        // if ($isCover === 1) {
-        //     $sql .= ' AND `pictures`.`isCover` = 1';
-        // }
 
         $sth = $pdo->prepare($sql);
 

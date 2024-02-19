@@ -16,10 +16,10 @@ try {
 
     // * recover and clean id_gallery from URL
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
-
+// dd($id_gallery);
     // * get this id_gallery informations
     $gallery = Gallery::get($id_gallery);
-    // dd($gallery);
+    d($gallery);
 
     // * nettoyage et validation du formulaire
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -61,17 +61,16 @@ try {
             }
         }
 
-
+// dd($name);
         // * check isExist
-        $isExistName = Gallery::isExist(name: $name, currentId_gallery: $id_gallery);
-        if ($isExistName) {
-            $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
-        }
-        // $isExistPassword = Gallery::isExist(password: $password, currentId_gallery: $id_gallery);
-        // if ($isExistPassword) {
-        //     $error['isExistByPassword'] = 'Une galerie avec le même passe existe déjà';
+        // $isExistName = Gallery::isExist(name: $name, currentId_gallery: $id_gallery);
+        // if ($isExistName) {
+        //     $error['isExistByName'] = 'Une galerie avec le même nom existe déjà';
         // }
-
+        
+        if (Gallery::isExist(name: $name) && $name != $gallery->name) {
+            $error['isExist'] = 'Une galerie avec le même nom existe déjà';
+        }
 
         // * update
         if (empty($error)) {
