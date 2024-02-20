@@ -5,7 +5,7 @@ class Image
     // * Method to insert or update an image with automatic resizing
     /**
      * @param bool $update is a reference to an picture updating. Don't change if it's an picture insert
-     * @param null $photo is a reference to an existing photo if the method is used with $update = true
+     * @param null $photo is a reference to an existing photo // (if the method is used with $update = true)
      * @param null $name is the reference of the form's name, entered by the user
      * 
      * @return [type]

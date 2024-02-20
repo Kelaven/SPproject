@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-xl-6 px-0" id="form__container--right">
-            <form method="post">
+            <form method="post" action="/controllers/contact-ctrl.php">
                 <div class="container__legend">
                     <h1 class="pt-4 text-center m-0 contact__legend">Formulaire de contact</h1>
                 </div>
@@ -73,7 +73,7 @@
                         <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
                     </div>
                     <!-- ! validation btn -->
-                    <div class="text-center pt-3 pb-3 pt-xxl-5 mb-3 mb-lg-0">
+                    <div class="text-center pt-3 pb-3 pt-xxl-3 mb-3 mb-lg-0">
                         <button id="contact__btn" class="btn btn-primary" type="submit">Envoyer</button>
                     </div>
                 </div>
