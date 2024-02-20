@@ -10,7 +10,7 @@ require_once __DIR__ . '/../config/init.php';
  */
 $navbar = 'header.php';
 $title = 'Portfolio paysages —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-$portfolioStyle = 'portfolio.css';
+$portfolioStyle = 'portfolio.css'; // $style = 'portfolio.css';
 $paysagesStyle = 'portfoliopaysages.css';
 $pagesStyle = 'pages.css';
 // $footer = 'footer.php';

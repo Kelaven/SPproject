@@ -14,11 +14,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- my style -->
     <link rel="stylesheet" href="/public/assets/css/style.css">
+
+
+    <!-- <link rel="stylesheet" href="/public/assets/css/<?= $style ?>"> -->
+
+
     <?php
     /**
      * 
-     * @todo optimiser avec un tableau (ex. additionnalCss)
-     * 
+     * @todo optimiser ex. avec un tableau (ex. additionnalCss)
+     * <link rel="stylesheet" href="/public/assets/css/<?= $style ?>">
      */
     if (isset($portfolioStyle)) { // for portfolio
     ?>

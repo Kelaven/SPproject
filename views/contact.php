@@ -84,3 +84,13 @@
         </div>
     </div>
 </section>
+
+
+<!-- 
+<script src="https://unpkg.com/swup@4"></script>
+<script src="https://unpkg.com/@swup/fade-theme@2"></script>
+<script>
+    const swup = new Swup({
+        plugins: [new SwupFadeTheme()],
+    });
+</script> -->

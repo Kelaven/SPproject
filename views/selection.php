@@ -1,3 +1,4 @@
+<!-- <div id="swup"> -->
 <section class="selection__section">
     <div class="container">
         <div class="row row__responsive">
@@ -20,3 +21,13 @@
         </div>
     </div>
 </section>
+<!-- </div> -->
+
+<!-- <script src="https://unpkg.com/swup@4"></script>
+<script src="https://unpkg.com/@swup/fade-theme@2"></script>
+<script>
+    const swup = new Swup({
+        containers: ["#swup-selection"],
+        plugins: [new SwupFadeTheme()],
+    });
+</script> -->
