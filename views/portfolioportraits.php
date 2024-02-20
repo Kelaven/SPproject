@@ -40,7 +40,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel0" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -86,7 +86,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-2" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel0-2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -132,7 +132,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-3" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel0-3" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -178,7 +178,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-4" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel0-4" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -224,7 +224,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-5" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel0-5" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -270,7 +270,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel0-6" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel0-6" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -347,7 +347,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -393,7 +393,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-2" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel1-2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -439,7 +439,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-3" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel1-3" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -485,7 +485,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-4" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel1-4" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -531,7 +531,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-5" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel1-5" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -577,7 +577,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel1-6" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel1-6" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -654,7 +654,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -700,7 +700,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-1" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel2-1" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -746,7 +746,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-2" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel2-2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -792,7 +792,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-3" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel2-3" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -838,7 +838,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-4" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel2-4" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -884,7 +884,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel2-5" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel2-5" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -961,7 +961,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel3" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -1007,7 +1007,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-1" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel3-1" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -1053,7 +1053,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-2" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel3-2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -1099,7 +1099,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-3" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel3-3" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -1145,7 +1145,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-4" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel3-4" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -1191,7 +1191,7 @@
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next ps-5 ms-5" type="button" data-bs-target="#carousel3-5" data-bs-slide="next">
+                                        <button class="carousel-control-next ps-5 ms-5 modal__btnSize" type="button" data-bs-target="#carousel3-5" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>

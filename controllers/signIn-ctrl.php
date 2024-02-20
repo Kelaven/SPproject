@@ -86,7 +86,7 @@ try {
                 $isAuth = password_verify($password, $passwordHash); // to verify if password is the same than passwordHash (return bool)
                 // dd($user);
                 if ($isAuth) {
-                    // unset($user->password); // useless to keep password into pages
+                    unset($user->password); // useless to keep password into pages
                     $_SESSION['user'] = $user; // to keep connexion in session, use it in other pages with init file
                     // dd($_SESSION['user']);
                     $result = 'Vous êtes bien connecté ! Vous allez être redirigé...';

@@ -111,7 +111,12 @@ article {
         padding-top: 14px;
     }
 }
-
+@media (max-width: 768px) {
+    .modal__btnSize{
+        height: 100px;
+        width: 100px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .modal {
         padding-top: 100px;
@@ -164,7 +169,7 @@ article {
 }
 
 .carousel-control-prev {
-    padding: 0px 145px 0px 0px !important;
+    padding: 0px 70px 0px 0px !important;
 }
 
 .carousel__img {
