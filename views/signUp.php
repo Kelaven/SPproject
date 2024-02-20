@@ -1,6 +1,6 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
-    <div class="row pt-5 justify-content-center">
+    <div class="row pt-1 pb-3 justify-content-center">
         <div class="col-12 pt-3">
             <div class="card card__sign mb-5 mb-xl-0">
                 <div class="text-success text-center fs-6 fw-bold pb-1">
@@ -34,7 +34,7 @@
                                 <input required type="email" name="email" id="email" placeholder="Adresse mail" class="form-control" value="<?= $email ?? '' ?>">
                             </div>
                             <small class="text-danger ps-3"><?= $error['email'] ?? '' ?></small>
-                            <!-- ! mobile -->
+                            <!-- mobile -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="mobile"></label>
                                 <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
@@ -74,7 +74,7 @@
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
-                            <!-- ! captcha -->
+                            <!-- ? captcha -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <label for="captcha"></label>
                                 <span class="field__rsz input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
@@ -82,6 +82,10 @@
                             </div>
                             <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                         </div>
+                        <!-- ! Google captcha -->
+                        <div class="g-recaptcha ps-xl-3 d-flex justify-content-center" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
+                        <small class="text-danger ps-3 text-center"><?= $error['captchaGoogle'] ?? '' ?></small>
+                        <!-- consent -->
                         <label for="consent" class="check__consent py-2 ps-4 ms-xl-1">
                             <input type="checkbox" id="consent" name="consent" required>
                             En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans un but fonctionnel. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
@@ -90,10 +94,13 @@
                     </div>
                     <!-- ! validation btn -->
                     <div class="text-center pt-5 pt-lg-4 pb-5 w-100">
-                        <button class="btn btn-primary signUp__btn" type="submit">Envoyer</button>
+                        <button class="btn btn-primary signUp__btn" type="submit" name="captchaOk">Envoyer</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

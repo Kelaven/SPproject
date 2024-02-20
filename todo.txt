@@ -1,15 +1,11 @@
-Prochaines priorités : php mailer pour Contact et panneau config utilisateur puis confirmation inscription par mail 
-et permettre aux membres de réinitialiser leur mdp
+Prochaines priorités : confirmation inscription par mail
 
 
 Bonus :
 gérer les photos avec ftp, modifier la Sélection, fonction de like, recevoir une notif quand un utilisateur laisse un commentaire
 
 
-
--> ajouter possibilité supprimer compte
-
--> vérifications W3C dashboard
+-> Quand j'hébergerais le site, penser à vérifier le captcha car il est configuré pour le localhost /!\
 
 -> ajouter un générateur de mdp
 

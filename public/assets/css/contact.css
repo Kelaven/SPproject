@@ -176,7 +176,6 @@ small,
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-
 @media (max-width: 280px) {
     #form__pic {
         max-height: 175px !important;

@@ -277,7 +277,7 @@ class User
         return $rowCount > 0;
     }
 
-    // * method getByMail
+    // * method get
     public static function get(?string $email = null, ?int $id_user = null): false|object
     {
         $pdo = Database::connect();

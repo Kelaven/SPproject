@@ -45,13 +45,13 @@
                             <input required type="email" name="email" id="email" placeholder="Adresse mail" class="form-control" value="<?= $email ?? '' ?>">
                         </div>
                         <small class="text-danger ps-3"><?= $error['email'] ?? '' ?></small>
-                        <!-- ! mobile -->
-                        <div class="input-group pe-xl-3 ps-xl-3 px-1">
+                        <!-- ? mobile -->
+                        <!-- <div class="input-group pe-xl-3 ps-xl-3 px-1">
                             <label for="mobile"></label>
                             <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
                             <input type="text" name="mobile" id="mobile" placeholder="Numéro de téléphone" class="form-control" value="<?= $mobile ?? '' ?>">
                         </div>
-                        <small class="text-danger ps-3"><?= $error['mobile'] ?? '' ?></small>
+                        <small class="text-danger ps-3"><?= $error['mobile'] ?? '' ?></small> -->
                         <!-- ! text -->
                         <div class="input-group pe-xl-3 ps-xl-3 px-1">
                             <label for="text"></label>
@@ -59,12 +59,15 @@
                             <textarea required name="text" id="text" placeholder="Message" class="form-control"><?= $text ?? '' ?></textarea>
                         </div>
                         <small class="text-danger ps-3"><?= $error['text'] ?? '' ?></small>
-                        <!-- ! captcha -->
-                        <div class="input-group pe-xl-3 ps-xl-3 px-1">
+                        <!-- ? captcha -->
+                        <!-- <div class="input-group pe-xl-3 ps-xl-3 px-1">
                             <label for="captcha"></label>
                             <span class="input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
                             <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" class="form-control">
-                        </div>
+                        </div> -->
+
+                        <!-- ! Google captcha -->
+                        <div class="g-recaptcha ps-xl-3" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
                         <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                         <label for="consent" class="check__consent py-2">
                             <input type="checkbox" id="consent" name="consent" required>
@@ -74,10 +77,13 @@
                     </div>
                     <!-- ! validation btn -->
                     <div class="text-center pt-3 pb-3 pt-xxl-3 mb-3 mb-lg-0">
-                        <button id="contact__btn" class="btn btn-primary" type="submit">Envoyer</button>
+                        <button id="contact__btn" class="btn btn-primary" type="submit" name="captchaOk">Envoyer</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
 </section>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

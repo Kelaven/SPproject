@@ -14,7 +14,7 @@ require_once __DIR__ . '/../helpers/dd.php';
 require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../models/User.php';
-
+require_once __DIR__ . '/../vendor/google/recaptcha/src/autoload.php'; // for captcha
 
 
 
@@ -52,7 +52,26 @@ try {
                 $error['email'] = 'L\'adresse mail renseignée n\'est pas connue';
             }
         }
+        // ! google captcha
+        $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
+        if (isset($googlecaptcha)) {
+            // if (isset($_POST['captchaOk'])) {
+            $recaptcha = new \ReCaptcha\ReCaptcha('<REMOVED>');
 
+            // $gRecaptchaResponse = $_POST['g-recaptcha-response'];
+            $gRecaptchaResponse = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_DEFAULT);
+            $remoteIp = $_SERVER['REMOTE_ADDR'];
+
+            $resp = $recaptcha->setExpectedHostname('phpprojetperso.localhost')
+                ->verify($gRecaptchaResponse, $remoteIp);
+            if ($resp->isSuccess()) {
+                // d('Ca marche');
+            } else {
+                $errors = $resp->getErrorCodes();
+                // d($errors);
+                $error['captcha'] = 'Il y a un problème avec le captcha';
+            }
+        }
 
 
         if ($error == []) {
@@ -66,7 +85,7 @@ try {
                 $isAuth = password_verify($password, $passwordHash); // to verify if password is the same than passwordHash (return bool)
                 // dd($user);
                 if ($isAuth) {
-                    unset($user->password); // useless to keep password into pages
+                    // unset($user->password); // useless to keep password into pages
                     $_SESSION['user'] = $user; // to keep connexion in session, use it in other pages with init file
                     // dd($_SESSION['user']);
                     $result = 'Vous êtes bien connecté ! Vous allez être redirigé...';

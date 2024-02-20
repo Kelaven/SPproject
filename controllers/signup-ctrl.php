@@ -14,7 +14,7 @@ require_once __DIR__ . '/../helpers/dd.php';
 require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../models/User.php';
-
+require_once __DIR__ . '/../vendor/google/recaptcha/src/autoload.php'; // for captcha
 
 
 
@@ -99,6 +99,26 @@ try {
                 $error['captcha'] = 'Votre réponse n\'est pas valide';
             }
         }
+        // ! google captcha
+        $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
+        if (isset($googlecaptcha)) {
+            // if (isset($_POST['captchaOk'])) {
+            $recaptcha = new \ReCaptcha\ReCaptcha('<REMOVED>');
+
+            // $gRecaptchaResponse = $_POST['g-recaptcha-response'];
+            $gRecaptchaResponse = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_DEFAULT);
+            $remoteIp = $_SERVER['REMOTE_ADDR'];
+
+            $resp = $recaptcha->setExpectedHostname('phpprojetperso.localhost')
+                ->verify($gRecaptchaResponse, $remoteIp);
+            if ($resp->isSuccess()) {
+                // d('Ca marche');
+            } else {
+                $errors = $resp->getErrorCodes();
+                // d($errors);
+                $error['captchaGoogle'] = 'Il y a un problème avec le captcha';
+            }
+        }
         // ! consent
         $consent = filter_input(INPUT_POST, 'consent', FILTER_SANITIZE_SPECIAL_CHARS);
         if (empty($consent)) {
@@ -114,7 +134,7 @@ try {
         if ($isExist) {
             $error['existUsername'] = 'Un compte avec ce pseudo existe déjà';
         }
-
+// dd($error);
 
         if ($error == []) {
             // ! insert in base
@@ -137,7 +157,7 @@ try {
         }
     }
 } catch (\Throwable $th) {
-    //throw $th;
+    echo 'Erreur lors de l\'insertion : ' . $th->getMessage();
 }
 
 

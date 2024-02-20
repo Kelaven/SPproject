@@ -109,7 +109,9 @@ try {
             if (!empty($password) && !empty($passwordCheck)) {
                 $user->setPassword($passwordHash);
             } else {
-                $user->setPassword($_SESSION['user']->password);
+                $getPassword = User::get($email);
+                // dd($getPassword);
+                $user->setPassword($getPassword->password);
             }
             $user->setIdUser($_SESSION['user']->id_user);
 

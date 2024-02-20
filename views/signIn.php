@@ -1,5 +1,5 @@
 <section class="container pt-5" id="signin__container">
-    <div class="row pt-xl-4 justify-content-center">
+    <div class="row pt-xl-2 justify-content-center">
         <div class="col-12 col-md-6 pt-3">
             <div class="card card__sign">
                 <form method="POST" class="px-2">
@@ -21,12 +21,19 @@
                             <span class="field__rsz input-group-text span__login__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
                         </div>
                         <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
+                        <!-- ! Google captcha -->
+                        <div class="g-recaptcha ps-xl-3 d-flex justify-content-center" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
+                        <small class="text-danger ps-3 d-flex justify-content-center"><?= $error['captcha'] ?? '' ?></small>
                     </div>
                     <div class="text-center py-5 w-100">
-                        <button class="btn btn-primary signUp__btn" type="submit">Valider</button>
+                        <button class="btn btn-primary signUp__btn" type="submit" name="captchaOk">Valider</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

@@ -14,7 +14,8 @@ require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../helpers/dd.php';
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php'; // for php mailer
+require_once __DIR__ . '/../vendor/google/recaptcha/src/autoload.php'; // for captcha
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -55,29 +56,49 @@ try {
                 $error['email'] = 'Le format de votre adresse mail n\'est pas valide';
             }
         }
-        // ! mobile
-        $mobile = filter_input(INPUT_POST, 'mobile', FILTER_SANITIZE_NUMBER_INT); // cleaning
-        if (empty($mobile)) { // to be sure it's not empty
-            // $error['mobile'] = 'Le téléphone n\'est pas renseigné';
-        } else { // validation
-            $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_MOBILE . '/')));
-            if (!$isMobileOk) { // if it's not validate with the regex
-                $error['mobile'] = 'Le numéro de téléphone doit suivre ce format : 0X XX XX XX XX';
-            }
-        }
+        // ? mobile
+        // $mobile = filter_input(INPUT_POST, 'mobile', FILTER_SANITIZE_NUMBER_INT); // cleaning
+        // if (empty($mobile)) { // to be sure it's not empty
+        //     // $error['mobile'] = 'Le téléphone n\'est pas renseigné';
+        // } else { // validation
+        //     $isMobileOk = filter_var($mobile, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_MOBILE . '/')));
+        //     if (!$isMobileOk) { // if it's not validate with the regex
+        //         $error['mobile'] = 'Le numéro de téléphone doit suivre ce format : 0X XX XX XX XX';
+        //     }
+        // }
         // ! text
         $text = trim(filter_input(INPUT_POST, 'text', FILTER_SANITIZE_SPECIAL_CHARS)); // trim() to delete spaces before and after the message
         if (empty($text)) { // to be sure it's not empty
             $error['text'] = 'Le message n\'est pas renseigné';
         }
-        // ! captcha
-        $captcha = filter_input(INPUT_POST, 'captcha', FILTER_SANITIZE_NUMBER_INT); // cleaning
-        if (empty($captcha)) { // to be sure it's not empty
-            $error['captcha'] = 'La réponse n\'est pas renseignée';
-        } else { // validation
-            $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_CAPTCHA . '/')));
-            if (!$isCaptchaOk) { // if it's not validate with the regex
-                $error['captcha'] = 'Votre réponse n\'est pas valide';
+        // ? captcha
+        // $captcha = filter_input(INPUT_POST, 'captcha', FILTER_SANITIZE_NUMBER_INT); // cleaning
+        // if (empty($captcha)) { // to be sure it's not empty
+        //     $error['captcha'] = 'La réponse n\'est pas renseignée';
+        // } else { // validation
+        //     $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_CAPTCHA . '/')));
+        //     if (!$isCaptchaOk) { // if it's not validate with the regex
+        //         $error['captcha'] = 'Votre réponse n\'est pas valide';
+        //     }
+        // }
+        // ! google captcha
+        $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
+        if (isset($googlecaptcha)) {
+        // if (isset($_POST['captchaOk'])) {
+            $recaptcha = new \ReCaptcha\ReCaptcha('<REMOVED>');
+
+            // $gRecaptchaResponse = $_POST['g-recaptcha-response'];
+            $gRecaptchaResponse = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_DEFAULT);
+            $remoteIp = $_SERVER['REMOTE_ADDR'];
+
+            $resp = $recaptcha->setExpectedHostname('phpprojetperso.localhost')
+                ->verify($gRecaptchaResponse, $remoteIp);
+            if ($resp->isSuccess()) {
+                // d('Ca marche');
+            } else {
+                $errors = $resp->getErrorCodes();
+                // d($errors);
+                $error['captcha'] = 'Il y a un problème avec le captcha';
             }
         }
         // ! consent
