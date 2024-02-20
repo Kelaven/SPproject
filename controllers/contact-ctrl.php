@@ -6,6 +6,7 @@ $pagesStyle = 'pages.css';
 $contactStyle = 'contact.css';
 // $footer = 'footer.php';
 $pagesScript = 'pages.js';
+$captchaScript = true;
 $footer = true;
 
 

@@ -73,6 +73,11 @@ if(isset($deleteScript)){
 ?>
 <script src="/public/assets/js/profile.js"></script>
 <?php } ?>
+<?php
+if(isset($captchaScript)){
+?>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<?php } ?>
 
 
 
