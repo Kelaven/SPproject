@@ -17,54 +17,11 @@
 
 
     <?php
-    // require_once __DIR__ . '/../../controllers/portfoliopaysages-ctrl.php';
-    // require_once __DIR__ . '/../../helpers/dd.php';
     foreach ($styles as $style) {
         echo '<link rel="stylesheet" href="/public/assets/css/' . $style . '">';
     }
     ?>
 
-
-    <!-- <?php
-    /**
-     * 
-     * @todo optimiser ex. avec un tableau (ex. additionnalCss)
-     * <link rel="stylesheet" href="/public/assets/css/<?= $style ?>">
-     */
-    if (isset($portfolioStyle)) { // for portfolio
-    ?>
-        <link rel=" stylesheet" href="/public/assets/css/portfolio.css">
-    <?php } ?>
-    <?php
-    if (isset($paysagesStyle)) { // for paysages portfolio
-    ?>
-        <link rel="stylesheet" href="/public/assets/css/portfoliopaysages.css">
-    <?php } ?>
-    <?php
-    if (isset($portraitsStyle)) { // for portraits portfolio
-    ?>
-        <link rel="stylesheet" href="/public/assets/css/portfolioportraits.css">
-    <?php } ?>
-    <?php
-    if (isset($selectionStyle)) { // for selection
-    ?>
-        <link rel="stylesheet" href="/public/assets/css/selection.css">
-    <?php } ?>
-    <?php
-    if (isset($pagesStyle)) { // for pages
-    ?>
-        <link rel="stylesheet" href="/public/assets/css/pages.css">
-    <?php } ?>
-    <?php
-    if (isset($contactStyle)) { // for contact
-    ?>
-        <link rel="stylesheet" href="/public/assets/css/contact.css">
-    <?php } ?>
-    <?php
-    if (isset($accesclientStyle)) { // for acces client
-    ?>
-        <link rel="stylesheet" href="/public/assets/css/accesclient.css">
-    <?php } ?> -->
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

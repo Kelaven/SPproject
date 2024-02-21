@@ -48,55 +48,6 @@ if(isset($gsapSelectionScript)){ // for selection GSAP
 <?php } ?>
 
 
-
-
-
-<!-- <?php
-if(isset($homeScript)){ // for homepage
-?>
-<script src="/public/assets/js/script.js"></script>
-<?php } ?>
-<?php
-if(isset($signupScript)){
-?>
-<script src="/public/assets/js/signup.js"></script>
-<?php } ?>
-<?php
-if(isset($signinScript)){ 
-?>
-<script src="/public/assets/js/signin.js"></script>
-<?php } ?>
-<?php
-if(isset($accesclientformScript)){ 
-?>
-<script src="/public/assets/js/accesclientform.js"></script>
-<?php } ?>
-<?php
-if(isset($gallerypicturesScript)){ 
-?>
-<script src="/public/assets/js/gallerypictures.js"></script>
-<?php } ?>
-<?php
-if(isset($portfolioScript)){ // for portfolio (paysages & portraits)
-?>
-<script src="/public/assets/js/portfolio.js"></script>
-<?php } ?>
-<?php
-if(isset($pagesScript)){ // for pages (without home)
-?>
-<script src="/public/assets/js/pages.js"></script>
-<?php } ?>
-
-<?php
-if(isset($deleteScript)){
-?>
-<script src="/public/assets/js/profile.js"></script>
-<?php } ?> -->
-
-
-
-
-
 </body>
 
 </html>
