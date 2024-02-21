@@ -1,5 +1,5 @@
-<section class="pe-5">
-    <div class="container-fluid pb-4" id="container__creatList">
+<section class="">
+    <div class="container pb-4" id="container__creatList">
         <div class="row">
             <div class="col pt-5 pe-5">
                 <a href="/controllers/dashboard/comments/archive-ctrl.php" class="btn btn-dark form__btn dashboard__colBtns--comments">
@@ -8,45 +8,45 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid px-5 py-0" id="container__readList">
+    <div class="container px-5 py-0" id="container__readList">
         <div class="row">
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--comments">
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Liste des commentaires</h1>
                     </div>
-                    <div class="card-body p-5 pt-3">
+                    <div class="card-body py-5 px-4">
                         <p class="text-info">
                             <?= $msg ?? '' ?>
                         </p>
                         <table>
                             <tr>
-                                <th class="pe-4">Id :</th>
+                                <th class="pe-3">Id :</th>
                                 <th>Texte :</th>
-                                <th class="ps-4">Galerie :</th>
-                                <th class="ps-4">Auteur :</th>
-                                <th class="ps-4">Date écriture :</th>
-                                <th class="ps-4 pe-5">Date confirmation :</th>
-                                <th class="px-4"></th> <!-- modifier -->
-                                <th></th> <!-- archiver -->
+                                <th>Galerie :</th>
+                                <th>Auteur :</th>
+                                <th class="pe-4">Date écriture :</th>
+                                <th class="pe-4">Date confirmation :</th>
+                                <th></th> <!-- modifier -->
+                                <th class="ps-5"></th> <!-- archiver -->
                             </tr>
                             <?php
                             foreach ($comments as $comment) {
                                 // dd($comments);
                             ?>
                                 <tr>
-                                    <td class="pe-4"><?= $comment->id_comment ?></td>
+                                    <td class=""><?= $comment->id_comment ?></td>
                                     <td class="listPictures__capitalize"><?php
                                         if (($comment->text != null) && (strlen($comment->text) >= 20)) {
-                                            echo (substr($comment->text, 0, 20) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirpluscomment<?= $comment->id_comment ?>">[voir +]</button> <?php
+                                            echo (substr($comment->text, 0, 20) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#voirpluscomment<?= $comment->id_comment ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($comment->text);
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                 ?></td>
-                                    <td class="px-4 listPictures__capitalize"><?= $comment->gallery_name ?></td>
-                                    <td class="px-4 listPictures__capitalize"><?= $comment->user_username ?></td>
-                                    <td class="px-4"><?= date('d-m-Y', strtotime($comment->created_at)) ?></td>
-                                    <td class="px-4"><?php
+                                    <td class="listPictures__capitalize pe-3"><?= $comment->gallery_name ?></td>
+                                    <td class="listPictures__capitalize pe-3"><?= $comment->user_username ?></td>
+                                    <td class=""><?= date('d-m-Y', strtotime($comment->created_at)) ?></td>
+                                    <td class=""><?php
                                                         if ($comment->confirmed_at != null) {
                                                             echo (date('d-m-Y', strtotime($comment->confirmed_at)));
                                                         } else { ?>

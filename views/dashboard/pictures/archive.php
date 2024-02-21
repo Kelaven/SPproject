@@ -15,7 +15,7 @@
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Liste des photos <span class="text-warning">archivées</span></h1>
                     </div>
-                    <div class="card-body p-5 pt-3">
+                    <div class="card-body px-4">
                         <div class="dashboard__search--container">
                             <div class="dashboard__search--offContainer">
                                 <form>
@@ -40,8 +40,8 @@
                                 <th>Nom :</th>
                                 <th>Description :</th>
                                 <!-- ? <th class="pe-5">Like :</th> -->
-                                <th></th> <!-- archiver -->
-                                <th></th> <!-- supprimer -->
+                                <th></th> <!-- désarchiver -->
+                                <th class="ps-5"></th> <!-- supprimer -->
                             </tr>
                             <?php
                             foreach ($pictures as $picture) {
@@ -51,19 +51,19 @@
                                     <td class="pe-4"><?= $picture->id_picture ?></td>
                                     <td>
                                         <img class="dashboard__imgRsz" src="/public/assets/img/uploads/<?= $picture->photo ?>" alt="photographies issues de shootings professionnels">
-                                        <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                        <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus pe-2"></i></button>
                                     </td>
-                                    <td class="pe-3"><?= $picture->name ?></td>
+                                    <td class="pe-4"><?= $picture->name ?></td>
                                     <td><?php
                                         if (($picture->description != null) && (strlen($picture->description) >= 30)) {
-                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir plus]</button> <?php
+                                            echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls ps-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                             } else {
                                                                                                                                                                                                                                                                                 echo ($picture->description);
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                 ?></td>
                                     <!-- ? <td><?= $picture->picture_like ?></td> -->
                                     <td class="text-end">
-                                        <a href="/controllers/dashboard/pictures/unarchive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open pe-4"></i></a>
+                                        <a href="/controllers/dashboard/pictures/unarchive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open"></i></a>
                                     </td>
                                     <td class="text-end">
                                         <a class="delete__link" data-delete-picture="<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
@@ -92,7 +92,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="/public/assets/img/uploads/<?= $picture->photo ?>">
+                                                <img class="pictureList__modalImg" src="/public/assets/img/uploads/<?= $picture->photo ?>">
                                             </div>
                                         </div>
                                     </div>

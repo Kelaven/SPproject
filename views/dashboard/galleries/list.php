@@ -23,7 +23,7 @@
                     </div>
                     <div class="card-body p-5 pt-3">
                         <div class="dashboard__search--container pb-2">
-                            <div class="dashboard__search--offContainer">
+                            <div class="dashboard__search--offContainerListGlr">
                                 <form>
                                     <label for="search" class="form-label">Recherche par mots clés :</label>
                                     <div class="dashboard__search--labelInput">

@@ -8,7 +8,7 @@
             </div>
         </div>
     </div>
-    <div class="container px-5 py-0" id="container__readList">
+    <div class="container px-5 py-5" id="container__readList">
         <div class="row">
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--galleries">
@@ -21,39 +21,39 @@
                         </p>
                         <table>
                             <tr>
-                                <th class="pe-4">Id :</th>
-                                <th>Admin :</th>
-                                <th class="ps-4">Pseudo :</th>
-                                <th class="ps-3">Prénom :</th>
-                                <th class="ps-3">Nom :</th>
-                                <th class="ps-3">Email :</th>
-                                <th class="ps-4">Telephone :</th>
-                                <th class="pe-4"></th> <!-- supprimer -->
+                                <th class="pe-3">Id :</th>
+                                <th class="pe-3">Admin :</th>
+                                <th class="">Pseudo :</th>
+                                <th class="">Prénom :</th>
+                                <th class="">Nom :</th>
+                                <th class="">Email :</th>
+                                <th class="">Telephone :</th>
+                                <th class=""></th> <!-- supprimer -->
                             </tr>
                             <?php
                             foreach ($users as $user) {
                                 // dd($users);
                             ?>
                                 <tr>
-                                    <td class="pe-4"><?= $user->id_user ?></td>
-                                    <td class="pe-4"><?php
+                                    <td class=""><?= $user->id_user ?></td>
+                                    <td class=""><?php
                                                         if ($user->isAdministrator == 1) {
                                                             echo ('Oui');
                                                         } else {
                                                             echo ('Non');
                                                         }
                                                         ?></td>
-                                    <td class="px-4"><?= $user->username ?></td>
-                                    <td class="px-4"><?= $user->firstname ?></td>
-                                    <td class="px-4"><?= $user->lastname ?></td>
-                                    <td class="px-3"><?php
+                                    <td class="pe-4"><?= $user->username ?></td>
+                                    <td class="pe-4"><?= $user->firstname ?></td>
+                                    <td class="pe-4"><?= $user->lastname ?></td>
+                                    <td class="pe-4"><?php
                                                         if (($user->email != null) && (strlen($user->email) >= 10)) {
                                                             echo (substr($user->email, 0, 10) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0" data-bs-toggle="modal" data-bs-target="#voirplusemail<?= $user->id_user ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                     } else {
                                                                                                                                                                                                                                                                         echo ($user->email);
                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                         ?></td>
-                                    <td class="px-4"><?= $user->mobile ?></td>
+                                    <td class="pe-5"><?= $user->mobile ?></td>
                                     <td class="text-end">
                                         <a class="delete__link" data-delete-user="<?= $user->id_user ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
                                     </td>

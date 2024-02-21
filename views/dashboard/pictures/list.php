@@ -1,7 +1,7 @@
 <section class="pe-5">
-    <div class="container-fluid pb-4" id="container__creatList">
+    <div class="container pb-4" id="container__creatList">
         <div class="row">
-            <div class="col pt-5 pe-5 dashboard__colBtns--pictures">
+            <div class="col pt-5 dashboard__colBtns--pictures">
                 <a href="/controllers/dashboard/pictures/add-ctrl.php" class="btn btn-dark form__btn me-2">
                     <i class="fa-solid fa-plus pe-3"></i>Ajouter une photo
                 </a>
@@ -11,14 +11,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid px-5 py-0" id="container__readList">
+    <div class="container py-0" id="container__readList">
         <div class="row">
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--pictures">
                     <div class="card-header">
                         <h1 class="form__h1 pt-2">Liste des photos</h1>
                     </div>
-                    <div class="card-body p-5 pt-3">
+                    <div class="card-body px-4">
                         <div class="dashboard__search--container">
                             <div class="dashboard__search--offContainer">
                                 <form>
@@ -43,10 +43,10 @@
                                     <th>Photo :</th>
                                     <th>Nom :</th>
                                     <th>Description :</th>
-                                    <th class="pe-5">Couv :</th>
-                                    <th class="pe-3">Galerie :</th>
-                                    <th class="pe-5"></th> <!-- modifier -->
-                                    <th></th> <!-- archiver -->
+                                    <th>Couv :</th>
+                                    <th>Galerie :</th>
+                                    <th></th> <!-- modifier -->
+                                    <th class="ps-5"></th> <!-- archiver -->
                                 </tr>
                             </thead>
                             <tbody>
@@ -56,28 +56,28 @@
                                 ?>
                                     <tr>
                                         <!-- <td class="pe-4"><?= $picture->id_picture ?></td> -->
-                                        <td class="pe-4">
+                                        <td>
                                             <img class="dashboard__imgRsz" src="/public/assets/img/uploads/<?= $picture->photo ?>" alt="photographie issue de shooting profesionnel">
                                             <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
                                         </td>
-                                        <td class="pe-4"><?= $picture->name ?></td>
-                                        <td class="pe-2 listPictures__capitalize"><?php
+                                        <td class="pe-3"><?= $picture->name ?></td>
+                                        <td class="listPictures__capitalize"><?php
                                                                                     if (($picture->description != null) && (strlen($picture->description) >= 25)) {
-                                                                                        echo (substr($picture->description, 0, 25) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
+                                                                                        echo (substr($picture->description, 0, 25) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-3" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                                 } else {
                                                                                                                                                                                                                                                                                     echo ($picture->description);
                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                     ?></td>
                                         <!-- ? <td><?= $picture->picture_like ?></td> -->
                                         <!-- <td class="pe-4"><?= $picture->isCover ?><i class="fa-solid fa-money-bill-transfer ps-3"></i></td> -->
-                                        <td class="pe-4">
+                                        <td class="">
                                             <?= $picture->isCover ?>
                                             <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureCover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Oui"><i class="fa-solid fa-square-plus ps-1"></i></a>
-                                            <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureUncover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Non"><i class="fa-solid fa-eraser"></i></a>
+                                            <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureUncover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Non"><i class="fa-solid fa-eraser pe-3"></i></a>
                                         </td>
-                                        <td class="pe-4 listPictures__capitalize"><?= $picture->gallery_name ?></td>
+                                        <td class="listPictures__capitalize pe-3"><?= $picture->gallery_name ?></td>
                                         <td>
-                                            <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square pe-3"></i></a>
+                                            <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
                                         </td>
                                         <td class="text-end">
                                             <a href="/controllers/dashboard/pictures/archive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>

@@ -22,7 +22,7 @@ body{
     position: fixed;
     height: 100%;
     background: #2B3035;
-    min-width: 12vw;
+    min-width: 15vw;
 }
 .sidebar__nav {
     list-style: none;
@@ -84,6 +84,7 @@ h1, p, th, .form__h1, td, .fa-solid, .card-header, label, .fa-regular{
 }
 .card__list--galleries, .card__list--pictures, .card__list--comments{
     min-width: 60vw !important;
+    max-width: 80vw;
 }
 .list-group-item{
     min-height: 40px; /* pour éviter les bugs si le nom renseigné est vide */
@@ -178,6 +179,9 @@ input::placeholder{
 .dashboard__search--offContainer{
     max-width: 26%;
 }
+.dashboard__search--offContainerListGlr{
+    max-width: 31%;
+}
 .dashboard__search--labelInput{
     max-width: 100%;
     display: flex;
@@ -207,5 +211,5 @@ input::placeholder{
 }
 /* ! archive comments */
 .rsz_update{
-    width: 120px;
+    width: 80px;
 }

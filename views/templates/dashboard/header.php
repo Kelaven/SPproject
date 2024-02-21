@@ -29,7 +29,7 @@
                         <a href="/controllers/dashboard/pictures/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-images pe-2"></i>Photos</a>
                     </li>
                     <li>
-                        <a href="/controllers/dashboard/comments/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-comment-dots pe-2"></i>Commentaires</a>
+                        <a href="/controllers/dashboard/comments/list-ctrl.php" class="sidebar__nav--tabs pe-1"><i class="fa-solid fa-comment-dots pe-2"></i>Commentaires</a>
                     </li>
                     <li>
                         <a href="/controllers/dashboard/users/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-user pe-2"></i>Utilisateurs</a>
