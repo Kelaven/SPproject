@@ -1,22 +1,25 @@
 <?php
 
-// header/footer update
-$navbar = 'header.php';
-$title = 'Gérer mon compte —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-$signupScript = 'signup.js';
-$contactStyle = 'contact.css';
-$pagesStyle = 'pages.css';
-$pagesScript = 'pages.js';
-$deleteScript = 'profile.js';
-$deleteScript = true;
-$footer = true;
-
-
 
 require_once __DIR__ . '/../helpers/dd.php';
 require_once __DIR__ . '/../config/init.php';
 require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../models/User.php';
+
+
+// header/footer update
+$navbar = 'header.php';
+$title = 'Gérer mon compte —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+$signupScript = 'signup.js';
+// $contactStyle = 'contact.css';
+$styles = ['pages.css', 'contact.css'];
+// $pagesStyle = 'pages.css';
+$scripts = ['pages.js', 'profile.js'];
+
+// $pagesScript = 'pages.js';
+// $deleteScript = 'profile.js';
+// $deleteScript = true;
+$footer = true;
 
 // d($_SESSION['user']);
 

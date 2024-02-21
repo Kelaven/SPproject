@@ -1,10 +1,5 @@
 <?php
 
-// header/footer update
-$navbar = 'header.php';
-$title = 'Mentions légales —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-$style = 'style.css';
-
 
 
 require_once __DIR__ . '/../helpers/dd.php';
@@ -15,6 +10,11 @@ require_once __DIR__ . '/../models/User.php';
 
 
 
+// header/footer update
+$navbar = 'header.php';
+$title = 'Mentions légales —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+// $style = 'style.css';
+$styles = ['style.css'];
 
 
 

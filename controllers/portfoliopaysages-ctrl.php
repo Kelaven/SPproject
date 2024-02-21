@@ -10,12 +10,14 @@ require_once __DIR__ . '/../config/init.php';
  */
 $navbar = 'header.php';
 $title = 'Portfolio paysages —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-$portfolioStyle = 'portfolio.css'; // $style = 'portfolio.css';
-$paysagesStyle = 'portfoliopaysages.css';
-$pagesStyle = 'pages.css';
+// $portfolioStyle = 'portfolio.css'; // $style = 'portfolio.css';
+// $paysagesStyle = 'portfoliopaysages.css';
+// $pagesStyle = 'pages.css';
+$styles = ['portfolio.css', 'portfoliopaysages.css', 'pages.css']; // initialiser $styles à vide dans init.php
 // $footer = 'footer.php';
-$portfolioScript = 'portfolio.js';
-$pagesScript = 'pages.js';
+$scripts = ['pages.js', 'portfolio.js'];
+// $portfolioScript = 'portfolio.js';
+// $pagesScript = 'pages.js';
 
 // views
 include __DIR__.'/../views/templates/header.php';

@@ -81,6 +81,9 @@ body {
         max-width: 40vw;
     }
 }
+.fa-eye, .fa-eye-slash{
+    cursor: pointer !important;
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ACCES CLIENT GALLERY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 

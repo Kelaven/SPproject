@@ -16,10 +16,16 @@
     <link rel="stylesheet" href="/public/assets/css/style.css">
 
 
-    <!-- <link rel="stylesheet" href="/public/assets/css/<?= $style ?>"> -->
-
-
     <?php
+    // require_once __DIR__ . '/../../controllers/portfoliopaysages-ctrl.php';
+    // require_once __DIR__ . '/../../helpers/dd.php';
+    foreach ($styles as $style) {
+        echo '<link rel="stylesheet" href="/public/assets/css/' . $style . '">';
+    }
+    ?>
+
+
+    <!-- <?php
     /**
      * 
      * @todo optimiser ex. avec un tableau (ex. additionnalCss)
@@ -27,7 +33,7 @@
      */
     if (isset($portfolioStyle)) { // for portfolio
     ?>
-        <link rel="stylesheet" href="/public/assets/css/portfolio.css">
+        <link rel=" stylesheet" href="/public/assets/css/portfolio.css">
     <?php } ?>
     <?php
     if (isset($paysagesStyle)) { // for paysages portfolio
@@ -58,7 +64,7 @@
     if (isset($accesclientStyle)) { // for acces client
     ?>
         <link rel="stylesheet" href="/public/assets/css/accesclient.css">
-    <?php } ?>
+    <?php } ?> -->
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

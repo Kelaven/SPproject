@@ -13,10 +13,12 @@ try {
     // header/footer update
     $navbar = 'header.php';
     $title = 'Galeries clients —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-    $pagesStyle = 'pages.css';
-    $accesclientStyle = 'accesclient.css';
+    // $pagesStyle = 'pages.css';
+    // $accesclientStyle = 'accesclient.css';
+    $styles = ['pages.css', 'accesclient.css'];
     // $footer = 'footer.php';
-    $pagesScript = 'pages.js';
+    $scripts = ['pages.js'];
+    // $pagesScript = 'pages.js';
     $footer = true;
 
 

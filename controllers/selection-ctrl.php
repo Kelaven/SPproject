@@ -6,10 +6,12 @@ require_once __DIR__ . '/../helpers/dd.php';
 // header/footer update
 $navbar = 'header.php';
 $title = 'Sélection du moment —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-$selectionStyle = 'selection.css';
-$pagesStyle = 'pages.css';
+// $selectionStyle = 'selection.css';
+// $pagesStyle = 'pages.css';
+$styles = ['selection.css', 'pages.css'];
 // $footer = 'footer.php';
-$pagesScript = 'pages.js';
+$scripts = ['pages.js'];
+// $pagesScript = 'pages.js';
 $gsapSelectionScript = 'selectiongsap.js';
 $gsapCDN = true;
 

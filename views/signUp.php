@@ -1,7 +1,7 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
     <div class="row pt-1 pb-3 justify-content-center">
-        <div class="col-12 pt-3">
+        <div class="col-12 pt-3 pt-xxl-5">
             <div class="card card__sign mb-5 mb-xl-0">
                 <div class="text-success text-center fs-6 fw-bold pb-1">
                     <?= $result ?? '' ?>
@@ -89,7 +89,7 @@
                             <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small> -->
                         </div>
                         <!-- consent -->
-                        <label for="consent" class="check__consent py-2 ps-4 ms-xl-1">
+                        <label for="consent" class="check__consent pb-3 ps-4 ms-xl-1">
                             <input type="checkbox" id="consent" name="consent" required>
                             En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans un but fonctionnel. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
                         </label>

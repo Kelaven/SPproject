@@ -1,15 +1,5 @@
 <?php
 
-// header/footer update
-$navbar = 'header.php';
-$title = 'Se connecter —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-$contactStyle = 'contact.css';
-$pagesStyle = 'pages.css';
-$signinScript = true;
-$pagesScript = 'pages.js';
-$captchaScript = true;
-$footer = true;
-
 
 require_once __DIR__ . '/../helpers/dd.php';
 require_once __DIR__ . '/../config/init.php';
@@ -17,6 +7,18 @@ require_once __DIR__ . '/../config/regex.php';
 require_once __DIR__ . '/../models/User.php';
 require_once __DIR__ . '/../vendor/google/recaptcha/src/autoload.php'; // for captcha
 
+
+// header/footer update
+$navbar = 'header.php';
+$title = 'Se connecter —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
+// $contactStyle = 'contact.css';
+// $pagesStyle = 'pages.css';
+$styles = ['contact.css', 'pages.css'];
+$scripts = ['pages.js', 'signin.js'];
+// $signinScript = true;
+// $pagesScript = 'pages.js';
+$captchaScript = true;
+$footer = true;
 
 
 try {

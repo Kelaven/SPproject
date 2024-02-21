@@ -17,8 +17,10 @@ try {
 
     // header update
     $title = 'Formulaire d\'accès —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
-    $accesclientStyle = 'accesclient.css';
-    $accesclientformScript = 'accesclientform.js';
+    // $accesclientStyle = 'accesclient.css';
+    $styles = ['accesclient.css'];
+    $scripts = ['accesclientform.js'];
+    // $accesclientformScript = 'accesclientform.js';
 
 
     // * galleries infos

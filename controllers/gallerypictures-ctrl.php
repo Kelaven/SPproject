@@ -8,10 +8,12 @@ require_once __DIR__ . '/../models/Gallery.php';
 require_once __DIR__ . '/../models/Picture.php';
 require_once __DIR__ . '/../models/Comment.php';
 
-$accesclientStyle = 'accesclient.css';
+// $accesclientStyle = 'accesclient.css';
+$styles = ['accesclient.css'];
+$scripts = ['gallerypictures.js'];
 $dNoneBall = true;
 $footer = true;
-$gallerypicturesScript = 'gallerypicturesScript.js';
+// $gallerypicturesScript = 'gallerypicturesScript.js';
 
 
 

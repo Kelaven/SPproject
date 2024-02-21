@@ -2,3 +2,6 @@
 
 
 session_start(); 
+
+$styles = [];
+$scripts = [];
