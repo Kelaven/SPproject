@@ -4,11 +4,11 @@ Prochaines priorités : confirmation inscription par mail
 Bonus :
 gérer les photos avec ftp, modifier la Sélection, fonction de like, recevoir une notif quand un utilisateur laisse un commentaire
 
+-> retirer 2e captcha inscription
+
+-> bouton modifier mdp dans mon compte
+
 -> gérer les suppressions de galeries (message d'erreur si elle contient tjs une photo de couv/imgs/comments)
-
--> gérer la redirection apres l'archivage d'une photo pour ne pas revenir à la 1ere page à chaque fois
-
--> majuscule dans la liste des galeries archivées
 
 -> Quand j'hébergerais le site, penser à vérifier le captcha car il est configuré pour le localhost /!\
 

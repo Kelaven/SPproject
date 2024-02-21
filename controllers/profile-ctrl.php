@@ -7,6 +7,7 @@ $signupScript = 'signup.js';
 $contactStyle = 'contact.css';
 $pagesStyle = 'pages.css';
 $pagesScript = 'pages.js';
+$deleteScript = 'profile.js';
 $deleteScript = true;
 $footer = true;
 

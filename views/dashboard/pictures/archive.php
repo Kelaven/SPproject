@@ -54,7 +54,7 @@
                                         <button type="button" class="btn btn-link ps-0 pe-3" data-bs-toggle="modal" data-bs-target="#zoom<?= $picture->id_picture ?>"><i class="fa-solid fa-magnifying-glass-plus pe-2"></i></button>
                                     </td>
                                     <td class="pe-4"><?= $picture->name ?></td>
-                                    <td><?php
+                                    <td class="listPictures__capitalize"><?php
                                         if (($picture->description != null) && (strlen($picture->description) >= 30)) {
                                             echo (substr($picture->description, 0, 30) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls ps-0 pe-5" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                             } else {
@@ -63,7 +63,7 @@
                                                                                                                                                                                                                                                                                 ?></td>
                                     <!-- ? <td><?= $picture->picture_like ?></td> -->
                                     <td class="text-end">
-                                        <a href="/controllers/dashboard/pictures/unarchive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open"></i></a>
+                                        <a href="/controllers/dashboard/pictures/unarchive-ctrl.php?id_picture=<?= $picture->id_picture ?>&currentPage=<?= $page ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open"></i></a>
                                     </td>
                                     <td class="text-end">
                                         <a class="delete__link" data-delete-picture="<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>

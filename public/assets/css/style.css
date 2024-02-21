@@ -416,7 +416,9 @@ button {
     border: none !important;
     border-radius: 0% !important;
 }
-
+.span__rsz{
+    width: 45px;
+}
 
 
 

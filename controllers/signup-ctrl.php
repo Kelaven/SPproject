@@ -90,16 +90,16 @@ try {
                 // dd($passwordHash);
             }
         }
-        // ! captcha
-        $captcha = filter_input(INPUT_POST, 'captcha', FILTER_SANITIZE_NUMBER_INT); // cleaning
-        if (empty($captcha)) { // to be sure it's not empty
-            $error['captcha'] = 'La réponse n\'est pas renseignée';
-        } else { // validation
-            $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_CAPTCHA . '/')));
-            if (!$isCaptchaOk) { // if it's not validate with the regex
-                $error['captcha'] = 'Votre réponse n\'est pas valide';
-            }
-        }
+        // ? captcha
+        // $captcha = filter_input(INPUT_POST, 'captcha', FILTER_SANITIZE_NUMBER_INT); // cleaning
+        // if (empty($captcha)) { // to be sure it's not empty
+        //     $error['captcha'] = 'La réponse n\'est pas renseignée';
+        // } else { // validation
+        //     $isCaptchaOk = filter_var($captcha, FILTER_VALIDATE_REGEXP, array("options" => array("regexp" => '/' . REGEX_CAPTCHA . '/')));
+        //     if (!$isCaptchaOk) { // if it's not validate with the regex
+        //         $error['captcha'] = 'Votre réponse n\'est pas valide';
+        //     }
+        // }
         // ! google captcha
         $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
         if (isset($googlecaptcha)) {

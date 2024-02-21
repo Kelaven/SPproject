@@ -16,7 +16,7 @@ try {
     // * filter
     $toArchive = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
     $page = intval(filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_INT));
-
+    $currentPage = intval(filter_input(INPUT_GET, 'currentPage', FILTER_SANITIZE_NUMBER_INT));
     // * To archive a photo when we clicks on the btn 
     if ($toArchive) {
         $archive = Picture::archive($toArchive);
@@ -24,8 +24,10 @@ try {
         $msg = 'La donnée a bien été archivée !';
         $_SESSION['msg'] = $msg; // flash message, handle in list-ctrl.php too
 
-        header('Location: /controllers/dashboard/pictures/list-ctrl.php');
-        die;
+// dd($toArchive);
+
+    header('Location: /controllers/dashboard/pictures/list-ctrl.php?page=' . $currentPage);
+    die;
     }
 
 

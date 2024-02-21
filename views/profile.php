@@ -61,7 +61,7 @@
                             <!-- ! password -->
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
                                 <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input type="password" name="password" id="password" placeholder="Mot de passe" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" pattern="<?= REGEX_PASSWORD ?>">
+                                <input type="password" name="password" id="password" placeholder="Nouveau mot de passe" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" pattern="<?= REGEX_PASSWORD ?>" data-bs-toggle="tooltip" data-bs-title="Vous pouvez modifier votre mot de passe ici. Sinon, vous pouvez laisser le champ vide.">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash"></i></span>
                             </div>
                             <div id="nudge">
@@ -75,12 +75,12 @@
                                 <label for="passwordCheck">
                                 </label>
                                 <span class="field__rsz input-group-text span__password"><i class="fa-solid fa-key"></i></span>
-                                <input type="password" name="passwordCheck" id="passwordCheck" placeholder="Confirmez le mot de passe" autocomplete="given-name" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" pattern="<?= REGEX_PASSWORD ?>">
+                                <input type="password" name="passwordCheck" id="passwordCheck" placeholder="Confirmez le nouveau mot de passe" autocomplete="given-name" minlength="8" maxlength="30" class="field__rsz form-control password__inputs" pattern="<?= REGEX_PASSWORD ?>">
                                 <span class="input-group-text span__signup__pwd--eye"><i class="fa-solid fa-eye" id="pwd-eye-check"></i><i class="fa-solid fa-eye-slash d-none" id="pwd-eye-slash-check"></i></span>
                             </div>
                             <small class="text-danger ps-3"><?= $error['password'] ?? '' ?></small>
                             <div class="input-group pe-xl-3 ps-xl-3 px-1">
-                                <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Supprime le compte et redirige vers la page d'accueil">Supprimer le compte</button>
+                                <button id="profile__delete" type="button" class="btn btn-outline-danger profile__deleteBtn" data-delete-profile="<?= $_SESSION['user']->id_user ?>" data-bs-toggle="tooltip" data-bs-title="Supprime le compte et redirige vers la page d'accueil">Supprimer le compte</button>
                             </div>
                         </div>
                         <!-- ! validation btn -->

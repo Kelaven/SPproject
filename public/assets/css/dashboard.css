@@ -22,7 +22,7 @@ body{
     position: fixed;
     height: 100%;
     background: #2B3035;
-    min-width: 15vw;
+    min-width: 13vw;
 }
 .sidebar__nav {
     list-style: none;

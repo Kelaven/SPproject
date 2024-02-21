@@ -10,6 +10,7 @@ $auth = Auth::check();
 try {
     // * catch archived's id picture
     $archive = intval(filter_input(INPUT_GET, 'id_picture', FILTER_SANITIZE_NUMBER_INT));
+    $currentPage = intval(filter_input(INPUT_GET, 'currentPage', FILTER_SANITIZE_NUMBER_INT));
     
     if ($archive) {
         // * unarchive
@@ -18,7 +19,7 @@ try {
         $msg = 'La donnée a bien été désarchivée !';
         $_SESSION['msg'] = $msg;
 
-        header('Location: /controllers/dashboard/pictures/archive-ctrl.php');
+        header('Location: /controllers/dashboard/pictures/archive-ctrl.php?page=' . $currentPage);
         die;
     }
 

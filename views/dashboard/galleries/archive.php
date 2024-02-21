@@ -30,23 +30,28 @@
                                 <th class="ps-4"></th> <!-- supprimer -->
                             </tr>
                             <?php
+                            $addedGallery = [];
                             foreach ($galleries as $gallery) {
-                            ?>
-                                <tr>
-                                    <td><?= $gallery->id_gallery ?></td>
-                                    <td><?= $gallery->name ?></td>
-                                    <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
-                                    <!-- <td> <?php if (!empty($gallery->picture)) { ?>
+                                if (!in_array($gallery->id_gallery, $addedGallery)) { ?>
+                                    <tr>
+                                        <td><?= $gallery->id_gallery ?></td>
+                                        <td class="listPictures__capitalize"><?= $gallery->name ?></td>
+                                        <td><?= date('m-Y', strtotime($gallery->date)) ?></td>
+                                        <!-- <td> <?php if (!empty($gallery->picture)) { ?>
                                             <img src="#" alt="Photo de couverture de la galerie">
                                         <?php } ?>
                                     </td> -->
-                                    <td class="text-end">
-                                        <a href="/controllers/dashboard/galleries/unarchive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open"></i></a>
-                                    </td>
-                                    <td class="text-end">
-                                        <a class="delete__link" data-delete-gallery="<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
-                                    </td>
-                                </tr>
+                                        <td class="text-end">
+                                            <a href="/controllers/dashboard/galleries/unarchive-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Désarchiver"><i class="fa__tooltip fa-solid fa-box-open"></i></a>
+                                        </td>
+                                        <td class="text-end">
+                                            <a class="delete__link" data-delete-gallery="<?= $gallery->id_gallery ?>" data-bs-toggle="tooltip" data-bs-title="Supprimer"><i class="fa__tooltip fa-solid fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                <?php
+                                }
+                                $addedGallery[] = $gallery->id_gallery;
+                                ?>
                             <?php
                             }
                             ?>

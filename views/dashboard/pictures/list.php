@@ -70,7 +70,7 @@
                                                                                                                                                                                                                                                                                     ?></td>
                                         <!-- ? <td><?= $picture->picture_like ?></td> -->
                                         <!-- <td class="pe-4"><?= $picture->isCover ?><i class="fa-solid fa-money-bill-transfer ps-3"></i></td> -->
-                                        <td class="">
+                                        <td>
                                             <?= $picture->isCover ?>
                                             <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureCover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Oui"><i class="fa-solid fa-square-plus ps-1"></i></a>
                                             <a href="/controllers/dashboard/pictures/list-ctrl.php?id_pictureUncover=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Non"><i class="fa-solid fa-eraser pe-3"></i></a>
@@ -80,7 +80,7 @@
                                             <a href="/controllers/dashboard/pictures/update-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Modifier"><i class="fa__tooltip fa-solid fa-pen-to-square"></i></a>
                                         </td>
                                         <td class="text-end">
-                                            <a href="/controllers/dashboard/pictures/archive-ctrl.php?id_picture=<?= $picture->id_picture ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
+                                            <a href="/controllers/dashboard/pictures/archive-ctrl.php?id_picture=<?= $picture->id_picture ?>&currentPage=<?= $page ?>" data-bs-toggle="tooltip" data-bs-title="Archiver"><i class="fa__tooltip fa-solid fa-box"></i></a>
                                         </td>
                                     </tr>
 
