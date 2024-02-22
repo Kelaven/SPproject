@@ -1,7 +1,7 @@
 <!-- form pour ajouter un nouveau client : ID, PWD, confirmation PWD -->
 <section class="container" id="signup__container">
     <div class="row pt-1 pb-3 justify-content-center">
-        <div class="col-12 pt-3 pt-xxl-5">
+        <div class="col-12 pt-3 pt-xxl-4">
             <div class="card card__sign mb-5 mb-xl-0">
                 <div class="text-success text-center fs-6 fw-bold pb-1">
                     <?= $result ?? '' ?>
@@ -95,7 +95,7 @@
                         </label>
                         <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
                         <!-- ! Google captcha -->
-                        <div class="g-recaptcha ps-xl-3 d-flex justify-content-center" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
+                        <div class="g-recaptcha ps-xl-3 d-flex justify-content-center pt-5 pt-md-0" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
                         <small class="text-danger ps-3 text-center"><?= $error['captchaGoogle'] ?? '' ?></small>
 
                     </div>

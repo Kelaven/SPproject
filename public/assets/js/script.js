@@ -9,8 +9,14 @@ const cursor = document.querySelector('.cursor'); // to select the div
 
 
 // * event
-window.addEventListener('load', loader); // when pictures etc are loaded, launch the animation
-console.log('coucou');
+const loadingImage = new Image(); // Javascript function to create an image while it doesn't exists in HTML
+loadingImage.src = "/public/assets/img/loading-img-pauline-flower-400-80.jpg"; // add my image
+
+loadingImage.addEventListener('load', () => { // only when my image added above is loaded
+    console.log('image chargée avec succès');
+    window.addEventListener('load', loader); // when pictures etc are loaded, launch the animation
+    console.log('coucou');
+});
 
 
 // * function
@@ -35,7 +41,7 @@ function loader() {
             ease: "power2.out"
         })
         .add(() => { // fletched function to change image
-            firstImg.src = "http://phpprojetperso.localhost/public/assets/img/loading-img-pauline-flower-400-80.jpg";
+            firstImg.src = "/public/assets/img/loading-img-pauline-flower-400-80.jpg";
         })
         .to(bgTransition, {
             height: 0,
