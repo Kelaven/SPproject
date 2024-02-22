@@ -1,4 +1,4 @@
-<section class="pe-5">
+<section class="pe-4">
     <div class="container pb-4" id="container__creatList">
         <div class="row">
             <div class="col pt-5 pe-5">
@@ -8,7 +8,7 @@
             </div>
         </div>
     </div>
-    <div class="container px-5 py-5" id="container__readList">
+    <div class="container px-4 py-5" id="container__readList">
         <div class="row">
             <div class="col">
                 <div class="card bg-dark mb-3 card__list--galleries">

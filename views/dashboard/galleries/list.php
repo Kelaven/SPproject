@@ -1,7 +1,7 @@
 <section class="pe-5">
     <div class="container pb-4" id="container__creatList">
         <div class="row">
-            <div class="col pt-5 pe-5">
+            <div class="col pt-5 pe-4">
                 <!-- bouton de redirection pour ajouter une galerie -->
                 <a href="/controllers/dashboard/galleries/add-ctrl.php" class="btn btn-dark form__btn me-2">
                     <i class="fa-solid fa-plus pe-3"></i>Ajouter une galerie
@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <div class="container p-5 pt-0" id="container__readList">
+    <div class="container p-4 pt-0" id="container__readList">
         <div class="row">
             <div class="col">
                 <!-- carte contenant les infos -->
@@ -41,7 +41,7 @@
                         </p>
                         <table>
                             <tr>
-                                <th class="pe-3">Id :</th>
+                                <th class="pe-1">Id :</th>
                                 <th>Nom :</th>
                                 <th>Date séance :</th>
                                 <!-- <th>Image :</th> -->
