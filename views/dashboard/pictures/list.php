@@ -24,7 +24,7 @@
                                 <form>
                                     <label for="search" class="form-label">Recherche par mots clés :</label>
                                     <div class="dashboard__search--labelInput">
-                                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom, Galerie">
+                                        <input id="search" name="search" class="form-control" type="search" placeholder="Nom ou Galerie">
                                         <button class="btn btn-dark my-2 my-sm-0 d-flex justify-content-center" type="submit">
                                             <i class="fa-solid fa-magnifying-glass"></i>
                                         </button>
@@ -62,8 +62,8 @@
                                         </td>
                                         <td class="pe-3"><?= $picture->name ?></td>
                                         <td class="listPictures__capitalize"><?php
-                                                                                    if (($picture->description != null) && (strlen($picture->description) >= 25)) {
-                                                                                        echo (substr($picture->description, 0, 25) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-3" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
+                                                                                    if (($picture->description != null) && (strlen($picture->description) >= 15)) {
+                                                                                        echo (substr($picture->description, 0, 15) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-3" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
                                                                                                                                                                                                                                                                                 } else {
                                                                                                                                                                                                                                                                                     echo ($picture->description);
                                                                                                                                                                                                                                                                                 }
