@@ -15,7 +15,10 @@ try {
     // * get the id_gallery to delete
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
 
-
+    // * get the gallery to view if it has photos
+    /**
+     * @todo : improve the condition and the get's SQL to add comments
+     */
     $gallery = Gallery::get($id_gallery);
     // dd($gallery);
     if (isset($gallery->picture_photoCover)) {
@@ -26,7 +29,6 @@ try {
         $delete = Gallery::delete($id_gallery);
 
         if ($delete) {
-
             $msg = 'La donnée a bien été supprimée !';
             $_SESSION['msg'] = $msg;
 

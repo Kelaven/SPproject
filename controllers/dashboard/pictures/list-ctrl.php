@@ -45,10 +45,10 @@ try {
 
         // * To search by keywords
         if ($search != '') {
-            $searchedPhotos = Picture::getAll(search: $search);
+            $searchedPhotos = Picture::getAll(search: $search, archive: false);
+            // dd($searchedPhotos);
             $pictures = $searchedPhotos; // use search results and not all images
-        }
-
+        } else {
         // * Paginate
         $nbePictures = count($pictures);
 
@@ -59,6 +59,9 @@ try {
         // calculate first photo of each page
         $firstPicture = ($page * NB_ELEMENTS_PER_PAGE) - NB_ELEMENTS_PER_PAGE;
         $pictures = Picture::getAll(search: $search, perPages: true, firstPicture: $firstPicture);
+        }
+
+
     }
 
 

@@ -62,12 +62,12 @@
                                         </td>
                                         <td class="pe-3"><?= $picture->name ?></td>
                                         <td class="listPictures__capitalize"><?php
-                                                                                    if (($picture->description != null) && (strlen($picture->description) >= 15)) {
-                                                                                        echo (substr($picture->description, 0, 15) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-3" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
-                                                                                                                                                                                                                                                                                } else {
-                                                                                                                                                                                                                                                                                    echo ($picture->description);
-                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                    ?></td>
+                                                                                if (($picture->description != null) && (strlen($picture->description) >= 15)) {
+                                                                                    echo (substr($picture->description, 0, 15) . "..."); ?> <button type="button" class="btn btn-link dashboard__descriptionDtls p-0 pe-3" data-bs-toggle="modal" data-bs-target="#voirplus<?= $picture->id_picture ?>">[voir +]</button> <?php
+                                                                                                                                                                                                                                                                                                                        } else {
+                                                                                                                                                                                                                                                                                                                            echo ($picture->description);
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                            ?></td>
                                         <!-- ? <td><?= $picture->picture_like ?></td> -->
                                         <!-- <td class="pe-4"><?= $picture->isCover ?><i class="fa-solid fa-money-bill-transfer ps-3"></i></td> -->
                                         <td>
@@ -126,24 +126,26 @@
             <div class="col">
                 <div class="d-flex justify-content-center">
                     <ul class="pagination pt-xxl-2">
-                        <li class="page-item <?php if ($page == 1) { ?>
+                        <?php if (isset($nbePages)) { ?>
+                            <li class="page-item <?php if ($page == 1) { ?>
                             disabled
                         <?php } ?>">
-                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page - 1 ?>">&laquo;</a>
-                        </li>
-                        <?php
-                        for ($p = 1; $p <= $nbePages; $p++) { ?>
-                            <li class="page-item <?php if ($p == $page) { ?> active <?php } ?>">
-                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $p ?>"><?= $p ?></a>
+                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page - 1 ?>">&laquo;</a>
                             </li>
-                        <?php
-                        }
-                        ?>
-                        <li class="page-item <?php if ($page == $nbePages) { ?>
+                            <?php
+                            for ($p = 1; $p <= $nbePages; $p++) { ?>
+                                <li class="page-item <?php if ($p == $page) { ?> active <?php } ?>">
+                                    <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $p ?>"><?= $p ?></a>
+                                </li>
+                            <?php
+                            }
+                            ?>
+                            <li class="page-item <?php if ($page == $nbePages) { ?>
                             disabled
                         <?php } ?>">
-                            <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page + 1 ?>">&raquo;</a>
-                        </li>
+                                <a class="page-link" href="/controllers/dashboard/pictures/list-ctrl.php?page=<?= $page + 1 ?>">&raquo;</a>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>
