@@ -92,7 +92,7 @@ try {
                     $_SESSION['user'] = $user; // to keep connexion in session, use it in other pages with init file
                     // dd($_SESSION['user']);
                     $result = 'Vous êtes bien connecté ! Vous allez être redirigé...';
-                    header('Refresh: 3; URL=/controllers/portfoliopaysages-ctrl.php');
+                    header('Refresh: 3; URL=/portfolio-paysages.html');
                 }
             }
         }

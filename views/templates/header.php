@@ -47,7 +47,7 @@
         <header>
             <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand pe-2" href="/controllers/home-ctrl.php"><img src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo de Kévin Lavenant, photographe passionné de portraits et paysages"></a>
+                    <a class="navbar-brand pe-2" href="/accueil.html"><img src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo de Kévin Lavenant, photographe passionné de portraits et paysages"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -58,18 +58,18 @@
                                     Portfolio
                                 </a>
                                 <ul class="dropdown-menu text-center">
-                                    <li><a class="dropdown-item px-0" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                    <li><a class="dropdown-item px-0" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                    <li><a class="dropdown-item px-0" href="/portfolio-paysages.html">Paysages</a></li>
+                                    <li><a class="dropdown-item px-0" href="/portfolio-portraits.html">Portraits</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link active" aria-current="page" href="/controllers/selection-ctrl.php">Sélection</a>
+                                <a class="nav-link active" aria-current="page" href="/selection.html">Sélection</a>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link active" href="/controllers/contact-ctrl.php">Contact</a>
+                                <a class="nav-link active" href="/contact.html">Contact</a>
                             </li>
                             <li class="nav-item me-0 pe-md-3 pt-md-2">
-                                <a class="nav-link" href="/controllers/accesclient-ctrl.php">Galeries</a>
+                                <a class="nav-link" href="/galeries.html">Galeries</a>
                             </li>
                             <li class="pt-2 pt-md-3">
                                 <a id="logo__insta--link" href="https://www.instagram.com/klaven_portraits/" target="_blank"><i id="logo__insta" class="fa-brands fa-instagram fa-2xl pe-5"></i></a>
@@ -81,10 +81,10 @@
                                 <ul class="dropdown-menu text-center">
                                     <?php if (empty($_SESSION['user'])) { ?>
                                         <li class="nav-item">
-                                            <a class="nav-link dropdown-item" href="/controllers/signIn-ctrl.php">Se connecter</a>
+                                            <a class="nav-link dropdown-item" href="/connexion.html">Se connecter</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link dropdown-item" href="/controllers/signUp-ctrl.php">S'inscrire</a>
+                                            <a class="nav-link dropdown-item" href="/inscription.html">S'inscrire</a>
                                         </li>
                                     <?php } ?>
                                     <?php if (!empty($_SESSION['user']) && ($_SESSION['user']->isAdministrator === 1)) { ?>
@@ -94,7 +94,7 @@
                                     <?php } ?>
                                     <?php if (!empty($_SESSION['user'])) { ?>
                                         <li class="nav-item">
-                                            <a class="nav-link dropdown-item" href="/controllers/profile-ctrl.php">Mon compte</a>
+                                            <a class="nav-link dropdown-item" href="/mon-compte.html">Mon compte</a>
                                         </li>
                                     <?php } ?>
                                     <?php if (!empty($_SESSION['user'])) { ?>
@@ -113,10 +113,10 @@
                         <ul class="dropdown-menu text-center">
                             <?php if (empty($_SESSION['user'])) { ?>
                                 <li class="nav-item">
-                                    <a class="nav-link dropdown-item" href="/controllers/signIn-ctrl.php">Se connecter</a>
+                                    <a class="nav-link dropdown-item" href="/connexion.html">Se connecter</a>
                                 </li>
                                 <li class="nav-item  pt-md-2">
-                                    <a class="nav-link dropdown-item" href="/controllers/signUp-ctrl.php">S'inscrire</a>
+                                    <a class="nav-link dropdown-item" href="/inscription.html">S'inscrire</a>
                                 </li>
                             <?php } ?>
                             <?php if (!empty($_SESSION['user']) && ($_SESSION['user']->isAdministrator === 1)) { ?>
@@ -126,7 +126,7 @@
                             <?php } ?>
                             <?php if (!empty($_SESSION['user'])) { ?>
                                 <li class="nav-item pt-md-2">
-                                    <a class="nav-link dropdown-item" href="/controllers/profile-ctrl.php">Mon compte</a>
+                                    <a class="nav-link dropdown-item" href="/mon-compte.html">Mon compte</a>
                                 </li>
                             <?php } ?>
                             <?php if (!empty($_SESSION['user'])) { ?>

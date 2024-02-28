@@ -16,12 +16,9 @@ try {
     $id_gallery = intval(filter_input(INPUT_GET, 'id_gallery', FILTER_SANITIZE_NUMBER_INT));
 
     // * get the gallery to view if it has photos
-    /**
-     * @todo : improve the condition and the get's SQL to add comments
-     */
     $gallery = Gallery::get($id_gallery);
     // dd($gallery);
-    if (isset($gallery->picture_photoCover)) {
+    if (isset($gallery->picture_photoCover) || isset($gallery->gallery_comments)) {
         $error['delete'] = true;
     }
     if ($error == []) {

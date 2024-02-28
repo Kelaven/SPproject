@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+    width: 0px !important;
+}
+
 @media (max-width: 768px) {
     body{
         overflow-x: visible;
@@ -5,7 +9,7 @@
 }
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     background-color: #24282d;
 }
 

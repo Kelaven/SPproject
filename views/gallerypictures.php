@@ -53,7 +53,7 @@
         <?php } ?>
         <?php if (empty($_SESSION['user'])) { ?>
             <div class="col text-center">
-                <a href="/controllers/signIn-ctrl.php" class="btn btn-dark gallerypictures__btnSignIn pt-3">Connectez-vous pour écrire un message</a>
+                <a href="/connexion.html" class="btn btn-dark gallerypictures__btnSignIn pt-3">Connectez-vous pour écrire un message</a>
             </div>
         <?php } ?>
     </div>

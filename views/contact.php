@@ -65,15 +65,15 @@
                             <span class="input-group-text" id="span__captcha"><i class="fa-solid fa-robot"></i></span>
                             <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" class="form-control">
                         </div> -->
-
-                        <!-- ! Google captcha -->
-                        <div class="g-recaptcha ps-xl-3" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
-                        <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
-                        <label for="consent" class="check__consent py-2">
+                        <!-- ! consent -->
+                        <label for="consent" class="check__consent pt-2 pb-5">
                             <input type="checkbox" id="consent" name="consent" required>
                             En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans le but de traiter ma demande. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
                         </label>
                         <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
+                        <!-- ! Google captcha -->
+                        <div class="g-recaptcha ps-xl-3" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
+                        <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                     </div>
                     <!-- ! validation btn -->
                     <div class="text-center pt-3 pb-3 pt-xxl-3 mb-3 mb-lg-0">

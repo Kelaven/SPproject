@@ -18,6 +18,7 @@ $styles = ['portfolio.css', 'portfoliopaysages.css', 'pages.css']; // initialise
 $scripts = ['pages.js', 'portfolio.js'];
 // $portfolioScript = 'portfolio.js';
 // $pagesScript = 'pages.js';
+$footer = true;
 
 // views
 include __DIR__.'/../views/templates/header.php';

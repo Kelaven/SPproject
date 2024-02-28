@@ -14,7 +14,7 @@
                 </form>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pb-5">
             <!-- <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
                 <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php" target="_blank">
                     <img class="accesclient__img" src="/public/assets/img/anais-picture-portrait-women-maroc-beach-resizedforaccesclient-60.jpg" alt="photographie portrait de modèle féminin pendant un coucher de soleil au Maroc avec un livre">
@@ -30,7 +30,7 @@
                 // if (!in_array($gallery->id_gallery, $addedGallery)) {
             ?>
                     <div class="px-0 px-md-3 px-lg-5 py-3 pt-5 col-11 col-md-6 col-xl-4">
-                        <a class="accesclient__a" href="/../controllers/accesclientform-ctrl.php?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
+                        <a class="accesclient__a" href="/galerie.html?id_gallery=<?= $gallery->id_gallery ?>" target="_blank">
                             <img class="accesclient__img" src="/public/assets/img/uploads/<?php
                                                                                         if ($gallery->gallery_isCover == 1) {
                                                                                             echo ($gallery->gallery_photo);

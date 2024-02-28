@@ -155,7 +155,7 @@ try {
 
             if ($isOk) {
                 $result = 'Vous êtes bien inscrit ! Vous allez être redirigé dans quelques instants...';
-                header("Refresh: 4; URL=/controllers/signIn-ctrl.php");
+                header("Refresh: 3; URL=/connexion.html");
                 // die;
             }
         }

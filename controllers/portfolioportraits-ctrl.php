@@ -15,6 +15,7 @@ $scripts = ['pages.js', 'portfolio.js'];
 
 // $portfolioScript = 'portfolio.js';
 // $pagesScript = 'pages.js';
+$footer = true;
 
 
 

@@ -56,6 +56,26 @@ document.addEventListener("mousemove", ballFollowsMouse);
 
 
 
+// ? to avoid scrollbar bug when the mouse move on the bottom of pages
+// const ballsDnone = document.querySelectorAll('.cursor--pages--dnone');
+
+// ballsDnone.forEach(ballDnone => {
+//     ballDnone.addEventListener('mouseenter', () => {
+//         ball.classList.add('d-none');
+//         ball.classList.add('cursor-pages--top');
+//     })
+//     ballDnone.addEventListener('mouseleave', () => {
+//         ball.classList.remove('d-none');
+//         ball.classList.remove('cursor-pages--top');
+//     })
+// });
+
+
+
+
+
+
+
 
 // ! disable right click
 let images = document.querySelectorAll('img');

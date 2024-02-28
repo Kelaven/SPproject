@@ -47,13 +47,13 @@
                                                         Portfolio
                                                     </a>
                                                     <ul class="dropdown-menu dropdown-menu--home">
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                        <li><a class="dropdown-item dropdown-item--home pt-2" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home pt-2" href="/portfolio-portraits.html">Portraits</a></li>
                                                     </ul>
                                                 </div>
-                                                <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
-                                                <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
+                                                <a href="/selection.html" class="px-2">Sélection</a>
+                                                <a href="/contact.html" class="px-2">Contact</a>
+                                                <a href="/galeries.html" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -75,14 +75,14 @@
                                                                 Portfolio
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
-                                                    <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
+                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -115,13 +115,13 @@
                                                         Portfolio
                                                     </a>
                                                     <ul class="dropdown-menu dropdown-menu--home">
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                     </ul>
                                                 </div>
-                                                <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
-                                                <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
+                                                <a href="/selection.html" class="px-2">Sélection</a>
+                                                <a href="/contact.html" class="px-2">Contact</a>
+                                                <a href="/galeries.html" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -143,14 +143,14 @@
                                                                 Portfolio
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
-                                                    <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
+                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -182,13 +182,13 @@
                                                         Portfolio
                                                     </a>
                                                     <ul class="dropdown-menu dropdown-menu--home">
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                     </ul>
                                                 </div>
-                                                <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
-                                                <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
+                                                <a href="/selection.html" class="px-2">Sélection</a>
+                                                <a href="/contact.html" class="px-2">Contact</a>
+                                                <a href="/galeries.html" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -210,14 +210,14 @@
                                                                 Portfolio
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
-                                                    <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
+                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -251,13 +251,13 @@
                                                         Portfolio
                                                     </a>
                                                     <ul class="dropdown-menu dropdown-menu--home">
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                        <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                        <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                     </ul>
                                                 </div>
-                                                <a href="/controllers/selection-ctrl.php" class="px-2">Sélection</a>
-                                                <a href="/controllers/contact-ctrl.php" class="px-2">Contact</a>
-                                                <a href="/controllers/accesclient-ctrl.php" class="px-2 pe-4">Galeries</a>
+                                                <a href="/selection.html" class="px-2">Sélection</a>
+                                                <a href="/contact.html" class="px-2">Contact</a>
+                                                <a href="/galeries.html" class="px-2 pe-4">Galeries</a>
                                             </div>
                                         </div>
                                     </div>
@@ -279,14 +279,14 @@
                                                                 Portfolio
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfoliopaysages-ctrl.php">Paysages</a></li>
-                                                                <li><a class="dropdown-item dropdown-item--home" href="/controllers/portfolioportraits-ctrl.php">Portraits</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
+                                                                <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py/controllers/selection-ctrl.php3"><a href="#">Sélection</a></li>
-                                                    <li class="py-3"><a href="/controllers/contact-ctrl.php">Contact</a></li>
-                                                    <li class="py-3"><a href="/controllers/accesclient-ctrl.php">Galeries</a></li>
+                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>

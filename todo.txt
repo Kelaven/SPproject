@@ -4,6 +4,7 @@ Prochaines priorités : confirmation inscription par mail
 Bonus :
 gérer les photos avec ftp, modifier la Sélection, fonction de like, recevoir une notif quand un utilisateur laisse un commentaire
 
+-> inverse mentions légales et captcha dans le form de contact
 
 -> bouton modifier mdp dans mon compte
 

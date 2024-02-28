@@ -143,40 +143,6 @@ class Gallery
         return $datas;
     }
 
-    // public static function getAllDashboard(bool $archive = false, string $search = '', bool $displayWithoutDuplicate = false)
-    // {
-    //     $pdo = Database::connect();
-
-    //     $sql = 'SELECT `galleries`.*, COUNT(`pictures`.`photo`) AS `gallery_photo`, COUNT(`pictures`.`isCover`) AS `gallery_isCover`
-    //     FROM `galleries`
-    //     LEFT JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery`'; 
-    //     $sql .= ' WHERE 1 = 1';
-
-    //     if ($archive === false) {
-    //         $sql .= ' AND `galleries`.`deleted_at` IS NULL'; // is the column is NULL, don't display at list.php
-    //     } else {
-    //         $sql .= ' AND `galleries`.`deleted_at` IS NOT NULL';
-    //     }
-    //     if ($search != '') {
-    //         $sql .= ' AND `galleries`.`name` LIKE :search';
-    //     }
-    //     if ($displayWithoutDuplicate != false) {
-    //         $sql .= ' GROUP BY `galleries`.`id_gallery`';
-    //     }
-
-    //     $sth = $pdo->prepare($sql);
-
-    //     if ($search != '') {
-    //         $sth->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
-    //     }
-
-    //     $sth->execute();
-
-    //     $datas = $sth->fetchAll(PDO::FETCH_OBJ); // return objects thanks to FETCH_OBJ (by default it's associative indexed array)
-
-    //     return $datas;
-    // }
-
     // * Method to insert new gallery
     /**
      * Method to insert new gallery
@@ -258,9 +224,10 @@ class Gallery
     {
         $pdo = Database::connect();
 
-        $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `picture_photoCover`
+        $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `picture_photoCover`, `comments`.`text` AS `gallery_comments`
         FROM `galleries`
         LEFT JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery` -- LEFT JOIN to have gallery event if it hasnt pics
+        JOIN `comments` ON `galleries`.`id_gallery` = `comments`.`id_gallery`
         WHERE `galleries`.`id_gallery` = :id_gallery;'; 
 // AND `pictures`.`isCover` = 1 // Warning : if the galerie hasnt cover pic, the result return false
 

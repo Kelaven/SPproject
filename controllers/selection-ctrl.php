@@ -14,6 +14,7 @@ $scripts = ['pages.js'];
 // $pagesScript = 'pages.js';
 $gsapSelectionScript = 'selectiongsap.js';
 $gsapCDN = true;
+$footer = true;
 
 // d($_SESSION);
 

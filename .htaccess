@@ -1,0 +1,21 @@
+# Activation du module de réécriture d'URL:
+
+Options +FollowSymlinks
+RewriteEngine on
+
+
+# Règles de réécriture d'URL:
+
+RewriteRule ^$ /controllers/home-ctrl.php
+
+RewriteRule ^accueil.html$ /controllers/home-ctrl.php
+RewriteRule ^portfolio-paysages.html$ /controllers/portfoliopaysages-ctrl.php
+RewriteRule ^portfolio-portraits.html$ /controllers/portfolioportraits-ctrl.php
+RewriteRule ^selection.html$ /controllers/selection-ctrl.php
+RewriteRule ^contact.html$ /controllers/contact-ctrl.php
+RewriteRule ^galeries.html$ /controllers/accesclient-ctrl.php
+RewriteRule ^galerie.html$ /controllers/accesclientform-ctrl.php
+RewriteRule ^galerie-photos.html$ /controllers/gallerypictures-ctrl.php
+RewriteRule ^connexion.html$ /controllers/signIn-ctrl.php
+RewriteRule ^inscription.html$ /controllers/signUp-ctrl.php
+RewriteRule ^mon-compte.html$ /controllers/profile-ctrl.php

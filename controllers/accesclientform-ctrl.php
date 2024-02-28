@@ -50,7 +50,7 @@ try {
                 $_SESSION['timestamp' . $id_gallery] = time();
                 // unset($_SESSION['isAllow']);
                 // dd($_SESSION);
-                header("Location: /controllers/gallerypictures-ctrl.php?id_gallery=$gallery->id_gallery");
+                header("Location: /galerie-photos.html?id_gallery=$gallery->id_gallery");
                 die;
             }
         }

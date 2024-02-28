@@ -35,6 +35,6 @@
                         <a href="/controllers/dashboard/users/list-ctrl.php" class="sidebar__nav--tabs"><i class="fa-solid fa-user pe-2"></i>Utilisateurs</a>
                     </li>
                 </ul>
-                <a class="btn btn-primary btn__home" href="/controllers/portfoliopaysages-ctrl.php">Quitter</a>
+                <a class="btn btn-primary btn__home" href="/portfolio-paysages.html">Quitter</a>
             </div>
         </section>
