@@ -198,7 +198,7 @@ input::placeholder{
 }
 @media (min-width: 1900px) {
     .card__list--pictures, .dashboard__colBtns--pictures, .card__list--comments, .dashboard__colBtns--comments{
-        margin: 0px 10vw 0px 0px;
+        /* margin: 0px 10vw 0px 0px; */
     }
 }
 
