@@ -17,11 +17,12 @@ use PHPMailer\PHPMailer\SMTP;
 $navbar = 'header.php';
 $title = 'Contactez-moi —— Kévin LAVENANT - Photographe de portraits et paysages - Amiens - Lille - Somme - Hauts-de-France';
 $styles = ['pages.css', 'contact.css'];
-$scripts = ['pages.js'];
+$scripts = ['pages.js', 'contact.js'];
 // $pagesStyle = 'pages.css';
 // $contactStyle = 'contact.css';
 // $footer = 'footer.php';
 // $pagesScript = 'pages.js';
+$gsapCDN = true;
 $captchaScript = true;
 $footer = true;
 

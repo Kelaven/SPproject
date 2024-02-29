@@ -96,9 +96,27 @@ form {
     background-size: cover;
     height: 54vmin;
     width: 54vmin;
-    border-radius: 50%;
+    /* height: 0vmin;
+    width: 0vmin; */
+    transform: translateX(-150%);
+    /* border-radius: 50%; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    position: relative;
+    --translate-coverContact: 0%; /* variable to use the pseudo element in GSAP */
 }
 
+#form__pic::before {
+    content: "";
+    background-color: #3A3E42;
+    position: absolute;
+    z-index: 1;
+    height: 56vmin;
+    width: 56vmin;
+    top: -10px;
+    left: -10px;
+    transform: translateX(var(--translate-coverContact)); /* to place the div in front of the photo */
+    border-radius: 50%;
+}
 
 #container__name {
     display: flex;
@@ -175,11 +193,12 @@ small,
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.contact__legend{
+.contact__legend {
     font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+
 @media (max-width: 280px) {
     #form__pic {
         max-height: 175px !important;
@@ -371,6 +390,7 @@ small,
     .container__legend {
         padding-top: 0px;
     }
+
     #signin__container {
         min-height: 120vh;
     }
@@ -380,12 +400,14 @@ small,
     .form__container--left {
         min-height: 88vh;
     }
-    .contact__legend{
+
+    .contact__legend {
         padding: 0px 0px 20px 0px !important;
     }
 }
+
 @media (min-width: 900px) and (max-width: 1100px) and (min-height: 1300px) and (max-height: 1400px) {
-    .contact__legend{
+    .contact__legend {
         padding: 0px 0px 50px 0px !important;
     }
 }
@@ -394,7 +416,7 @@ small,
 
 /* ! profile */
 
-.profile__deleteBtn{
+.profile__deleteBtn {
     background-color: rgba(0, 0, 0, 0.2) !important;
     width: 100%;
     max-height: 37px;
