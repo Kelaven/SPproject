@@ -55,6 +55,26 @@ try {
                 $error['email'] = 'L\'adresse mail renseignée n\'est pas connue';
             }
         }
+        // ? google captcha POUR LOCALHOST
+        // $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
+        // if (isset($googlecaptcha)) {
+        //     // if (isset($_POST['captchaOk'])) {
+        //     $recaptcha = new \ReCaptcha\ReCaptcha('<REMOVED>');
+
+        //     // $gRecaptchaResponse = $_POST['g-recaptcha-response'];
+        //     $gRecaptchaResponse = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_DEFAULT);
+        //     $remoteIp = $_SERVER['REMOTE_ADDR'];
+
+        //     $resp = $recaptcha->setExpectedHostname('phpprojetperso.localhost')
+        //         ->verify($gRecaptchaResponse, $remoteIp);
+        //     if ($resp->isSuccess()) {
+        //         // d('Ca marche');
+        //     } else {
+        //         $errors = $resp->getErrorCodes();
+        //         // d($errors);
+        //         $error['captcha'] = 'Il y a un problème avec le captcha';
+        //     }
+        // }
         // ! google captcha
         $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
         if (isset($googlecaptcha)) {
@@ -65,7 +85,7 @@ try {
             $gRecaptchaResponse = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_DEFAULT);
             $remoteIp = $_SERVER['REMOTE_ADDR'];
 
-            $resp = $recaptcha->setExpectedHostname('phpprojetperso.localhost')
+            $resp = $recaptcha->setExpectedHostname('photographies.kevin-lavenant.fr')
                 ->verify($gRecaptchaResponse, $remoteIp);
             if ($resp->isSuccess()) {
                 // d('Ca marche');
