@@ -456,4 +456,12 @@ footer{
 }
 .mentions__p{
     color: #FFF;
+    text-align: justify;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! POLITIQUE CONFIDENTIALITE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.politiqueconfidentialite{
+    min-height: 88vh;
 }

@@ -19,3 +19,5 @@ RewriteRule ^galerie-photos.html$ /controllers/gallerypictures-ctrl.php
 RewriteRule ^connexion.html$ /controllers/signIn-ctrl.php
 RewriteRule ^inscription.html$ /controllers/signUp-ctrl.php
 RewriteRule ^mon-compte.html$ /controllers/profile-ctrl.php
+RewriteRule ^mentions-legales-cgu.html$ /controllers/mentionslegales-ctrl.php
+RewriteRule ^politique-confidentialite.html$ /controllers/politiqueconfidentialite-ctrl.php

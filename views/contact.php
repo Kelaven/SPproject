@@ -67,7 +67,7 @@
                         <!-- ! consent -->
                         <label for="consent" class="check__consent pt-2 pb-5">
                             <input type="checkbox" id="consent" name="consent" required>
-                            En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans le but de traiter ma demande. Voir les <a class="check__consent--link" target="_blank" href="/controllers/mentionslegales-ctrl.php">mentions légales</a>.
+                            En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans le but de traiter ma demande. Voir les <a class="check__consent--link" target="_blank" href="/mentions-legales-cgu.html">mentions légales</a>.
                         </label>
                         <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
                         <!-- ! Google captcha -->
@@ -83,13 +83,3 @@
         </div>
     </div>
 </section>
-
-
-<!-- 
-<script src="https://unpkg.com/swup@4"></script>
-<script src="https://unpkg.com/@swup/fade-theme@2"></script>
-<script>
-    const swup = new Swup({
-        plugins: [new SwupFadeTheme()],
-    });
-</script> -->

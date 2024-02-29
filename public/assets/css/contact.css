@@ -98,7 +98,7 @@ form {
     width: 54vmin;
     /* height: 0vmin;
     width: 0vmin; */
-    transform: translateX(-150%);
+    transform: translateX(-200%);
     /* border-radius: 50%; */
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     position: relative;

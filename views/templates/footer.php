@@ -9,7 +9,7 @@ if (isset($footer)) {
             <div class="row align-content-center">
                 <div class="col text-center py-3">
                     <div class="cursor--pages--dyes"></div>
-                    <a class="footer__mentionslegales" target="_blank" href="/controllers/mentionslegales-ctrl.php">Mentions légales</a>
+                    <a class="footer__mentionslegales" target="_blank" href="/mentions-legales-cgu.html">Mentions légales & CGU</a>
                     <div class="cursor--pages--dnone"></div>
                 </div>
             </div>
@@ -48,6 +48,17 @@ if (isset($gsapSelectionScript)) { // for selection GSAP
 ?>
     <script src="/public/assets/js/selectiongsap.js"></script>
 <?php } ?>
+
+
+
+<!-- <script src="https://unpkg.com/swup@4"></script>
+<script src="https://unpkg.com/@swup/fade-theme@2"></script>
+<script>
+    const swup = new Swup({
+        plugins: [new SwupFadeTheme()],
+    });
+</script> -->
+
 
 
 </body>
