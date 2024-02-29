@@ -227,7 +227,7 @@ class Gallery
         $sql = 'SELECT `galleries`.*, `pictures`.`photo` AS `picture_photoCover`, `comments`.`text` AS `gallery_comments`
         FROM `galleries`
         LEFT JOIN `pictures` ON `galleries`.`id_gallery` = `pictures`.`id_gallery` -- LEFT JOIN to have gallery event if it hasnt pics
-        JOIN `comments` ON `galleries`.`id_gallery` = `comments`.`id_gallery`
+        LEFT JOIN `comments` ON `galleries`.`id_gallery` = `comments`.`id_gallery`
         WHERE `galleries`.`id_gallery` = :id_gallery;'; 
 // AND `pictures`.`isCover` = 1 // Warning : if the galerie hasnt cover pic, the result return false
 
