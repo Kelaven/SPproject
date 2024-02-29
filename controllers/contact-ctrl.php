@@ -85,7 +85,7 @@ try {
         //         $error['captcha'] = 'Votre réponse n\'est pas valide';
         //     }
         // }
-        // ? google captcha POUR LOCALHOST
+        // ? google captcha FOR LOCALHOST
         // $googlecaptcha = filter_input(INPUT_POST, 'captchaOk', FILTER_DEFAULT);
         // if (isset($googlecaptcha)) {
         // // if (isset($_POST['captchaOk'])) {
