@@ -110,10 +110,17 @@ article {
     .section__portfolio,
     .parent {
         height: 86vh !important;
+        /* height: 80vh !important; */
     }
 }
 
 @media (max-width: 768px) {
+
+    /* .section__portfolio,
+    .parent {
+        height: 86vh;
+    } */
+
     .modal {
         padding-top: 60px;
     }
