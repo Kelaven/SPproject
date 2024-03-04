@@ -19,7 +19,7 @@ button {
 }
 
 .section__portfolio {
-    height: 88dvh;
+    height: 88vh;
     /* background-image: 
     radial-gradient(circle at center center, rgba(255,255,255,0.1), rgba(255,255,255,0.4)),
     repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),

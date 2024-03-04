@@ -16,7 +16,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 666px) and (max-width: 932px) and (max-height: 768px) {
-    .navbar{
+    .navbar {
         min-height: 27vh;
     }
 }
@@ -202,16 +202,20 @@ a {
 }
 
 @media (max-width: 1199px) {
+
     /* to be sure to haven't bug with the cursor on mobile or tablet screens */
     .cursor {
         display: none;
     }
 }
+
 @media (min-width: 1280px) and (max-width: 1368px) and (min-height: 800px) and (max-height: 1024px) {
+
     /* to be sure to haven't bug with the cursor on tablet screens */
     .cursor {
         display: none !important;
     }
+
     .carousel-img__filigram {
         display: block !important;
     }
@@ -288,7 +292,7 @@ a {
 
 /* ! navbar */
 .navbar {
-    height: 12dvh;
+    height: 12vh;
 }
 
 .navbar img {
@@ -299,22 +303,27 @@ a {
     color: #FFF;
     height: 30px;
 }
-#logo__insta{
+
+#logo__insta {
     max-width: 40px !important;
     /* background-color: #E84555 !important; */
 }
-.logos__connexion{
+
+.logos__connexion {
     max-width: 70px;
 }
+
 .dropdown-item {
     font-size: 1em;
 }
 
 @media (max-width: 376px) {
     .navbar {
+        /* height: 16vh; */
         height: 16vh;
     }
 }
+
 @media (max-width: 992px) {
     .navbar-toggler {
         background-color: rgba(0, 0, 0, 0) !important;
@@ -358,22 +367,30 @@ a {
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNUP FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-main, .card {
+main,
+.card {
     background-color: #24282D !important;
 }
-.card__sign{
+
+.card__sign {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px, rgba(0, 0, 0, 0.15) 0px 3.5px 6.5px -1.5px, rgba(0, 0, 0, 0.1) 0px -1.5px 0px inset;
 }
-#signup__container{
+
+#signup__container {
     max-width: 61vw;
     min-height: 88vh;
 }
+
 #signin__container {
     height: 88vh;
 }
-label, input, .field__rsz{
+
+label,
+input,
+.field__rsz {
     max-height: 36px;
 }
+
 @media (max-width: 1024px) {
     #signup__container {
         max-width: 100vw;
@@ -416,7 +433,8 @@ button {
     border: none !important;
     border-radius: 0% !important;
 }
-.span__rsz{
+
+.span__rsz {
     width: 45px;
 }
 
@@ -425,10 +443,11 @@ button {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SIGNIN FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-input{
+input {
     border-radius: 0% !important;
 }
-.form__login--container{
+
+.form__login--container {
     min-width: 70% !important;
 }
 
@@ -436,11 +455,12 @@ input{
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-footer{
+footer {
     background-color: #2B3035;
     min-height: 50px;
 }
-.footer__mentionslegales{
+
+.footer__mentionslegales {
     font-weight: 400;
     text-transform: capitalize;
     font-size: 0.9em;
@@ -448,13 +468,15 @@ footer{
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MENTIONS LEGALES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.mentions__h1{
+.mentions__h1 {
     font-size: 1.5em;
 }
-.mentions__h2{
+
+.mentions__h2 {
     font-size: 1em;
 }
-.mentions__p{
+
+.mentions__p {
     color: #FFF;
     text-align: justify;
 }
@@ -462,6 +484,6 @@ footer{
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! POLITIQUE CONFIDENTIALITE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.politiqueconfidentialite{
+.politiqueconfidentialite {
     min-height: 88vh;
 }
