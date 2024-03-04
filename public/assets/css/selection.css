@@ -126,11 +126,11 @@ h2 {
 
 @media (max-width: 768px) {
     .navbar {
-        height: 13vh;
+        height: 14vh;
     }
 
     .selection__section {
-        height: 87vh;
+        height: 86vh;
     }
 
     .selection__col--mobile {
