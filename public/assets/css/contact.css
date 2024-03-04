@@ -102,7 +102,8 @@ form {
     /* border-radius: 50%; */
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     position: relative;
-    --translate-coverContact: 0%; /* variable to use the pseudo element in GSAP */
+    --translate-coverContact: 0%;
+    /* variable to use the pseudo element in GSAP */
 
 }
 
@@ -115,7 +116,8 @@ form {
     width: 56vmin;
     top: -10px;
     left: -10px;
-    transform: translateX(var(--translate-coverContact)); /* to place the div in front of the photo */
+    transform: translateX(var(--translate-coverContact));
+    /* to place the div in front of the photo */
     border-radius: 50%;
 }
 
@@ -230,6 +232,10 @@ small,
         min-height: 110vh;
     }
 
+    .check__consent {
+        text-align: justify;
+    }
+
     .form__container--left {
         max-height: 70vh;
     }
@@ -253,7 +259,11 @@ small,
     }
 
     #form__container--right {
-        height: 100vh;
+        min-height: 88vh;
+    }
+
+    .check__consent {
+        text-align: justify;
     }
 
     /* 
@@ -273,6 +283,11 @@ small,
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
+    #form__pic::before {
+        height: 54vmin !important;
+        width: 54vmin !important;
+    }
+
     #form__overlay p {
         font-size: 24px;
     }
@@ -287,7 +302,8 @@ small,
     }
 
     #form__container--right {
-        height: 100vh;
+        min-height: 70vh;
+        padding-bottom: 0px !important;
     }
 
     legend {
@@ -313,12 +329,19 @@ small,
 }
 
 @media (min-width: 820px) and (max-width: 1024px) {
+
+
+    #form__pic::before {
+        height: 50.5vmin !important;
+        width: 50.5vmin !important;
+    }
+
     #form__overlay p {
         font-size: 24px;
     }
 
     .container__legend {
-        padding-top: 50px;
+        padding: 30px 0px 0px 0px !important;
         height: 50px;
     }
 
@@ -336,8 +359,9 @@ small,
     }
 
     #form__container--right {
-        padding: 0px 0px 40px 0px;
+        padding: 0px 0px 50px 0px;
     }
+
 
     input::placeholder,
     textarea::placeholder,
@@ -351,6 +375,10 @@ small,
 
     input {
         height: 70px;
+    }
+
+    #contact__btn {
+        margin: 0px 0px 20px 0px;
     }
 }
 
@@ -398,7 +426,7 @@ small,
     }
 }
 
-@media (min-width: 1023px) and (max-width: 1025px) and (max-height: 767px) and (max-height: 769px) {
+@media (min-width: 1023px) and (max-width: 1025px) and (min-height: 767px) and (max-height: 769px) {
     .form__container--left {
         min-height: 88vh;
     }
@@ -406,11 +434,20 @@ small,
     .contact__legend {
         padding: 0px 0px 20px 0px !important;
     }
+
+    #form__pic::before {
+        height: 56vmin !important;
+        width: 56vmin !important;
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1100px) and (min-height: 1300px) and (max-height: 1400px) {
     .contact__legend {
         padding: 0px 0px 50px 0px !important;
+    }
+    #form__pic::before {
+        height: 56vmin !important;
+        width: 56vmin !important;
     }
 }
 

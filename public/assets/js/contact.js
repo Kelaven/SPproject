@@ -13,7 +13,7 @@ function loader() {
         ease: "back.out"
     })
     .to("#form__pic", {
-        '--translate-coverContact': -150, // to get the pseudo element, we can use CSS variables
+        '--translate-coverContact': -180, // to get the pseudo element, we can use CSS variables
         duration: 2.5,
         delay: -0.2,
         ease: "sine.in"

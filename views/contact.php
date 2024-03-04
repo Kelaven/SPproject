@@ -65,13 +65,14 @@
                             <input required type="number" name="captcha" id="captcha" placeholder="1 + 1 = ?" class="form-control">
                         </div> -->
                         <!-- ! consent -->
-                        <label for="consent" class="check__consent pt-2 pb-5">
+                        <br>
+                        <label for="consent" class="check__consent pt-2 pb-5 ps-xl-3">
                             <input type="checkbox" id="consent" name="consent" required>
                             En soumettant ce formulaire, j'accepte que des données saisies soient collectées dans le but de traiter ma demande. Voir les <a class="check__consent--link" target="_blank" href="/mentions-legales-cgu.html">mentions légales</a>.
                         </label>
                         <small class="text-danger ps-3"><?= $error['consent'] ?? '' ?></small>
                         <!-- ! Google captcha -->
-                        <div class="g-recaptcha ps-xl-3" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
+                        <div class="g-recaptcha ps-xl-3 pt-2 pt-md-0" data-sitekey="6LdiXXkpAAAAAGMkQYRUBp8-4qEEx_E5v5yNHzbl"></div>
                         <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                     </div>
                     <!-- ! validation btn -->
