@@ -99,4 +99,4 @@ function adjustHeight() {
 
 adjustHeight(); // call the function when the page loads
 
-window.addEventListener('resize', adjustHeight); // call the function each time the window change size
+// window.addEventListener('resize', adjustHeight); // call the function each time the window change size
