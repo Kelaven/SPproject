@@ -76,7 +76,7 @@ article {
 .portfolio__citation--text {
     font-family: 'Nunito', sans-serif;
     font-size: 1.5vw;
-    line-height: 28px;
+    line-height: 34px;
 }
 
 .portfolio__citation--author {
@@ -109,12 +109,18 @@ article {
 
     .section__portfolio,
     .parent {
-        height: 86vh !important;
+        /* height: 86vh !important; */
         /* height: 80vh !important; */
     }
 }
 
 @media (max-width: 768px) {
+
+    .section__portfolio,
+.parent {
+    height: calc(86 * var(--vh)) !important;
+}
+
 
     /* .section__portfolio,
     .parent {

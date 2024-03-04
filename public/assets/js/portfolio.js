@@ -86,3 +86,17 @@ function clickLeftBtns() {
         })
     });
 }
+
+
+
+
+// ! to adjust the page size on mobile !
+
+function adjustHeight() {
+    let vh = window.innerHeight * 0.01; // to have the viewport's height
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+adjustHeight(); // call the function when the page loads
+
+window.addEventListener('resize', adjustHeight); // call the function each time the window change size
