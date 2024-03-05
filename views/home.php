@@ -40,7 +40,7 @@
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div pb-5">
                                                 <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h2 class="carousel-h2 pb-5">Photographe de portraits
                                                     et paysages</h2>
                                                 <div class="btn-group px-2 pb-1" role="group">
                                                     <a href="#" data-bs-toggle="dropdown">
@@ -65,24 +65,24 @@
                                     <div class="row align-items-center text-center text-elements__row">
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div">
-                                                <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h1 class="carousel-h1 pt-1 pe-4">Kévin Lavenant</h1>
+                                                <h2 class="carousel-h2 pb-4 pe-3">Photographe de portraits
                                                     et paysages</h2>
                                                 <ul class="pe-5">
-                                                    <li class="py-3">
+                                                    <li class="py-2">
                                                         <div class="btn-group dropend">
                                                             <a href="#" data-bs-toggle="dropdown">
                                                                 Portfolio
                                                             </a>
-                                                            <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
+                                                            <ul class="dropdown-menu dropdown-menu--home ps-2 pt-0">
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
-                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
-                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
+                                                    <li class="py-2"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-2"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-2"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -108,7 +108,7 @@
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div pb-5">
                                                 <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h2 class="carousel-h2 pb-5">Photographe de portraits
                                                     et paysages</h2>
                                                 <div class="btn-group px-2 pb-1" role="group">
                                                     <a href="#" data-bs-toggle="dropdown">
@@ -133,24 +133,24 @@
                                     <div class="row align-items-center text-center text-elements__row">
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div">
-                                                <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h1 class="carousel-h1 pt-1 pe-4">Kévin Lavenant</h1>
+                                                <h2 class="carousel-h2 pb-4 pe-3">Photographe de portraits
                                                     et paysages</h2>
                                                 <ul class="pe-5">
-                                                    <li class="py-3">
+                                                    <li class="py-2">
                                                         <div class="btn-group dropend">
                                                             <a href="#" data-bs-toggle="dropdown">
                                                                 Portfolio
                                                             </a>
-                                                            <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
+                                                            <ul class="dropdown-menu dropdown-menu--home ps-2 pt-0">
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
-                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
-                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
+                                                    <li class="py-2"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-2"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-2"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -175,7 +175,7 @@
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div pb-5">
                                                 <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h2 class="carousel-h2 pb-5">Photographe de portraits
                                                     et paysages</h2>
                                                 <div class="btn-group px-2 pb-1" role="group">
                                                     <a href="#" data-bs-toggle="dropdown">
@@ -200,24 +200,24 @@
                                     <div class="row align-items-center text-center text-elements__row">
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div">
-                                                <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h1 class="carousel-h1 pt-1 pe-4">Kévin Lavenant</h1>
+                                                <h2 class="carousel-h2 pb-4 pe-3">Photographe de portraits
                                                     et paysages</h2>
                                                 <ul class="pe-5">
-                                                    <li class="py-3">
+                                                    <li class="py-2">
                                                         <div class="btn-group dropend">
                                                             <a href="#" data-bs-toggle="dropdown">
                                                                 Portfolio
                                                             </a>
-                                                            <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
+                                                            <ul class="dropdown-menu dropdown-menu--home ps-2 pt-0">
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
-                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
-                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
+                                                    <li class="py-2"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-2"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-2"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -244,7 +244,7 @@
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div pb-5">
                                                 <h1 class="carousel-h1 pe-4">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h2 class="carousel-h2 pb-5">Photographe de portraits
                                                     et paysages</h2>
                                                 <div class="btn-group px-2 pb-1" role="group">
                                                     <a href="#" data-bs-toggle="dropdown">
@@ -269,24 +269,24 @@
                                     <div class="row align-items-center text-center text-elements__row">
                                         <div class="col text-elements__col">
                                             <div class="text-elements__div">
-                                                <h1 class="carousel-h1 pe-4 pt-5">Kévin Lavenant</h1>
-                                                <h2 class="carousel-h2 pe-3 me-1 pb-5">Photographe de portraits
+                                                <h1 class="carousel-h1 pt-1 pe-4">Kévin Lavenant</h1>
+                                                <h2 class="carousel-h2 pb-4 pe-3">Photographe de portraits
                                                     et paysages</h2>
                                                 <ul class="pe-5">
-                                                    <li class="py-3">
+                                                    <li class="py-2">
                                                         <div class="btn-group dropend">
                                                             <a href="#" data-bs-toggle="dropdown">
                                                                 Portfolio
                                                             </a>
-                                                            <ul class="dropdown-menu dropdown-menu--home ps-3 pt-0">
+                                                            <ul class="dropdown-menu dropdown-menu--home ps-2 pt-0">
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-paysages.html">Paysages</a></li>
                                                                 <li><a class="dropdown-item dropdown-item--home" href="/portfolio-portraits.html">Portraits</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="py-3"><a href="/selection.html">Sélection</a></li>
-                                                    <li class="py-3"><a href="/contact.html">Contact</a></li>
-                                                    <li class="py-3"><a href="/galeries.html">Galeries</a></li>
+                                                    <li class="py-2"><a href="/selection.html">Sélection</a></li>
+                                                    <li class="py-2"><a href="/contact.html">Contact</a></li>
+                                                    <li class="py-2"><a href="/galeries.html">Galeries</a></li>
                                                 </ul>
                                             </div>
                                         </div>

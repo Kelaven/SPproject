@@ -45,10 +45,10 @@
     if (isset($navbar)) {
     ?>
         <header>
-            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary py-0" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand pe-2" href="/accueil.html"><img src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo de Kévin Lavenant, photographe passionné de portraits et paysages"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand pe-2 py-0" href="/accueil.html"><img src="/public/assets/img/logo-kevin-lavenant-photographies-light.png" alt="Logo de Kévin Lavenant, photographe passionné de portraits et paysages"></a>
+                    <button class="navbar-toggler py-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">

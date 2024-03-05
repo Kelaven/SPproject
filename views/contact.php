@@ -76,7 +76,7 @@
                         <small class="text-danger ps-3"><?= $error['captcha'] ?? '' ?></small>
                     </div>
                     <!-- ! validation btn -->
-                    <div class="text-center pt-3 pb-3 pt-xxl-3 mb-3 mb-lg-0">
+                    <div class="text-center pt-3 pb-5 pb-md-3 pt-xxl-3 mb-3 mb-lg-0">
                         <button id="contact__btn" class="btn btn-primary" type="submit" name="captchaOk">Envoyer</button>
                     </div>
                 </div>

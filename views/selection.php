@@ -7,7 +7,7 @@
                         <h1 class="h1__scramble"><span class="selection__h1--span">La</span> sélection <span class="selection__h1--span">du</span><span class="selection__h1--span2">moment</span></h1>
                     </div>
                 </div>
-                <div class="col-12 col-xl-4 selection__col selection__col--mobile--img d-flex align-items-center">
+                <div class="col-12 col-xl-4 selection__col selection__col--mobile--img d-flex align-items-center pt-2 pt-md-0">
                     <div class="screen">
                         <div class="screen__img"></div> <!-- ???? insérer une aria description pour faire office de alt sachant que l'img sera utilisée en background-image (et la rendre dynamique) ???? -->
                         <!-- !!!! NB : il sera possible de changer dynamiquement le background-image avec php en se servant des balises style dans le html pr fr des variables, voir exo POO -->

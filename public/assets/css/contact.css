@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 
 .container__form {
     height: 80%;
-    width: 80%;
+    max-width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -202,6 +202,14 @@ small,
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+
+
+.g-recaptcha {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
 
 @media (max-width: 280px) {
     #form__pic {
@@ -445,6 +453,7 @@ small,
     .contact__legend {
         padding: 0px 0px 50px 0px !important;
     }
+
     #form__pic::before {
         height: 56vmin !important;
         width: 56vmin !important;

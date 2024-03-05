@@ -117,9 +117,11 @@ article {
 @media (max-width: 768px) {
 
     .section__portfolio,
-.parent {
-    height: calc(86 * var(--vh)) !important;
-}
+    .parent {
+        /* height: calc(var(--vh, 1vh) * 100 - var(--navbar-height)); */
+        max-height: 82vh !important;
+    }
+    
 
 
     /* .section__portfolio,
