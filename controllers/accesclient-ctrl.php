@@ -24,7 +24,7 @@ try {
 
 
     $galleries = Gallery::getAll(isCover: 1);
-// dd($galleries);
+
     // * filter
     $search = (string) filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
 
