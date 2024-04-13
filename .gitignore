@@ -5,3 +5,4 @@ public/assets/img/
 controllers/signup-ctrl.php
 controllers/signUp-ctrl.php
 controllers/signIn-ctrl.php
+controllers/contact-ctrl.php
