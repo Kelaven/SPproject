@@ -73,7 +73,6 @@ try {
 
         // * registration in base
         if (empty($error)) {
-            // dd($name);
             $commentTxt = new Comment();
 
             $commentTxt->setText($comment);
