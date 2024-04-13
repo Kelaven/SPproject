@@ -25,7 +25,6 @@ try {
 
     // * galleries infos
     $gallery = Gallery::get($id_gallery);
-    // d($gallery);
 
     // ! cleaning and validation
     if ($_SERVER["REQUEST_METHOD"] == "POST") { // get the form's response
