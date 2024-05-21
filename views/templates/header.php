@@ -5,6 +5,7 @@
     <!-- seo meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title> <?= $title ?>
     </title>
     <meta name="description" content="Photographies de Kévin LAVENANT, amateur passionné. Réalisation de shootings portraits et paysages. Site web pour exposer mes clichés.">
